@@ -49,7 +49,6 @@ Hazır metin verildiğinde yapı → sahne → diyalog → satır sırasıyla in
 - Kitle seviyesi kendiliğinden yükseltilmez veya düşürülmez.
 - Yazarın kendi cümlesi izinsiz değiştirilmez.
 
-## Dosyalar
+## Dosya
 
-- `SKILL.md` — skill tanımı
-- `references/` — destek dosyaları (skill içinde)
+- `ultrawrite.skill` — skill paketi
