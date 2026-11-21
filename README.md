@@ -49,6 +49,10 @@ Hazır metin verildiğinde yapı → sahne → diyalog → satır sırasıyla in
 - Kitle seviyesi kendiliğinden yükseltilmez veya düşürülmez.
 - Yazarın kendi cümlesi izinsiz değiştirilmez.
 
-## Dosya
+## Lisans
 
-- `ultrawrite.skill` — skill paketi
+Fork serbesttir.
+
+Ticari yazılarda (kitap, roman, senaryo vb.) kullanılacaksa önsöz, teşekkür veya yazar notu kısmında makul boyutta **ultrawrite** yazılması yeterlidir.
+
+Ayrıntılar için `LICENSE` dosyasına bakın.
