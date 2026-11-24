@@ -1,3 +1,7 @@
+> **Not:** Bu dosya, [https://github.com/ocalmehmet704-sys/ultrawrite](https://github.com/ocalmehmet704-sys/ultrawrite) reposundaki `ultrawrite.skill` dosyasının içindeki `SKILL.md`'nin direkt olarak yerleştirilmiş halidir ve **kendi başına bir işe yaramaz**.
+>
+> Lütfen `.skill` dosyasını zip olarak açın ve kurulumunu yapın.
+
 ---
 name: ultrawrite
 description: Türkçe roman, öykü, sahne ya da bölüm yazarken veya düzeltirken mutlaka bu skill'i kullan. Yapay zekâ çıktısının "çeviri Türkçesi", "İngilizce gibi", "yapay duruyor", "ton hep aynı", "duygu sahte" kusurlarını önler. Tetikleyiciler (roman yaz, öykü yaz, sahne yaz, bölüm yaz, metni düzelt, yapay duruyor, çeviri gibi, İngilizce gibi, ton aynı, duygu sahte, üslup, kitle seviyesi, fiilimsi, edilgen, ekler, zaman ekleri, paralel hikâye, /u-mod, arka plan dünyası, yan karakter ne yapıyor, story bible, tutarlılık, brutal seviye, vahşet ya da savaş sahnesi). İstek roman gibi görünmese bile Türkçe kurmaca metin üretilecekse kullan.
