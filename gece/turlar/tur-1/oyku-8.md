@@ -242,6 +242,18 @@ Ben alırım.
 
 Sen hep alırsın. Dolu tüp getiren olmuyor.
 
+Annemin dikiş makinesi nerede?
+
+Sende.
+
+Bende değil.
+
+Sen istedin. Geçen yıl kargoyla gönderdim.
+
+İstedim mi?
+
+İstedin. Yanına iğne kutusunu da koy dedin, onu da koydum.
+
 Tolga veraset ilamını aramak için çekmeceyi açtı; ilam yerine spiralli bir defter çıktı.
 
 Bu ne?
@@ -261,6 +273,10 @@ Kazan çalışıyordu. Donmasın diye.
 Kim yakıyordu?
 
 Ben. Haftada iki gün geliyordum.
+
+Trenle mi?
+
+Otobüsle. Trenin saati tutmuyor.
 
 Tolga son dolu sayfayı açtı. Bu ayın satırı boştu.
 
@@ -311,5 +327,9 @@ Bulanık. Yine de dört.
 Kalemi ağzında ıslatıp rakamı defterin son satırına yazdı, altına tarihi ekledi. Defteri çekmeceye koydu, bardağı alıp teklifin üstüne koydu.
 
 Pazartesi noter var.
+
+Gelirim. Sabahki trenle.
+
+Sabahki tren noter saatine yetişmez.
 
 Var.

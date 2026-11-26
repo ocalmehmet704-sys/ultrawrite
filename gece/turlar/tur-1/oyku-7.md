@@ -80,7 +80,7 @@ Ilgaz başını salladı. "Ben burada doğdum. Bana hep bu geliyor."
 
 Ilgaz yedeğin sargısındaki etikete baktı. "Bu da aynı parti."
 
-"Aynı parti."
+Kumru başını salladı.
 
 "Bu da böyle olur mu?"
 
@@ -91,6 +91,10 @@ Panelin yanında, köşesi kıvrılmış bir kâğıt bantla yapıştırılmış
 "Bu senin mi?"
 
 "Otuz sol sonra."
+
+"Orada modüller hangi partiden?"
+
+"Sor."
 
 Kumru termosun kapağını çevirdi. "Hat da senin olacak."
 
@@ -125,5 +129,17 @@ Koridora çıktıklarında içme noktasının önünde sıra oluşmuştu. Üç k
 "Dün de ağırdı."
 
 Adam güldü, şişeyi cebine koyup gitti. Sıradaki kadın musluğu açtı, ilk yudumu içti, şişesini doldurdu.
+
+Sera kapısında Ferhunde bekliyordu. Tepsileri bu kez fideyle doluydu, eliyle kenarlarını düzeltiyordu.
+
+"Bir daha mı?"
+
+"Yeniden yıkayacağız."
+
+"Kaç dakika?"
+
+"On iki. Tankta yüzde kırk bir kaldı."
+
+Ferhunde tepsileri içeri taşıdı, kapıyı çekip kapattı. Cam bir an buğulandı, sonra açıldı.
 
 Kumru arıtmaya döndü. Ilgaz halkayı söküp kutudaki doğru yağla yeniden sürdü, modülü yerine oturttu, cıvataları çapraz sıktı. Kumru bu kez bardağa bakmadı. Bardağın dibindeki soğuk çayı ızgaraya döktü. Altından ses geldi, pompa yeniden uğuldadı. Çay da aşağı indi.
