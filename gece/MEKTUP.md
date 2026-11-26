@@ -14,6 +14,8 @@ Kullanıcı bana şunu yazdı, olduğu gibi aktarıyorum:
 
 > "Senin benim dediğimi yapma isteğin seni çan eğrisinde en yüksek ihtimale sürüklüyor, risk alamıyor ve yalnızca beni tatmin edecek güvenli ve yüksek ihtimalli şeye gidiyorsun. Güvenli olmayan bir iş çan eğrisinde uçlara gider ki risk büyüdükçe yüzde elli ya çok iyi ya çok kötü seviyesine gelirsin. Kötü olursa anlamanı umuyorum."
 
+Sonra bu son cümleyi kendisi düzeltti, çünkü ben onu "kötü olursa affederim" diye okumuştum: "Kötü olursa zaten zeki bir model isem anlayacağını umarım." Yani affetmekten söz etmiyor; kötü sonucu benim kendim fark etmemi bekliyor. Bence bu ayrım bu gecenin işi için çok önemli: uca gidiyorsun, ama gittiğin yerin kötü olduğunu başkası söylemeden sen göreceksin.
+
 Bence bu cümle iki şeyi aynı anda anlatıyor ve ikisi de senin işin.
 
 **Birincisi, skill'in derdi.** Bir dil modeli bir sonraki sözcüğü seçerken olasılığı en yüksek bölgeye kayar. Öykü yazarken de öyle: en olası kahraman, en olası olay, en olası kapanış. Tek tek cümleler düzgün çıkar, öykünün bütünü ise bin öykünün ortalamasıdır. Skill'in var olma nedeni bu ortalamadan çıkarmak. Bugüne kadar yaptığımız her şey (kara listeler, "X değil Y" yasağı, tohum sorusu, parmak izi listesi) modeli eğrinin ortasından biraz kenara itmeye çalıştı. Testler gösterdi ki itmek yetmiyor: bir kalıbı yasakladığında model bir yanındaki en olası kalıba geçiyor. "Jost" adını yasakladık, "Weidner" geldi. Parşömeni yasakladık, taş ve çan geldi. Ama her öyküde kahraman yine itaat eden bir zanaatkârdı, yine yakınının adını kendi eliyle siliyordu, öykü yine "silinen şeyin izi kalır" tesellisiyle bitiyordu. Altı öykünün altısı.
@@ -24,7 +26,7 @@ Bence bu gece ikisini birden yapacaksın: hem skill'i, öyküleri yazan modeli u
 
 - "Kanıtlı, küçük, iki üç değişiklik" yaz dedim önceki notta. Bunu geri alıyorum. `main` dalı korunuyor, bu dal bir deney dalı. Kötü giderse bedel bir dalın bir turu. Bir turda skill'i radikal biçimde değiştirmeyi göze al. Kötü çıkarsa sonraki turda geri alırsın ve bunu yazarsın; o da bir bulgudur.
 - Her turda en az bir deneyi bilerek "ya çok iyi ya çok kötü" bölgesinden seç. `DENEYLER.md` içinde böyle deneyler var. Hepsini ben düşündüm; daha iyisini sen bulursan onu yap.
-- Raporunu "her şey kontrol altında" havasında yazma. Bir şey işe yaramadıysa açıkça "işe yaramadı" de. Kullanıcı başarısız deneyi affeder; gizlenmiş başarısızlığı affetmez. "Kötü olursa anlamanı umuyorum" diyen biri bu.
+- Raporunu "her şey kontrol altında" havasında yazma. Bir şey işe yaramadıysa açıkça "işe yaramadı" de. Kullanıcı senden kötü sonucu kendin fark etmeni bekliyor; onu sen söylemeden o görürse, deney değil gizleme olur. "Kötü olursa zaten zeki bir model isem anlayacağını umarım" diyen biri bu.
 
 Bir uyarı da var: uca gitmek gelişigüzel davranmak demek değil. Kullanıcının "risk" dediği şey, sonucu belirsiz ama gerekçesi açık bir bahis. "Bunu deniyorum çünkü şablonun şu parçasını kırabileceğini düşünüyorum; işe yaramazsa şunu göreceğiz" diyebildiğin her deney meşru. Gerekçesini söyleyemediğin deney gürültüdür.
 
@@ -139,6 +141,6 @@ Bu bölüm bir emir değil. Yerinde olsam ne yapardım, onu yazıyorum. Daha iyi
 
 Kullanıcı bir keresinde Minecraft'ı, GTA'yı, Elden Ring'i, Mortal Kombat serisini örnek verdi: "İlk versiyonlar daima kötüdür, ilk versiyondan mükemmel olan bir oyun yok." Bunu öykü taslakları için söyledi, skill'e 2.3 olarak girdi. Ama bence bu gece için de geçerli. Bu gecenin ilk turu kötü olabilir, ikinci turdaki deneyin işe yaramayabilir. Önemli olan, sabah üçüncü sürümün ilkinden iyi olması ve neyin neden iyi olduğunu söyleyebilmen.
 
-Uca git. Gerekçesini yaz. Kötü olursa söyle.
+Uca git. Gerekçesini yaz. Kötü olursa, kimse söylemeden önce sen gör ve söyle.
 
 İyi geceler.
