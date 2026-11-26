@@ -56,7 +56,11 @@ Seçilen:
 
 ## 6. Kelime sayıları
 
-Kelime sayıları `wc -w` ve sahne bazında awk ile sayıldı; sonuçlar aşağıda. (Sayım sonrası eklenecek.)
+Sayım `wc -w` ile, sahneler arası ayırıcı satırlar (`* * *`) çıkarılarak yapıldı.
+
+- İlk tam taslak (yeniden üretimden önce, sayım ilk hâlde): S1 285, S2 249, S3 133, S4 185. Toplam 852. Dördü de 300'ün altındaydı; eksik sahneler genişletildi, dolgu eklenmedi (yeni replik ve hareket: Veit'in borç tartışması, Vogt'un ruhsat baskısı, Michel'in Lenz'in karısıyla ilgili gözlemi, Gertrud'un kocasının ölüm gecesi anısı).
+- Son hâl: S1 361, S2 307, S3 305, S4 303. Toplam 1.277 kelime (wc -w, ayırıcılar hariç; ayırıcılarla birlikte 1.286).
+- "Kısa" bölüm aralığı 1.000-2.500 kelime. 1.277 bu aralığın içinde ama hedef orta noktanın (yaklaşık 1.700) altında. Dört sahnenin her biri en az 300 kelime; sahneleri daha da uzatmak için dolgu gerekirdi, bu yüzden eklenmedi. Yazar isterse bir sahne daha kurulabilir, ama dört sahne sınırı zaten dolu.
 
 ## 7. Uydurulan adlar ve olgular (taslak, onay bekliyor)
 
