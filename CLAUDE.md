@@ -1,5 +1,7 @@
 # Gece testi: ultrawrite
 
+> **Öykü yazmak için çağrılmış bir yazar ajanıysan bu dosyanın geri kalanını uygulama.** `gece/` klasöründeki hiçbir belgeyi (MEKTUP, DEVIR, DENEYLER, KONTROL, istekler, öteki turların öyküleri) okuma; yalnızca sana verilen skill'i ve isteği kullan. Bu belgeler testin kendisidir; okursan test bozulur. (Tur 1'de sekiz yazarın sekizi bu dosyadaki okuma listesini izleyip MEKTUP ve DEVIR'i okudu.)
+
 Bu dal (`gece`) yalnızca gece testleri içindir. `main` dalı yayımlanan eklentidir; ona dokunma.
 
 Önce şunları oku, bu sırayla:

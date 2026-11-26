@@ -62,7 +62,7 @@ Fevzi baktı. Taşın içinde gümüş renkli, küçük, yuvarlak noktalar vard�
 
 "Kim getirdi?"
 
-"Sevim Hanım. Üç hafta önce. Yüzüğe yuva yaptırdı, taşı kapattırdı."
+"Sevim Hanım. Üç hafta önce. On dört ayar yüzüğe yuva yaptırdı, taşı kapattırdı."
 
 "Ne dedi?"
 
@@ -73,6 +73,50 @@ Salih Usta büyüteci masaya bıraktı. "Sigorta taşa bakmaz, kâğıda bakar, 
 "Sen ne dedin?"
 
 "Cam dedim. Benim işim o."
+
+Şirketin Pasaport'taki odasında Kâzım Bey camdan Kordon'a bakıyordu. Aşağıda vapurlar iskeleye yanaşıp kalkıyordu.
+
+"Ergin'in dosyası," dedi. "Ne var?"
+
+"Kasa temiz açılmış. Zümrüt yok."
+
+"Listede var."
+
+"Mart'ta yoktu."
+
+Kâzım Bey döndü. "Dosyanın altında bir senet var. Hayri'nin imzası. Otuz iki bin lira."
+
+"Biliyorum."
+
+"Bu şehirde herkes biliyor. Raporu üç güne yaz. Hırsızlık oldu, yaz. Gerisi bana kalsın."
+
+"Gerisi ne?"
+
+"Fevzi. Ben bu şehirde yaşıyorum."
+
+Pasaport'tan çıkınca yeşil bir Renault yavaşladı, Fevzi'nin yanından geçti, sonra Basmane yönüne hızlandı.
+
+Basmane'de, garın arkasındaki taksi durağında Nihat Köse arabanın kaportasına yaslanmıştı. Sol gözü şişmişti, kaşı yarılmıştı. Üç yıl Rasim Bey'i taksiyle Tahtakale'ye, Karşıyaka'ya taşımıştı.
+
+"Kim vurdu?"
+
+"Hayri'nin adamları."
+
+"Ne istediler?"
+
+"Rasim Bey'i sordular. Gece nerede bıraktığımı."
+
+"Nerede bıraktın?"
+
+"Tahtakale. Gece ikide. Elinde bez bir torba vardı, ağırdı, iki eliyle tutuyordu."
+
+Fevzi sigarasını yaktı. "Rasim ne dedi?"
+
+"Parayı verdi. Yolun iki katını. Unut dedi."
+
+"Adamlara ne dedin?"
+
+Nihat yolun kenarına tükürdü. "Tahtakale'ye bıraktım, o kadar. Bilmiyorum dedim. İnanmadılar."
 
 Konak'ta, eski karakolun ikinci katında Sabri Gedik hâlâ aynı masada oturuyordu. Fevzi'yi görünce dosyayı kapattı.
 
@@ -87,48 +131,6 @@ Konak'ta, eski karakolun ikinci katında Sabri Gedik hâlâ aynı masada oturuyo
 Sabri sigarasının külünü tabağa silkti. "Kâzım Bey aradı. Ergin'in dosyası hızlı kapanacakmış. Hayırlısı."
 
 "Hayırlısı."
-
-Şirketin Pasaport'taki odasında Kâzım Bey camdan Kordon'a bakıyordu. Aşağıda vapurlar iskeleye yanaşıp kalkıyordu.
-
-"Ergin'in dosyası," dedi. "Ne var?"
-
-"Kasa temiz açılmış. Zümrüt yok."
-
-"Listede var."
-
-"Mart'ta yoktu."
-
-Kâzım Bey döndü. "Dosyanın altında bir senet var. Hayri'nin imzası."
-
-"Biliyorum."
-
-"Bu şehirde herkes biliyor. Raporu üç güne yaz. Hırsızlık oldu, yaz. Gerisi bana kalsın."
-
-"Gerisi ne?"
-
-"Fevzi. Ben bu şehirde yaşıyorum."
-
-Basmane'de, garın arkasındaki taksi durağında Nihat Köse arabanın kaportasına yaslanmıştı. Sol gözü şişmişti, kaşı yarılmıştı. Üç yıl Rasim Bey'i taksiyle Tahtakale'ye, Karşıyaka'ya taşımıştı.
-
-"Kim vurdu?"
-
-"Hayri'nin adamları."
-
-"Ne istediler?"
-
-"Rasim Bey'i sordular. Gece nerede bıraktığımı."
-
-"Nerede bıraktın?"
-
-"Tahtakale. Gece ikide."
-
-Fevzi sigarasını yaktı. "Rasim ne dedi?"
-
-"Parayı verdi. Yolun iki katını. Unut dedi."
-
-"Adamlara ne dedin?"
-
-Nihat yolun kenarına tükürdü. "Tahtakale'ye bıraktım, o kadar. Bilmiyorum dedim. İnanmadılar."
 
 Hayri Alsancak'ta bir döviz bürosunun üstündeki odada oturuyordu. Masada açık bir defter, bir kül tablası, bir de kırmızı kurşun kalem vardı. Kapıda iki adam vardı. Biri Fevzi'nin üstünü aradı, sonra çekildi.
 
@@ -145,6 +147,8 @@ Fevzi oturmadı.
 "İzmir'in yolları hep kaygandır."
 
 Hayri güldü. Fevzi kapıya yürürken arkasından bir sandalye gıcırdadı.
+
+Tahtakale'ye yürüdü. Dükkânın arka sokağı gece ikide Nihat'ın taksisinin durduğu yerdi, şimdi boştu. Bahçe kapısının dibinde, duvarla kaldırım arasına sıkışmış bir kibrit kutusu vardı. Kapağında bir Karşıyaka pastanesinin adı yazıyordu. Fevzi kutuyu mendiline sardı, cebine koydu. Dün akşam yağmur yağmıştı. Kutu kuruydu. Yağmurdan sonra düşmüştü.
 
 Karşıyaka vapuru poyrazda sert sallandı. Fevzi güverteye çıkmadı, kabinde oturdu. Sevim'in evi iskeleden yukarıda, dar bir sokaktaydı. Kapının yanındaki saksının toprağı kurumuştu.
 
@@ -178,7 +182,7 @@ Fevzi bir şey demedi. Bardağı pencerenin önüne koydu.
 
 Fevzi zarfa bakmadı bile. Ceketini aldı, kapıya yürüdü.
 
-İskelede bir Renault duruyordu. Motoru çalışıyordu, içinde iki adam oturuyordu. Fevzi vapura binene kadar arabaya dönüp bakmadı, ama ikisinin de kendisine baktığını gördü.
+İskelede aynı yeşil Renault duruyordu. Motoru çalışıyordu, içinde iki adam oturuyordu. Fevzi vapura binene kadar arabaya dönüp bakmadı, ama ikisinin de kendisine baktığını gördü.
 
 Akşam dükkâna döndüğünde Rasim tezgâhın başında bekliyordu. Önünde bir zarf vardı, Sevim'in evindekinden daha kalındı.
 
@@ -188,11 +192,15 @@ Akşam dükkâna döndüğünde Rasim tezgâhın başında bekliyordu. Önünde 
 
 "Hayri'nin adamları dövdü. Senin borcun için."
 
-"Üç yıldır o adama faiz ödüyoruz," dedi Sevim, kapının önünden. "Bu sefer kapanacak, dedi."
+"Üç yıldır o adama faiz ödüyoruz," dedi Sevim. Arka kapıdan girmişti, eşikte duruyordu. "Bu sefer kapanacak, dedi."
 
 "Zümrüt listeden çıkacak."
 
 "Çıksın."
+
+"Gece bez torbada ne taşıdın?"
+
+"Eski defterlerdi, dükkânın."
 
 "Kasayı kendiniz açtınız. Gece ikide sen Tahtakale'deydin, evde değildin."
 
@@ -220,4 +228,12 @@ Nihat parayı cebine koydu. Fevzi yürüdü.
 
 Eve geldiğinde sobayı yaktı. Kıymet listesini masaya serdi. Zümrüt satırını parmağıyla kapattı, bir süre öyle oturdu. Sonra parmağını çekti, rakıyı doldurdu, suyu azar azar kattı. Bardağı bitirmeden kalktı, rapor için kâğıt aradı.
 
-Raporu üç günde yazdı. Hırsızlığı yazdı, zümrütü yazmadı.
+Üçüncü gün raporu Pasaport'a götürdü. Kâzım Bey sayfaları çevirdi, zümrütün satırında durdu.
+
+"Bu nedir?"
+
+"Listede var. Dükkânda hiç olmadı."
+
+Kâzım Bey kalemini aldı, imzayı attı.
+
+Hırsızlığı yazdı, zümrütü yazmadı.
