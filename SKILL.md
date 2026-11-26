@@ -9,6 +9,28 @@ description: Türkçe roman, öykü, sahne ya da bölüm yazarken veya düzeltir
 
 # ultrawrite: Türkçe kurmaca yazımı
 
+## DUR: önce bu dosyaları aç
+
+Bu SKILL.md bir dizindir, skill'in tamamı değildir. Kuralların gerekçesi, örnekleri ve sınırları `references/` klasöründedir. Yalnızca bu dosyayla yazarsan skill'i kullanmamış olursun.
+
+Yazmaya, düzeltmeye ya da yazara soru sormaya geçmeden önce şunu yap:
+
+1. Bu skill'in klasörünü bul. Ortam "Base directory for this skill" diye bir yol verdiyse o yoldur. Vermediyse SKILL.md'nin bulunduğu klasördür.
+2. Aşağıdaki altı dosyayı **Read aracıyla tek tek aç ve sonuna kadar oku**. Toplam 500 satır kadar. Atlama, özetini tahmin etme, "zaten biliyorum" deme:
+   - `references/anlatim.md`
+   - `references/yz-isaretleri.md`
+   - `references/slop-olcum.md`
+   - `references/duygu-ses-ritim.md`
+   - `references/ek-ve-sozdizimi.md`
+   - `references/zaman-ekleri.md`
+3. Seviye Brutal ise `references/brutal.md` dosyasını da aç. `/u-mod` istendiyse `references/u-mod.md` dosyasını aç.
+4. Yazara, metnin dışında, tek satır yaz: `Okundu: <dosya adları>`. Okumadığın dosyayı yazma. Ardından her dosyadan **bir** kuralı ya da bulguyu kendi sözünle tek satırda söyle. Söyleyemiyorsan o dosyayı okumamışsındır, geri dön ve aç.
+5. Bir dosya açılmıyorsa bunu yazara açıkça söyle ve hangi dosyalar olmadan yazdığını not et. Okumuş gibi davranma.
+
+Yazarken bir kuralı uygularken emin değilsen, o kuralın `Ref:` satırındaki dosyayı aç. Ref satırı süs değildir, bakılacak yerin adresidir.
+
+Bu adımı yapmadan yazılan metin teslim edilmez.
+
 Dil modeli en olası devamı seçer. Sonuç ortalamaya akan, her sahnede aynı tonda, düzgün ve kapalı metindir. "Daha iyi yaz" bunu değiştirmez. Bu skill üç şey yapar: önce yazarı sorar, sonra Türkçe kurar, yazdıktan sonra denetler.
 
 Ana ilke: **Bir cümle, anlattığı şeye oranla iş görmeyen sözcük taşıdığı ölçüde kötüdür.** Ölçü sözcük sayısı değil, sözcüğün iş görüp görmemesidir. İş gören sözcüğü atmak da kusurdur (kural 31). Dayanak: `references/anlatim.md`.
@@ -248,9 +270,9 @@ Aşağıdaki otuz dört kural her metinde geçerlidir. Her biri tek cümledir, b
 ## 2. Yazım sırası
 
 ### 2.0 Yazmadan önce referansları oku (zorunlu)
-SKILL.md tek başına yetmez. Yazmaya başlamadan referansları oku:
+En baştaki "DUR" bölümünü yaptıysan geç. Yapmadıysan şimdi yap. Konuya göre ek dosyalar:
 
-- **Her yazımdan önce:** `references/yz-isaretleri.md`, `references/slop-olcum.md`, `references/duygu-ses-ritim.md`, `references/ek-ve-sozdizimi.md`, `references/anlatim.md`. Seviye **Brutal** ise `references/brutal.md` de zorunlu (Yetişkin'de isteğe bağlı).
+- **Her yazımdan önce:** "DUR" bölümündeki altı dosya. Seviye **Brutal** ise `references/brutal.md` de zorunlu (Yetişkin'de isteğe bağlı).
 - **Konu çıkınca:** zaman ve kip için `zaman-ekleri.md`; çatı için `cati.md`; çekim ve yapım ekleri için `ekler-cekim.md` ve `ekler-yapim.md`; fiilimsi için `fiilimsiler-ve-dilbilgisi.md`; yapı, gerilim, sır ve dönüş için `teknikler.md`; `/u-mod` için `u-mod.md`.
 - **Yalnızca gerekçe aramak için:** `references/raporlar/`.
 
@@ -281,7 +303,7 @@ Her yaklaşık 300 kelimede bir denetim yap. Alt ajan varsa Bölüm 3'teki rapor
 **Ne zaman.** Ortam alt ajan destekliyorsa metin yazılırken bir gözden geçirme ajanı arka planda çalışır. Her yaklaşık 300 kelimelik sayfa tamamlanınca ajana gönderilir. Yazar yazmaya devam eder.
 
 **Neye bakar.**
-1. Çivi kurallar (Bölüm 1, yirmi sekiz kural).
+1. Çivi kurallar (Bölüm 1, otuz dört kural). Ajan da işe başlamadan "DUR" bölümündeki altı dosyayı okur; ajana dosya yollarını tam ver.
 2. Üslup notundan sapma (Bölüm 0.3).
 3. Kitle seviyesini aşma ya da altında kalma: notlanan seviyenin üstünde kan, vahşet ya da cinsellik var mı? Çocuk bandında yetişkin ayrıntı var mı? Seviye Brutal ise bölümde en az bir travmatik olay sahnenin içinde ve somut beden ayrıntısıyla yazılmış mı (`references/brutal.md`, Bölüm 7)? Ses kaydı, rüya ya da anlatıcı özetiyle geçiştirilmişse `seviye altı` diye işaretle.
 4. Bölüm geneli: aynı kalıp, replik ya da kapanış bölümde üçten fazla geçiyor mu (kural 25, 28)?
