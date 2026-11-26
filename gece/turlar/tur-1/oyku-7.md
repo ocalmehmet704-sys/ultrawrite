@@ -1,8 +1,8 @@
 Modül 2B
 
-Gündüz vardiyasının bıraktığı not iki satırdı: "Arıtma 2 iyi. İkiB'nin basıncı biraz düşük, izle." Kumru notu okudu, sonra panele baktı. İletkenlik yirmi dörde çıkmıştı. Sabah vardiyası on sekiz bırakmıştı. Kumru ikisini yan yana okudu, ters ozmoz hattının kapağını açıp basınç ölçere baktı. İbre sıfıra yakındı ama her dakika biraz geri çekiliyordu. Hattın sesi de değişmişti: eskiden tek bir uğultuydu, şimdi uğultunun içinde ince bir çatlak vardı.
+Gündüz vardiyasının bıraktığı not iki satırdı: "Arıtma 2 iyi. İkiB'nin basıncı biraz düşük, izle." Kumru notu okudu, sonra panelin önüne geçti. İletkenlik yirmi dörde çıkmıştı. Sabah vardiyası on sekiz bırakmıştı. Kumru ikisini yan yana okudu, ters ozmoz hattının kapağını açıp basınç ölçere baktı. İbre sıfıra yakındı ama her dakika biraz geri çekiliyordu. Hattın sesi de değişmişti: eskiden tek bir uğultuydu, şimdi uğultunun içinde ince bir çatlak vardı.
 
-Bakım listesinde 2B'nin satırı vardı. Yanına kırk iki sol yazılmıştı, ama ekibin dönüşü için tarih yoktu. Ekip Kubbe Üç'teki pompa değişimindeydi. Kumru listeyi kapattı, bir kez daha açtı, sonra kapattı.
+Bakım listesinde 2B'nin satırı vardı: "Modül değişimi, sıra kırk ikinci." Ekibin dönüşü için tarih yoktu. Ekip Kubbe Üç'teki pompa değişimindeydi. Kumru listeyi kapattı, bir kez daha açtı, sonra kapattı.
 
 Etiket dört yüz sol diyordu. Modül 2B altı yüz on sol çalıştı. İki hafta önce sabah bardağını doldurup ağzına götürdüğünde de ağırlık oradaydı. Kumru o gün defterin kenarına kalemle "kartuş?" yazmıştı. Kartuş değişmiş, ağırlık gitmemişti.
 
@@ -78,7 +78,7 @@ Ilgaz başını salladı. "Ben burada doğdum. Bana hep bu geliyor."
 
 "Tadı yoksa kartuş iyi demek."
 
-Ilgaz yedeğin sargısındaki etikete baktı. "Bu da aynı parti."
+Ilgaz yedeğin sargısındaki etiketi parmağıyla gösterdi. "Bu da aynı parti."
 
 Kumru başını salladı.
 
@@ -86,7 +86,7 @@ Kumru başını salladı.
 
 "Her sabah kendin tat. Bir tarih görürsen yaz."
 
-Panelin yanında, köşesi kıvrılmış bir kâğıt bantla yapıştırılmıştı. Kubbe Dört'ün arıtması için atama. Ilgaz kâğıda baktı.
+Panelin yanında, köşesi kıvrılmış bir kâğıt bantla yapıştırılmıştı. Kubbe Dört'ün arıtması için atama. Ilgaz kâğıdın üstündeki yazıyı okudu.
 
 "Bu senin mi?"
 
@@ -98,7 +98,7 @@ Panelin yanında, köşesi kıvrılmış bir kâğıt bantla yapıştırılmış
 
 Kumru termosun kapağını çevirdi. "Hat da senin olacak."
 
-Pompa durdu. Panelde iletkenlik on dört okundu. Ilgaz rakama bakıp sordu: "On dört iyi mi?" Kumru ekrandaki aralığı gösterdi: on iki ile on sekiz arası.
+Pompa durdu. Panelde iletkenlik on dört okundu. Ilgaz rakamı gösterip sordu: "On dört iyi mi?" Kumru ekrandaki aralığı gösterdi: on iki ile on sekiz arası.
 
 Ilgaz defteri çekti, kalemi açtı. Kumru omzunun üstünden okudu:
 
@@ -122,7 +122,7 @@ Ilgaz döndü, kasanın altındaki iki kutuya baktı. İkisinin de etiketini ken
 
 "Pompa yağı."
 
-Kumru başını salladı. Ilgaz defterin yeni satırına yazdı: halka pompa yağıyla sürülmüş, yeniden sürülecek, yıkama tekrar. Kalemi bıraktı.
+Kumru bardağı kasanın üstüne koydu. Ilgaz defterin yeni satırına yazdı: halka pompa yağıyla sürülmüş, yeniden sürülecek, yıkama tekrar. Kalemi bıraktı.
 
 Koridora çıktıklarında içme noktasının önünde sıra oluşmuştu. Üç kişi bekliyordu. Yaşlı bir adam kendi şişesini doldurdu, koklayıp kapağını kapattı. Kumru'ya bakıp "Bugün ağır," dedi. Kumru omuz silkti.
 

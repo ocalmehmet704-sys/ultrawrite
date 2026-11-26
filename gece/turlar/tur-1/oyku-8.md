@@ -86,6 +86,14 @@ Pazarlık yaparız. Adam bir yüksek teklif daha çıkarır.
 
 Baktım. Geçen hafta müteahhit geldi, merdivenin altını ölçtü, duvarı tıklattı. "Bu gider" dedi. Hangi duvar diye sordum, hepsi gider dedi.
 
+Tapuda altmış dört metre yazıyor. Sen yüz diyorsun.
+
+Ben demiyorum. Bahçe öyle geliyor gözüme.
+
+Tapuyu sen mi okudun?
+
+Üç kere okudum.
+
 Sen buraya bağlısın.
 
 Bağlı değilim. Buradayım.
@@ -169,6 +177,8 @@ Dinliyorum.
 Güzel. Yıkım bir ayda biter. Bahçedeki ağacı sizin söküp kaldırmanız gerekir, bize ağaç lazım değil.
 
 Kesmeyiz.
+
+Kesmezsek söküm parası bizim olur.
 
 O zaman söküm parasını fiyattan düşeriz. Perşembe akşamına kadar, Gonca Hanım.
 
@@ -317,6 +327,12 @@ Bulaştı.
 Tolga bir cevizi taşla kırdı. Gonca'ya bakmadan kutuya döndü.
 
 Tolga döndü, omuzları ıslaktı. Kapıdan girdi.
+
+Eline ne oldu?
+
+Ceviz. Yıkadım, gitmiyor.
+
+Üç gün gider.
 
 Kırk bir bin altı yüz yirmi dört.
 

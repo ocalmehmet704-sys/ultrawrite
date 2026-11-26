@@ -68,6 +68,12 @@ Fevzi baktı. Taşın içinde gümüş renkli, küçük, yuvarlak noktalar vard�
 
 Salih Usta büyüteci masaya bıraktı. "Sigorta taşa bakmaz, kâğıda bakar, dedi. Parasını ödedi. Benden başka bakan olmadı."
 
+"Bu sabah Hayri'nin adamı geldi. Aynı taşı sordu."
+
+"Sen ne dedin?"
+
+"Cam dedim. Benim işim o."
+
 Konak'ta, eski karakolun ikinci katında Sabri Gedik hâlâ aynı masada oturuyordu. Fevzi'yi görünce dosyayı kapattı.
 
 "Hayri'nin adı bizim dolapta çok."
@@ -124,7 +130,7 @@ Fevzi sigarasını yaktı. "Rasim ne dedi?"
 
 Nihat yolun kenarına tükürdü. "Tahtakale'ye bıraktım, o kadar. Bilmiyorum dedim. İnanmadılar."
 
-Hayri Alsancak'ta bir döviz bürosunun üstündeki odada oturuyordu. Kapıda iki adam vardı. Biri Fevzi'nin üstünü aradı, sonra çekildi.
+Hayri Alsancak'ta bir döviz bürosunun üstündeki odada oturuyordu. Masada açık bir defter, bir kül tablası, bir de kırmızı kurşun kalem vardı. Kapıda iki adam vardı. Biri Fevzi'nin üstünü aradı, sonra çekildi.
 
 "Ergin'in borcu bende," dedi Hayri. "Sigorta çıkınca ilk parayı ben alırım."
 
@@ -140,9 +146,41 @@ Fevzi oturmadı.
 
 Hayri güldü. Fevzi kapıya yürürken arkasından bir sandalye gıcırdadı.
 
-Akşam dükkâna döndüğünde tezgâhın üstünde bir zarf duruyordu. Kalındı.
+Karşıyaka vapuru poyrazda sert sallandı. Fevzi güverteye çıkmadı, kabinde oturdu. Sevim'in evi iskeleden yukarıda, dar bir sokaktaydı. Kapının yanındaki saksının toprağı kurumuştu.
 
-Fevzi zarfa dokunmadı.
+Sevim kapıyı açtı, yol verdi.
+
+"Kocam uyuyor."
+
+"Uyansın."
+
+Salonda soba yanıyordu. Sevim iki bardak çay koydu, birini kendine almadı.
+
+"Dün gece kocanız Tahtakale'deydi."
+
+"Biliyorum."
+
+"Biliyor musunuz?"
+
+"Kasayı kocam açtı," dedi Sevim. "Ben de her sabah dükkânı açarım. Şifrenin üç rakamı benim parmağımda. O yüzden aşınmış. Kocam ikisini ezberledi, üçüncüyü ben söyledim."
+
+Fevzi çayına dokunmadı. "Zümrüt de sizin fikriniz."
+
+"Zümrüt Salih'in taşı, benim yüzüğüm." Sevim bardağını tabağa koydu. "Bunu bilen artık iki kişi değil, üç."
+
+Fevzi bir şey demedi. Bardağı pencerenin önüne koydu.
+
+"Ne kadar istiyorsun?"
+
+"Para benim işim değil."
+
+"Herkesin işi para." Sevim çekmeceden bir zarf çıkarıp masaya koydu. Kalındı. "Bu sigorta çıkana kadar yeter. Sonrası Hayri'nin."
+
+Fevzi zarfa bakmadı bile. Ceketini aldı, kapıya yürüdü.
+
+İskelede bir Renault duruyordu. Motoru çalışıyordu, içinde iki adam oturuyordu. Fevzi vapura binene kadar arabaya dönüp bakmadı, ama ikisinin de kendisine baktığını gördü.
+
+Akşam dükkâna döndüğünde Rasim tezgâhın başında bekliyordu. Önünde bir zarf vardı, Sevim'in evindekinden daha kalındı.
 
 "Nihat'ı sen dövdürdün."
 
@@ -150,7 +188,7 @@ Fevzi zarfa dokunmadı.
 
 "Hayri'nin adamları dövdü. Senin borcun için."
 
-"Üç yıldır o adama faiz ödüyoruz," dedi Sevim. "Bu sefer kapanacak, dedi."
+"Üç yıldır o adama faiz ödüyoruz," dedi Sevim, kapının önünden. "Bu sefer kapanacak, dedi."
 
 "Zümrüt listeden çıkacak."
 
@@ -159,6 +197,8 @@ Fevzi zarfa dokunmadı.
 "Kasayı kendiniz açtınız. Gece ikide sen Tahtakale'deydin, evde değildin."
 
 Rasim'in parmakları tezgâhın kenarında kaskatı durdu.
+
+"Dükkânı babamdan aldım," dedi Rasim. "Borcu da onunla geldi. Senedi ben imzaladım, babam değil."
 
 "Sigorta çıkmazsa Hayri beni öldürür."
 
