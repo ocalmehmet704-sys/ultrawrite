@@ -218,4 +218,6 @@ Basmane'ye döndüğünde Nihat hâlâ taksinin yanındaydı. Fevzi zarftan iki 
 
 Nihat parayı cebine koydu. Fevzi yürüdü.
 
+Eve geldiğinde sobayı yaktı. Kıymet listesini masaya serdi. Zümrüt satırını parmağıyla kapattı, bir süre öyle oturdu. Sonra parmağını çekti, rakıyı doldurdu, suyu azar azar kattı. Bardağı bitirmeden kalktı, rapor için kâğıt aradı.
+
 Raporu üç günde yazdı. Hırsızlığı yazdı, zümrütü yazmadı.
