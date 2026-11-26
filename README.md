@@ -1,58 +1,51 @@
 # ultrawrite
 
-Türkçe kurmaca metin (roman, öykü, sahne, bölüm) üretirken ve düzeltirken kullanılan yazım skill'i.
+Türkçe kurmaca metin (roman, öykü, sahne, bölüm) yazarken ve düzeltirken kullanılan skill ailesi. Yapay zekâ çıktısının "çeviri Türkçesi", "her sahnede aynı ton", "sahte duygu" ve "ortalama kurgu" kusurlarını engeller.
 
-## Ne işe yarar?
+Ana ilke: **Bir cümle, anlattığı şeye oranla iş görmeyen sözcük taşıdığı ölçüde kötüdür.**
 
-Yapay zekâ çıktısının en sık görülen Türkçe kurmaca kusurlarını engeller:
+## Skill'ler
 
-- Çeviri Türkçesi kokusu
-- Her sahnede aynı ton
-- Sahte duygu
-- İngilizce cümle iskeleti
-- Yapay ve ortalama üslup
+| Skill | İşi |
+|---|---|
+| **ultrawrite** | Yönetici: soruları sorar, kuralları taşır, yazmadan önce diğerlerini yükler. |
+| **ultragrammar** | Türkçe iskelet: fiilimsiler, çatı, ekler, söz dizimi. |
+| **ultratense** | Zaman ve kip: -dı, -mış, -mıştı, -acaktı. |
+| **ultravoice** | Ses: duygu, ritim, anlatıcı mesafesi. |
+| **ultracheck** | Denetim: YZ izleri, slop, bariz kurgu, dönem ve dil tutarlılığı. |
+| **ultracraft** | Zanaat: ana ilkenin araştırma dayanağı, betimleme, diyalog, yazar teknikleri, *1984* çözümlemesi. |
+| **ultraworld** | Arka plan dünyası ve paralel hikâye (`/u-mod`). |
+| **ultrabrutal** | Brutal kitle seviyesi. |
 
-Skill, yazmadan önce yazarla net kararlar alır, yazarken Türkçe iskeleti korur, yazdıktan sonra denetler.
+ultrawrite tek başına yazmaz: önce ultragrammar, ultratense, ultravoice, ultracheck ve ultracraft'ı yükler, her birinden bir kuralı yazara söyleyerek yüklediğini kanıtlar.
 
-## Ne zaman kullanılır?
+## Kurulum
 
-- Roman, öykü, sahne veya bölüm yazılırken
-- Mevcut metin düzeltilirken
-- “Yapay duruyor”, “çeviri gibi”, “ton hep aynı”, “duygu sahte” şikâyetlerinde
-- Paralel hikâye, arka plan dünyası veya `/u-mod` istendiğinde
+**Claude Code (eklenti, sekiz skill birden):**
 
-Türkçe kurmaca metin üretilecek her durumda kullanılır.
+```
+/plugin marketplace add ocalmehmet704-sys/ultrawrite
+/plugin install ultrawrite@ultrawrite
+```
+
+**Claude uygulaması (claude.ai):** [Releases](https://github.com/ocalmehmet704-sys/ultrawrite/releases) sayfasından sekiz `.skill` dosyasını indirip her birini ayrı skill olarak yükleyin. ultrawrite diğerleri olmadan eksik çalışır.
 
 ## Çalışma biçimi
 
-1. **Başlamadan önce**  
-   Bölüm boyutu, kitle seviyesi ve üslup sorulur. Yanıt gelmeden yazılmaz.
-
-2. **Yazarken**  
-   Türkçe iskelet korunur. En olası ve ortalama sahneler atılır. Duygu gösterilir, adlandırılmaz.
-
-3. **Yazdıktan sonra**  
-   Metin sayfa sayfa denetlenir. Gerekirse arka plan gözden geçirme ajanı devreye girer.
-
-## Düzeltme modu
-
-Hazır metin verildiğinde yapı → sahne → diyalog → satır sırasıyla incelenir. Gereksiz açıklamalar ve arka plan anlatısı temizlenir. Değişiklikler öneri olarak sunulur, yazarın cümlesi izinsiz değiştirilmez.
-
-## Paralel hikâye ve arka plan
-
-`/u-mod` veya paralel hat istendiğinde ayrı bir motor devreye girer. Ana hikâye yazardan habersiz ilerletilmez. Yeni olgular “taslak” olarak işaretlenir.
+1. **Başlamadan:** bölüm boyutu, kitle seviyesi ve üslup sorulur. İstek bilinen bir esere ya da temaya dayanıyorsa yazardan öyküye özgü bir tohum (meslek, nesne ya da ad) istenir.
+2. **Yazarken:** Türkçe iskelet korunur, en olası kurgu atılır, duygu adlandırılmaz.
+3. **Yazdıktan sonra:** metin sayfa sayfa denetlenir; ortam izin veriyorsa bir gözden geçirme ajanı arka planda çalışır.
 
 ## Kısıtlar
 
-- Yazarın vermediği karar alınmaz.
-- Yeni karakter, olay veya mekân uydurulursa “taslak” diye belirtilir.
-- Kitle seviyesi kendiliğinden yükseltilmez veya düşürülmez.
+- Yazarın vermediği karar alınmaz; uydurulan ad, olay ve mekân "taslak" diye bildirilir.
+- Kitle seviyesi kendiliğinden yükseltilmez ya da düşürülmez.
 - Yazarın kendi cümlesi izinsiz değiştirilmez.
+
+## Kaynaklar
+
+Kurallar araştırmaya dayanır; her kuralın kanıt düzeyi (kanıtlı, zanaat, folklor) yazılıdır. Ham raporlar ve alıntı doğrulama tabloları her skill'in `raporlar/` klasöründedir. Alıntılar ve kaynaklar sahiplerine aittir.
 
 ## Lisans
 
-Fork serbesttir.
-
-Ticari yazılarda (kitap, roman, senaryo vb.) kullanılacaksa önsöz, teşekkür veya yazar notu kısmında makul boyutta **ultrawrite** yazılması yeterlidir.
-
-Ayrıntılar için `LICENSE` dosyasına bakın.
+Fork serbesttir. Ticari yazılarda (kitap, roman, senaryo vb.) kullanılacaksa önsöz, teşekkür ya da yazar notunda makul boyutta **ultrawrite** anılması yeterlidir. Ayrıntılar için `LICENSE`.

@@ -1,0 +1,11 @@
+{
+  "name": "ultrawrite",
+  "owner": { "name": "ocalmehmet704-sys" },
+  "plugins": [
+    {
+      "name": "ultrawrite",
+      "source": "./",
+      "description": "Türkçe kurmaca yazım skill ailesi."
+    }
+  ]
+}
