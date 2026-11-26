@@ -79,6 +79,9 @@ Bu üç denetim, skill'in iki bağımsız ajanla sınanmasında görülen hatala
 - İkinci testte yasaklanan seçimler atıldı, ama model bir sonraki en olası seçime kaydı: dört öykünün üçünde parşömen kazıyan yazıcı, iki öyküde "Weidner" adı. Yasak tek başına yetmez; tohumu yazardan iste (ultrawrite 0.4).
 - Dönemin ve yerin en sık bilinen adlarını (Almanya için Hans, Jost, Konrad; Osmanlı için Mehmet, Ahmet) karakterlere verme; o dönemin kayıtlarından daha seyrek bir ad seç.
 
+### "Bir yapay zekâ burada ne yazardı?"
+ultrawrite'ın ilk taslaktan sonraki adımı (2.3). Denetimde de aynı soruyu kullan: sahnenin YZ hâlini, yani bir modelin akla ilk getireceği açılışı, olayı, adı, repliği ve kapanışı açıkça yaz; metin ona benziyorsa o sahne yamanmaz, yeniden üretilir. Yöntem *1984* cümle çözümlemesindeki "YZ hâli" karşılaştırmasından gelir (ultracraft `raporlar/1984/`).
+
 ### Dönem denetimi
 Tarihsel bir dönemde geçen metinde her nesne, kurum ve sözcük o yılda var mıydı, sor. Testte 1455'te "kurşun kalem" (yaklaşık bir yüzyıl sonra) ve "mont" geçti.
 - Şüpheli her sözcüğü taslak notuna yaz ve yazara sor ya da dönemin karşılığını seç (kurşun kalem yerine kurşun çubuk, tüy kalem; mont yerine yelek, cüppe, kaftan).

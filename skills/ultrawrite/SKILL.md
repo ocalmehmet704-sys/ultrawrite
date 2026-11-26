@@ -168,6 +168,7 @@ Aşağıdaki otuz altı kural her metinde geçerlidir. Her biri tek cümledir, b
 
 ### 14. En olası sahneyi at: ilk aklına gelen ad, mekân ve mesleği ilk taslakta bırakma.
 - Yanlış: "Elif, İstanbul'da bir kütüphanede çalışan bir kütüphaneciydi." → Doğru: "Gülbin, sahaf dükkânının arkasında kâğıt ciltliyordu."
+- Kahramanın kaybettiği, sildiği ya da arayan kişinin kahramanın babası, kocası ya da kendisi olması da bariz seçimdir (testte altı öykünün beşinde böyleydi); bilerek seçmiyorsan at.
 - Bilinen bir esere, türe ya da temaya dayanan istekte akla gelen ilk üç seçimi (adlar, olay iskeleti, kapanış görüntüsü) taslak notuna yaz ve üçünü de at. Testte iki ajan birbirinden habersiz aynı adları ve aynı olay iskeletini seçti.
 - Ref: **ultracheck** (ad, mekân, meslek yığılması; bariz kurgu)
 
@@ -239,7 +240,7 @@ Aşağıdaki otuz altı kural her metinde geçerlidir. Her biri tek cümledir, b
 - Ref: **ultravoice** (eksiltme), ultracraft `references/teknikler.md` (sır ve dönüş)
 
 ### 28. Bölüm bitince tüm bölümü tek seferde tara.
-- Kural: 300 kelimelik yerel denetimden ayrı bir tur. Ortak iki-üç sözcüklük kalıpları, aynı replikleri, aynı kapanış hamlesini, kalın yazı, başlık ve ad yığılmasını (kural 14, 22) say. Üçten fazla geçeni buda. Kod çalıştırabiliyorsan sayımı grep ile yap.
+- Kural: 300 kelimelik yerel denetimden ayrı bir tur. Ortak iki-üç sözcüklük kalıpları, paragraf ve cümle başlarındaki ilk iki sözcüğü (testte sekiz paragraf "Ertesi …" diye başladı), aynı replikleri, aynı kapanış hamlesini, kalın yazı, başlık ve ad yığılmasını (kural 14, 22) say. Üçten fazla geçeni buda. Kod çalıştırabiliyorsan sayımı grep ile yap.
 - Yanlış: Her sayfada "ihlal yok" yazılır, bölümde "Cevap verme" on üç kez geçer. → Doğru: Bölüm bitince sayılır, tekrarlar budanır.
 - Ref: **ultracheck**
 
@@ -312,7 +313,18 @@ En baştaki "DUR" bölümünü yaptıysan geç. Yapmadıysan şimdi yap.
 - **Kriz anını dağınık yaz.** Duyusal parçalar, bağlamdan kopuk hatırlanan ayrıntılar. Sahneyi steril bırakma.
 - **Her sahneyi düzgün bir son hareketle bitirme.** "Tek ağır nesne" de bir kalıptır.
 
-### 2.3 Her sayfadan sonra denetim
+### 2.3 İlk taslak kötüdür: yaz, fark et, yeniden üret
+İlk versiyon her zaman kötüdür. İlk sürümünden kusursuz çıkan bir yazı yoktur; iyi metin yeniden yazılarak olur. Bu yüzden teslim edilen metin hiçbir zaman ilk taslak değildir.
+
+1. **Önce yaz.** Bölümün ilk taslağını durmadan, düzeltmeye kalkmadan yaz. Taslak yazara gösterilmez.
+2. **Sonra fark et: "Bir yapay zekâ burada ne yazardı?"** Her sahne için bu soruyu sor ve yanıtını taslak notuna açıkça yaz: bir modelin bu sahnede akla ilk getireceği açılış, olay, ad, replik, benzetme ve kapanış. Sonra taslağı bu listeyle yan yana koy. Taslağın o yanıta benzediği her yer işaretlenir: aynı açılış, aynı olay sırası, aynı kapanış görüntüsü, aynı tür cümle. Kendi taslağını yabancı bir metin gibi oku; "bunu ben yazdım, iyidir" deme.
+3. **Yeniden üret, yamalama.** İşaretli sahneyi sözcük değiştirerek düzeltme; o sahneyi baştan yaz. YZ'nin yazacağı şeyin dışına çık: başka bir giriş noktası, başka bir ayrıntı, başka bir son. Sahnenin yarısından çoğu işaretliyse bölümü baştan üret.
+4. **Uzunluğu say.** Yeniden üretilmiş metnin kelimelerini gerçekten say (araç varsa `wc -w`). Bölüm boyutu hedefinin altındaysa eksik kalan sahneyi kur; dolgu ekleme.
+5. **Ancak bundan sonra** 2.4'teki denetime geç.
+
+Yazara teslim ederken, metnin dışında, tek satır yaz: kaç sahneyi yeniden ürettiğin ve ilk taslakta "YZ'nin yazacağı şey" olarak işaretlediğin üç örnek.
+
+### 2.4 Her sayfadan sonra denetim
 Her yaklaşık 300 kelimede bir denetim yap. Alt ajan varsa Bölüm 3'teki raporunu al. Yoksa aynı kontrol listesini kendin uygula. Her ihlali davranış, nesne ya da boşlukla değiştir. Süs ekleme. Bölüm bitince kural 28'deki bölüm geneli taramayı da yap.
 
 ---
