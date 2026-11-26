@@ -1,4 +1,4 @@
-Doğum, 1455'in Martında, Ammerfeld kentinde Gerber sokağındaki dar bir evde başladı. Debbağların yanındaki bu sokakta hava hep ağırdı, pencereler kapalıydı. Metze kazanı ocağa koydu, önlüğünü bağladı, yatağın ucunda oturan Ottilie'nin yanına geçti. Çocuk ters geliyordu. Metze elini içeri sokup başı çevirdi. Ottilie bağırdı, dişlerini sıkıp sustu, ağır ağır nefes almaya başladı. Mum yarıya inmişti.
+Doğum, 1455'in Martında, Ammerfeld kentinde Gerber sokağındaki dar bir evde başladı. Debbağların yanındaki bu sokakta hava hep ağırdı, pencereler kapalıydı. Metze kazanı ocağa koydu, önlüğünü bağladı, yatağın ucunda oturan Ottilie'nin yanına geçti. Çocuk ters geliyordu. Metze elini içeri sokup başı çevirdi. Ottilie bağırdı, dişlerini sıkıp sustu, ağır ağır nefes almaya başladı. Gece ilerledikçe sesi kısıldı. Kayınvalide Agnes su getirdi, kapının yanındaki sandığa oturdu, kazanın kapağını iki kez açıp kapadı. Mum yarıya inmişti.
 
 Kapıda Lenz duruyordu. Eşiğin ötesine geçmedi, ayakkabısının ucuna bakıp bekledi.
 
@@ -26,6 +26,10 @@ Sabah Metze Rat binasının kapısında bekledi. Eberhard Rüdel kalın bir deft
 
 "Kilisede. Geçen Mayıs. Papazlığın kaydı var."
 
+"Anne?"
+
+"Ottilie. Yirmi iki yaşında. Bu ilk doğumu."
+
 Rüdel yazdı. Kalemini mürekkep kabında iki kez çevirdi, sonra durdu.
 
 "Doğum saati."
@@ -44,9 +48,27 @@ Rüdel üçünü de yazdı. Metze kendi satırının en altta olduğunu gördü.
 
 "Yemin gereği kayıt budur," dedi.
 
-Metze başını salladı.
+Metze başını salladı. Her kayıtlı doğum için ebeye kentten iki pfennig ödenirdi. Kayıtsız doğumun parası yoktu, ebeye ayrıca ceza kesilirdi.
 
-Ekmek fişi her ayın ilk günü ambarda dağıtılıyordu. Ottilie kucağında çocukla sıraya girdi, Metze de yanında durdu. Görevli Oswald Pfau defteri açıp sayfaları taradı. Parmağı dokuzuncu sayfada durdu.
+* * *
+
+Nisanda Heilwig vaftiz edildi. Papaz Kilian her çocuğun kentten bir belge getirmesini istiyordu; yeni düzen bunu da kapsıyordu. Metze Kent Defteri'nin kopyasını kiliseye götürdü. Kopyayı Rüdel çıkarmıştı, mürekkebi henüz tam kurumamıştı. Papaz satırı okudu, parmağını aşağı indirip bir daha okudu.
+
+"Baba Lenz."
+
+"Evet."
+
+"Evlilik geçen Mayıs."
+
+"Geçen Mayıs," dedi Metze.
+
+"Önce kent bakar," dedi Papaz. "Sonra biz."
+
+Kâğıdı kenara koydu, suyu aldı. Çocuk suya ağladı, Ottilie sustu.
+
+* * *
+
+Ekmek fişi her ayın ilk günü ambarda dağıtılıyordu. Mayısın ilk günü Ottilie kucağında çocukla sıraya girdi, Metze de yanında durdu. Görevli Oswald Pfau defteri açıp sayfaları taradı. Parmağı dokuzuncu sayfada durdu.
 
 "Heilwig," dedi. "Tamam."
 
@@ -60,7 +82,7 @@ Fiş Ottilie'nin önlüğünün cebine girdi. Metze bunu izledi, sonra sıradaki
 
 * * *
 
-Şubatta Agnes Rat binasına geldi. Metze'yi kapının önünde gördü, durup ona baktı, sonra Rüdel'in masasına yürüdü.
+Ağustosta Agnes Rat binasına geldi. Metze'yi kapının önünde gördü, durup ona baktı, sonra Rüdel'in masasına yürüdü.
 
 "Lenz bu çocuğun babası değil," dedi.
 
@@ -78,7 +100,27 @@ Agnes Metze'ye döndü. "Sen oradaydın."
 
 Rüdel sayfayı çevirmedi, satırı yalnızca parmağıyla gösterdi. "Kayıt doğum gününde tutuldu. Değişecekse Rat karar verir, Rat da yazılı bir istek ister."
 
-Agnes bir şey istemedi. Çıktı. Rüdel satırın yanına küçük bir işaret koydu, kalemi kum kabına bıraktı.
+Lenz kapıdan içeri girdi. Annesine bakmadı, Rüdel'in yüzüne baktı.
+
+"Kayıtta ne yazıyorsa o," dedi. "Benim adım orada."
+
+Agnes bir şey istemedi. Döndü, kapıdan çıktı. Rüdel satırın yanına küçük bir işaret koydu, kalemi kum kabına bıraktı.
+
+* * *
+
+Eylülde Kürkçüler sokağında bir doğum oldu. Çocuk nefes almadı. Metze onu bir süre elinde tuttu, sonra temizleyip annesine uzattı. Gerlind çocuğa bakmadı, pencereye baktı.
+
+"Yazacak mısın?"
+
+"Yazacağım. Doğdu, yaşamadı. Kayıt yine de tutulur."
+
+"Adı?"
+
+"Adı sen koyarsın."
+
+Gerlind uzun süre konuşmadı. Sonra "Florian" dedi.
+
+Rüdel satırı yazdı: ölü doğum, çocuk Florian. Adın yanına küçük bir çizgi koydu, ücret ya da ceza yazmadı. Metze satırı okudu, olanla uyuştuğunu gördü, bir şey eklemedi.
 
 * * *
 
@@ -96,13 +138,35 @@ Dorothea çocuğun yüzüne baktı. "Yazarsan ekmek alır mı?"
 
 Dorothea bir süre konuşmadı. Sonra çocuğun adını söyledi: Lupold. Metze adı ezberledi.
 
-Rüdel'in masasında satır şöyle yazıldı: doğum, ebe bulunmadı, tanık yok, çocuk Lupold. Rüdel sayfayı Metze'ye çevirip baktırdı. Metze her harfin okunur olduğunu gördü.
+Sabah Rüdel'in masasında satır şöyle yazıldı: doğum, ebe bulunmadı, tanık yok, çocuk Lupold. Rüdel sayfayı Metze'ye çevirip baktırdı. Metze her harfin okunur olduğunu gördü.
+
+Aralığın başında Dorothea'nın cezası ödendi. Bozuk paraları masanın üstüne tek tek dizdi, Rüdel saydı. Dorothea kapıya varınca döndü.
+
+"Ekmeği ne zaman alacağım?"
+
+"Ayın ilk günü," dedi Rüdel. "Fişi ambar verir."
+
+Aynı hafta Ottilie kapıya geldi, kucağında Heilwig, elinde bir somun ekmek vardı. Ekmeği Metze'ye uzattı.
+
+"Bu ay fazla geldi," dedi.
+
+Metze ekmeği aldı, ocağın yanındaki rafa koydu. Heilwig'in küçük elini tuttu, parmaklarını kendi parmağının etrafında kapattı.
 
 * * *
 
-Yıl sonunda Rat, yaşlı ebe Luitgard Kühler öldüğü için Metze'yi Rat ebesi yaptı. Yemin yine mumun karşısında edildi. Rüdel metni okudu, Metze her cümleyi ardından tekrar etti. Metze'ye bir mühür verildi: avuç içine sığan bronz bir kapı, üstünde kentin adının baş harfleri. Her ayın sonunda ona bir ölçek buğday ödenecekti.
+Aralığın son günü Rat salonunda üç mum yanıyordu. Bürgermeister masanın başında oturuyordu.
 
-Luitgard'ın çantasında makas, bir kap yağ ve kenarları sararmış bir defter vardı. Defter Metze'ye kaldı. Metze onu raftan indirip ilk sayfayı açtı, sonra kapattı, yerine koydu.
+"Bu yıl kaç doğum?" dedi.
+
+"Yüz on dört," dedi Metze. "Dört ölü doğum."
+
+Bürgermeister başını salladı. Rüdel metni okudu. Metin kısaydı: ebe her doğumu bildirecek, doğumda bulunanları yazacak, hiçbir çocuğu defterin dışında bırakmayacaktı. Metze her cümleyi ardından tekrar etti. Kapı açıktı, soğuk içeri girdi.
+
+Metze'ye bir mühür verildi: avuç içine sığan bronz bir kapı, üstünde kentin adının baş harfleri. Her ayın sonunda ona bir ölçek buğday ödenecekti. Rat ebesi olarak yaşlı ebe Luitgard Kühler'in yerine geçti; Luitgard ölüp iki ay olmuştu.
+
+Luitgard'ın çantasında makas, bir kap yağ ve kenarları sararmış bir defter vardı. Defter Metze'ye kaldı. Sayfalarda babaların adı yoktu, yalnızca anneler ve doğum günleri yazılıydı. Metze defteri kapattı, raftaki yerine koydu.
+
+O gece Metze ocağı söndürmeden oturdu. Ödeme cetvelini, yemin metnini ve kendi kısa notunu yan yana koydu, her birinin kenarını parmağıyla düzeltti. Sonra yattı.
 
 Metze'nin yanına on beş yaşında Ursel çırak olarak verildi. Ursel ilk haftada tüy kalemi doğru tutmayı öğrendi, ikinci haftada adları yazmaya başladı. Bir gün "Lupold" yerine "Lupolt" yazdı. Fark edince kalemi kaldırdı.
 
@@ -118,6 +182,16 @@ Ursel çizgiyi çekti, doğru adı altına yazdı. Çizgi sayfada kaldı, okunuy
 
 Ocak ayının ilk sabahı Metze mührü ilk kez kâğıda bastı. Kenarlar temiz çıktı.
 
-Akşam Ursel'in yazdığı sayfayı bir daha okudu. Hiçbir ad boş kalmamıştı.
+Mart 1456'da Ursel tek başına bir doğuma gitti. Metze evde kaldı, defteri masaya açtı, mürekkep kabını ocağın kenarına koydu. Ursel döndüğünde elinde kâğıt vardı.
 
-Metze defteri kapattı, mührü kutusuna koydu, kutuyu her akşam olduğu gibi pencerenin altındaki rafa bıraktı.
+"Tam saat yazmadım," dedi.
+
+"Neden?"
+
+"Anne saymamış. Ben de sayamadım."
+
+Metze kâğıdı okudu. Satırlar düzgündü, tanıklar yazılıydı.
+
+"Yazdığın gibi kalsın," dedi.
+
+Akşam Metze o gün yazılan satırları bir kez daha okudu. Hiçbir ad boş kalmamıştı. Kopyayı katladı, mührü kutusuna koydu, kutuyu her akşam olduğu gibi pencerenin altındaki rafa bıraktı.

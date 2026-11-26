@@ -24,15 +24,27 @@ Stöckl başını salladı, teslim makbuzunu uzattı. Eritme için Eichmeister'i
 
 Pankraz makbuza baktı. "Tartıyı göreceğim," dedi ve kâğıdı aldı.
 
-Çarşamba günü pazar kalabalıktı. Tezgâhların arasında Rat'ın iki adamı yürüyordu. Omuzlarında kırmızı şeritler vardı, sandıkların mühürlerini tek tek kontrol ediyorlardı. Walburga Halbeck kendi tezgâhında bir top keten açmıştı. Kocasının kestiği tahta ölçüyü, ucu kararmış olanı, kumaşın üstüne koydu. Ölçü iki kez gitti, üçüncüsünde kumaş bitti.
+Çarşamba akşamı kapıyı Rat'ın kâtibi Lenz çaldı. Ayaklarını paspasa silip içeri girdi, masanın başına oturdu ve bir liste çıkardı. Ev ölçülerinin sayımıydı. Her hanenin tahta ya da bakır ölçüsü yazılacak, Lichtmess'e kadar teslim edilecek ya da kullanılmadığı belirtilecekti.
 
-Pankraz yanına gelip durdu. "Lichtmess'ten sonra bu tahtayı mühürlemeniz gerekir."
+"Adınız, Vogl."
 
-"Mühür parasını siz verirsiniz," dedi Walburga ve ketenin kenarını katladı.
+Pankraz adını söyledi. Lenz yazdı. Duvarın dibinde, rafın üstünde, ucu aşınmış bir tahta ölçü duruyordu. Pankraz on yıldır ev işleri için onu kullanıyordu: bir tezgâhın boyunu almak, yatağın kenarını ölçmek, ipliği kesmek için.
 
-Perşembe sabahı Stöckl Rathaus'un arka odasındaki sandığı açtı, ölçüyü çıkarıp Pankraz'ın kollarına bıraktı. Pankraz ölçüyü bezle sardı, sırtına aldı. Sokak buz tutmuştu. Donau kıyısına inen yoldan yürüdü, ayakları ıslak taşta kaydı. Demirci dükkânına vardığında körük susmuştu. Ocağın sıcağı yere çökmüş, havada kükürt kokusu kalmıştı. Eritme kalıbı tezgâhın ucunda soğumayı bekliyordu.
+"Tahta ölçünüz var mı?"
 
-Hainz ocağın önünde çömelmişti. Pankraz'ı görünce eldivenlerini çıkarıp ayağa kalktı. Karısı arkadaki masada ekmek kesiyordu. Pankraz bezi açtı, ölçüyü tezgâha koydu. Hainz tartıyı getirdi, ölçüyü kefeye koydu. Kefe yavaş indi.
+"Kullanılmıyor."
+
+Lenz yazdı. Yazarken dilinin ucunu dudağının kenarında tutuyordu. Kelimeyi bir kez daha okudu, sesini yükseltmeden. Rafa bir kez bile gözünü çevirmedi. Pankraz da çevirmedi.
+
+Lenz listeyi kapattı, mürekkep kurusun diye üstüne kum serpti. Gittikten sonra Pankraz ölçüyü rafından indirdi, masanın üstüne koydu, bir süre öylece bıraktı. Sonra yine rafa kaldırdı.
+
+Perşembe sabahı Stöckl Rathaus'un arka odasındaki sandığı açtı, bakır ölçüyü çıkarıp Pankraz'ın kollarına bıraktı. Ölçü ağırdı. Pankraz onu bezle sardı, sırtına aldı. Meydana çıktığında bir araba duruyordu. Üstünde eski ölçüler yığılmıştı. Tahta olanlar kırılmış, bakır olanlar üst üste atılmıştı. Arabacı bir dal parçasıyla yığını düzeltiyordu. Pankraz omzundaki yükle durmadan yürüdü.
+
+Sokak buz tutmuştu. Donau kıyısına inen yoldan gitti, ayakları ıslak taşta kaydı. Demirci dükkânına vardığında körük susmuştu. Ocağın sıcağı yere çökmüş, havada kükürt kokusu kalmıştı. Eritme kalıbı tezgâhın ucunda soğumayı bekliyordu.
+
+Hainz ocağın önünde çömelmişti. Pankraz'ı görünce eldivenlerini çıkarıp ayağa kalktı. Karısı arkadaki masada ekmek kesiyordu. Pankraz bezi açtı, ölçüyü tezgâha koydu.
+
+"Rat'tan sipariş geldi," dedi Hainz. Bir çubuğu ocaktan çekip ucunu suya tuttu. "Nürnberg ölçüsünün pirincini ayrı eritip satmamı istiyorlar. İş iyi. Ama bakırın fiyatı düştü, bu kadar ucuz olmamıştı." Tartıyı getirdi, ölçüyü kefeye koydu. Kefe yavaş indi.
 
 "Beş pfund iki lot," dedi Hainz.
 
@@ -48,6 +60,16 @@ Pankraz bunu bir süre düşündü. Makbuzu Stöckl okuyacaktı, Stöckl de beş
 
 Hainz önlüğünün cebinden küçük bir deri kese çıkardı, tezgâha pfennigleri döktü. On iki tane. Pankraz onları sayıp avucuna aldı. Makbuzu tezgâha koydu, ağırlık satırına tüy kalemle "beş pfund" yazdı ve altına adını attı. Mürekkep kurumuştu, ilk harfi zor çıktı.
 
-Hainz makbuzu katlayıp cebine koydu. Ölçüyü ocağın yanındaki eritme kalıbının olduğu tarafa taşıdı. Pankraz kapıya yürüdü. Arkasında körük yeniden çalışmaya başlamıştı, ocak tekrar parladı.
+Hainz makbuzu katlayıp cebine koydu. Ölçüyü ocağa attı. Ağzından kırmızı bir ışık tezgâha vurdu. Pankraz bakırın kızarıp eridiğini görene kadar durdu, sonra kapıya yürüdü. Arkasında körük yeniden çalışmaya başlamıştı.
 
 Eve dönerken pfennigler cebinde birbirine vuruyordu. Masanın üstüne döküp tek tek dizdi. On iki tane. Sonra pfennigleri masanın kenarına itti ve ekmek kesmek için bıçağı aldı.
+
+Cuma günü makbuzu Rathaus'a götürdü. Stöckl cildi önüne açmıştı. Sayfayı bulup Pankraz'a çevirdi, sonra satırın altına kendi eliyle kısa bir not düştü. Pankraz yazıyı okuyamadı, mürekkep ters duruyordu.
+
+"Eritme tamam," dedi Stöckl. "Yeni ölçü Lichtmess sabahı pazar yerinde açılacak."
+
+Makbuzu cilde iliştirdi. Parmağını kazınmış yerin üstünde bir an gezdirdi, kâğıdın incelmiş kısmına değdi.
+
+"Ciltçi bunu yamamayacak," dedi. "Yamamaya gerek de yok. Sayfayı ışığa tutan olmaz."
+
+Pankraz başını salladı. Pencereden Dom'un kulesine baktı. Vinç ipi hâlâ uçta sallanıyordu. Stöckl cildi kapattı. Pankraz çıkarken merdivenin dibinde ulak yoktu.
