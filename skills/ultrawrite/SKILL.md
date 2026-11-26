@@ -231,11 +231,11 @@ Aşağıdaki otuz altı kural her metinde geçerlidir. Her biri tek cümledir, b
 
 ### 26. Her sahnenin sonunda "ne değişti?" sorusuna tek cümlelik yanıt bul.
 - Kural: Yanıtı taslak notuna yaz, metne koyma. Yanıt yoksa sahneyi at ya da başka sahneyle birleştir. Yeni bilgi, yeni engel, yeni karar ya da yeni kayıp: biri değişmeli.
-- Yanlış: Karakterler tünelde yürür, bir ses duyar, durur, yürür. (Hiçbir şey değişmedi.) → Doğru: Tünelde yürürken anahtarın yalnızca içeriden açıldığını öğrenirler; artık geri dönüş yolu kapalıdır.
+- Yanlış: Karakterler tünelde yürür, bir ses duyar, durur, yürür. (Hiçbir şey değişmedi.) → Doğru: Tünelin ortasında, kapının yalnızca içeriden açıldığını öğrenirler.
 - Ref: ultracraft `references/teknikler.md` (Harmon çemberi, ekme ve hasat)
 
-### 27. Açtığın her sır için bölüm sonuna kadar yanıt ya da somut ipucu ver.
-- Kural: Bölümde en çok üç açık sır taşı. Sırrı "bilmiyorum" ya da gizemli bir non-yanıtla geçiştirme. Karakter bilmiyorsa okur somut bir iz görsün.
+### 27. Açık sırrı geçiştirme: her bölümde ona en az bir somut iz ver.
+- Kural: Sırrı "bilmiyorum" ya da gizemli bir boş yanıtla geçiştirme. Karakter bilmiyorsa okur somut bir iz görsün. Sırlar bölümler boyunca taşınabilir; bölümü aşan her sırrı **ultraworld**'ün tohum ve hasat defterine yaz. Sırrın ne zaman açılacağına yazar karar verir, sen değil.
 - Yanlış: "Bunu kim yazdı?" "Bilmiyorum." → Doğru: Not eczane fişinin arkasındaydı; fişin tarihi bu sabahtı, saat 02.41.
 - Ref: **ultravoice** (eksiltme), ultracraft `references/teknikler.md` (sır ve dönüş)
 
