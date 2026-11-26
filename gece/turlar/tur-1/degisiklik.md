@@ -41,4 +41,4 @@
 2. Liste yeni şablon üretecek: **doğru**. Bekçi, tellal, "Kimse" gitti; kayıt, bir birimlik sapma, yerine koyma geldi.
 3. İz tesellisi istek 2'ye sızacak: **doğru** ("Çizgi sayfada kaldı, okunuyordu").
 4. Türlerin kendi şablonu var: **kısmen**. Türlerin yüzeyi farklı ama altta ortak bir çerçeve var (kayıt, sessiz kahraman, nesneyle kapanış). Yas öyküsünde babanın eşyası: doğru.
-5. Uzunluk biraz artacak: **yanlış**, düştü (Kısa ortalaması 1.017; tur-0'da 1.113).
+5. Uzunluk biraz artacak: **yanlış**, düştü (Kısa ortalaması 1.017; tur-0'da 1.084).
