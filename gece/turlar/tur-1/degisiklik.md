@@ -35,6 +35,8 @@
 - Yazarlar `haiku` / `medium`; CLAUDE.md uyarısıyla `gece/` belgelerini okuyup okumadıkları kayıtlardan denetlenecek. Tur 2, bu gecenin ilk temiz turu olacak.
 - Dokuzuncu ajan (oyku-1d): **C1, parmak izi listesi gizli.** İstek 1, ama ultracheck taslak bitene kadar açılmaz. Rapor, listenin bir yasak listesine dönüşüp yeni tepe ürettiğini öne sürüyor (kayıplar listedekiler, yeniler listede olmayanlar). 1d'nin yenileri ötekilerle aynıysa liste suçsuz; 1d listedeki eski kalıplara (bekçi, iz, yankı) dönüyorsa liste işe yarıyordu.
 
+- **E1, yazara mektup** (başlatan oturumun eklediği, kullanıcının önerisi): istek 1, 3 ve 6 ikişer kez; bir kopyanın isteğinin başına "Yazmaya başlamadan önce gece/yazara-mektup.md dosyasını oku." eklenir (oyku-1m, 3m, 6m). Kontrol ajanına eşler `oyku-1x/1y` gibi kör adlarla verilir; hangisinin mektuplu olduğunu rapor yazıldıktan sonra öğrenir. Böylece tur 2'de on bir yazar olur (sekiz + 1d + 1m + 3m + 6m; mektupsuz eşler sekiz temel öyküdür).
+
 ## Tahminler (DEVIR bölüm 5)
 
 1. Yeniden üretim yüzeysel kalacak: **doğru**, daha da kötüsü, altı yazar yapmadığını kendisi söyledi.
