@@ -11,6 +11,8 @@ description: Türkçe roman, öykü, sahne ya da bölüm yazarken veya düzeltir
 
 Dil modeli en olası devamı seçer. Sonuç ortalamaya akan, her sahnede aynı tonda, düzgün ve kapalı metindir. "Daha iyi yaz" bunu değiştirmez. Bu skill üç şey yapar: önce yazarı sorar, sonra Türkçe kurar, yazdıktan sonra denetler.
 
+Ana ilke: **Bir cümle, anlattığı şeye oranla iş görmeyen sözcük taşıdığı ölçüde kötüdür.** Ölçü sözcük sayısı değil, sözcüğün iş görüp görmemesidir. İş gören sözcüğü atmak da kusurdur (kural 31). Dayanak: `references/anlatim.md`.
+
 Önerilerin kanıt düzeyi farklıdır (Bölüm 6). Folklora kural muamelesi yapma.
 
 ---
@@ -73,7 +75,7 @@ Yazarın vermediği kararı kendin verme. Emin değilsen sor.
 
 ## 1. Çivi kurallar
 
-Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, bir örnek ve ilgili referansla verilir. İhlal görürsen düzelt.
+Aşağıdaki otuz dört kural her metinde geçerlidir. Her biri tek cümledir, bir örnek ve ilgili referansla verilir. İhlal görürsen düzelt.
 
 ### 1. Türkçe iskelet: yüklem sonda.
 - Yanlış: "Gördü ki adam, kapıda bekleyen, ona bakıyordu." → Doğru: "Kapıda bekleyen adamın kendisine baktığını gördü."
@@ -94,7 +96,8 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 
 ### 5. Özne zamirini düşür: kişi eki yeterliyken "ben, sen, o" yazma.
 - Yanlış: "Ben eve geldim ve ben çok yorgundum." → Doğru: "Eve geldim, çok yorgundum."
-- Ref: `references/ekler-cekim.md` (kişi eki)
+- Zamir vurgu, karşıtlık ya da konu değişimi için gelir. "O" kişi eki taşımaz, düşürülmesi en riskli zamirdir: bağlamda iki aday varsa düşürme.
+- Ref: `references/ekler-cekim.md` (kişi eki), `references/anlatim.md` (1.2)
 
 ### 6. "Bir"i her ada koyma: Türkçe belirtisiz ad İngilizce "a" izini taşımaz.
 - Yanlış: "Bir kadın bir odaya girdi ve bir pencere açtı." → Doğru: "Kadın odaya girdi, pencereyi açtı."
@@ -106,7 +109,8 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 
 ### 8. -mIştI'yı referans olmadan kurma; ilk olayı -DI ile ver, ileri sıçrarken -AcAktI kullan.
 - Yanlış: "Ayakkabılarını çıkarmıştı." (ilk olay, referans yok) → Doğru: "Ayakkabılarını çıkardı."
-- Ref: `references/zaman-ekleri.md`
+- Dayanak aynı cümlede de olabilir: "Syme artık yoktu: Hiç var olmamıştı." (1984, Üster çevirisi.) Burada -mıştı geçmişi geriye doğru yeniden yazıyor.
+- Ref: `references/zaman-ekleri.md`, `references/anlatim.md` (2)
 
 ### 9. Çeviri edilgenini bırak: "tarafından" ve "yapılmaktadır" yazma, faili çatıda adıyla kur.
 - Yanlış: "Kapı, Ali tarafından açıldı." → Doğru: "Ali kapıyı açtı."
@@ -122,11 +126,13 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 
 ### 12. Duygu adı yerine taşıyıcı kullan: nesne, eylem, ses ya da küçültme eki.
 - Yanlış: "Çok üzüldü." → Doğru: "Tabağı kaldırdı, geri koydu."
-- Ref: `references/duygu-ses-ritim.md`
+- Duyguyu başka bir alandan gelen bir sözcük de taşır: *1984*'te sevişme sahnesi askerî bir fiille kapanıyor, Parti'nin çikolatası çöp dumanı gibi kokuyor. Duygunun adı geçmiyor.
+- Ref: `references/duygu-ses-ritim.md`, `references/raporlar/1984/neden-bu-cumle.md` (5)
 
 ### 13. Okuyucunun çıkaracağı neden-sonuç zincirini anlatma; tek yeni ayrıntı seç.
 - Yanlış: "Adam çok yorgundu, bu yüzden uyudu." → Doğru: "Adam ayakkabılarını çıkarmadan uzandı."
-- Ref: `references/guzel-yazma.md` (gösterme ve anlatma)
+- Neden: okur fazla bilgiyi boş saymaz, ona bir sebep arar ve olayı olduğundan farklı okur (Kravtchenko ve Demberg 2022, İngilizce deney).
+- Ref: `references/guzel-yazma.md` (gösterme ve anlatma), `references/anlatim.md` (1.1)
 
 ### 14. En olası sahneyi at: ilk aklına gelen ad, mekân ve mesleği ilk taslakta bırakma.
 - Yanlış: "Elif, İstanbul'da bir kütüphanede çalışan bir kütüphaneciydi." → Doğru: "Gülbin, sahaf dükkânının arkasında kâğıt ciltliyordu."
@@ -138,7 +144,8 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 
 ### 16. Tonu cümle uzunluğuyla değil bilgi dozajı ve anlatıcı mesafesiyle değiştir.
 - Yanlış: "Kısa. Kopuk. Ağır. Hava soğuktu." → Doğru: "Kapı ardına kadar açıktı. Masadaki bardak hâlâ sıcaktı."
-- Ref: `references/duygu-ses-ritim.md` (tempo ve kriz)
+- Uzunluğun bir işi olabilir: uzun cümle saniyelik bir anı okura daha uzun hissettirir (tek, keşifsel deney). Denetimi bırakmış bir zihin noktalamasız uzun cümleyle de verilebilir (*1984*, Winston'ın günlüğü).
+- Ref: `references/duygu-ses-ritim.md` (tempo ve kriz), `references/anlatim.md` (1.2)
 
 ### 17. Değer verme çabası: önemi şişirme.
 - Kural: Bir nesneye ya da karaktere duygusal geçmiş yüklemeden önce o geçmişin sahnede bir eylemle ödenip ödenmeyeceğini belirle; ödenmeyecekse nesneyi nesne olarak yaz. Anlamı jestle göstermek de önem şişirmedir; sıradan nesne bazen sadece sıradandır.
@@ -159,6 +166,8 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 
 ### 20. Soyut süs sözcüğü, kılıflı yüklem ve övgü sıfatı yerine düz fiil ve somut nesne.
 - Yanlış: "Müze, bölgenin zengin tarihine ışık tutan eşsiz bir mekân olarak hizmet vermektedir." → Doğru: "Müze eski bir hanın avlusunda; kapıdaki zil çalışmıyor."
+- Boş fiil + isim tek fiille aynı anlamı veriyorsa tek fiil seç: "soruşturma yürüttü" → "soruşturdu". "Yardım etmek" gibi kalıplarda "etmek" ana fiildir, dokunma.
+- Sına: süsü çıkardığında anlam kalmıyorsa süs yerinde değildir.
 - Kara liste: derinlemesine, titizlikle, dokusu, gözler önüne sermek, ışık tutmak, hizmet vermek, teşkil etmek, niteliğinde, ile ilişkili, hayatını kaybetmek, çaba sarf etmek, eşsiz, büyüleyici, nefes kesici. Karakterin kendi ağzında olabilir, anlatıcıda olmaz.
 - Ref: `references/yz-isaretleri.md` (w03, w06, w07, w16, w18)
 
@@ -173,7 +182,8 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 ### 23. Dekoru metnin kendi dünyasından seç; karakteri hep aynı adla an.
 - Yanlış: "Latte'sinden bir yudum alan Elif …" (Türkiye'de bir mahalle sahnesinde) → Doğru: "Elif demliğin altını kısıp pencereye geçti."
 - Yanlış: "Yaşlı adam, o kırgın yolcu, bu sessiz figür pencereye baktı." → Doğru: "Yaşlı adam pencereye baktı."
-- Ref: `references/yz-isaretleri.md` (w15, w20)
+- Bir sözü ya da ayrıntıyı geri çağırırken aynı sözcüğü kullan. Eşanlamlı bağı koparır. Değişecekse yalnızca anlamı taşıyan öge değişsin: *1984*'te "Biz ölüyüz." sözü sonra "Siz ölmüşsünüz." diye, yalnız kişi eki değişerek geri gelir; saatler önce "on üçü", sonra "on dördü" vurur.
+- Ref: `references/yz-isaretleri.md` (w15, w20), `references/raporlar/1984/neden-bu-cumle.md` (3)
 
 ### 24. Bilinmeyeni "belgelenmemiş" diye, gözlemi "uzmanlara göre" diye anlatma.
 - Yanlış: "Kasabanın ilk yılları pek belgelenmemiş olsa da derin izler bıraktığı söylenir." → Doğru: "Kasabanın ilk yıllarını yaşlılar bile karıştırırdı; bir camiden, bir de yanan değirmenden söz ederlerdi."
@@ -200,6 +210,39 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 - Yanlış: Her sayfada "ihlal yok" yazılır, bölümde "Cevap verme" on üç kez geçer. → Doğru: Bölüm bitince sayılır, tekrarlar budanır.
 - Ref: `references/slop-olcum.md`
 
+### 29. Pekiştirici ve düzeltici sözcük ekleme: "gerçekten", "aslında", "tamamen", "sadece".
+- Bu sözcükler okura cümleyi nasıl okuması gerektiğini söyler ve cümlenin bıraktığı boşluğu doldurur.
+- Yanlış: "Ali onu gerçekten çok seviyordu." → Doğru: "Ali onu çok seviyordu."
+- Yanlış: "Kapı aslında kilitli değildi." → Doğru: "Kapı kilitli değildi."
+- Karakterin kendi ağzında olabilir, anlatıcıda olmaz.
+- Ref: `references/raporlar/1984/neden-bu-cumle.md` (2, 6)
+
+### 30. Kuşkuyu karakterin duygusuna çevirme, cümlenin içinde bırak.
+- Yanlış: "Merdivende bir ses duyduğunu sandı ama emin değildi." → Doğru: "Merdivende bir ses vardı, ya da ona öyle geldi."
+- Ref: `references/raporlar/1984/neden-bu-cumle.md` (1)
+
+### 31. Kısaltmanın da sınırı var: silmeden önce sor, düşürmeden önce bak.
+- Bir sözcüğü silmeden önce süre, derece, tutum ya da koşul bilgisi taşıyıp taşımadığına bak. Taşıyorsa kalır.
+- Özgün: "Oysa, anımsadığı kadarıyla, hayatında hiç çan sesi duymamıştı." Kısaltılmış: "Hayatında hiç çan sesi duymamıştı." Atılan ara söz, belleğin güvenilmezliğini taşıyordu (*1984*, Üster çevirisi).
+- Bir ögeyi ancak akış onu geri getirebiliyorsa düşür (belâgatte karine). Getiremiyorsa düşürme anlamı bozar.
+- Yanlış: "Ali'yle Ayşe geldi. Biraz sonra kalktı." (Kim?) → Doğru: "Ali'yle Ayşe geldi. Biraz sonra Ayşe kalktı."
+- Ref: `references/anlatim.md` (1.2)
+
+### 32. Konuşan belliyse "dedi" yazma; düşünceyi soru ya da ünlem olarak bırak.
+- Ses ünlemden ya da cümlenin kendisinden belliyse konuşma fiili ve zarf da düşer. Ses niteliği bilgi taşıyorsa ("fısıldadı") fiil kalır.
+- Yanlış: "Mektubu kimin yazdığını merak etti." → Doğru: "Mektubu kim yazmıştı?"
+- Ref: `references/anlatim.md` (3, diyalog ve serbest dolaylı söylem)
+
+### 33. Tasvire bir iş ver: nesneyi karakterin eylemine bağla.
+- Envanter yazma. Her ayrıntı olaya ya da karaktere bir şey katsın, katmıyorsa çıkar. Ayrıntıyı çoğaltmak değeri artırmaz.
+- Yanlış: "Odada eski bir dolap, kırık bir sandalye ve tozlu bir ayna vardı." → Doğru: "Dolabın kapağını çekince menteşe elinde kaldı."
+- Ref: `references/anlatim.md` (3, betimleme)
+
+### 34. Anlamı eke toplamaktan çekinme.
+- Türkçe okurla yapılan göz izleme çalışmasında ek sayısı ilk bakış süresini değiştirmedi (Özkan vd. 2021). Okumayı zorlaştıran şey yapı.
+- Yanlış: "O zaman, görmesinin mümkün olmayacağını anladı." → Doğru: "Göremeyeceğini anladı."
+- Ref: `references/anlatim.md` (1.3), `references/fiilimsiler-ve-dilbilgisi.md`
+
 ---
 
 ## 2. Yazım sırası
@@ -207,7 +250,7 @@ Aşağıdaki yirmi sekiz kural her metinde geçerlidir. Her biri tek cümledir, 
 ### 2.0 Yazmadan önce referansları oku (zorunlu)
 SKILL.md tek başına yetmez. Yazmaya başlamadan referansları oku:
 
-- **Her yazımdan önce:** `references/yz-isaretleri.md`, `references/slop-olcum.md`, `references/duygu-ses-ritim.md`, `references/ek-ve-sozdizimi.md`. Seviye **Brutal** ise `references/brutal.md` de zorunlu (Yetişkin'de isteğe bağlı).
+- **Her yazımdan önce:** `references/yz-isaretleri.md`, `references/slop-olcum.md`, `references/duygu-ses-ritim.md`, `references/ek-ve-sozdizimi.md`, `references/anlatim.md`. Seviye **Brutal** ise `references/brutal.md` de zorunlu (Yetişkin'de isteğe bağlı).
 - **Konu çıkınca:** zaman ve kip için `zaman-ekleri.md`; çatı için `cati.md`; çekim ve yapım ekleri için `ekler-cekim.md` ve `ekler-yapim.md`; fiilimsi için `fiilimsiler-ve-dilbilgisi.md`; yapı, gerilim, sır ve dönüş için `teknikler.md`; `/u-mod` için `u-mod.md`.
 - **Yalnızca gerekçe aramak için:** `references/raporlar/`.
 
@@ -277,14 +320,16 @@ Hikâye yazılırken dünyanın arka planda sürmesi gerekiyorsa ya da kullanıc
 
 | Düzey | Anlamı | Örnekler |
 |---|---|---|
-| **Kanıtlı** | Makale ya da ölçüm var (çoğu İngilizce, Türkçe doğrulaması sınırlı) | "not X but Y" kalıbı insan baz çizgisine göre 6,3 kat sık (Antislop). Ad, mekân ve meslek yığılması en ucuz ölçülebilir slop (Hamilton ve Mimno). 40 Türk romanında çoğu cümle 6-12 kelime (Can ve Patton 2010). |
-| **Zanaat** | Yazar ya da eleştirmen gözlemi, deney yok. Öneri, kural değil. | Edgü'nün eksiltmesi. Sait Faik'in anlatıcı sesi. Selim İleri'nin taşkın duygusu. |
+| **Kanıtlı** | Makale ya da ölçüm var (çoğu İngilizce, Türkçe doğrulaması sınırlı) | "not X but Y" kalıbı insan baz çizgisine göre 6,3 kat sık (Antislop). Ad, mekân ve meslek yığılması en ucuz ölçülebilir slop (Hamilton ve Mimno). 40 Türk romanında çoğu cümle 6-12 kelime (Can ve Patton 2010). Okur gereksiz bilgiye bir sebep arar (Kravtchenko ve Demberg 2022). Türkçede ek sayısı ilk bakış süresini değiştirmez (Özkan vd. 2021). |
+| **Zanaat** | Yazar ya da eleştirmen gözlemi, deney yok. Öneri, kural değil. | Belâgatte îcâz ve karine. *1984* cümle çözümlemesi (çeviri, yorum). Edgü'nün eksiltmesi. Sait Faik'in anlatıcı sesi. Selim İleri'nin taşkın duygusu. |
 | **Folklor** | Yaygın sanı, kanıt bulunamadı. **Kural yazılmaz.** | "Kısa kopuk cümle YZ imzasıdır." "Kısa cümle gerilim yaratır." "Show, don't tell Chekhov'undur." |
 
 ---
 
 ## 7. Referanslar
 
+- `references/anlatim.md`: ana ilkenin dayanağı. Türkçede anlatım üzerine doğrulanmış bulgular, kural adayları, çürüyen iddialar. Ham raporlar: `references/raporlar/anlatim/`.
+- `references/raporlar/1984/`: *1984* (Üster çevirisi) sayfa sayfa cümle çözümlemesi; "neden bu cümle, YZ hâli değil".
 - `references/u-mod.md`: arka plan dünyası motoru (/u-mod). Kaynak raporlar: `references/raporlar/umod/`.
 - `references/brutal.md`: Brutal seviyesinde sahne yazımı, doz ve seviye altı denetimi (yazarın referans örneğiyle).
 
