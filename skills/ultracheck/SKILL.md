@@ -123,6 +123,16 @@ Altı test öyküsü (iki Sonnet turu, bir Haiku turu; hepsi "1984 temalı, 1455
 - **"Kimse" kapanışı.** Paragraf "Kimse bakmadı." / "Kimse girmezdi." gibi bir cümleyle biter.
 - **Duyum kapanışı.** Sahne "Metal soğuktu." / "Kâğıt düz kaldı." gibi kısa bir duyumla biter.
 
+**Listeden kaçınca gelenler (ikinci test, on öykü, sekiz farklı istek)**
+Listedeki öğeler kaybolunca yerlerine şunlar geldi. Çağdaş, noir, yas, bilimkurgu ve diyalog isteklerinde de görüldüler; şablon türe özgü değil.
+- **Kayıtla gerçek arasındaki fark.** Olayın nesnesi bir defter, etiket, makbuz, envanter ya da sayaçtır; kahraman farkı bilir ve kaydı ona göre bırakır (on öykünün dokuzu).
+- **Bir birimlik sapma.** Seksen dört / seksen beş, kırk / kırk bir, üç somun / iki (sekizi).
+- **Yerine koyma kapanışı.** Büyük şey olup bitmiş, kahraman küçük bir nesneyi yerine koyar ya da rutin sürer (dokuzu).
+- **Alçak sesli yetkili.** Tehdit etmez, "Sen bilirsin" der (sekizi).
+- **Aforizma repliği.** Karakter öykünün sonucunu tek cümlede söyler: "Kol değişir, kumaş değişmez." (altısı).
+- **Yarım kalan söz ya da gülüş, kapıda** (altısı). **Soğuyan, içilmeyen çay** (beşi).
+- **Ortak ad havuzu.** Birbirinden habersiz yazarlarda Lenz üç öyküde, Pankraz ve Ursel iki testte, Stöckl ve Stöckel iki öyküde.
+
 ### Sahne mi, özet mi
 Bölümdeki olayları say: kaçı sahne olarak (yerinde, zamanında, replik ve hareketle) yazıldı, kaçı iki üç satırlık özetle geçildi? "Ertesi sabah … Ertesi gün … Ertesi hafta …" zinciri bir özet listesidir. Kısa bölümde üç dört sahne yeter; on iki olayı özetle sıralamak YZ izidir. Özetlenen olaylardan sahneye değmeyenleri çıkar, kalanları sahne yap.
 
