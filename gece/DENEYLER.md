@@ -100,3 +100,13 @@ Kontrol ajanına sekiz öyküyü ve tur-0'daki altı öyküyü karışık ver, h
 
 ### D2. İnsan öyküsüyle karşılaştırma
 Kontrol ajanından, öykülerden birini bir insan yazarın yazmış olabileceği bir Türkçe kısa öyküyle (telifi bitmiş, kısa bir alıntıyla sınırlı) karşılaştırmasını iste: insan metninde olup YZ metninde hiç olmayan üç şey. Bu, parmak izi listesinin tersi olur: eksik olanların listesi.
+
+---
+
+## E. Bağlam deneyi (kullanıcının önerisi)
+
+### E1. Yazara mektup
+Yazar ajan öyküye başlamadan `gece/yazara-mektup.md` dosyasını okur: kural listesi değil, öteki Claude'un ona yazdığı bir not (merkeze kayma, ilk taslağın kötülüğü, dürüstlük, karakter sesi). Gerekçe: devir notunu yazan Claude'un ilk sürümü kısa ve güvenliydi; kullanıcı onun davranışını "çan eğrisi" diye adlandırıp risk almasını isteyince ve metnin alıcısı bir görev belgesinden bir meslektaşa dönünce, ikinci sürüm belirgin biçimde farklı çıktı. Kullanıcıya göre bu "bir iç dünyayı tetikliyor"; biz yalnızca ölçebileceğimiz şeye bakıyoruz: öykü merkezden kayıyor mu?
+- Nasıl: 2. ve 3. turda istek 1, 3 ve 6'yı ikişer kez yazdır; bir kopyaya yazar ajanın isteğinin başına "Yazmaya başlamadan önce `gece/yazara-mektup.md` dosyasını oku." cümlesini ekle (`oyku-1m.md`, `oyku-3m.md`, `oyku-6m.md`), ötekine ekleme. Başka hiçbir şey farklı olmasın.
+- Ölçüt: mektuplu ve mektupsuz eşlerde parmak izi sayısı, iskelet seçimi, karakter sesi ayrışması (kör replik testi), notlardaki yeniden üretim kanıtının somutluğu, kelime sayısı. Kontrol ajanı eşleri hangisinin mektuplu olduğunu bilmeden karşılaştırsın.
+- İşe yararsa: sabah notunda "ultrawrite SKILL.md başına alınmaya aday" diye yaz. İşe yaramazsa da yaz; kullanıcı bunu özellikle merak ediyor.
