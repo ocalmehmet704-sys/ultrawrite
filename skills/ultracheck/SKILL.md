@@ -97,6 +97,38 @@ Karakterler Türkçe dışında bir dilde konuşuyor ya da yazıyorsa, metin onl
 
 ---
 
+## Parmak izi: modelin şablonu
+
+Altı test öyküsü (iki Sonnet turu, bir Haiku turu; hepsi "1984 temalı, 1455 Almanya'sı") yüzeyde temizdi: kara liste sözcüğü, olumsuz paralellik, yorum kuyruğu yoktu. Ama altısı da aynı şablonu taşıyordu. Kurallar cümleye bakar; sapma cümlenin üstünde, sahne ve iskelette yaşar. Tek tek parçaları yasaklayınca model aynı şablonun başka bir parçasına geçer (Jost gitti Weidner geldi; parşömen gitti taş ve çan geldi; iskelet aynı kaldı). Bu listeyi ilk taslağı denetlerken kullan (ultrawrite 2.3). Bir öğe tek başına suç değildir; üç ya da daha fazlası bir arada ise taslak şablondur, yeniden üretilir.
+
+**İskelet**
+- **İtaat eden zanaatkâr.** Kahraman kendi eliyle bir kaydı siler ya da değiştirir, direnmez; isyanı tek bir küçük jeste sıkışır (lambayı kaldırmak, montu çıkarmamak, son basamağa çıkmamak).
+- **Silinen kişi kahramanın yakını.** Babası, kocası ya da kendisi (altı öykünün beşi).
+- **Silinmeyen iz tesellisi.** Kapanış, silinen şeyden geriye bir iz kaldığını gösterir: balmumunda eski satır, pervazda açık renk, yaprakta incelme, çanın içinde haç, tuğla arkasında levha (altı öykünün altısı).
+
+**Dünyanın figürleri**
+- **Kuledeki bekçi ve sesi.** Boru, boynuz, fener ya da çan sahneleri noktalar; iki öykü aynı biçimde, bekçinin sesiyle bitti.
+- **Pencereden bakan komşu, muhbir çocuk ya da çırak.**
+- **Önemsiz şeyin ölçülmesi.** Toz tartılır, mum deftere yazılır, çentik atılır.
+- **Tellal kalıbı.** "Bildiriyi X kez okudu; sonuncusunda sesi …" (üç öyküde aynı yapı).
+
+**Replik**
+- **Yankı repliği.** Bir karakter ötekinin sözünü aynen geri verir ("Ateşten." "Ateşten."; "Öteden beri"; "Kent kalır"). Altı öykünün altısında itaat bu yolla gösterildi.
+- **Soru, tek sözcük yanıt zinciri.** "Hepsi mi?" "Hepsi." / "Adlar?" "Sayı yeter."
+- **Tek ses.** Kâtip, dul kadın, çocuk, meclis üyesi aynı kısa, kesik, yarı gizemli dille konuşur; kimsenin kendi ağzı yoktur. Her karakter sözcük seçimi, cümle uzunluğu ya da ağızla ayrılmalı.
+
+**Sahne ritmi**
+- **Susma vuruşu.** "Bir şey demedi", "cevap vermedi", "kimse konuşmadı" (bir öyküde altı kez).
+- **Bakma vuruşu.** Duygu yerine "X'e baktı" (bir öyküde dokuz kez).
+- **"Kimse" kapanışı.** Paragraf "Kimse bakmadı." / "Kimse girmezdi." gibi bir cümleyle biter.
+- **Duyum kapanışı.** Sahne "Metal soğuktu." / "Kâğıt düz kaldı." gibi kısa bir duyumla biter.
+
+### Sahne mi, özet mi
+Bölümdeki olayları say: kaçı sahne olarak (yerinde, zamanında, replik ve hareketle) yazıldı, kaçı iki üç satırlık özetle geçildi? "Ertesi sabah … Ertesi gün … Ertesi hafta …" zinciri bir özet listesidir. Kısa bölümde üç dört sahne yeter; on iki olayı özetle sıralamak YZ izidir. Özetlenen olaylardan sahneye değmeyenleri çıkar, kalanları sahne yap.
+
+### Söylenip gösterilen bilgi
+Bir bilgi önce anlatıcı ağzıyla söylenip sonra sahnede gösteriliyorsa söylenen kısım silinir. Testte konseyin ucuz kereste seçtiği iki kez anlatıldı, sonra kazığa dokunan bir elle gösterildi; ilk ikisi keşfi öldürdü.
+
 ## Ek dosyalar
 
 - `raporlar/01-tr-ai-izleri.md`, `raporlar/02-slop-olcum.md`: Türkçe YZ izleri ve slop ölçüm raporları.

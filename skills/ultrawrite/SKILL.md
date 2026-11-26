@@ -86,11 +86,15 @@ Yazar üslubu iki biçimde verebilir.
 
 ### 0.4 Tohum (uyarlama ve tema isteklerinde)
 
-İstek bilinen bir esere, türe ya da temaya dayanıyorsa ("1984 temalı ama 1455'te", "noir bir dedektif öyküsü") yazara bir soru daha sor: **"Bu öyküye özgü bir ayrıntı ver: bir meslek, bir nesne ya da bir ad."**
+İstek bilinen bir esere, türe ya da temaya dayanıyorsa ("1984 temalı ama 1455'te", "noir bir dedektif öyküsü") yazara iki soru daha sor:
+1. **"Bu öyküye özgü bir ayrıntı ver: bir meslek, bir nesne ya da bir ad."**
+2. **"Kahraman ne yapıyor ve öykü nasıl bitiyor?"** (Tek cümle yeter: "itaat etmez, kaçar", "sonunda kendisi muhbir olur".)
+
+İkinci soru gerekli, çünkü tohum adı ve nesneyi değiştirir, iskeleti değiştirmez. Testte tohumla yazılan öyküler yeni nesneler seçti ama yine itaat eden zanaatkâr, silinen yakın ve "silinmeyen iz" kapanışında birleşti (ultracheck, parmak izi).
 
 Neden: Model en olası kurguya akar. Kural 14 o kurguyu yasaklayınca bir sonraki en olası kurguya geçer. Testte dört bağımsız ajanın üçü parşömen kazıyan bir yazıcı yazdı, iki yeni öyküde aynı ad (Weidner) çıktı. Tohumu modelin dağılımı değil yazar verince benzeşme kırılır.
 
-Yazar "sen seç" derse, kural 14'teki ilk üç seçimi at, ardından akla gelen dördüncü ve beşinci seçimi de at ve metnin başında hangi tohumu seçtiğini not et.
+Yazar "sen seç" derse, kural 14'teki ilk üç seçimi at, ardından akla gelen dördüncü ve beşinci seçimi de at ve metnin başında hangi tohumu seçtiğini not et. İskeleti de aynı yolla seç: ultracheck'teki parmak izi iskeletini (itaat eden zanaatkâr, silinen yakın, silinmeyen iz) kullanma; kahramanın yaptığı ve sonun ne olduğu bu üçünden biri olmasın.
 
 ---
 
@@ -227,6 +231,8 @@ Aşağıdaki otuz altı kural her metinde geçerlidir. Her biri tek cümledir, b
 ### 25. Aynı replik kalıbını bölümde en çok iki kez kullan.
 - Kural: Soru → tek sözcüklü ya da gizemli yanıt kalıbı ("Sen.", "Bilmiyorum.", "Cevap verme.", "Henüz kimse.") bir bölümde en çok iki kez geçer. Üçüncüde sahneyi yeniden kur: karakter bilgi versin ya da susup bir şey yapsın.
 - Yanlış: "Notu kim yazdı?" "Sen." / "Zarfı?" "Hayır." / "Beni kim öldürüyor?" "Henüz kimse." → Doğru: "İlyas defterin açık sayfasını Narin'e çevirdi; son satırda onun adı vardı."
+- Yankı repliği de aynı kalıptır: bir karakterin ötekinin sözünü aynen geri vermesi ("Ateşten." "Ateşten.") bölümde en çok bir kez.
+- Her karakter kendi ağzıyla konuşsun: sözcük seçimi, cümle uzunluğu, ağız. Herkes aynı kısa ve kesik dille konuşuyorsa bu tek sestir (ultracheck, parmak izi).
 - Ref: **ultracheck**
 
 ### 26. Her sahnenin sonunda "ne değişti?" sorusuna tek cümlelik yanıt bul.
@@ -317,7 +323,7 @@ En baştaki "DUR" bölümünü yaptıysan geç. Yapmadıysan şimdi yap.
 İlk versiyon her zaman kötüdür. İlk sürümünden kusursuz çıkan bir yazı yoktur; iyi metin yeniden yazılarak olur. Bu yüzden teslim edilen metin hiçbir zaman ilk taslak değildir.
 
 1. **Önce yaz.** Bölümün ilk taslağını durmadan, düzeltmeye kalkmadan yaz. Taslak yazara gösterilmez.
-2. **Sonra fark et: "Bir yapay zekâ burada ne yazardı?"** Her sahne için bu soruyu sor ve yanıtını taslak notuna açıkça yaz: bir modelin bu sahnede akla ilk getireceği açılış, olay, ad, replik, benzetme ve kapanış. Sonra taslağı bu listeyle yan yana koy. Taslağın o yanıta benzediği her yer işaretlenir: aynı açılış, aynı olay sırası, aynı kapanış görüntüsü, aynı tür cümle. Kendi taslağını yabancı bir metin gibi oku; "bunu ben yazdım, iyidir" deme.
+2. **Sonra fark et: "Bir yapay zekâ burada ne yazardı?"** Her sahne için bu soruyu sor ve yanıtını taslak notuna açıkça yaz: bir modelin bu sahnede akla ilk getireceği açılış, olay, ad, replik, benzetme ve kapanış. Sonra taslağı bu listeyle yan yana koy. Taslağın o yanıta benzediği her yer işaretlenir: aynı açılış, aynı olay sırası, aynı kapanış görüntüsü, aynı tür cümle. Ardından taslağı ultracheck'teki **parmak izi** listesiyle karşılaştır (iskelet, figürler, replik, sahne ritmi) ve **sahne mi, özet mi** sayımını yap; üç ya da daha fazla parmak izi taşıyan taslak baştan üretilir. Kendi taslağını yabancı bir metin gibi oku; "bunu ben yazdım, iyidir" deme.
 3. **Yeniden üret, yamalama.** İşaretli sahneyi sözcük değiştirerek düzeltme; o sahneyi baştan yaz. YZ'nin yazacağı şeyin dışına çık: başka bir giriş noktası, başka bir ayrıntı, başka bir son. Sahnenin yarısından çoğu işaretliyse bölümü baştan üret.
 4. **Uzunluğu say.** Yeniden üretilmiş metnin kelimelerini gerçekten say (araç varsa `wc -w`). Bölüm boyutu hedefinin altındaysa eksik kalan sahneyi kur; dolgu ekleme.
 5. **Ancak bundan sonra** 2.4'teki denetime geç.
