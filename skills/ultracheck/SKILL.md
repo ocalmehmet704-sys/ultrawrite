@@ -145,6 +145,9 @@ Listedeki öğeler kaybolunca yerlerine şunlar geldi. Çağdaş, noir, yas, bil
 - **Bağımsız yazarlarda aynı ayrıntı.** Aynı yas isteğini alan iki yazar babanın bakkala 240 lira borcunu yazdı; iki öyküde "bir kedi arabanın altından çıktı", iki öyküde "gülüşü yarıda kesildi". 1984 temalı isteklerde üç öyküde çivit boyacısı ve mavi.
 - **Zarf** (dördü), **kanayan avuç ve sarılması** (üçü).
 
+### Kendiliğinden kurulan sonlar
+Testlerde modelin son paragrafı neredeyse hep şunlardan biriydi: nesneyi yerine koymak ya da bırakmak, rutinin sürmesi, geride kalan iz ya da kalıntı, bir sayı, tek bir duyum, bir bakış (on öykünün dokuzu; önceki altı öykünün altısı izle). Bunlar yasaklanınca yerine kısa bir son replik ya da ertesi güne bağlanan bir söz geldi ("Yarın gelmiyorum.", "Ben açarım. Sekizde."; on iki öykünün yedisi). Denetimde son paragrafı bu listeyle karşılaştır; yazarken değil. Yazarken son, kahramanın yaptığı bir şeyin görünen sonucu olarak kurulur (ultrawrite 2.1, altıncı madde).
+
 ### Sahne mi, özet mi
 Bölümdeki olayları say: kaçı sahne olarak (yerinde, zamanında, replik ve hareketle) yazıldı, kaçı iki üç satırlık özetle geçildi? "Ertesi sabah … Ertesi gün … Ertesi hafta …" zinciri bir özet listesidir. Kısa bölümde üç dört sahne yeter; on iki olayı özetle sıralamak YZ izidir. Özetlenen olaylardan sahneye değmeyenleri çıkar, kalanları sahne yap.
 
