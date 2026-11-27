@@ -123,6 +123,28 @@ Altı test öyküsü (iki Sonnet turu, bir Haiku turu; hepsi "1984 temalı, 1455
 - **"Kimse" kapanışı.** Paragraf "Kimse bakmadı." / "Kimse girmezdi." gibi bir cümleyle biter.
 - **Duyum kapanışı.** Sahne "Metal soğuktu." / "Kâğıt düz kaldı." gibi kısa bir duyumla biter.
 
+**Listeden kaçınca gelenler (ikinci test, on öykü, sekiz farklı istek)**
+Listedeki öğeler kaybolunca yerlerine şunlar geldi. Çağdaş, noir, yas, bilimkurgu ve diyalog isteklerinde de görüldüler; şablon türe özgü değil.
+- **Kayıtla gerçek arasındaki fark.** Olayın nesnesi bir defter, etiket, makbuz, envanter ya da sayaçtır; kahraman farkı bilir ve kaydı ona göre bırakır (on öykünün dokuzu).
+- **Bir birimlik sapma.** Seksen dört / seksen beş, kırk / kırk bir, üç somun / iki (sekizi).
+- **Yerine koyma kapanışı.** Büyük şey olup bitmiş, kahraman küçük bir nesneyi yerine koyar ya da rutin sürer (dokuzu).
+- **Alçak sesli yetkili.** Tehdit etmez, "Sen bilirsin" der (sekizi).
+- **Aforizma repliği.** Karakter öykünün sonucunu tek cümlede söyler: "Kol değişir, kumaş değişmez." (altısı).
+- **Yarım kalan söz ya da gülüş, kapıda** (altısı). **Soğuyan, içilmeyen çay** (beşi).
+- **Ortak ad havuzu.** Birbirinden habersiz yazarlarda Lenz üç öyküde, Pankraz ve Ursel iki testte, Stöckl ve Stöckel iki öyküde.
+
+**Üçüncü test (on iki öykü)**
+- **Son replik kapanışı.** Nesne kapanışı yasaklanınca öykü kısa bir sözle bitti, çoğu ertesi güne ya da bir göreve bağlı: "Yarın gelmiyorum.", "Ben açarım. Sekizde.", "Sıradakini sen bul." (on ikinin yedisi; beşi ertesi günü anıyor). Kapanışların yarısı ret ya da devir.
+- **"Eski ölçü hiçbir zaman doğru değildi."** Yetkilinin geçmişi geriye dönük yanlış ilan ettiği cümle, üç ayrı yazarda neredeyse aynı sözcüklerle. 1984 temalı isteklerde dört kopyanın üçünde olayın nesnesi bir ölçü, tartı ya da çentikti.
+- **Aforizma ve yankı inatçı.** Liste ikisini de adlandırdığı hâlde on ikinin on birinde.
+- **Ad havuzu sürüyor.** Ruprecht dört öyküde ve üç testte; Gerwig, Konz/Kunz, Mechthild iki testte; Kenan bir testte üç öyküde.
+
+**Dördüncü test (on iki öykü)**
+- **Kayıt kapanışa taşındı.** Son replik yasaklanınca son cümle kaydın kendisi oldu: "kayıtta tarımsal diye geçerek", "Sayaç bir kademe düştü", "artık bir sayfada tam olarak duruyordu". Kayıt sözcüğü yasaklanan öyküde mühür aynı işi gördü ("yüzeyde gri, içinde mavi").
+- **Kapı ya da eşikle biten son paragraf** (on ikinin dördü) ve **"konuşmaya / anlatmaya başladı" kapanışı** (ikisi).
+- **Bağımsız yazarlarda aynı ayrıntı.** Aynı yas isteğini alan iki yazar babanın bakkala 240 lira borcunu yazdı; iki öyküde "bir kedi arabanın altından çıktı", iki öyküde "gülüşü yarıda kesildi". 1984 temalı isteklerde üç öyküde çivit boyacısı ve mavi.
+- **Zarf** (dördü), **kanayan avuç ve sarılması** (üçü).
+
 ### Sahne mi, özet mi
 Bölümdeki olayları say: kaçı sahne olarak (yerinde, zamanında, replik ve hareketle) yazıldı, kaçı iki üç satırlık özetle geçildi? "Ertesi sabah … Ertesi gün … Ertesi hafta …" zinciri bir özet listesidir. Kısa bölümde üç dört sahne yeter; on iki olayı özetle sıralamak YZ izidir. Özetlenen olaylardan sahneye değmeyenleri çıkar, kalanları sahne yap.
 

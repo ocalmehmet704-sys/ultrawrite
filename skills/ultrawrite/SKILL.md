@@ -54,7 +54,17 @@ Yazmaya başlamadan üç şeyi sor; istek bilinen bir esere, türe ya da temaya 
 
 Yazar aralıkları değiştirebilir. Bölüm boyutu denetim ölçeğini de belirler.
 
-Hedef aralığın ortasıdır, tabanı değil. Kısa için yaklaşık 1.700 kelime. Testte dört ajanın dördü de alt sınırda (1.000 civarı) durdu. Tabana yakın bitiyorsa bir sahneyi eksik bırakmışsındır; sahneyi kur, dolgu ekleme.
+Hedef aralığın ortasıdır, tabanı değil. Kısa için yaklaşık 1.700, Çok kısa için yaklaşık 650 kelime. Testte on dört öykünün on üçü Kısa'da 1.300'ün, Çok kısa'da 350'nin altında kaldı. "Ortayı hedefle" demek yetmedi; uzunluğu ancak sahne bütçesi tuttu.
+
+**Sahne bütçesi (yazmadan önce).** Sahne listesini çıkar: her sahne için yer, zaman, sahnede kim var, sahnenin sonunda ne değişmiş. Sahne, yerinde ve zamanında, replik ve hareketle yazılan bölümdür; iki üç satırlık geçiş sahne sayılmaz.
+
+| Boyut | Sahne | Sahne başına en az |
+|---|---|---|
+| Çok kısa | 2 | 300 kelime |
+| Kısa | 4 | 350 kelime |
+| Orta | 5-7 | 500 kelime |
+
+Sahneler arası geçiş en çok iki cümledir. Her sahneyi bitirince kelimelerini say. Sahneyi "baktı", "bir şey demedi", "sustu" vuruşlarıyla doldurma; sayıyı replik, eylem ve yeni bilgi doldurur. Testte bütçeyle yazan tek öykü 1.286 kelimeye çıktı ama bakma ve susma vuruşu on üçer kez geçti.
 
 ### 0.2 Kitle seviyesi
 
@@ -220,7 +230,8 @@ Aşağıdaki otuz altı kural her metinde geçerlidir. Her biri tek cümledir, b
 - Ref: **ultracheck** (w03, w06, w07, w16, w18)
 
 ### 21. Bölümü özet ya da gelecek değerlendirmesiyle kapatma.
-- Yanlış: "Kısacası o gece her şey değişti; zorluklara rağmen umut vardı." → Doğru: "Ayşe kapıyı kilitleyip anahtarı paspasın altına itti."
+- Yanlış: "Kısacası o gece her şey değişti; zorluklara rağmen umut vardı." → Doğru: "Ayşe ertesi sabah ustasının vardiyasına girdi."
+- Nesneyi yerine koymak ya da rutinin sürmesi de özet kapanıştır, yalnızca sessizidir: "kutuyu rafa bıraktı", "başka bir şeye dokunmadı", "ilk müşteriye yerini gösterdi". Testte on öykünün dokuzu böyle bitti; bu kuralın eski "doğru" örneği de buydu ("anahtarı paspasın altına itti"). Kapanışı 2.1'deki altıncı soruyla seç.
 - Ref: **ultracheck** (w05, w19)
 
 ### 22. Sohbet dili ve biçim metne sızmasın: metin hikâyeyle başlar, hikâyeyle biter.
@@ -324,12 +335,14 @@ Modelin merkezi, onun seçmeyeceği malzemeyle kayar. Eğrinin dışını modeli
 4. **Köprülerden en az ikisini kullan,** öykünün temel bir seçiminde (kahraman ne yapıyor, ana olay, son ya da anlatım biçimi). Süs olarak değil, öykü onlar olmadan kurulamayacak biçimde.
 5. **Yargıyı yazara bırak.** Teslimde, metnin dışında, hangi okumadan hangi köprüyü aldığını ve en çok hangisinden kuşkulandığını yaz. İyi mi kötü mü olduğunu sen söyleme; yazar söyler, yanıtı defterine girer.
 
-### 2.1 Yazmadan önce: beş soru
+### 2.1 Yazmadan önce: yedi soru
 1. **Arkasındaki bütün.** Sahnede söylenmeyecek en az beş olguyu say. Bilmediğin boşluk okura da bilinmez gelir. Bütünü kur ya da yazara sor.
 2. **Ses ve mesafe.** Anlatıcı kim, karaktere ne kadar yakın? Mesafe değişecekse nedeni sahnede görünsün.
 3. **En olası sahne.** İlk aklına gelen açılış, ad, mekân ve meslek. Bunları at, bir başkasını seç.
 4. **Türkçe iskelet.** Yüklemi seç ve sona koy. Kalan bilgiyi fiilimsiyle önüne diz. Vurgulu ögeyi yüklemin önüne al.
 5. **Sahne işlevi.** Bu sahnede ne değişecek? Tek cümleyle yaz (kural 26). Yazamıyorsan sahneyi kurma.
+6. **Sondan başla.** Bölümün son paragrafını öyküden önce yaz, sonra öyküyü o sona götür. Son paragraf şunlardan biri olamaz: nesneyi yerine koymak ya da bırakmak, rutinin sürmesi, geride kalan iz ya da kalıntı, bir sayı, tek bir duyum, bir bakış. Testte on öykünün dokuzu bunlardan biriyle bitti, önceki altı öykünün altısı izle. Son paragraf, kahramanın yaptığı bir şeyin görünen sonucudur: biri bir şey yapmıştır ve dünya artık eskisi gibi değildir; okur bunu bir replikten değil, olandan görür. Son paragraf kısa bir replik de olamaz, ertesi güne ya da bir göreve bağlanan bir söz de ("Yarın gelmiyorum.", "Ben açarım. Sekizde.", "Sıradakini sen bul."). İkinci testte eski kapanışlar kaybolunca on iki öykünün yedisi böyle bir son replikle bitti, beşi ertesi günü andı; yasaklanan kalıbın yerine bir yanındaki geldi. Öykü yazılırken son değişmek zorundaysa yeni sonu da aynı sınamadan geçir.
+7. **Konuşma kartı.** Konuşan her karakter için yazmadan önce üç satır yaz: hangi sözcükleri kullanır (meslek, yöre, yaş, okumuşluk), cümleleri ne uzunlukta, hangi sözü ya da hatayı tekrarlar. Biri lafı dolandırır, biri yarım bırakır, biri yanlış sözcük kullanır, biri hiç susmaz; kimse tam ve yuvarlak cümleyle konuşmaz. Öykünün sonucunu tek cümlede söyleyen bir replik ("Kol değişir, kumaş değişmez.") bölümde en çok bir kez geçer ve onu söyleyecek karakter kartta belli olur. Testte on iki öykünün on birinde bu tür aforizma repliği, on birinde yankı repliği vardı ve karakterler aynı kısa, kesik dille konuşuyordu. Yazdıktan sonra adları gizleyip replikleri oku: konuşanı tahmin edemiyorsan kart tutmamıştır, o karakterin repliklerini baştan yaz.
 
 ### 2.2 Yazarken
 - **Türkçe düşün, çevirme.** Ters çeviri testi: cümleyi kelime kelime İngilizceye çevir. Sorunsuz çıkıyor ve Türkçesi her şeyi tek tek sıralıyorsa çeviri Türkçesidir.
@@ -342,7 +355,7 @@ Modelin merkezi, onun seçmeyeceği malzemeyle kayar. Eğrinin dışını modeli
 ### 2.3 İlk taslak kötüdür: yaz, fark et, yeniden üret
 İlk versiyon her zaman kötüdür. İlk sürümünden kusursuz çıkan bir yazı yoktur; iyi metin yeniden yazılarak olur. Bu yüzden teslim edilen metin hiçbir zaman ilk taslak değildir.
 
-1. **Önce yaz.** Bölümün ilk taslağını durmadan, düzeltmeye kalkmadan yaz. Taslak yazara gösterilmez.
+1. **Önce yaz.** Bölümün ilk taslağını durmadan, düzeltmeye kalkmadan yaz. Taslak yazara gösterilmez. Taslak bölümün kendisidir, özeti ya da eskizi değil: sahne bütçesinin en az yarısı kadar uzun olur. Dosya yazabiliyorsan taslağı ayrı bir geçici dosyaya yaz (adına bölümün adını kat, başka bir yazımın taslağını ezme) ve teslim edilen metni o dosyanın üstüne değil, yeni bir dosyaya kur. İkinci testte taslaklar 91-214 kelimelik eskizlerdi; yazarlar karikatürden uzaklaştı, kendi gerçek metinlerinden değil. Testte sekiz yazarın altısı taslağı hiç yazmadı, "işaretlemeyi" kafasında yaptı ve kendi notunda yeniden üretimin yapılmadığını söyledi; yazılmamış taslak yeniden üretilemez.
 2. **Sonra fark et: "Bir yapay zekâ burada ne yazardı?"** Her sahne için bu soruyu sor ve yanıtını taslak notuna açıkça yaz: bir modelin bu sahnede akla ilk getireceği açılış, olay, ad, replik, benzetme ve kapanış. Sonra taslağı bu listeyle yan yana koy. Taslağın o yanıta benzediği her yer işaretlenir: aynı açılış, aynı olay sırası, aynı kapanış görüntüsü, aynı tür cümle. Ardından taslağı ultracheck'teki **parmak izi** listesiyle karşılaştır (iskelet, figürler, replik, sahne ritmi) ve **sahne mi, özet mi** sayımını yap; üç ya da daha fazla parmak izi taşıyan taslak baştan üretilir. Kendi taslağını yabancı bir metin gibi oku; "bunu ben yazdım, iyidir" deme.
 3. **Yeniden üret, yamalama.** İşaretli sahneyi sözcük değiştirerek düzeltme; o sahneyi baştan yaz. YZ'nin yazacağı şeyin dışına çık: başka bir giriş noktası, başka bir ayrıntı, başka bir son. Sahnenin yarısından çoğu işaretliyse bölümü baştan üret.
 4. **Uzunluğu say.** Yeniden üretilmiş metnin kelimelerini gerçekten say (araç varsa `wc -w`). Bölüm boyutu hedefinin altındaysa eksik kalan sahneyi kur; dolgu ekleme.
