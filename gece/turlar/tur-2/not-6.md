@@ -47,7 +47,7 @@ Taslak sahnelere bölünmemişti; bölüm baştan iki sahne olarak kuruldu (çok
 - Dil içi tutarlılık: karakterlerin dili Türkçe, harf oyunu yok.
 
 ## Denetim
-- Kural 28 (bölüm geneli tarama): "Dedi" bir kez (Reşit'in "Dokuz beş oldu," dedi ifadesi; konuşan belli değil, ses ayrımı kısa ve zorunlu). "Bakakaldı" ve "bir an" ifadeleri çıkarıldı. "Hayır" ve "Biliyorum" yankı kalıbı en çok iki kez geçiyor (biliyorum iki kez, hayır bir kez).
+- Kural 28 (bölüm geneli tarama, grep ile sayıldı): "dedi" üç kez geçiyor ("Sonra gelin," dedi / "Biraz daha," dedi Reşit / "Dokuz beş oldu," dedi Reşit). Kural 32'ye göre konuşan belliyse fiil düşmeliydi; bu üç yerde konuşanı belirlemek için kullanıldı. Üç fiil de ses ayrımı için tutuldu; yazar isterse ilk ve ikinciyi düşürebilir. "Bakakaldı" ve "bir an" ifadeleri çıkarıldı. "Biliyorum" iki kez geçiyor (ağabey ve Reşit), "Hayır" bir kez.
 - Kural 22: metin hikâyeyle başlıyor ve hikâyeyle bitiyor; kalın yazı, madde ya da başlık yok.
 - Kural 21: kapanış özet değil, karar cümlesi.
 - Sınır: Reşit'in eşinin replikleri tek cümle ("Yetişmeyeceğiz.") ve yalnızca bir kez geçiyor.

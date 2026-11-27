@@ -32,7 +32,9 @@ Rauch soruyu duymamış gibi kâğıdı masanın kenarına koydu. "Öğlene kada
 
 "Kunz kararda el kaldırdı." Rauch kapıya döndü, sonra durdu. "Beni ilgilendirmez, Sixt. Ben yalnızca yazarım."
 
-Rauch çıkınca Sixt bakır kaplara döndü. En büyüğü bir kazan ölçüsüydü, içine su doldurdu, kenarına kadar geldi, taşmadı. Yarın bu suyun başka bir sayıya gireceğini biliyordu, ama su bugün de aynı sudu. Sonra eğeyi aldı.
+Rauch çıkınca Sixt ölçü defterini açtı. İlk sayfada kendi yazısı vardı, yirmi yıl önce, Rat'ın mührünün altında. Kâğıt sararmıştı, kenarları yumuşamıştı. O sayfadan sonra yazılan her satır, o sayfadaki bir sayıya dayanıyordu. Sixt defteri kapattı.
+
+Sonra bakır kaplara döndü. En büyüğü bir kazan ölçüsüydü, içine su doldurdu, kenarına kadar geldi, taşmadı. Yarın bu suyun başka bir sayıya gireceğini biliyordu, ama su bugün de aynı sudu. Sonra eğeyi aldı.
 
 Eğeyi aldığında elinin altındaki tozun sıcak olduğunu fark etti. Kenardan ilk çekişte demir ince, parlak bir şerit bıraktı. Sixt ölçtü, sonra bir kez daha ölçtü. Arşın bir parmak kısalmıştı, sayıları değiştirmemişti. Ölçü artık başka bir şeydi, ama elindeki şey hâlâ aynı demirdi, eğenin dişi ağır ağır ona yaslanıyordu.
 
@@ -50,6 +52,14 @@ Ennelin önlüğünün cebinden katlanmış bir kâğıt çıkardı, açtı, Six
 
 "Rat öyle istedi."
 
+"Predigerkloster'den kimse geldi mi?"
+
+"Bir frater geldi. Kopyasını istedi, sonra kapıda bekledi. Ona da bir şey söyleyemedim, çünkü söyleyecek bir şey yoktu."
+
+"Mektubu bana bırak. Rauch'a göstereceğim."
+
+"Rauch'a ne göstereceksin? Eğelediğin demiri mi?"
+
 "Rat bana sormadı. Clas ölmeden önce de kimse sormadı. Bu dükkân böyle kuruldu, kırk arşınla." Kadın elinin tersiyle alnını sildi, alnına lacivert bir leke bulaştı. "Kırk arşın bir kazan demek. Bir kazan da bir ay demek."
 
 Sixt parmağını cebine soktu. Köprünün altından bir kayık geçti, üstünde iki çuval vardı, Neckar yavaş akıyordu.
@@ -66,7 +76,9 @@ Sixt parmağını cebine soktu. Köprünün altından bir kayık geçti, üstün
 
 "Getiririm."
 
-Ennelin kapıyı arkasından yarı çekti, sürgüye dokunmadı. Sixt köprüye çıktığında kadının tezgâha dönüp çuvalın ağzını açtığını gördü.
+"Getirmesen de olur. Ben senin yüzünü hatırlarım. Sen ölçüyü eğeleyen adamsın."
+
+Ennelin kapıyı arkasından yarı çekti, sürgüye dokunmadı. Sixt köprüye çıktığında kadının tezgâha dönüp çuvalın ağzını açtığını gördü. Yün, ağzından dışarı taşmıştı; kadın onu geri itmedi, çuvalın yanına bıraktı. Köprünün ortasında Sixt bir süre durdu. Aşağıda su koyu yeşildi, yukarıda Rat'ın pencerelerinde mumlar yanıyordu. Kendi yaptığı iş, yirmi yıl önce ölçülmüş bir sayıya dayanıyordu, şimdi o sayı başkasının elinde kalacaktı.
 
 Akşam Sixt eve geldiğinde Gret ocağın başındaydı. Çorba kaynıyordu, kapı aralıktı, buğu dışarı taşıyordu. Küçük oğulları Hennel yatağında kıvrılmış uyuyordu, ayakkabısı hâlâ ayağındaydı.
 
@@ -88,7 +100,7 @@ Gret kaşığı tencerenin kenarına iki kez vurdu. "Ennelin geldi, duydum. Kap�
 
 "Karıştırmadığını söylemekle karıştırmamak farklı şeyler."
 
-Sixt tabağını çekti, kaşığı eline aldı, çorbayı karıştırdı. Kaşığın altından yağ dalgalandı ve durdu.
+Sixt tabağını çekti, kaşığı eline aldı, çorbayı karıştırdı. Kaşığın altından yağ dalgalandı ve durdu. Sixt çorbayı yarıda bıraktı, kaşığı tabağın kenarına koydu.
 
 Küçük oğlan uyanmıştı. Yatakta doğruldu, gözleri yarı kapalı, sordu: "Baba, arşın ne?"
 
@@ -119,6 +131,14 @@ Gret ekmeği bırakıp ona baktı. Bir şey demedi, çocuğun battaniyesini düz
 "Biliyorum."
 
 "Sabah yine ocak yanacak. Ben ocağa bakarım, sen de işine."
+
+Gret ekmeğin bir dilimini bezle sarıp ona uzattı. "Yol uzun olur gece, aç gitme."
+
+"Ölçü evi yakın."
+
+"Yakın yollar en uzun olur. Al."
+
+Sixt ekmeği aldı, ceketinin cebine koydu. Çividen arşını indirdi, bezine sardı, koluna taktı. Gret buna bir şey demedi. Yalnızca kapıya kadar gelip rüzgârın içeri girmemesi için kanadı tuttu.
 
 Ölçü evinin penceresinde gece lambası yanıyordu. Rauch masada oturuyordu, önünde Pazar defteri açıktı. Lamba yağı kokuyordu, ayaz kapının altından giriyordu. Sixt kapıyı açtığında Rauch kalkmadı, yalnızca gözlerini kaldırdı. Defterde Ennelin'in satırı yeni yazılmış rakamla açıktı, mürekkebi henüz parlıyordu; eski rakamın üstüne çekilmiş ince bir çizgi vardı.
 

@@ -30,6 +30,15 @@ Neriman arabanın kapısını açıp indi, çantasından anahtarını çıkardı
 — Ben bakıyordum.
 — Ankara'dan mı?
 — Ankara'dan.
+
+Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmuştu, emlakçının adı hâlâ okunuyordu.
+
+— Emlakçıyı kim çağırdı?
+— Ben. Geçen ay.
+— Ben bakalım dedim. Sattır demedim.
+— Bakalım dediğin şeye adam geldi, eve baktı. Ben de çay koydum.
+— Çay koydun.
+— Ne yapayım, adam susuzdu.
 — Yani kendi evime girmek için senden anahtar isteyeceğim.
 — İstemene gerek yok. Gel, açarım. Bahçede dikilip durma, karşıdaki komşu bakıyor.
 
@@ -61,6 +70,12 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 — Kiracı çıkmaz. Merdiven sallanıyor, banyonun kapısı kapanmıyor.
 — Sen de bir gün o merdivene bakıp bir daha düşünürsün.
 — Ben merdiveni düşünmüyorum, Hayri. Ben taksidi düşünüyorum.
+— Ayda ne kadar ödüyorsun?
+— Sor, söyleyeyim.
+— Söyle.
+— Yediden akşam dörde kadar su hatlarındayım. Eve gelip yatıyorum. Kendime ev alamadım, bilirsin. Taksidi son üç yıldır ben ödüyorum. İlk iki yılı sen yolladın.
+— Ne zaman yolladığımı biliyorsun, demek ki.
+— Biliyorum. Her ay aynı tarihte geldi.
 — Geçen hafta bankaya gittim. Senin payını alabilir miyim diye.
 — Ne dediler?
 — Bordroyu uzattım. Adam bakmadan hesap yaptı. Olmadı. Kredi çıkıyor ama senin payın bana kalmıyor.
@@ -120,6 +135,11 @@ Neriman duvarda kahverengi bir leke gördü. Kenarı kabarmıştı. Parmağını
 
 Neriman parmağına bulaşan tozu pantolonuna sildi.
 
+— Bodrumun kapısına da kilit mi taktın?
+— İkinci bir kilit. Sabri Amca bahçeden bakabiliyor, pencere açık.
+— Bodruma inmesin diye.
+— İnmesin diye.
+
 — Çatıyı bu yaz değiştirmek lazım. Parası ne kadar?
 — Bilmiyorum. Teklif istedim, iki kişi geldi. Biri çatıya çıkmadı.
 — Ben bu parayı da yollamam, Hayri. Bunu şimdiden söyleyeyim.
@@ -150,6 +170,10 @@ Hayri güldü.
 — Altı yıl bu kapıdan tek başıma girip çıktım.
 — Ben de bu kapıdan çıktım. Otuz yıl önce.
 — Sen çıktın. Ben çıkmadım.
+— Sen nereye gidersin?
+— Bulurum bir yer. Kiralık çok.
+— Bu kadar kolay mı?
+— Kolay değil. Ama bu ev de kolay değildi.
 — Bunu kâğıda yazamam.
 — Yazma. Sen rakamı yaz.
 

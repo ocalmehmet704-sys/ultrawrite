@@ -1,10 +1,10 @@
 Kartuş
 
-Tankın kapağını açınca içeriden soğuk metal kokusu geldi. Nuray eldivenini sıkıştırıp numune şişesini suya daldırdı, dolmasını bekledi. Galeri dardı; iki yanında üçüncü evrenin paslanmaz boruları yukarı doğru kıvrılıyordu. Pompa her yirmi saniyede bir ritmini değiştiriyordu. Bu sesi her gece duyardı.
+Tankın kapağını açınca içeriden soğuk metal kokusu geldi. Nuray eldivenini sıkıştırıp numune şişesini suya daldırdı, dolmasını bekledi. Galeri dardı; iki yanında üçüncü evrenin paslanmaz boruları yukarı doğru kıvrılıyordu. Ters ozmoz membranı başta duruyordu. Son değişimi üç ay önce yapılmıştı, basınç hâlâ düzgündü. Pompa her yirmi saniyede bir ritmini değiştiriyordu. Bu sesi her gece duyardı, bu gece de duydu.
 
 Ekrandaki iletkenlik çizgisi duruyordu: dört gün önce 412 mikrosiemens okunmuştu, şimdi 466. Sıçrama yoktu. Çizgi her saat biraz daha yukarı kalkıyordu, bir ölçüm hatasının göstermeyeceği kadar düzgün. Nuray parmağıyla eğriyi takip etti. Son üç saatin eğimi, öncekilerle aynıydı.
 
-Kolonide içilen su bu tanktan geçiyordu. Terden, nefesten, idrardan süzülen su mineraliyle yeniden tamamlanıp ağza dönüyordu. Herkes günde on iki litresini buradan alıyordu. Nuray her sabah teslimat formunun altına bu rakamı yazıp imzalardı.
+Kolonide içilen su bu tanktan geçiyordu. Terden, nefesten, idrardan süzülen su mineraliyle yeniden tamamlanıp ağza dönüyordu. Herkes günde on iki litresini buradan alıyordu. Nuray her sabah teslimat formunun altına bu rakamı yazıp imzalardı. Kubbenin öbür ucunda havalandırma motorları uğulduyor, bir koridorda kapı kapanıyordu.
 
 Galerinin ucundaki tezgâha yürürken vardiya notlarına baktı. Dünkü satırda tek cümle vardı: "Sera gece modu, normal." Altındaki kısa imza Kenan'ındı.
 
@@ -24,11 +24,15 @@ Kenan Aydemir kapıdan girdiğinde elinde kahve kapsülü vardı. Ekrana bakıp 
 
 — Sınır on yıl önce konuldu. O zaman sera bu suyu hiç görmüyordu.
 
-— Cihaz kalibre, sensör kalibre. İki ölçüm de geçerli.
+— Sınırı komite koydu, sera kurulmadan önce. Cihaz kalibre, sensör kalibre. İki ölçüm de geçerli.
 
 — İki ölçüm de aynı şeyi söylüyor.
 
 Kenan kapsülün kapağını çevirdi, açmadı. Yüzü solgundu. Grafikteki tepeye uzun uzun baktı, sonra duvardaki sınır kartına döndü ve kâğıdı parmağıyla düzeltti.
+
+— Şükran'a söyledin mi?
+
+— Hayır.
 
 — Raporu yazarsan sera kapanır.
 
@@ -44,7 +48,7 @@ Kenan kapsülü cebine koyup kapıya yürüdü. Eşikte durup omzunun üstünden
 
 Nuray formun kenarındaki iki rakamın altını çizdi. Sonra numune şişesini soğutucu rafa koyup kapağını sıkı kapattı.
 
-Sera 2'nin havası ağırdı; nemli toprağın kokusu koridora kadar taşmıştı. Büyüme lambaları sıraların üstünde mavimsi bir ışık yayıyor, bir yandan da sürekli bir vızıltı çıkarıyordu. Şükran Bozkurt fasulye sıralarının ortasında diz çökmüş, bir yaprağı parmaklarının arasında çeviriyordu. Nuray yanına gelip eğildi. Yaprağın kenarları ince bir kahverengiyle kıvrılmış duruyordu.
+Sera 2'nin havası ağırdı; nemli toprağın kokusu koridora kadar taşmıştı. Büyüme lambaları sıraların üstünde mavimsi bir ışık yayıyor, bir yandan da sürekli bir vızıltı çıkarıyordu. Üç yıl önce ilk fasulye bu sıralardan çıkmıştı. Şükran o hasadı tartıya koymuş, tartı bir kiloyu geçmemişti. Şimdi Şükran Bozkurt sıraların ortasında diz çökmüş, bir yaprağı parmaklarının arasında çeviriyordu. Tırnaklarının altı toprakla doluydu. Nuray yanına gelip eğildi. Yaprağın kenarları ince bir kahverengiyle kıvrılmış duruyordu.
 
 — Üçüncü sırada başladı, dedi Şükran. Sen görmeden önce ben gördüm.
 
@@ -70,7 +74,7 @@ Nuray yaprağın altına baktı. Damarların arasında küçük, sert bir tuz ta
 
 Şükran başını salladı, bir fasulye kabuğu koparıp avucuna koydu. Kabukta üç tohum vardı; biri kırıktı. Tohumları naylon poşete geri koyup ağzını büktü.
 
-Depodaki rafın en altında gri, mühürlü bir kutu duruyordu. Kapağında tükenmez kalemle "Reçine 1/1" yazılmıştı. Nuray kutuyu iki eliyle kaldırdı; beklediğinden hafifti. Mühürü dikkatle kesip kutuyu açtı.
+Depodaki rafın en altında gri, mühürlü bir kutu duruyordu. Kapağında tükenmez kalemle "Reçine 1/1" yazılmıştı. Nuray kutuyu iki eliyle kaldırdı; beklediğinden hafifti. Kutunun yan yüzündeki tabloya baktı. Tablo, reçinenin yaklaşık altı ay dayanacağını söylüyordu, ama tabloyu hazırlayan kişi bu sera tuzunu hesaba katmamıştı. Mühürü dikkatle kesip kutuyu açtı.
 
 Kurulum öğleden sonra yapıldı. Önce Sera 2 hattını durdurup pompayı kilitledi, sonra B-7 yan hattını ayırdı. Eski bağlantıyı çözünce içerden kahverengi bir su sızdı, paspasa damladı. Nuray damlayan suyu bezle sildi, hattı kurutup yeni kartuşu oturttu. Bağlantıları tek tek parmağıyla yokladı; iki contanın yerinden oynadığını gördü, sıkıştırdı.
 
