@@ -39,6 +39,9 @@ Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmu�
 — Bakalım dediğin şeye adam geldi, eve baktı. Ben de çay koydum.
 — Çay koydun.
 — Ne yapayım, adam susuzdu.
+— Adam her odayı ölçtü. Mutfağın duvarını bile metreyle ölçtü.
+— Neden?
+— Alıcı sorarmış, dedi.
 
 Karşı balkonda biri perdeyi araladı, sonra kapattı. Komşunun kapısı açıldı, Sabri Amca başını uzattı.
 
@@ -49,6 +52,7 @@ Karşı balkonda biri perdeyi araladı, sonra kapattı. Komşunun kapısı açı
 — Altı saat sürdüm buraya. Yolda tek düşündüğüm şey bu kapıydı.
 — Hangi kısmı?
 — Açılıp açılmayacağı.
+— Açılır. Dün akşam ben kilitledim, ben açtım.
 — Yani kendi evime girmek için senden anahtar isteyeceğim.
 — İstemene gerek yok. Gel, açarım. Bahçede dikilip durma, karşıdaki komşu bakıyor.
 
@@ -107,6 +111,9 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 
 Hayri bardağı eline aldı, içmedi.
 
+— Çay soğudu.
+— Sen de içmedin.
+
 — Adam üç ay bekler, dedi bana. Bu sonbahar satmazsak fiyat düşer.
 — Düşer. Her yer düşüyor.
 — Sen satmak istiyorsun, ben tutmak. Yazıyı mı tura mı atalım?
@@ -115,6 +122,8 @@ Hayri bardağı eline aldı, içmedi.
 
 Neriman bardağa dokunmadı.
 
+— Ev sigortalı mı?
+— Geçen kış yenilettim.
 — Kombi çalışıyor mu?
 — Çalışıyor. Aşağı gel, göstereyim.
 
@@ -133,6 +142,8 @@ Kazan duvarın dibinde duruyordu, boyası dökülmüş, üstünde küçük bir m
 — İniyorum. Kazanın sesini dinlerim.
 — Hangi ses?
 — Bir tık. Kazan öksürünce bilirsin.
+— Kazanı ne zaman değiştirdiniz?
+— Dört yıl önce. Eskisi öksürmekten kurtulamadı.
 — Yanıyor.
 — Yanıyor.
 — Bu kış yakıyor musun?
@@ -191,6 +202,9 @@ Hayri merdiven altındaki vanayı gösterdi. Neriman çevirdi, boru bir kere ök
 — Kışın gece kapatırım. Boru patlamasın diye.
 — Her gece mi?
 — Her gece.
+— Bu gece ben kapatırım.
+— Vanayı nasıl kapatacağını bilmiyorsun.
+— Bilirim. Çevirince susar.
 
 Hayri merdivenin son basamağını atlayıp çıktı. Neriman ayağını tam üstüne koydu, tahta yine gıcırdadı.
 
@@ -213,6 +227,9 @@ Hayri güldü.
 
 — Üç ay ver bana. Bu kışı geçireyim, bankaya ondan sonra giderim.
 — Üç ay sonra fiyat düşer. Bunu sen de biliyorsun.
+— Üç ayda ben de bir şey öğrenirim.
+— Neyi?
+— Bakmadan imzalamayı.
 — Altı yıl bu kapıdan tek başıma girip çıktım.
 — Ben de bu kapıdan çıktım. Otuz yıl önce.
 — Sen çıktın. Ben çıkmadım.
@@ -241,6 +258,11 @@ Neriman kâğıda yalnızca rakamı yazdı. Teklifin yarısı, eksi gaz, eksi ki
 — Maaş bordrosunu uzatırsın. Adam bakmadan hesap yapar, sen de bakmadan imzalarsın.
 
 Hayri kâğıdı katlamadı, masanın üstünde bıraktı.
+
+— Yeni anahtarı ver bana. Eskisi dönmüyor.
+— Sabri Amca'da da bir tane var.
+— Onu sen al.
+— Alırım.
 
 — Noter cuma. Ama önce Salı'yı kapatacağım.
 

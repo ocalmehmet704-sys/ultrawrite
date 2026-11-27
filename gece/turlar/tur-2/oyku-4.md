@@ -56,7 +56,7 @@ Kadın mendilin köşesindeki nakışa bir an baktı, sonra çantasından küç�
 
 Vedat bileti ışığa tuttu. Delgi iğnesinin ucu eğikti, bütün delikler aynı yöne kayıyordu. Yedi yıl önce, komiserlikten atılmadan önceki son davada, Alsancak'taki bir kaçakçılık dosyasında bu eğikliği görmüştü. Kesikleri atan adam Karşıyaka hattında kontrolördü. Adı Hayri Pekcan'dı. Dosyanın bir kopyası hâlâ kendi çekmecesindeydi; o gün kopyalamıştı.
 
-"Bu bilet bu geceye ait. Yirmi üç on, Karşıyaka vapuru."
+"Bu bilet dünkü geceye ait. Yirmi üç on, Karşıyaka vapuru."
 
 "Ömer'in orada işi yoktu."
 
@@ -82,7 +82,7 @@ Vedat uzattı. Hayri Pekcan kâğıdı avucunda çevirip iki kez delgiledi. Eli 
 
 Adam durdu, gözleri kaydı. "Komiser?"
 
-"Artık değilim. Ömer Balaban. Kırmızı kazaklı, kalın kaşlı. Bu gece bindi mi?"
+"Artık değilim. Ömer Balaban. Kırmızı kazaklı, kalın kaşlı. Dün gece bindi mi?"
 
 "Bindi." Hayri başını çevirdi, koridorun sonundaki kapıya baktı. "Ben kestim biletini. Şu iğne hep böyle kayar, ben de bilmem neden."
 
@@ -100,6 +100,8 @@ Hayri biletleri cebine tıktı. "Karşıyaka'da indi. İskeleden yukarı yürüd
 
 "Onu iskelede kimse görmedi mi?"
 
+Hayri omuz silkti. Bakışını denize çevirdi. "Son seferdi bu, Abi. Ben dümene baktım, kimseye bakmadım."
+
 "Kaç yıldır kesiyorsun?"
 
 "Yedi yıl, Komiser."
@@ -107,8 +109,6 @@ Hayri biletleri cebine tıktı. "Karşıyaka'da indi. İskeleden yukarı yürüd
 "Bu iş bitti mi?"
 
 "Bitmedi. Kâğıt tozu hâlâ parmaklarımda."
-
-Hayri omuz silkti. Bakışını denize çevirdi. "Son seferdi bu, Abi. Ben dümene baktım, kimseye bakmadım."
 
 "Yirmi üçte tek mi bindi?"
 
@@ -130,7 +130,7 @@ Atölyenin kapısı aralıktı. Makine sesi birden kesildi. İçeride tezgâhlar
 
 Rafın üstünde naylon bir torbadan yün sarkıyordu. Vedat ışığın altında bordo sandı, sonra kırmızı gördü.
 
-"Ömer bu gece buradaydı."
+"Ömer dün gece buradaydı."
 
 "Konuştuk. Borç istedi, vermedim. Vapuru kaçırmış, o kadar."
 
@@ -214,7 +214,7 @@ Nuran pencereye döndü. Caddeden bir dolmuşun kornası geçti, sonra bir çocu
 
 "Ben de bilmek istemedim."
 
-Vedat masanın üstündeki kibrit kutusunu çevirdi, bir kez sarstı, yerine bıraktı. Kadın zarfa baktı, sonra Vedat'ın dudağındaki şişe. Sol kaşı bir kez oynadı, başka bir şey değişmedi.
+Vedat masanın üstündeki kibrit kutusunu çevirdi, bir kez sarstı, yerine bıraktı. Kadın zarfa baktı, sonra Vedat'ın dudağına. Sol kaşı bir kez oynadı, başka bir şey değişmedi.
 
 "Kaç para bu?"
 

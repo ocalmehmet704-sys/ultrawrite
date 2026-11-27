@@ -16,6 +16,8 @@ Küpün yanındaki kütüğün ortası yıllar içinde kürek saplarıyla oyulmu
 
 — Küp burada kalacak. Kokusu da.
 
+Caspar iki yıl önce Hollerbach'tan gelmişti. Babası nehrin yukarısındaki değirmende iş kalmayınca oğlunu boyahaneye bırakmıştı. Çocuk burada kepek taşımayı öğrenmiş, tırnaklarının altı mavi kalmıştı. O sabah boyahanenin kapısına Meclis'in ilanı çivilenmişti. İlanı çakan ulak, Caspar'ın kepek çuvalını sopasıyla bir yana itmiş, sonra yoluna devam etmişti.
+
 Çitin öbür yanında komşu Grete durdu. Grete'nin oğlu Ludwig geçen yıldan beri Meclis'in boyahanesinde kepek tartıyordu; bir maaşı, bir de kapı anahtarı vardı. Grete çitin üstünden konuştu: Meclis'in mavisi herkese yeter, Adelheid. Sen de biraz dinlen artık. Adelheid, Ludwig'in bir zamanlar çitin dibinde oynadığı yeri düşündü.
 
 Peter'in defteri raftaydı. Deriyle kaplıydı, yirmi üç yılın tariflerini taşıyordu. Her küpe ne kadar waid, ne kadar kepek, ne kadar kül suyu girdiği yazılıydı. Kenarlarda mürekkeple küçük notlar vardı: "Soğuk gün, bir kova az." Adelheid defteri rafın en üstüne kaldırdı ve kapağını kapalı tuttu. Cuma gelecekti.
@@ -116,26 +118,48 @@ Gerwig kaydı düzeltti. Sesini yükseltmeden konuştu:
 
 Adelheid elini koymadı. Nöbetçi bileğini tuttu, parmağını oyuğa yerleştirdi. Vida döndü. İlk çatlak kulağının arkasına kadar gitti. Sıkaç kapandı, Adelheid'in sesi çıkmadı. Caspar'ın sesi çıktı, kapının önünden odaya kadar doldu.
 
+Gerwig kayda bir satır daha ekledi. Sonra başını kaldırıp sordu:
+
+— Kasım'da yakılan küp neden yeşil kaldı, biliyor musunuz?
+
+— Siz sekiz yazdınız.
+
+— Ben yazmadım, dedi Gerwig. Siz yazdırdınız.
+
 Caspar dışarı çıkarıldı. Adelheid oturduğu yerden kalkamadı; kalkmak için sağ eline güvenmesi gerekiyordu.
 
 * * *
 
-Sağ başparmağı iki yerinden kırılmıştı. Kentin hekimi sardı, sıkı sardı, bir daha kürek sapını tutamayacağını söyledi. Defter Pazartesi günü yakılmıştı; komşular meydandan kalkan dumanı anlatıyordu, Grete de anlatanlar arasındaydı. Boyahanenin kapısına Meclis'in kapatma kararı çivilenmişti. Kararı Adelheid kendisi okudu, sol eliyle kapıya tutunarak. Kararda küpün Meclis'e devredileceği, kültürün kentin kaplarına aktarılacağı yazıyordu. Ludwig'in gelip küpü boşaltacağı gün de belliydi.
+Sağ başparmağı iki yerinden kırılmıştı, tırnağının dibi morarmıştı. Kentin hekimi sardı, sıkı sardı, bir daha kürek sapını tutamayacağını söyledi. Defter Pazartesi günü yakılmıştı; komşular meydandan kalkan dumanı anlatıyordu, Grete de anlatanlar arasındaydı. Boyahanenin kapısına Meclis'in kapatma kararı çivilenmişti. Kararı Adelheid kendisi okudu, sol eliyle kapıya tutunarak. Kararda küpün Meclis'e devredileceği, kültürün kentin kaplarına aktarılacağı yazıyordu.
 
-Geriye tek şey mayası kalmıştı, ağzı bağlı bir kâsede. Adelheid bunu Meclis'in kaplarına girmesine izin vermek istemedi. Küpü Meclis'in mavisine çevirmek istemedi. Ne istediğini tam olarak söyleyemiyordu, ama bunu söyleyebilecek kadar biliyordu.
+Öğleden sonra Ludwig geldi. Elinde liste yoktu.
 
-Caspar o gece kapıyı tıklattı. Sol eliyle bir kavanoz tutuyordu. Sağ kolu önlüğünün altında saklıydı.
+— Annem küpü sizin elinizle boşaltmanızı istiyor, dedi. Yoksa adamlar kapıyı kırar. Annem bunun olmasını istemiyor.
+
+Adelheid çocuğa baktı. Önlüğünde hâlâ mavi lekeler vardı, tırnakları ise temizdi. Ludwig kapı eşiğinde durdu, içeri girmedi. Grete'nin derdinin ne olduğunu Adelheid biliyordu: oğlunun anahtarı, oğlunun maaşı. Yine de bu çocuğun annesine söyleyecek bir şey yoktu.
+
+Geriye tek şey mayası kalmıştı, ağzı bağlı bir kâsede. Adelheid bunun Meclis'in kaplarına girmesine izin vermek istemedi. Küpü Meclis'in mavisine çevirmek istemedi. Küpü kendi elleriyle boşaltacaktı, yoksa boşaltılan şey kendisi olmayacaktı.
+
+Caspar o gece kapıyı tıklattı. Elinde boş bir kavanoz vardı, sağ kolunu önlüğünün altına sokmuştu. Gözleri şişmişti, önlüğünün ucunu parmaklarının arasında çevirip duruyordu.
 
 — Siz? dedi Caspar.
 
 — Ben kalırım.
 
-Adelheid kâseyi kavanoza boşalttı, ıslak bezle sardı, ağzını iple bağladı. Sol eli yavaş çalışıyordu. Düğümü ilk denemede atamadı, ikinci denemede attı.
+Adelheid önlüğünü kaldırıp kola baktı. Dirseğin altında dört parmak genişliğinde koyu bir morluk vardı.
+
+— Ağrıyor mu?
+
+— Ağrımıyor, tutuyor, dedi Caspar.
+
+Adelheid Peter'in sandığını açtı, içinden iki gulden çıkarıp çocuğun önlüğünün cebine koydu. Sonra kâseyi kavanoza boşalttı, ıslak bezle sardı, ağzını iple bağladı. Sol eli yavaş çalışıyordu. Düğümü ilk denemede atamadı, ikinci denemede attı.
 
 — Nehri aşağı takip et. Hollerbach köyüne var, kıyıdaki ilk değirmenin ötesinde. Orada yaşlı bir kadın yaşar, ona bunu ver. Sorarsa kepeğin doğru sayısını söyle.
 
-Caspar kavanozu iki kolunun arasına aldı. Eşiğe çıkınca dönüp baktı. Adelheid kapıyı kapatmadı. Caspar sokağın karanlığına karıştı.
+Caspar kavanozu iki kolunun arasına aldı. Eşiğe çıkınca dönüp baktı. Adelheid kapıyı kapatmadı. Caspar sokağın karanlığına karıştı. Sokakta bir köpek havladı, sonra kesildi.
 
-Adelheid içeri girdi. Sol eliyle kovayı küpe daldırdı. Bir kova, iki kova, sonra tabanda kalan çamuru, kepek yığınını ve kumaş kalıntılarını da nehre döktü. Akıntı hepsini bir anda aldı.
+Adelheid eşikte biraz durdu. Sağ eli sarılıydı, sol eli boştu. Meclis'in adamları sabah erkenden, ilk ışıkla gelirdi; bunu Grete de biliyordu. Adelheid bir dakika daha bekledi, sonra içeri girdi.
+
+Sol eliyle kovayı küpe daldırdı. Kovanın kulpu avucundan kayıyordu, her seferinde yeniden kavradı. Bir kova, iki kova, sonra tabanda kalan çamuru, kepek yığınını ve kumaş kalıntılarını da nehre döktü. Akıntı hepsini bir anda aldı.
 
 Sabah Meclis'in adamları geldiğinde küp boştu.
