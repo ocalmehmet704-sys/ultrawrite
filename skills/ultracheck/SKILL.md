@@ -139,6 +139,12 @@ Listedeki öğeler kaybolunca yerlerine şunlar geldi. Çağdaş, noir, yas, bil
 - **Aforizma ve yankı inatçı.** Liste ikisini de adlandırdığı hâlde on ikinin on birinde.
 - **Ad havuzu sürüyor.** Ruprecht dört öyküde ve üç testte; Gerwig, Konz/Kunz, Mechthild iki testte; Kenan bir testte üç öyküde.
 
+**Dördüncü test (on iki öykü)**
+- **Kayıt kapanışa taşındı.** Son replik yasaklanınca son cümle kaydın kendisi oldu: "kayıtta tarımsal diye geçerek", "Sayaç bir kademe düştü", "artık bir sayfada tam olarak duruyordu". Kayıt sözcüğü yasaklanan öyküde mühür aynı işi gördü ("yüzeyde gri, içinde mavi").
+- **Kapı ya da eşikle biten son paragraf** (on ikinin dördü) ve **"konuşmaya / anlatmaya başladı" kapanışı** (ikisi).
+- **Bağımsız yazarlarda aynı ayrıntı.** Aynı yas isteğini alan iki yazar babanın bakkala 240 lira borcunu yazdı; iki öyküde "bir kedi arabanın altından çıktı", iki öyküde "gülüşü yarıda kesildi". 1984 temalı isteklerde üç öyküde çivit boyacısı ve mavi.
+- **Zarf** (dördü), **kanayan avuç ve sarılması** (üçü).
+
 ### Sahne mi, özet mi
 Bölümdeki olayları say: kaçı sahne olarak (yerinde, zamanında, replik ve hareketle) yazıldı, kaçı iki üç satırlık özetle geçildi? "Ertesi sabah … Ertesi gün … Ertesi hafta …" zinciri bir özet listesidir. Kısa bölümde üç dört sahne yeter; on iki olayı özetle sıralamak YZ izidir. Özetlenen olaylardan sahneye değmeyenleri çıkar, kalanları sahne yap.
 
