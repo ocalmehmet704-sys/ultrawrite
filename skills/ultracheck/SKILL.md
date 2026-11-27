@@ -133,6 +133,12 @@ Listedeki öğeler kaybolunca yerlerine şunlar geldi. Çağdaş, noir, yas, bil
 - **Yarım kalan söz ya da gülüş, kapıda** (altısı). **Soğuyan, içilmeyen çay** (beşi).
 - **Ortak ad havuzu.** Birbirinden habersiz yazarlarda Lenz üç öyküde, Pankraz ve Ursel iki testte, Stöckl ve Stöckel iki öyküde.
 
+**Üçüncü test (on iki öykü)**
+- **Son replik kapanışı.** Nesne kapanışı yasaklanınca öykü kısa bir sözle bitti, çoğu ertesi güne ya da bir göreve bağlı: "Yarın gelmiyorum.", "Ben açarım. Sekizde.", "Sıradakini sen bul." (on ikinin yedisi; beşi ertesi günü anıyor). Kapanışların yarısı ret ya da devir.
+- **"Eski ölçü hiçbir zaman doğru değildi."** Yetkilinin geçmişi geriye dönük yanlış ilan ettiği cümle, üç ayrı yazarda neredeyse aynı sözcüklerle. 1984 temalı isteklerde dört kopyanın üçünde olayın nesnesi bir ölçü, tartı ya da çentikti.
+- **Aforizma ve yankı inatçı.** Liste ikisini de adlandırdığı hâlde on ikinin on birinde.
+- **Ad havuzu sürüyor.** Ruprecht dört öyküde ve üç testte; Gerwig, Konz/Kunz, Mechthild iki testte; Kenan bir testte üç öyküde.
+
 ### Sahne mi, özet mi
 Bölümdeki olayları say: kaçı sahne olarak (yerinde, zamanında, replik ve hareketle) yazıldı, kaçı iki üç satırlık özetle geçildi? "Ertesi sabah … Ertesi gün … Ertesi hafta …" zinciri bir özet listesidir. Kısa bölümde üç dört sahne yeter; on iki olayı özetle sıralamak YZ izidir. Özetlenen olaylardan sahneye değmeyenleri çıkar, kalanları sahne yap.
 
