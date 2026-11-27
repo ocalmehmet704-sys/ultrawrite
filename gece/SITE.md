@@ -9,3 +9,7 @@
 - Değişen: `favicon.svg`, `og.png` (1200x630, Playwright ile HTML'den üretildi; hero başlığıyla aynı çift), og:image/twitter:card etiketleri, "İçeriğe geç" bağlantısı (ilk Tab'ta görünür) ve `main#main`.
 - Test: 11 kontrol geçti; ilk Tab skip link'e düşüyor.
 - Görülen sorun: og görselinde Fraunces yok (sandbox çevrimdışı), Georgia ile üretildi; sabah istenirse gerçek fontla yeniden üretilebilir.
+
+## Tur 3 (23:58)
+- Değişen: mobilde kurulum komutları sarılıyor (önceden tek satırda kesiliyor, kaydırma çubuğu gizliydi, komutun sonu görünmüyordu).
+- Test: 11 kontrol geçti; 390 px'te taşma yok. Ekran görüntüsünde komutlar tam okunuyor, sekme satırı sağda kesilerek kaydırılabilir olduğunu gösteriyor.
