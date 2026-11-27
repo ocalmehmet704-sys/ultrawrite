@@ -30,6 +30,32 @@ ultrawrite tek başına yazmaz: önce ultragrammar, ultratense, ultravoice, ultr
 
 **Claude uygulaması (claude.ai):** [Releases](https://github.com/ocalmehmet704-sys/ultrawrite/releases) sayfasından sekiz `.skill` dosyasını indirip her birini ayrı skill olarak yükleyin. ultrawrite diğerleri olmadan eksik çalışır.
 
+**Diğer ajanlar.** ultrawrite açık Agent Skills biçimindedir (her skill bir klasör, içinde `SKILL.md`). Sekiz klasörü her zaman yan yana kurun: Skill aracı olmayan ortamlarda ultrawrite diğer yedisini yanındaki klasörlerden okur.
+
+Tek komutla, çoğu ajana ([skills CLI](https://skills.sh)):
+
+```
+npx skills add ocalmehmet704-sys/ultrawrite
+```
+
+Elle kopyalamak için önce depoyu indirin:
+
+```
+git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite
+```
+
+| Ajan | Komut |
+|---|---|
+| Cursor | `mkdir -p .cursor/skills && cp -r /tmp/ultrawrite/skills/* .cursor/skills/` |
+| Codex | `mkdir -p ~/.agents/skills && cp -r /tmp/ultrawrite/skills/* ~/.agents/skills/` |
+| Gemini CLI | `mkdir -p ~/.gemini/skills && cp -r /tmp/ultrawrite/skills/* ~/.gemini/skills/` |
+| GitHub Copilot | `mkdir -p .github/skills && cp -r /tmp/ultrawrite/skills/* .github/skills/` |
+| Grok Build | `mkdir -p ~/.grok/skills && cp -r /tmp/ultrawrite/skills/* ~/.grok/skills/` |
+
+**Manus:** sekiz `.skill` dosyasını Skills menüsünde "Upload a skill" ile yükleyin, sohbette `/ultrawrite` yazarak çağırın.
+
+Klasör yolları ajanların belgelerine göredir ve sürümle değişebilir. Bir ajan skill'i görmezse kendi belgesindeki skills klasörüne bakın.
+
 ## Çalışma biçimi
 
 1. **Yazarla vakit (ilk oturumlar):** model yazara küçük öyküler gösterip "hatam nedir?" diye sorar. Yanıtlar `yazar-defteri.md` dosyasına yazılır ve her oturumda yeniden okunur. Kurallar her yazar için aynıdır; defter yalnızca o yazarındır.

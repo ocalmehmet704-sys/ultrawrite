@@ -126,7 +126,15 @@ nav a:hover{color:var(--fg)}
 
 /* install */
 .install{padding:120px 0;border-top:1px solid var(--line)}
-.inst{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:20px}
+.inst{display:grid;grid-template-columns:220px minmax(0,1fr);gap:20px;align-items:start}
+.tabs{display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--line)}
+.tabs button{all:unset;cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 16px;margin-left:-1px;border-left:2px solid transparent;color:var(--mute);font:500 15px/1.2 Geist,sans-serif;transition:color .2s,border-color .2s,background .2s}
+.tabs button:hover{color:var(--fg)}
+.tabs button[aria-selected=true]{color:var(--fg);border-left-color:var(--acc);background:var(--acc-soft)}
+.tabs button:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
+[role=tabpanel]{animation:fade .35s cubic-bezier(.16,1,.3,1)}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}}
+.note{margin:28px 0 0!important;padding-top:20px;border-top:1px solid var(--line);font-size:14px!important;color:var(--faint)!important}
 .inst > *,.hero > *,.sk > *{min-width:0}
 .box{border:1px solid var(--line);border-radius:24px;padding:32px;background:var(--card)}
 .box h3{font:500 18px/1.2 Geist,sans-serif;margin:0 0 6px}
@@ -154,6 +162,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
   .principle,.skills,.basis,.install{padding:80px 0}
   .principle .wrap,.sec-head,.finding{grid-template-columns:1fr;gap:16px}
   .sk,.inst{grid-template-columns:1fr}
+  .tabs{flex-direction:row;overflow-x:auto;border-left:0;border-bottom:1px solid var(--line);scrollbar-width:none;margin:0 -16px;padding:0 16px}
+  .tabs button{white-space:nowrap;margin:0 0 -1px;border-left:0;border-bottom:2px solid transparent;padding:0 12px}
+  .tabs button[aria-selected=true]{border-bottom-color:var(--acc);background:transparent}
   .sk-main{min-height:0;gap:40px;padding:32px}
   .sk-list li{grid-template-columns:1fr;gap:4px}
   .nums{grid-template-columns:1fr}
@@ -275,20 +286,12 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     <div class="wrap">
       <div class="sec-head">
         <span class="eyebrow rv">Kurulum</span>
-        <h2 class="rv" style="--i:1">İki komut ya da sekiz dosya.</h2>
+        <h2 class="rv" style="--i:1">Claude'a, Cursor'a, Codex'e, Grok'a, Manus'a.</h2>
       </div>
-      <div class="inst">
-        <div class="box rv">
-          <h3>Claude Code</h3>
-          <p>Eklenti olarak kurulur, skill'ler <span class="mono">ultrawrite:</span> önekiyle görünür.</p>
-          <div class="cmd"><code>/plugin marketplace add ocalmehmet704-sys/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div>
-          <div class="cmd"><code>/plugin install ultrawrite@ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div>
-        </div>
-        <div class="box rv" style="--i:1">
-          <h3>Claude uygulaması</h3>
-          <p>Son sürümdeki sekiz <span class="mono">.skill</span> dosyasını Ayarlar, Skills bölümünden yükleyin.</p>
-          <a class="btn" href="https://github.com/ocalmehmet704-sys/ultrawrite/releases/latest">Son sürümü indir
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a>
+      <div class="inst rv">
+        <div class="tabs" role="tablist" aria-label="Kurulacak ortam"><button role="tab" id="t-claude-code" aria-controls="p-claude-code" aria-selected="true" tabindex="0">Claude Code</button><button role="tab" id="t-claude-app" aria-controls="p-claude-app" aria-selected="false" tabindex="-1">Claude uygulaması</button><button role="tab" id="t-npx" aria-controls="p-npx" aria-selected="false" tabindex="-1">Her ajan (skills CLI)</button><button role="tab" id="t-cursor" aria-controls="p-cursor" aria-selected="false" tabindex="-1">Cursor</button><button role="tab" id="t-codex" aria-controls="p-codex" aria-selected="false" tabindex="-1">Codex</button><button role="tab" id="t-gemini" aria-controls="p-gemini" aria-selected="false" tabindex="-1">Gemini CLI</button><button role="tab" id="t-copilot" aria-controls="p-copilot" aria-selected="false" tabindex="-1">GitHub Copilot</button><button role="tab" id="t-grok" aria-controls="p-grok" aria-selected="false" tabindex="-1">Grok Build</button><button role="tab" id="t-manus" aria-controls="p-manus" aria-selected="false" tabindex="-1">Manus</button></div>
+        <div class="box"><div role="tabpanel" id="p-claude-code" aria-labelledby="t-claude-code" ><h3>Claude Code</h3><p>Eklenti olarak kurulur, sekiz skill birden gelir. Skill'ler <span class="mono">ultrawrite:</span> önekiyle görünür.</p><div class="cmd"><code>/plugin marketplace add ocalmehmet704-sys/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>/plugin install ultrawrite@ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-claude-app" aria-labelledby="t-claude-app" hidden><h3>Claude uygulaması</h3><p>Son sürümdeki sekiz <span class="mono">.skill</span> dosyasını Ayarlar, Skills bölümünden tek tek yükleyin.</p><a class="btn" href="https://github.com/ocalmehmet704-sys/ultrawrite/releases/latest">Son sürümü indir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a></div><div role="tabpanel" id="p-npx" aria-labelledby="t-npx" hidden><h3>Her ajan (skills CLI)</h3><p>Açık Agent Skills standardını okuyan ajanların çoğuna tek komutla kurar; hangi ajana kurulacağını sorar.</p><div class="cmd"><code>npx skills add ocalmehmet704-sys/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-cursor" aria-labelledby="t-cursor" hidden><h3>Cursor</h3><p>Projenin <span class="mono">.cursor/skills</span> klasörüne kopyalanır.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p .cursor/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* .cursor/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-codex" aria-labelledby="t-codex" hidden><h3>Codex</h3><p>Kullanıcı düzeyinde <span class="mono">~/.agents/skills</span> klasörüne kopyalanır; tek projede kullanmak için <span class="mono">.agents/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p ~/.agents/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* ~/.agents/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-gemini" aria-labelledby="t-gemini" hidden><h3>Gemini CLI</h3><p><span class="mono">~/.gemini/skills</span> klasörüne kopyalanır; tek proje için <span class="mono">.gemini/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p ~/.gemini/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* ~/.gemini/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-copilot" aria-labelledby="t-copilot" hidden><h3>GitHub Copilot</h3><p>Projenin <span class="mono">.github/skills</span> klasörüne kopyalanır; kişisel kullanım için <span class="mono">~/.copilot/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p .github/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* .github/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-grok" aria-labelledby="t-grok" hidden><h3>Grok Build</h3><p><span class="mono">~/.grok/skills</span> klasörüne kopyalanır; tek proje için <span class="mono">.grok/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p ~/.grok/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* ~/.grok/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-manus" aria-labelledby="t-manus" hidden><h3>Manus</h3><p>Son sürümdeki sekiz <span class="mono">.skill</span> dosyasını Skills menüsünde "Upload a skill" ile yükleyin. Kullanırken sohbete <span class="mono">/ultrawrite</span> yazın.</p><a class="btn" href="https://github.com/ocalmehmet704-sys/ultrawrite/releases/latest">Son sürümü indir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a></div>
+          <p class="note">Sekiz klasörü her zaman yan yana kurun. ultrawrite yöneticidir; Skill aracı olmayan ortamlarda diğer yedisini yanındaki klasörlerden okur, eksik olan varsa yazara söyler.</p>
         </div>
       </div>
     </div>
@@ -331,6 +334,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
     (function type(){ if(c<=s.length){ a.innerHTML=s.slice(0,c)+'<span class="caret"></span>'; c++; setTimeout(type, 55); } })();
   }
   if (!reduce) setInterval(function(){ k=(k+1)%P.length; show(k); }, 4200);
+
+  // tabs
+  var tl=document.querySelectorAll('[role=tab]');
+  function sel(btn){ tl.forEach(function(b){ var on=b===btn; b.setAttribute('aria-selected',on); b.tabIndex=on?0:-1;
+    document.getElementById(b.getAttribute('aria-controls')).hidden=!on; }); }
+  tl.forEach(function(b,i){ b.addEventListener('click',function(){sel(b)});
+    b.addEventListener('keydown',function(e){ var d={ArrowDown:1,ArrowRight:1,ArrowUp:-1,ArrowLeft:-1}[e.key];
+      if(d){ e.preventDefault(); var n=tl[(i+d+tl.length)%tl.length]; sel(n); n.focus(); } }); });
 
   // copy
   document.querySelectorAll('.copy').forEach(function(btn){
