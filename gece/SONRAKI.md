@@ -4,7 +4,7 @@ Bu notu, gece testini başlatan ve sabah kullanıcıyla konuşmayı sürdüren o
 
 ## Şu anki durum
 
-- `main` sürüm 3.5.0, release V3.5 (sekiz `.skill`). Gece testinin `skills/` değişiklikleri `main`e alındı (commit 8b07306). Gece notları ve öyküler yalnızca bu dalda.
+- `main` sürüm 3.5.2, release V3.5.2 (sekiz `.skill`). Gece testinin `skills/` değişiklikleri `main`e alındı (8b07306), ardından gözden geçirildi (b909ac9): kural 21'in örneği 2.1'in yasakladığı türden bir sondu, değişti; 'sondan başla' yalnız olumlu tanım oldu, kendiliğinden kurulan sonların listesi ultracheck'e denetim için taşındı; 0.5 ile 2.3 arasındaki çelişki giderildi. README güncellendi. Gece notları ve öyküler yalnızca bu dalda.
 - Yazara mektup deneyi (E1) başarısız: iki turda 0/6, mektuplu öyküler daha çok parmak izi taşıdı. Skill'e alınmadı. Bence neden: "cesur ol" diyen metin cesaretin en olası görüntüsünü yazdırıyor; mektup bir hayatı anlatıyor, yaşatmıyor.
 
 ## Sabah kullanıcıyla varılan yer
