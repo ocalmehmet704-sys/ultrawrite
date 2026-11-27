@@ -17,3 +17,18 @@
 ## Tur 4 (23:59)
 - Değişen: `404.html` (sade, açık/karanlık uyumlu, 390 px'te taşma yok), JSON-LD'ye `url` alanı eklendi (JSON geçerli).
 - Test: 11 kontrol geçti. Görülen sorun: 404'te başlıktaki üstü çizili ilk deneme anlamsızdı, "Bu sayfa yok." olarak sadeleştirildi.
+
+## Sabah özeti
+Fikir havuzundaki yararlı işler 4 turda bitti; saat erken olduğu için boş tur atıp değişiklik uydurmadım, burada durdum.
+
+En önemli 3 değişiklik:
+1. JS yoksa/çalışmazsa bölümlerin görünmez kalması düzeltildi; küçük mono etiketlerin kontrastı AA'ya çıkarıldı.
+2. Favicon, paylaşım görseli (og.png), skip link, 404.html, JSON-LD `url`.
+3. Mobilde kurulum komutları artık tam okunuyor.
+
+Kalan sorunlar:
+- og.png Fraunces yerine Georgia ile üretildi (sandbox'ta font yok).
+- Fontlar Google Fonts'tan geliyor; kendi sunucundan sunmak CLS ve gizlilik için daha iyi olur.
+- Sitemap'te tek URL var, 404 eklenmedi (doğru).
+
+Öneri: main'e birleştirilebilir. Değişiklikler küçük, her tur testten geçti (taşma, konsol, klavye sekmeleri, kopyala, kart gizle/göster, reduced-motion). `google-site-verification` ve doğrulama dosyası, skills/, .claude-plugin/, LICENSE ve kart metinleri dokunulmadı. Ekran görüntüleri: `gece/site-ekran/`.
