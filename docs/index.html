@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ultrawrite: Türkçe kurmaca yazım skill'i (Claude)</title>
+<meta name="description" content="ultrawrite, yapay zekânın Türkçe roman ve öykü yazarken çeviri Türkçesine, tek tona ve şablona kaymasını önleyen, araştırmaya dayalı bir Claude skill ailesidir.">
+<meta name="keywords" content="ultrawrite, Türkçe yazım, Claude skill, yapay zeka Türkçe, roman yazma, öykü yazma, çeviri Türkçesi, AI slop, Claude Code eklentisi">
+<link rel="canonical" href="https://ocalmehmet704-sys.github.io/ultrawrite/">
+<meta property="og:title" content="ultrawrite: Türkçe kurmaca yazım skill'i">
+<meta property="og:description" content="Yapay zekânın Türkçesini çeviri kokusundan ve şablondan kurtaran, araştırmaya dayalı Claude skill ailesi.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ocalmehmet704-sys.github.io/ultrawrite/">
+<style>
+:root{--bg:#fbf8f3;--fg:#1c1a17;--mute:#625c52;--acc:#8a3324;--line:#e2dacd}
+@media (prefers-color-scheme:dark){:root{--bg:#171512;--fg:#ece6da;--mute:#a59c8d;--acc:#e08a74;--line:#36312a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 Georgia,serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px}
+h1{font-size:2rem;margin:0 0 .3em}h2{font-size:1.25rem;margin-top:2em}
+p.lead{color:var(--mute)}a{color:var(--acc)}
+table{border-collapse:collapse;width:100%}td{border-top:1px solid var(--line);padding:6px 4px;vertical-align:top}
+code{font-size:.9em}
+</style>
+</head>
+<body><main>
+<h1>ultrawrite</h1>
+<p class="lead">Yapay zekâ Türkçe yazarken İngilizce düşünüp çeviriyor ve her öyküyü aynı şablona döküyor. ultrawrite, Claude için bunu düzeltmeye çalışan, araştırmaya dayalı bir skill ailesi.</p>
+
+<h2>Ana ilke</h2>
+<p>Bir cümle, anlattığı şeye oranla iş görmeyen sözcük taşıdığı ölçüde kötüdür. "O yere çarpmıştı" yazan model İngilizce düşünüyor; Türkçesi "düştü".</p>
+
+<h2>Skill'ler</h2>
+<table>
+<tr><td><b>ultrawrite</b></td><td>Yönetici: sorular, kurallar, yazım sırası.</td></tr>
+<tr><td><b>ultragrammar</b></td><td>Fiilimsiler, çatı, ekler, söz dizimi.</td></tr>
+<tr><td><b>ultratense</b></td><td>Zaman ve kip: -dı, -mış, -mıştı, -acaktı.</td></tr>
+<tr><td><b>ultravoice</b></td><td>Duygu, ritim, anlatıcı sesi.</td></tr>
+<tr><td><b>ultracheck</b></td><td>Yapay zekâ izleri, şablon, dönem ve dil tutarlılığı.</td></tr>
+<tr><td><b>ultracraft</b></td><td>Anlatım araştırması, yazar teknikleri, 1984 cümle çözümlemesi.</td></tr>
+<tr><td><b>ultraworld</b></td><td>Arka plan dünyası ve paralel hikâye.</td></tr>
+<tr><td><b>ultrabrutal</b></td><td>Brutal kitle seviyesi.</td></tr>
+</table>
+
+<h2>Neye dayanıyor</h2>
+<p>TDK ve DergiPark makaleleri, belâgat geleneği, okur deneyleri ve bir romanın altı bin cümlesinin tek tek incelenmesi. Bir gecelik testte (34 öykü) görülen: yasak bir kalıbı kaldırır, şablonu kaldırmaz. Bu yüzden skill modele yasak yerine bağlam ve malzeme verir: yazarla birlikte küçük öykülerle vakit geçirmek, bir yazar defteri, rastgele okumadan kurulan köprüler.</p>
+
+<h2>Kurulum</h2>
+<p>Claude Code: <code>/plugin marketplace add ocalmehmet704-sys/ultrawrite</code> ardından <code>/plugin install ultrawrite@ultrawrite</code><br>
+Claude uygulaması: <a href="https://github.com/ocalmehmet704-sys/ultrawrite/releases/latest">son sürümdeki</a> sekiz <code>.skill</code> dosyasını yükleyin.</p>
+
+<p><a href="https://github.com/ocalmehmet704-sys/ultrawrite">GitHub deposu</a></p>
+</main></body></html>
