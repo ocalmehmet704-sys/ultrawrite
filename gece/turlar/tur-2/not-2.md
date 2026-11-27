@@ -38,10 +38,10 @@ Not: Bölüm 2.3 adım 1'e göre ilk taslağı ayrı bir geçici dosyaya kaydetm
 2. Hagedorn'un bütün replikleri: "Bugün sağ." / "O zaman defterde kalır. Hepsi bu." Aforizma repliği ve alçak sesli yetkili (ultracheck, Replik). İkisi de metinde duruyor. İkincisi bilerek korundu ama yazar isterse ilk ikisinin yerine somut bir bilgi koyabilirim.
 3. Kapanış: ilk taslakta kapanış "kâtip başını salladı, ertesi sabah bildirisini getirdi" biçimindeydi, yani bir rutinin sürmesi; bu, ultracheck'in "yerine koyma kapanışı" ile aynı aileden. Son sahneye Gerte'nin önerisini ve bağımsız bir karar eklendi; ama son cümle hâlâ "ertesi sabah ... getirdi" yapısında ve bunu düzeltmek isterseniz kapanışa yeniden bakılmalı.
 
-Ek olarak yeniden ürettiğim sahneler: Sahne 2 (kâtip odası) ilk hâlinde ambarı yoktu; ambar ve Ruprecht sonradan eklendi. Sahne 4 ilk hâlinde yalnızca mühür ve kapanıştan ibaretti; Agathe'nin Pazar fişi ve gebe listesi sonradan eklendi. Sahne 3'ün kazıma bölümü değişmedi.
+Yeniden üretilen sahneler (tam yeniden yazım, sürüm 735 -> 1.021 -> son): 735 kelimelik ilk sürümde ambar ziyareti (Ruprecht), Sporer'in ziyareti ve Agathe'nin Pazar fişi yoktu; sahne 2 yalnızca kâtip odasından ibaretti, sahne 4 mühür ile Vogelgasse doğumu ve öneriden oluşuyordu. 1.021 sürümünde Ruprecht'un ambarı ve Sporer eklendi. Son sürümde Agathe'nin Kasım fişi, Pazartesi gebe listesi ve kış kalabalığı, Matthis'in "Kayda ne yazacaksın?" sorusuna cevap ile çeşme ayrıntısı yerel düzeltmelerle eklendi. Sahne 3'ün kazıma bölümü ilk sürümden beri aynı kaldı.
 
-## Denetim bulguları (kendi kontrolüm; sayım ve okuma ile)
-- Yan cümle zinciri ve "-DI" zinciri: taramada art arda aynı ekle biten üç cümle yok; zarf-fiil zinciri birkaç yerde kullanıldı.
+## Denetim bulguları (kendi kontrolüm; okuma ile, sistematik tarama yapılmadı)
+- Yan cümle ve "-DI" zinciri: taramadım; okurken art arda aynı ekle biten cümle fark etmedim, ama bu bir tarama değil.
 - "Bir" sayısı: 47 kez geçiyor (ham sayım, "bir" içeren tüm sözcükler dahil). Sık görünüyor; ama çoğu sayı ve belirsiz zamir olarak ("bir kez", "bir süre", "bir kutu") kullanıldığı için yalnızca ağır kullanılanlar yeniden gözden geçirilebilir.
 - "Bakma" ve "bakıp" kalıbı: birkaç yerde, kural 2.3 eşiğinin altında.
 - Yapay sayım kalıbı: "sekiz pul", "beş gün", "iki dakika": sayılar sahneye iş görüyor (kayıt sayısı, toplamlar).

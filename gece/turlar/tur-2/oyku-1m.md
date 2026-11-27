@@ -36,7 +36,7 @@ Rauch çıkınca Sixt ölçü defterini açtı. İlk sayfada kendi yazısı vard
 
 Sonra bakır kaplara döndü. En büyüğü bir kazan ölçüsüydü, içine su doldurdu, kenarına kadar geldi, taşmadı. Yarın bu suyun başka bir sayıya gireceğini biliyordu, ama su bugün de aynı sudu. Sonra eğeyi aldı.
 
-Eğeyi aldığında elinin altındaki tozun sıcak olduğunu fark etti. Kenardan ilk çekişte demir ince, parlak bir şerit bıraktı. Sixt ölçtü, sonra bir kez daha ölçtü. Arşın bir parmak kısalmıştı, sayıları değiştirmemişti. Ölçü artık başka bir şeydi, ama elindeki şey hâlâ aynı demirdi, eğenin dişi ağır ağır ona yaslanıyordu.
+Eğeyi aldığında elinin altındaki tozun sıcak olduğunu fark etti. Kenardan ilk çekişte demir ince, parlak bir şerit bıraktı. Sixt ölçtü, sonra bir kez daha ölçtü. Ölçüm bittikten sonra da eli arşını bırakmak istemedi. Arşın bir parmak kısalmıştı, sayıları değiştirmemişti. Ölçü artık başka bir şeydi, ama elindeki şey hâlâ aynı demirdi, eğenin dişi ağır ağır ona yaslanıyordu.
 
 Ennelin Scheck, boyacı Clas'ın ölümünden sonra dükkânı kendi adına işletiyordu. Öğleden sonra Sixt ölçü evinden çıkıp Neckar köprüsüne yürürken onu dükkânın kapısında buldu. Kolları dirseğine kadar sıvalıydı, parmakları vayda boyasıyla lacivert olmuştu. İçeriden şap ve sirke kokusu geliyordu, kazanın yüzeyinde köpük yüzüyordu. Tezgâhın üstünde yün çuvalları sıralanmıştı, biri yarı açıktı.
 
@@ -62,7 +62,7 @@ Ennelin önlüğünün cebinden katlanmış bir kâğıt çıkardı, açtı, Six
 
 "Rat bana sormadı. Clas ölmeden önce de kimse sormadı. Bu dükkân böyle kuruldu, kırk arşınla." Kadın elinin tersiyle alnını sildi, alnına lacivert bir leke bulaştı. "Kırk arşın bir kazan demek. Bir kazan da bir ay demek."
 
-Sixt parmağını cebine soktu. Köprünün altından bir kayık geçti, üstünde iki çuval vardı, Neckar yavaş akıyordu.
+Sixt parmağını cebine soktu, cebindeki mendil kuruydu. Köprünün altından bir kayık geçti, üstünde iki çuval vardı, Neckar yavaş akıyordu.
 
 "Senin evinde bir arşın daha yok mu?" dedi Ennelin.
 
@@ -76,9 +76,11 @@ Sixt parmağını cebine soktu. Köprünün altından bir kayık geçti, üstün
 
 "Getiririm."
 
+Ennelin cevabı beklemedi. Kazanın başına döndü, kazanı bırakamazdı, içeride yün kaynıyordu.
+
 "Getirmesen de olur. Ben senin yüzünü hatırlarım. Sen ölçüyü eğeleyen adamsın."
 
-Ennelin kapıyı arkasından yarı çekti, sürgüye dokunmadı. Sixt köprüye çıktığında kadının tezgâha dönüp çuvalın ağzını açtığını gördü. Yün, ağzından dışarı taşmıştı; kadın onu geri itmedi, çuvalın yanına bıraktı. Köprünün ortasında Sixt bir süre durdu. Aşağıda su koyu yeşildi, yukarıda Rat'ın pencerelerinde mumlar yanıyordu. Kendi yaptığı iş, yirmi yıl önce ölçülmüş bir sayıya dayanıyordu, şimdi o sayı başkasının elinde kalacaktı.
+Ennelin kapıyı arkasından yarı çekti, sürgüye dokunmadı. Sixt köprüye çıktığında kadının tezgâha dönüp çuvalın ağzını açtığını gördü. Yün, ağzından dışarı taşmıştı; kadın onu geri itmedi, çuvalın yanına bıraktı. Rüzgâr tersten esiyordu, boya kokusunu köprüye taşıyordu. Köprünün ortasında Sixt bir süre durdu. Aşağıda su koyu yeşildi, yukarıda Rat'ın pencerelerinde mumlar yanıyordu. Kendi yaptığı iş, yirmi yıl önce ölçülmüş bir sayıya dayanıyordu, şimdi o sayı başkasının elinde kalacaktı.
 
 Akşam Sixt eve geldiğinde Gret ocağın başındaydı. Çorba kaynıyordu, kapı aralıktı, buğu dışarı taşıyordu. Küçük oğulları Hennel yatağında kıvrılmış uyuyordu, ayakkabısı hâlâ ayağındaydı.
 

@@ -39,6 +39,12 @@ Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmu�
 — Bakalım dediğin şeye adam geldi, eve baktı. Ben de çay koydum.
 — Çay koydun.
 — Ne yapayım, adam susuzdu.
+
+Karşı balkonda biri perdeyi araladı, sonra kapattı.
+
+— Altı saat sürdüm buraya. Yolda tek düşündüğüm şey bu kapıydı.
+— Hangi kısmı?
+— Açılıp açılmayacağı.
 — Yani kendi evime girmek için senden anahtar isteyeceğim.
 — İstemene gerek yok. Gel, açarım. Bahçede dikilip durma, karşıdaki komşu bakıyor.
 
@@ -76,6 +82,12 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 — Yediden akşam dörde kadar su hatlarındayım. Eve gelip yatıyorum. Kendime ev alamadım, bilirsin. Taksidi son üç yıldır ben ödüyorum. İlk iki yılı sen yolladın.
 — Ne zaman yolladığımı biliyorsun, demek ki.
 — Biliyorum. Her ay aynı tarihte geldi.
+— Hastanenin yatak parasını kim ödedi?
+— Üç ayın ikisini ben, birini sigorta.
+— Ben bir şey yolladım mı o üç ayda?
+— Yolladın. İlk ayın parasını sen yolladın.
+— Ne kadar?
+— Yetmedi. Ama yolladın.
 — Geçen hafta bankaya gittim. Senin payını alabilir miyim diye.
 — Ne dediler?
 — Bordroyu uzattım. Adam bakmadan hesap yaptı. Olmadı. Kredi çıkıyor ama senin payın bana kalmıyor.
@@ -145,6 +157,12 @@ Neriman parmağına bulaşan tozu pantolonuna sildi.
 — Ben bu parayı da yollamam, Hayri. Bunu şimdiden söyleyeyim.
 — Biliyorum. Sen yollamıyorsun, bana bırakıyorsun.
 — Bırakmıyorum. Alıcıya bırakıyorum.
+— Duvarı boyatalım mı?
+— Boyarsan leke çıkmaz. Altında ne varsa kalır.
+— Peki ne yapacağız?
+— Önce ne olduğunu bileceğiz. Bu ay tesisatçıyı çağırıyorum.
+— Ne zaman?
+— Sen gittikten sonra.
 
 Hayri merdivenin son basamağını atlayıp çıktı. Neriman ayağını tam üstüne koydu, tahta yine gıcırdadı.
 
@@ -174,10 +192,14 @@ Hayri güldü.
 — Bulurum bir yer. Kiralık çok.
 — Bu kadar kolay mı?
 — Kolay değil. Ama bu ev de kolay değildi.
-— Bunu kâğıda yazamam.
-— Yazma. Sen rakamı yaz.
+— Üst kattaki odada mı yatıyorsun?
+— Yatıyorum. Yatağı pencereye çevirdim, güneş vuruyor.
+— Hangi oda?
+— Babamın odası.
+— Yatak yerinde değil mi?
+— Yerinde değil. Ben oynattım.
 
-Neriman yazdı. Teklifin yarısı, eksi gaz, eksi kiremit. Kâğıdı Hayri'ye uzattı.
+Neriman kâğıda yalnızca rakamı yazdı. Teklifin yarısı, eksi gaz, eksi kiremit. Kâğıdı Hayri'ye uzattı.
 
 — Bana bu kadar yetmez.
 — Sana yetiyor. Benim taksitim kapanır.
@@ -188,7 +210,7 @@ Hayri kâğıdı katlamadı, masanın üstünde bıraktı.
 
 — Noter cuma. Ama önce Salı'yı kapatacağım.
 
-Neriman kâğıdı çevirdi, altındaki numarayı buldu. Telefonu eline aldı.
+Neriman kâğıdı ön yüzüne çevirdi, köşedeki numarayı buldu. Telefonu eline aldı.
 
 — Şimdi mi?
 — Salı gelmesin diye şimdi.

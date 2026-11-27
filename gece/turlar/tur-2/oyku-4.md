@@ -22,6 +22,20 @@ Vedat bileti masaya yaydı. Üzerinde küçük delikler sıralanmıştı: üç k
 
 "Kunduracı. Basmane tarafında, babasından kalma bir yer. Kapısında hâlâ eski tabela var."
 
+"Cesette yara var mıydı?"
+
+"Dirseği sıyrılmış. Polis düşmüş dedi."
+
+"Sarhoş adam düşerse kafası yere vurur. Kafası temizmiş."
+
+Kadın cevap vermedi, mendili katladı.
+
+"Kırmızı bir kazağı vardı. Onu ben ördüm, iki kış önce. Sol kolunda bir ilmek kaçmıştı, söktürmedi."
+
+"Kazak ceketin altında mıydı?"
+
+"Yoktu. Polis kazağı hiç sormadı."
+
 "Son ne zaman konuştunuz?"
 
 "Dün öğlen. Telefonla. Bir şey istedi benden, yanıt vermedim."
@@ -80,6 +94,16 @@ Hayri biletleri cebine tıktı. "Karşıyaka'da indi. İskeleden yukarı yürüd
 
 Hayri omuz silkti. Bakışını denize çevirdi. "Son seferdi bu, Abi. Ben dümene baktım, kimseye bakmadım."
 
+"Yirmi üçte tek mi bindi?"
+
+"Tek. Alsancak'tan nakit aldı biletini. Yanında kimse yoktu."
+
+"Biletini sen kestin, sonra?"
+
+"Sonra mı? Karşıyaka'da indi, dedim ya."
+
+Yedi yıl önce Hayri'yi Alsancak'ta bir koridorda yakalamıştı. Adam paketleri bir kâğıdın arasına sıkıştırmış, eliyle Vedat'a uzatmıştı. Ağzı o gece de titremişti. Dosyayı kapatanlar Hayri'yi değil, Vedat'ı masadan kaldırdı.
+
 Vedat sigarayı denize attı. Sigara suda bir an parlayıp söndü. Vapur iskeleye yanaşırken halatlar çakıldı, zincir bir sarsıntıyla durdu. İskelenin önünde gri bir Murat 131 duruyordu. Farları yanmıyordu, motoru çalışıyordu. Arka camında kalın bir çizik vardı. Vedat indi, tahta basamakları geçti. Murat'ın içinde kimse yoktu; anahtar kontakta duruyordu. Yokuşa yöneldi.
 
 ---
@@ -108,9 +132,11 @@ Vedat kesme masasına eğildi. Tahtanın kenarında makas izinin yanında bir tu
 
 Vedat tutamı masanın üstüne koydu. Zeki'nin gözleri tutama gitti, sonra Vedat'a döndü. Gülümsemesi aynı kaldı.
 
-"Ömer'in arabası iskelede duruyor. Kontakta anahtar var."
+"Arabanız iskelede duruyor. Kontakta anahtar var."
 
-"Yılların arabası, bırakırsınız."
+"Eski araba, Komiser Bey. Kontağı hep takılı kalır, çalan olmaz."
+
+Masanın üstünde açık bir defter duruyordu. Vedat ters okudu: "Ö.B." baş harfleri, yanında bir rakam, rakamın üstü çizilmiş, altına başka bir rakam yazılmıştı. Zeki defteri kapattı, kapağın üstüne elini bastırdı.
 
 Arka kapı gıcırdadı. Kâzım içeri girdi. İri, sessiz, elleri yağlıydı. Vedat onu Alsancak'taki o geceden tanıyordu; Kâzım o zaman bir kapıyı omzuyla kırmıştı. Kâzım arkadan Vedat'ın kollarını tuttu, yüzünü masaya bastırdı. Masanın üstündeki makasın soğuk sapı çenesinin altına değdi.
 
@@ -142,7 +168,7 @@ Vedat zarfı aldı, kalınlığını parmağıyla ölçtü. Atölyeden çıkarke
 
 Ertesi sabah yağmur kesilmişti ama kaldırımlar hâlâ ıslaktı. Vedat dudağının kenarındaki şişi parmağıyla yokladı. Nuran merdivende bekliyordu; şemsiyesini kapının önüne dayamış, topuklarını saymadan durmuştu. Vedat anahtarı çevirdi, içeri geçti, çekmeceden bileti aldı. Kâğıdı küllüğe koydu, kibritle yaktı. Delikler önce kıvrıldı, sonra karardı.
 
-Rapor masanın üstündeydi, iki satır. Zeki'nin kullandığı sözcüklerle yazılmıştı. Vedat hiçbirini değiştirmemişti.
+Rapor masanın üstündeydi, iki satır. Zeki'nin kullandığı sözcüklerle yazılmıştı. Vedat sabah iki kez okumuştu. Her cümlede Zeki'nin sesi vardı. Değiştirmemişti.
 
 Nuran kapıda durdu. "Bilet?"
 
@@ -171,6 +197,22 @@ Nuran pencereye döndü. Caddeden bir dolmuşun kornası geçti, sonra bir çocu
 "Ben de bilmek istemedim."
 
 Vedat masanın üstündeki kibrit kutusunu çevirdi, bir kez sarstı, yerine bıraktı. Kadın zarfa baktı, sonra Vedat'ın dudağındaki şişe. Sol kaşı bir kez oynadı, başka bir şey değişmedi.
+
+"Kaç para bu?"
+
+"Beş bin."
+
+"Borç bu kadar mıydı?"
+
+"Hayır."
+
+"Kazağı," dedi Vedat. "Atölyede bir tutam kırmızı yün bulundu."
+
+"Ben ördüm o kazağı. Sol kolunda ilmek kaçmıştı." Nuran zarfa bir kez daha baktı. "Kazak şimdi nerede?"
+
+"Bilmiyorum."
+
+Nuran kapıya yöneldi, eşikte durup döndü. Vedat masasının üstündeki dolmakaleme baktı; kapağını açmadı.
 
 "Polise gidersem?"
 
