@@ -10,7 +10,7 @@ Rıza garajdan gelmişti. Elleri talaştan kireç rengine dönmüştü. Lavaboya
 
 "Ünal. Protokolü okumadın bile."
 
-"Dün gece okudum. Sen uyumuştun." Kâğıdı kendine çekti, parmağını satırların üstünde gezdirdi. "Dört milyon iki yüz. Altı kat. Bize arka taraftan bir daire. Bak, ben bunu okurken hesabı kafamda yaptım, hani, bir daire kaç metre, ne kadarı bizim, ne kadarı onun. Hiç de fena değil ya, bu kadar yer için. Para kötü değil yani. Ama bir şey var."
+"Dün gece hepsini çözdüm. Sen uyumuştun." Kâğıdı kendine çekti, parmağını satırların üstünde gezdirdi. "Dört milyon iki yüz. Altı kat. Bize arka taraftan bir daire. Bak, ben bunu okurken hesabı kafamda yaptım, hani, bir daire kaç metre, ne kadarı bizim, ne kadarı onun. Hiç de fena değil ya, bu kadar yer için. Para kötü değil yani. Ama bir şey var."
 
 "Ne var?"
 
@@ -30,7 +30,7 @@ Rıza başını kaldırdı. Ocağın üstünden kirişin ortasına bir çatlak i
 
 "Kâğıdı ben okudum, Rıza. Tavanı sen görüyorsun."
 
-Sevim ayağa kalktı, ocağın altını yaktı, çaydanlığı koydu. Sırtı kardeşine dönüktü. Omuzları düz duruyordu.
+Sevim ayağa kalkıp ocağın altını yaktı, çaydanlığı koydu. Sırtı kardeşine dönüktü. Omuzları düz duruyordu.
 
 "Sen imzalamazsan ben de yokum. Ünal'ın avukatı var. Mahkemeye verirsek ortaklığın giderilmesi, bir yıl. Sonra mahkeme satar, yarı fiyata."
 
@@ -88,7 +88,7 @@ Rıza kazığı çekmeye yeltendi, sonra durdu. Sevim incir ağacına yaslanmı�
 
 "Babamın kredisi."
 
-"Babamın kredisi on yıl önce kapandı. Bayramda bütün evrakı masaya dökmüştük, hatırlıyor musun? Sen hepsini tek tek okudun, ben de kahve yaptım."
+"Babamın kredisi on yıl önce kapandı. Bayramda bütün evrakı masaya dökmüştük, hatırlıyor musun? Sen hepsini tek tek karıştırdın, ben de kahve yaptım."
 
 "Kapanmadı. Yeniden yapılandırıldı. Kefil de bendim."
 
@@ -224,4 +224,4 @@ Rıza bir şey demedi. Elini cebine soktu, şeridi çıkardı, avucunda sıkıp 
 
 "Biliyorum." Rıza elini uzattı. "Ver şunu, son sayfayı ben de bir kez okuyayım."
 
-Mutfakta çaydanlık hâlâ ocaktaydı, kimse bardağa uzanmamıştı. Sevim cevap vermeden içeri girdi, protokolü muşambadan aldı, ocağın kapağını kaldırıp içine attı. Kâğıdın kenarı önce kıvrıldı, sonra Ünal'ın adının yazılı olduğu satır alevlendi. Rıza kapının eşiğinde elini havluya sardı; kan havluya işledi.
+Mutfakta çaydanlık hâlâ ocaktaydı, kimse bardağa uzanmamıştı. Sevim cevap vermeden içeri girip protokolü muşambadan aldı, ocağın kapağını kaldırıp içine attı. Kâğıdın kenarı önce kıvrıldı, sonra Ünal'ın adının yazılı olduğu satır alevlendi. Rıza kapının eşiğinde elini havluya sardı; kan havluya işledi.

@@ -13,3 +13,6 @@ Düzeltilmiş "sondan başla" (son replik ve ertesi güne bağlanan söz de yasa
 
 ## Tur koşulları
 - On iki yazar `haiku` / `medium`. Kontrol `sonnet` / `medium`.
+- Yükleme ve kirlenme (araç kayıtlarından): on iki yazarın hiçbiri `gece/` belgelerini açmadı; mektuplu üçü yalnızca `yazara-mektup.md`'yi açtı. On ikisi de altı SKILL.md'yi açtı.
+- Taslak dosyası: on yazar ayrı taslak yazdı (2 ve 6 Write ile yazmadı). Beşi yine aynı adı (`taslak-1.md`) kullandı ve birbirini ezdi; skill'e eklenen "adına bölüm adını kat" uyarısı tutmadı.
+- Kör eşler `kor/` altında; anahtar bu kez kontrol bitene kadar depoda değil.
