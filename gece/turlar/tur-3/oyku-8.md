@@ -24,7 +24,7 @@ Rıza garajdan gelmişti. Elleri talaştan kireç rengine dönmüştü. Lavaboya
 
 "Yok."
 
-Rıza başını kaldırıp tavana baktı. Ocağın üstünden kirişin ortasına bir çatlak iniyordu. İki yanına demir bağlanmış, arası alçıyla kapatılmıştı. Alçı henüz beyazdı, boya tutmamıştı.
+Rıza başını kaldırdı. Ocağın üstünden kirişin ortasına bir çatlak iniyordu. İki yanına demir bağlanmış, arası alçıyla kapatılmıştı. Alçı henüz beyazdı, boya tutmamıştı.
 
 "Bunu ben yaptım. Geçen kış, babamın pensiyonuyla demir aldım, bir gece sabaha kadar uğraştım. Ünal'ın kâğıdında bu tavan yok, altı kat var."
 
@@ -64,7 +64,7 @@ Sevim ocağın kapağını kapattı. "O benim işim."
 
 Bahçeye çıktıklarında incir ağacının dibinde çimenin içine bir kazık çakılmıştı. Ucuna turuncu bir şerit bağlanmıştı, rüzgâr şeridi gövdeye vuruyordu. Bahçe duvarının dibinde babanın yıllar önce bıraktığı kırık bir sandalye hâlâ yatıyordu. Kimse onu kaldırmamıştı.
 
-Rıza kazığa baktı, ayağıyla bir kez vurdu. Kazık oynamadı. Bitişikteki evin radyosu bir yerden türkü çalıyordu, sesi duvarın üstünden geliyordu.
+Rıza kazığı ayağıyla bir kez dürttü. Kazık oynamadı. Bitişikteki evin radyosu bir yerden türkü çalıyordu, sesi duvarın üstünden geliyordu.
 
 "Bu ne?"
 
@@ -104,7 +104,7 @@ Rıza'nın sesi değişmedi, ama eli değişti. Sağ eli yumruk oldu, incir ağa
 
 "Ağacı ne yaptı," dedi Sevim. Kolları hâlâ kavuşuktu.
 
-Rıza yanıt vermedi. Eğilip şeridi kopardı, cebine tıktı. Sonra kazığın başını iki eliyle kavrayıp sertçe çekti. Kazık çıkmadı, ucu toprakta kırıldı.
+Rıza yanıt vermedi. Gövdeye yaslanan başını geri çekti, dudağını ısırdı. Eğilip şeridi kopardı, cebine tıktı. Sonra kazığın başını iki eliyle kavrayıp sertçe çekti. Kazık çıkmadı, ucu toprakta kırılıp kaldı.
 
 "Altı aydır ben ödüyorum," dedi Sevim. "Her ay bankaya gittim, sıraya girdim. Dokuz kez gittim, memur her seferinde aynı şeyi sordu. Kardeşiniz nerede? Kardeşim garajda, dedim."
 
@@ -124,7 +124,7 @@ Parmağı bükülmüyordu. Rıza bunu kendi kendine yoklar gibi sağ elini sol e
 
 "Bana ne."
 
-Kan kabuğun üstünden iniyor, toprağa damlıyordu. Sevim bu kez kollarını çözdü, bir adım attı. Rıza geri çekildi, cebindeki şeridi yokladı, sonra kazığın kırık ucunu yerden aldı.
+Kan kabuğun üstünden iniyor, toprağa damlıyordu. Ağacın dibindeki toprak koyulaşmıştı. Sevim bu kez kollarını çözdü, bir adım attı. Rıza geri çekildi, cebindeki şeridi yokladı, sonra kazığın kırık ucunu yerden aldı.
 
 *
 
@@ -168,7 +168,7 @@ Kan kabuğun üstünden iniyor, toprağa damlıyordu. Sevim bu kez kollarını �
 
 Ünal klasörü kapattı, cebinden bir zarf çıkardı, Sevim'in önündeki muşambaya koydu. "Bakın, mesele şu. Bu şerh gelecek ay ödenmezse banka icraya gider. Ödemeyi Sevim Hanım yapıyor, altı aydır. Bunu da biliyorum."
 
-Sevim zarfı açtı. İçinde ödeme planı vardı, son taksit kırmızı kalemle işaretlenmişti. Rakamlara bir süre baktı, sonra zarfı katladı.
+Sevim zarfı açtı. İçinde ödeme planı vardı, son taksit kırmızı kalemle işaretlenmişti. Rakamları parmağıyla saydı, sonra zarfı katladı.
 
 "Nereden biliyorsun?"
 
@@ -180,7 +180,7 @@ Kapı kapandıktan sonra Rıza uzun süre bir şey söylemedi. Sevim zarfı çan
 
 *
 
-Cuma sabahı Rıza bahçeye çıktığında kazık hâlâ oradaydı. Eğilip iki eliyle söktü. Toprak ıslaktı, kazık bir sallanıp çıktı. Ucu çamurlanmıştı. Şerit Rıza'nın cebindeydi, kazığa bağlı değildi artık.
+Cuma sabahı Rıza bahçeye çıktığında kazık hâlâ oradaydı. Eğilip iki eliyle söktü. Toprak ıslaktı, kazık bir sallanıp çıktı. Ucu çamurlanmıştı. Kazığın çıktığı çukurun kenarında toprak yarılmıştı, kökün üstünde ince bir çatlak uzanıyordu. Rıza ona dokunmadı. Şerit Rıza'nın cebindeydi, kazığa bağlı değildi artık.
 
 Sevim mutfak penceresinden izliyordu. Muşambanın üstünde ödeme planı açıktı, son taksitin kırmızı işareti hâlâ oradaydı. Sokakta Ünal arabasının kaputuna yaslanmış telefonla konuşuyordu. Erkendi, saat sekizi biraz geçiyordu. Rıza kazığı omzuna alıp sokak kapısına yürüdü, açtı.
 
@@ -202,9 +202,11 @@ Sevim mutfak penceresinden izliyordu. Muşambanın üstünde ödeme planı açı
 
 Sokağa güneş henüz vurmamıştı. Kaldırımın gölgesi arabanın altına kadar uzanıyordu.
 
-Kazığı kaputun üstüne bıraktı. Ünal'ın yüzü değişmedi, yalnız dudağı kıvrıldı. Sevim bahçe kapısından çıkıp yanlarına geldi, kollarını kavuşturmadı, sadece dikildi.
+Kazığı kaputun üstüne bıraktı. Ucundaki çamur kaputa bir leke bıraktı. Ünal lekeyi eliyle sildi, leke yayıldı. Telefonu hâlâ elindeydi, ekranı kararmadı. Yüzü değişmedi, yalnız dudağı kıvrıldı. Bir kedi arabanın altından çıkıp kaldırıma atladı. Sevim bahçe kapısından çıkıp yanlarına geldi, kollarını kavuşturmadı, sadece dikildi.
 
-"Ben imzalamıyorum."
+"Siz satmak istiyordunuz, Sevim Hanım. Geçen hafta bana öyle dediniz."
+
+"Borçtan çıkmak istiyordum, evden değil. Ben imzalamıyorum."
 
 "Hanımefendi, banka..."
 
