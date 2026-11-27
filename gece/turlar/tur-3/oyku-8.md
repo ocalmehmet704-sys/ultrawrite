@@ -64,7 +64,7 @@ Sevim ocağın kapağını kapattı. "O benim işim."
 
 Bahçeye çıktıklarında incir ağacının dibinde çimenin içine bir kazık çakılmıştı. Ucuna turuncu bir şerit bağlanmıştı, rüzgâr şeridi gövdeye vuruyordu. Bahçe duvarının dibinde babanın yıllar önce bıraktığı kırık bir sandalye hâlâ yatıyordu. Kimse onu kaldırmamıştı.
 
-Rıza kazığa baktı, ayağıyla bir kez vurdu. Kazık oynamadı.
+Rıza kazığa baktı, ayağıyla bir kez vurdu. Kazık oynamadı. Bitişikteki evin radyosu bir yerden türkü çalıyordu, sesi duvarın üstünden geliyordu.
 
 "Bu ne?"
 
@@ -212,7 +212,7 @@ Kazığı kaputun üstüne bıraktı. Ünal'ın yüzü değişmedi, yalnız duda
 
 Rıza bir şey demedi. Elini cebine soktu, şeridi çıkardı, avucunda sıkıp tekrar cebine koydu.
 
-Ünal bir şey demeden kazığı aldı, arka koltuğa attı, kapıyı çarptı. Araba sokağın sonuna kadar gitti, freni gıcırdadı, döndü, bir daha gelmedi.
+Ünal kazığı alıp arka koltuğa attı. "Mahkeme saat dokuzda açılır, Sevim Hanım," dedi, kapıyı çarptı. Araba sokağın sonuna kadar gitti, freni gıcırdadı, döndü, bir daha gelmedi.
 
 "Duvar kayacak."
 
@@ -222,4 +222,4 @@ Rıza bir şey demedi. Elini cebine soktu, şeridi çıkardı, avucunda sıkıp 
 
 "Biliyorum." Rıza elini uzattı. "Ver şunu, son sayfayı ben de bir kez okuyayım."
 
-Sevim cevap vermeden içeri girdi, protokolü muşambadan aldı, ocağın kapağını kaldırıp içine attı. Kâğıdın kenarı önce kıvrıldı, sonra Ünal'ın adının yazılı olduğu satır alevlendi. Rıza kapının eşiğinde elini havluya sardı; kan havluya işledi.
+Mutfakta çaydanlık hâlâ ocaktaydı, kimse bardağa uzanmamıştı. Sevim cevap vermeden içeri girdi, protokolü muşambadan aldı, ocağın kapağını kaldırıp içine attı. Kâğıdın kenarı önce kıvrıldı, sonra Ünal'ın adının yazılı olduğu satır alevlendi. Rıza kapının eşiğinde elini havluya sardı; kan havluya işledi.

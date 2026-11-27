@@ -24,7 +24,7 @@ Kamyonetin kapısını kapatmadan önce Kâmil'in hâlâ ona baktığını görd
 
 Yağmur Haydarpaşa'nın altına girdiğinde başlamıştı. Silecek her geçişte bir kez takılıyordu. Rüstem kolu iki kez vurdu, üçüncüde düzelmedi, sonunda elle bastırıp tuttu. Tünelin içinde bir otobüsün farları arkadan yanıp sönüyordu. Kadıköy'de sokaklar kapanmıştı. Köşedeki büfenin önünde iki adam hâlâ çay içiyor, tezgâhın altında bir kedi uyuyordu. Kırmızıda beklerken uygulamanın sayacı ekranda yanıp sönüyordu. Sayaç kırmızıda da işliyordu. Çantanın fermuarına takılı kayıt cihazı iki virgül yedi gösteriyordu. Sekize kadar payı vardı, ama Rüstem o payın ne kadar sürede biteceğini bilmiyordu.
 
-Ağustos'ta da bir zamanlı paket taşımıştı. Bir hastane kapısına bırakıp imza kutusuna "teslim" yazmıştı. Paketi kimin aldığını hiç öğrenmemişti. Bu işin en az sevdiği yanı buydu, hep kapının ötesi bilinmezdi.
+Ağustos'ta da bir zamanlı paket taşımıştı. Bir hastane kapısına bırakıp imza kutusuna "teslim" yazmıştı. Paketi kimin aldığını hiç öğrenmemişti. Bu işin en az sevdiği yanıydı: kapının ötesi hep bilinmezdi.
 
 Yanında duran taksinin şoförü camını indirdi, sigarasını yağmura tuttu. "Hayırlı işler abi," dedi. Rüstem ne dediğini tam anlamadan başını salladı. Karşı köşede bir nöbetçi eczanenin tabelası yanıyordu. Çanta oradan çıkmış olabilirdi, belki orada birine sorabilirdi. Işık yeşile döndü ve Rüstem bunu düşünmeyi bıraktı.
 
@@ -76,7 +76,7 @@ Acilin girişinde iki sedye vardı. Birinde bir adam uyuyordu, öbürü boştu. 
 
 Kadın bilgisayarda bir şeyler aradı, sonra telefonu alıp yoğun bakıma haber verdi. Ses kısık geldi. "Sorumlu hemşire geliyor. Bekleyin."
 
-Rüstem beklerken çantayı yere koymadı. Sedyedeki adam gözünü açtı, "Sen ne bekliyorsun?" diye sordu. Rüstem ilaçtan söz etti. Adam başını yastığa bıraktı, "Babam da şekerliydi," dedi, sonra yeniden uyudu. Saat üçü geçmişti. Bir güvenlik görevlisi kapıya yaslanmış, bir şeker paketinin kâğıdını açıyordu. Rüstem'e bakıp "Kurye misin?" diye sordu, cevap beklemeden şekeri ağzına attı. Rüstem ona bakarken sayaç telefonunda yine yanıp söndü. Kırmızı rakam bir kademe daha yaklaşmıştı, bu da artık değiştirilemezdi. Yoğun bakım kapısı açıldığında yorgun bir yüzle bir kadın çıktı. Boynunda adının yazılı olduğu bir kart vardı, Rüstem okudu: Sevgül Doğan.
+Rüstem beklerken çantayı yere koymadı. Sedyedeki adam gözünü açtı, "Sen ne bekliyorsun?" diye sordu. Rüstem ilaçtan söz etti. Adam başını yastığa bıraktı, "Babam da şekerliydi," dedi, sonra yeniden uyudu. Saat üçü geçmişti. Bir güvenlik görevlisi kapıya yaslanmış, bir şeker paketinin kâğıdını açıyordu. Rüstem'e bakıp "Kurye misin?" diye sordu, cevap beklemeden şekeri ağzına attı. Rüstem ona bakarken sayaç telefonunda yine yanıp söndü. Kırmızı rakam bir kademe daha yaklaşmıştı. Yoğun bakım kapısı açıldığında yorgun bir yüzle bir kadın çıktı. Boynunda adının yazılı olduğu bir kart vardı, Rüstem okudu: Sevgül Doğan.
 
 "Siz misiniz?"
 
@@ -84,7 +84,7 @@ Rüstem beklerken çantayı yere koymadı. Sedyedeki adam gözünü açtı, "Sen
 
 Kadın çantayı aldı, etiketin üstünden parmağını geçirdi. "Hanım yoğun bakımda. Yakını var mı?"
 
-"Bu sabah şekeri düşmüş, dün gece de düşmüş. Bizde ilaç var ama bu marka değil. Bekletmeyin o yüzden."
+Kadın ekledi: "Bu sabah şekeri düşmüş, dün gece de düşmüş. Bizde ilaç var ama bu marka değil. Bekletmeyin o yüzden."
 
 "Komşusunun çocuğu söyledi. Ailesi burada değil."
 
@@ -98,4 +98,4 @@ Kadın kodu okudu, yüzünü buruşturdu. Bir an durdu. Sonra tarayıcıya uzana
 
 Rüstem çantayı geri alıp depoya dönmeyi düşündü. Orada ilaç sabaha kadar bir rafta bekler, imza da Kâmil'in adına atılırdı. Düşüncenin sonunu görmeden kadına baktı.
 
-Kadın omuz silkti. İç kapının arkasından bir monitörün sürekli bip sesi geliyordu. Kadın oraya döndü, sonra ilacı kucağına aldı. Rüstem'in elleri üşümüştü, montunun cebine soktu. Tarayıcıda alıcı dışı teslim seçeneğini buldu, iki kez onaylattı, bir de neden kutusunu doldurdu: hastane, teslim hemşireye. Onaya bastığında ekranda kırmızı bir satır belirdi: alıcı dışı teslim, inceleme. Sayaç bir kademe düştü. Bu ayın primi o kademe kadar eksik kalacaktı.
+Kadın omuz silkti. İç kapının arkasından bir monitörün sürekli bip sesi geliyordu. Kadın oraya döndü, sonra ilacı kucağına aldı. Rüstem'in elleri üşümüştü, montunun cebine soktu. Tarayıcıda alıcı dışı teslim seçeneğini buldu, iki kez onayladı, bir de neden kutusunu doldurdu: hastane, teslim hemşireye. Onaya bastığında ekranda kırmızı bir satır belirdi: alıcı dışı teslim, inceleme. Sayaç bir kademe düştü. Bu ayın primi o kademe kadar eksik kalacaktı.
