@@ -22,7 +22,7 @@ Rauch kâğıdı çevirdi, ezberden söyledi. "Rat ölçünün baştan beri doğ
 
 Sixt'in eli arşının üstünde kaldı. "Arşın kısalırsa aynı kumaş daha çok arşın eder. Vergi de artar."
 
-"Artar."
+"Öyle."
 
 "Kimin hesabına?"
 
@@ -94,7 +94,7 @@ Akşam Sixt eve geldiğinde Gret ocağın başındaydı. Çorba kaynıyordu, kap
 
 Gret kaşığı tencerenin kenarına iki kez vurdu. "Ennelin geldi, duydum. Kapıda konuşuyordunuz, sokağın yarısı duydu."
 
-"Duydu."
+"Konuşmuştuk."
 
 "Üç arşının parası ne demek biliyor musun? Clas'ın tezgâhı satılır. Sonra Ennelin Predigerkloster'in önünde mendil satar." Gret'in ağzı sertti, elleri ise sakindi. Ekmeği bıçağın altında düzgün dilimlere böldü. "Ölçü ölçüdür, ekmek ekmektir. Sen ikisini karıştırma."
 
@@ -152,7 +152,7 @@ Rauch bezi açmadı. "Ölçü evinin arşını bu sabah eğelendi. Yeni olan o."
 
 "Yerinde olması bir şey değiştirmez."
 
-"Değiştirmez. Ama o arşınla Ennelin'in kırk arşını ölçüldü. Yeni arşınla ölçülmedi."
+"Ama o arşınla Ennelin'in kırk arşını ölçüldü. Yeni arşınla ölçülmedi."
 
 Rauch arşına bakmadı, Sixt'e baktı. Yüzü yorgundu. "Ne istiyorsun?"
 

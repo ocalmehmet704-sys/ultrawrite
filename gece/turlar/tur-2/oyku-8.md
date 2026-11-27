@@ -1,6 +1,6 @@
 Bahçe Kapısı
 
-Neriman arabayı kapının önüne çekti, motoru kapatmadı. Demir kapıda yeni bir asma kilit duruyordu. Avluya dökülen kuru yapraklar kapının dibinde yığılmıştı.
+Neriman arabayı kapının önüne çekti, motoru kapatmadı. Demir kapıda yeni bir asma kilit duruyordu. Avluya dökülen kuru yapraklar kapının dibinde yığılmıştı. Neriman evi, bir alıcıya anlatır gibi baştan sona süzdü. Üst kat sundurmasının tahtası gri olmuştu, pencere kenarlarındaki boya kabarıp dökülüyordu.
 
 Hayri süpürgeyi duvara dayadı.
 
@@ -40,7 +40,11 @@ Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmu�
 — Çay koydun.
 — Ne yapayım, adam susuzdu.
 
-Karşı balkonda biri perdeyi araladı, sonra kapattı.
+Karşı balkonda biri perdeyi araladı, sonra kapattı. Komşunun kapısı açıldı, Sabri Amca başını uzattı.
+
+— Hoş geldin Neriman. Anahtar bende, gece bir bakarım.
+— Sabri Amca, bu kapının kaç anahtarı olduğunu sen de mi sayıyorsun?
+— Saymıyorum kızım. Hayri sayıyor.
 
 — Altı saat sürdüm buraya. Yolda tek düşündüğüm şey bu kapıydı.
 — Hangi kısmı?
@@ -94,6 +98,8 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 — Yani beni ödeyemiyorsun.
 — Ödeyebileceğim kadarını ödüyorum. Bu bir teklif.
 — Teklif değil. Bir dilek.
+— Ben senin yerinde olsam, bu evi sana satardım.
+— Benim yerimde olsan, kendi taksitini bana sorardın.
 
 Hayri bardağı eline aldı, içmedi.
 
@@ -164,6 +170,13 @@ Neriman parmağına bulaşan tozu pantolonuna sildi.
 — Ne zaman?
 — Sen gittikten sonra.
 
+Hayri merdiven altındaki vanayı gösterdi. Neriman çevirdi, boru bir kere öksürdü, sonra ev sustu.
+
+— Suyu buradan kapatıyorsun.
+— Kışın gece kapatırım. Boru patlamasın diye.
+— Her gece mi?
+— Her gece.
+
 Hayri merdivenin son basamağını atlayıp çıktı. Neriman ayağını tam üstüne koydu, tahta yine gıcırdadı.
 
 *
@@ -198,6 +211,9 @@ Hayri güldü.
 — Babamın odası.
 — Yatak yerinde değil mi?
 — Yerinde değil. Ben oynattım.
+— Noterde benim adım önce yazılsın.
+— Önce ya da sonra fark etmez. Tapu ikimizin.
+— Senin için fark etmez. Kapıyı her sabah açan benim.
 
 Neriman kâğıda yalnızca rakamı yazdı. Teklifin yarısı, eksi gaz, eksi kiremit. Kâğıdı Hayri'ye uzattı.
 

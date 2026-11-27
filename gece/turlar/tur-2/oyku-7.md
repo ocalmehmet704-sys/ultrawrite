@@ -64,7 +64,7 @@ Nuray yaprağın altına baktı. Damarların arasında küçük, sert bir tuz ta
 
 — Bu tuz, dedi Nuray.
 
-— Görüyorum, dedi Şükran. Kuraklık yılında bu vanayı Kenan'a ben istettim. Tank yetmiyordu, sera ölüyordu. O gece modu ile fasulye yaşadı. İkinci hasat bile aldık.
+— Görüyorum, dedi Şükran. Kuraklık yılında bu vanayı Kenan'a ben istettim. Tank yetmiyordu, sera ölüyordu. O gece modu ile fasulye yaşadı. İkinci hasat bile aldık. Üç sıradan başlamıştık, şimdi altı sıra var. Öğlen her çocuğa bir avuç veriyoruz.
 
 Şükran yaprağı bıraktı, avucunu pantolonuna sildi. Sonra sıraların arasında yürüyüp elini toprağa değdirmeden ilerideki sıralara doğru gezdirdi.
 
@@ -83,6 +83,8 @@ Depodaki rafın en altında gri, mühürlü bir kutu duruyordu. Kapağında tük
 Kurulum öğleden sonra yapıldı. Önce Sera 2 hattını durdurup pompayı kilitledi, sonra B-7 yan hattını ayırdı. Eski bağlantıyı çözünce içerden kahverengi bir su sızdı, paspasa damladı. Nuray damlayan suyu bezle sildi, hattı kurutup yeni kartuşu oturttu. Bağlantıları tek tek parmağıyla yokladı; iki contanın yerinden oynadığını gördü, sıkıştırdı. Saat dördü geçmişti. Hattı yeniden basınçlandırmadan önce tabloya bir kez daha baktı, rakamlar yerindeydi.
 
 Basınç ölçeri sıfırda kaldı. Gece sulaması başlamadan bir kez daha baktı; yine sıfırdaydı. Bir sonraki sırada Şükran ellerini dizlerine koymuş bekliyordu.
+
+Pompayı yeniden çalıştırmadan önce galeriye dönüp panelin uyarı ışığına baktı. Yeşildi. Hat dolmaya başladığında su kartuşun içinden geçti, çıkış tarafındaki ölçer yavaş yavaş kalktı. Nuray çıkıştan bir şişe doldurdu, üstüne saati ve "Reçine sonrası" yazdı, şişeyi cebine koydu. Sabah bu numuneyi cihaza koyacaktı.
 
 Telsizi açtı.
 
