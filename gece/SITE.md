@@ -13,3 +13,7 @@
 ## Tur 3 (23:58)
 - Değişen: mobilde kurulum komutları sarılıyor (önceden tek satırda kesiliyor, kaydırma çubuğu gizliydi, komutun sonu görünmüyordu).
 - Test: 11 kontrol geçti; 390 px'te taşma yok. Ekran görüntüsünde komutlar tam okunuyor, sekme satırı sağda kesilerek kaydırılabilir olduğunu gösteriyor.
+
+## Tur 4 (23:59)
+- Değişen: `404.html` (sade, açık/karanlık uyumlu, 390 px'te taşma yok), JSON-LD'ye `url` alanı eklendi (JSON geçerli).
+- Test: 11 kontrol geçti. Görülen sorun: 404'te başlıktaki üstü çizili ilk deneme anlamsızdı, "Bu sayfa yok." olarak sadeleştirildi.
