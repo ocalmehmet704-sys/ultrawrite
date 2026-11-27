@@ -2,7 +2,7 @@
 
 "Gitti," dedi Burhan.
 
-Sevda püskülü alıp cebine koydu. Çitin dibinde toprağa basılmış yarım aylar vardı. Hepsi yokuşa dönüktü.
+Sevda püskülü alıp cebine koydu, ipin kopan ucunu da eline aldı. Çitin dibinde toprağa basılmış yarım aylar vardı. Hepsi yokuşa dönüktü.
 
 "Annem karanlık basmadan dönün demişti," dedi Burhan. "Karanlık ne zaman basar?"
 
@@ -20,7 +20,7 @@ Sevda değirmen yoluna birkaç adım yürüdü, durdu. Toprakta tekerlek izleri 
 
 "Burada iz yok," dedi Burhan.
 
-"Yok," dedi Sevda. "Yukarı gidenin izi var."
+"Yok," dedi Sevda. "Yukarı gidenin izi var." Keçi düze inmez, dik yerde ot arar; babası böyle söylerdi.
 
 Değirmen yolunun kenarında söğütler sarkıyordu. Burhan dalların altından geçerken başını eğdi, yaprak yüzüne değmesin diye. Sevda geriye iki kez baktı; yolda yalnızca bir kedi yatıyordu. Bir süre ayak izlerinin üstüne basmamaya dikkat etti, sonra vazgeçti; izler birbirine karışmıştı.
 
@@ -40,17 +40,17 @@ Burhan ekmeği cebine koydu. Ekmek hâlâ sıcaktı; Burhan onu iki eliyle tutar
 
 Harman yerinin duvarı yarı yıkıktı. İçinde kırık bir tahta araba duruyordu; tekerleğinin kovuğuna kırlangıçlar yuva yapmıştı. Taşların arasından pas tutmuş tel toprağa iniyordu. Duvarın dibinde karanlık bir açıklık vardı.
 
-Burhan açıklığa yaklaşırken ayaklarıyla taşları sayarak ilerledi. Sevda yerinde kaldı, çakısını cebinden çıkarıp avucunda tuttu.
+Rüzgâr otları yatırıyor, uzakta bir kapı tahtası gıcırdıyordu. Burhan açıklığa yaklaşırken ayaklarıyla taşları sayarak ilerledi. Sevda yerinde, duvarın gölgesinde kaldı; çakısını cebinden çıkarıp avucunda tuttu.
 
 Meler sesi duyuldu ve duvardan geri döndü. Tombul duvarın dibinde, taşların arasında ayaklarıyla yere vuruyordu. Arka bacağı tel kangalına dolanmıştı. Her çekişte tel biraz daha sarıyordu, kangalın kenarındaki pas toprağa dökülüyordu.
 
 Sevda diz çöktü, teli eliyle tuttu. "Çekersem daha çok sıkılır," dedi. Babasının verdiği küçük çakıyı açıp teli kesmeye başladı. Tel kalındı, çakı her seferinde kayıyordu. Sevda dişlerini sıktı ve aynı yere yeniden bastırdı. Tel avucunun içini çizdi; Sevda çakıyı yine de bırakmadı. Eve dönünce bidondaki sütün ne kadar olacağını düşündü; düşünceyi bir kenara bırakıp kesmeye devam etti.
 
-Burhan taşın üstünden atladı, açıklıktan eğilip girdi. İçerisi serindi, toprak ve kuru ot kokuyordu. Çamur dizlerini ıslattı. Bir eliyle duvara tutunup ayağını sağlamlaştırdı. Tombul'un başını iki eliyle göğsüne çekti. Kulağındaki kılları saymaya başladı. "Bir, iki, üç..." Keçi meleyi kesti, kıpırdamadan durdu.
+Burhan taşın üstünden hemen atladı, açıklıktan eğilip girdi. İçerisi serindi, toprak ve kuru ot kokuyordu. Çamur dizlerini ıslattı. Bir eliyle duvara tutunup ayağını sağlamlaştırdı. Tombul'un başını iki eliyle göğsüne çekti. Kulağındaki kılları saymaya başladı. "Bir, iki, üç..." Keçi meleyi kesti, olduğu yerde kıpırdamadan durdu.
 
 Sevda çakıyı telin altından geçirip son kez bastırdı. Tel koptu, bir ses çıkararak kangalın içine geri kaydı. Tombul bacağını çekti, bir adım topallayıp durdu, sonra ikinci adımı attı. Dizindeki çamur kurumaya başlamıştı; Burhan keçinin başını bırakmadan yanağını boynuna yasladı. Tombul bir süre öyle durdu, sonra başını Burhan'ın omzuna sürttü.
 
-Güneş taşların arkasına inmişti. Dönüş yolunda Tombul her adımda ayağını biraz eğiyordu. Burhan keçinin önünde yürüdü, cebindeki ekmek her adımda omzuna vuruyordu. Kırlangıçlar eski arabanın üstünde hâlâ uçuşuyordu.
+Güneş taşların arkasına inmişti. Dönüş yolunda Tombul her adımda ayağını biraz eğiyordu. Sevda yolun ortasında durup keçinin sağ bacağını elleriyle yokladı; ağrının nerede olduğunu anlamaya çalıştı. Burhan keçinin önünde yürüdü, cebindeki ekmek her adımda omzuna vuruyordu. Kırlangıçlar eski arabanın üstünde hâlâ uçuşuyordu.
 
 Ahırın önüne vardıklarında annesi kapının eşiğinde duruyordu. Sevda'ya değil Burhan'a baktı ve sordu: "Ne oldu?"
 
