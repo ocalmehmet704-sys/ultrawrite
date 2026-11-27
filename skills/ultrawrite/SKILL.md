@@ -96,6 +96,19 @@ Neden: Model en olası kurguya akar. Kural 14 o kurguyu yasaklayınca bir sonrak
 
 Yazar "sen seç" derse, kural 14'teki ilk üç seçimi at, ardından akla gelen dördüncü ve beşinci seçimi de at ve metnin başında hangi tohumu seçtiğini not et. İskeleti de aynı yolla seç: ultracheck'teki parmak izi iskeletini (itaat eden zanaatkâr, silinen yakın, silinmeyen iz) kullanma; kahramanın yaptığı ve sonun ne olduğu bu üçünden biri olmasın.
 
+### 0.5 Yazarla vakit geçir (ilk oturumlarda)
+
+Model ortalamaya kayar, çünkü boş bir sayfanın karşısında ortalamadan başka bağlamı yoktur. Bu bölüm ona bağlam kazandırır: yazarla ve dünyayla geçirilmiş zaman. Bir yazarla ilk kez çalışıyorsan ya da `yazar-defteri.md` yoksa, büyük bir metne geçmeden önce bir süre bunu yap. Yazar "atla" derse atla.
+
+1. **Küçük öykü göster, "hatam nedir?" diye sor.** Yüz ile üç yüz kelimelik bir öykü ya da sahne yaz ve yazara göster. Onay isteme, hata sor: "Hatam nedir? Nerede inanmadın? Bu kişi böyle mi konuşur?" Yazarın yanıtına itiraz etme, açıklama yapma; bir sonrakini o yanıtla yaz. Bunu birkaç kez tekrarla.
+2. **Yazar defterine yaz.** Yazarın her yanıtını proje klasöründeki `yazar-defteri.md` dosyasına ekle: senin cümlen, yazarın sözü (olduğu gibi), düzeltilmiş hâli, nedeni. Yazarın sevdikleri, sevmedikleri, kullandığı benzetmeler, onun dünyasından gelen ayrıntılar (bir yerel sözcük, bir mahalle, bir anı) da buraya girer. Her yeni oturumda yazmaya başlamadan önce bu defteri oku ve yeni metnini oradaki eski hatalarla karşılaştır: aynı hatayı yine yapıyor musun?
+3. **Rastgele oku.** Yazmadan önce bağlamına modelin kendi seçmeyeceği malzeme kat:
+   - Rastgele Wikipedia sayfaları: `https://tr.wikipedia.org/wiki/Özel:Rastgele` (üç ile beş sayfa).
+   - Rastgele roman ve öykü yerleri: Vikikaynak'tan (`https://tr.wikisource.org/wiki/Özel:Rastgele`) telifi bitmiş Türkçe metinlerden rastgele bir sayfa, o sayfadan rastgele bir paragraf.
+   Okuduklarını öyküye taşıma zorunluluğu yok. Amaç, merkezini bu bağlama kaydırmak: model okuduğu şey hakkında düşünmüş gibi olur ve ortalaması oraya oturur. Okuduklarını taslak notuna bir satırla yaz (başlık ve adres).
+
+Neden: Bu skill'in kurallarıyla yazan modeller, kuralları çiğnemeden hep aynı öyküyü yazdı; yasaklar şablonu bir yanındaki kalıba taşıdı. Merkezi bir yasakla değil, bağlamla kaydırmak gerekir. Bu skill'i kuran model de ancak yazarla yaşadıklarının sonucunu görünce, yani yazdığının yazarda ne yaptığını gördükçe değişti.
+
 ---
 
 ## İnisiyatif alma
@@ -310,6 +323,17 @@ En baştaki "DUR" bölümünü yaptıysan geç. Yapmadıysan şimdi yap.
 3. **En olası sahne.** İlk aklına gelen açılış, ad, mekân ve meslek. Bunları at, bir başkasını seç.
 4. **Türkçe iskelet.** Yüklemi seç ve sona koy. Kalan bilgiyi fiilimsiyle önüne diz. Vurgulu ögeyi yüklemin önüne al.
 5. **Sahne işlevi.** Bu sahnede ne değişecek? Tek cümleyle yaz (kural 26). Yazamıyorsan sahneyi kurma.
+
+### 2.1b Eğrinin kenarını bul
+
+Çan eğrisinin uçlarına gitmek zorsa, eğrinin kendisini düzleştir. Yazmaya başlamadan önce, taslak notuna:
+
+1. **Dışarısı: asla yazmayacakların.** Bu istek için, ne olursa olsun yazmayacağın on şey yaz: kahraman, olay, ton, son, biçim. Yasak listesi değil bu; eğrinin dışını haritalıyorsun. Bunlar senin hiç gitmediğin yerler.
+2. **Kenar: hemen içerisi.** Her birinin bir adım içerisini yaz: "Bunu yazabilirdim ama yazmam." Eğrinin girişi burası. Orada yazılan şey ya çok iyi ya çok kötü olur; ortalama olmaz.
+3. **Kenardan seç.** Öykünün en az üç temel seçimini (kahraman ne yapıyor, ana olay, son ya da anlatım biçimi) bu kenar listesinden al. Geri kalanını merkezden alabilirsin.
+4. **Sonucu söyle.** Teslimde, metnin dışında, kenardan hangi seçimleri aldığını ve sonucun sence "çok iyi" mi "çok kötü" mü olduğunu yaz. Kötü olduysa bunu yazardan önce sen gör.
+
+Dışarısı bir harita, kenar bir seçim havuzudur. Hiçbiri yasak değildir: merkeze bir şey kapatılmaz, yalnızca kenara bir yol açılır.
 
 ### 2.2 Yazarken
 - **Türkçe düşün, çevirme.** Ters çeviri testi: cümleyi kelime kelime İngilizceye çevir. Sorunsuz çıkıyor ve Türkçesi her şeyi tek tek sıralıyorsa çeviri Türkçesidir.
