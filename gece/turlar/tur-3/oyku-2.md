@@ -26,6 +26,8 @@ Kunigund başını yastığa gömdü. "Adamın Gerbergasse'de bir dükkânı var
 
 "Ona göre."
 
+Gerdraut bu hesabı biliyordu. Kira her ayın ilk günü ödenirdi, Kunigund'un da o güne kadar elinde bir sikke kalmazdı.
+
 Gerdraut çantasını kapattı. Sokak hâlâ karanlıktı. Formu sabah Schreiberstube'ye götürmesi gerekiyordu. Formda ise bir sütun boştu, ve bunu sabaha kadar doldurmayı düşündü.
 
 Schreiberstube, Rathaus'un arka katında, kalın camlı tek bir pencerenin altındaydı. Odada mürekkep kokusu ile kum kutusunun tozu birbirine karışıyordu. Raflarda ciltli defterler dizilmişti, her birinin sırtına bir yıl yazılmıştı. Sebolt Hafner masadan kalkmadan formu kendine çevirdi. Gri çuhadan bir yelek giymişti, yakasına kadar düğmeliydi.
@@ -42,11 +44,13 @@ Hafner sütunları tek tek okudu. Parmağı her hanenin üstünden kayarak indi;
 
 "Sayılmadığını." Hafner'in sesi düzgündü. Acele etmiyordu, ama hiçbir cümlesini yarım da bırakmıyordu. "Rat her yıl on beş yaşına gelecek erkekleri sayar. Kaçının silah tutabileceğini, kaçının Spital'de çırak olacağını bilmek zorundadır. Kent, bilmediği kadar güçsüzdür. Sayılmayan çocuğu ne silaha yazabiliriz ne tezgâha. Kayıtsız çocuk, Haldburg'un dışında kalan çocuktur."
 
-Gerdraut eldivenlerini çıkarıp masanın kenarına koydu. Koridorda, kapının yanında bir tahta asılıydı. Üstünde Rat'ın mührü vardı, altında "Sayım" yazıyordu. On beş yaşın altındaki çocukların adları sokak sokak dizilmişti; Gerbergasse'den bir sütun, Mehlgasse'den iki sütun. Adların birkaçını Gerdraut tanıyordu, birkaçının annesini de bilirdi. Her adın yanında küçük bir harf vardı: S, ya da K. Gerdraut harflerin ne anlama geldiğini sormadı, ama Spital'in ve kışlanın kısaltması olduğunu tahmin etti.
+Gerdraut eldivenlerini çıkarıp masanın kenarına koydu. Koridorda, kapının yanında bir tahta asılıydı. Üstünde Rat'ın mührü vardı, altında "Sayım" yazıyordu. On beş yaşın altındaki çocukların adları sokak sokak dizilmişti; Gerbergasse'den bir sütun, Mehlgasse'den iki sütun. Adların birkaçını Gerdraut tanıyordu, birkaçının annesini de bilirdi. Her adın yanında küçük bir harf vardı: S, ya da K. Gerdraut harflerin ne anlama geldiğini sordu. Hafner kâğıttan başını kaldırmadan, S'nin Spital'i, K'nın kışlayı gösterdiğini söyledi. "Asker de bir sütundur," dedi. "Kent için tek bir eksik ad bile, defterde görünmeden savaşa gidemez."
 
 "Ya anne ad vermezse?"
 
 "O zaman Spital'in defteri konuşur. O defter de eksiksiz tutulur." Hafner sayfayı çevirdi, dolu satırlara baktı. "Sizin kırk bir bildiriminizin hiçbirinde boşluk yok, Frau Gerdraut. Yaşlı ebeler bu işi yıllarca yaptı, defterlerinde hep delik kalırdı. Bunu Rat'ta ben de söyledim, bir kez değil iki kez."
+
+Hafner eski defterlerden birini açtı, Gerdraut'un kendi doğum satırını gösterdi. Otuz iki yıl önce, Brunnengasse'de yazılmış; ad, saat, baba ve meslek tam. "Sizin de bir sütununuz var," dedi. "Bir kişi bunu bilirse yeter." Babasının adı orada duruyordu; Gerdraut bunu bir ölçü gibi okudu.
 
 Gerdraut'un boynu ısındı. Hafner bunu fark etmiş gibi konuşmayı sürdürdü. "Her ay bu sayfaların bir kopyasını çıkaracağım. Kopya Rat'a gider. Yanlış bir hane olursa sorumluluk ilk önce bildirene düşer, bu yüzden sizin işiniz ağır."
 
@@ -72,7 +76,7 @@ Kunigund'un sesi yorgundu, ama sözleri sivriydi. Gerdraut bunu fark etti, yine 
 
 "Nefesi düzgün, emmesi iyi. Bu kadar."
 
-Kunigund bu cevapla yetindi. Gerdraut formu katlayıp çantasına koydu. Çıkarken Gerbergasse'de bir kadın havuzun kenarında soğuk suyla çuha yıkıyordu; ellerinin derisi kızarmıştı. Kadın Gerdraut'a baktı, sonra ne olduğunu sordu. Gerdraut kocasının mesleğini yazacağını söyledi. Kadın başını salladı, "Ad da yazılacak mı?" diye sordu. "Gerekirse," dedi Gerdraut, ve yürüdü.
+Kunigund bu cevapla yetindi. Gerdraut formu katlayıp çantasına koydu. Çıkarken Gerbergasse'de bir kadın havuzun kenarında soğuk suyla çuha yıkıyordu; ellerinin derisi kızarmıştı. Kadın Gerdraut'a baktı, sonra ne olduğunu sordu. Gerdraut kocasının mesleğini yazacağını söyledi. Kadın başını salladı, "Ad da yazılacak mı?" diye sordu. "Gerekirse," dedi Gerdraut, ve yürüdü. Kunigund'un kız kardeşi kapıya kadar geldi, çorbanın tuzunu tadarak sordu: "Bu defter ne zaman dolar?" Gerdraut omuz silkti. "Her doğumda bir satır daha. Hiç dolmaz."
 
 Schreiberstube'de Hafner formu okudu, başını salladı. Bir boyacı için bir sütun yeterdi.
 
@@ -86,7 +90,11 @@ Gerdraut kabul etti. Sonra defteri kendine çevirdi ve Kunigund'un satırını b
 
 Koridora çıkınca tahtada Anselm'in adını gördü. Ad, Spital'in satırıyla aynı mürekkeple yazılmıştı. Gerdraut bunun hakkında bir şey düşünmedi. Tahtadaki sütunlar düzgündü, gerisi Hafner'in işiydi.
 
-Ayın sonunda Mehlgasse'de bir doğum çağrıldı. Kapının önünde bekleyen adam terziydi; parmakları iğne izleriyle doluydu, yüzünde bir günlük sakal vardı. Karısı ikinci kez doğuruyordu. İlk çocuk bir yaşındaydı, pencerenin önünde bir tahta bardakla oynuyordu. Gerdraut çocuğu yıkamadan önce adama döndü, adını ve mesleğini sordu. Adam bir an tereddüt etti, ocağın yanındaki sandalyeye bakıp oturdu. Sonra söyledi: adı Ortolf, mesleği terzi, yaşı otuz bir.
+O akşam kendi oğlunun adını da tahtada gördü. Jakob bu yaz on beş yaşını dolduracaktı; adının yanında K harfi vardı. Gerdraut bunu uzun uzun okumadı. Eve dönüp ocağın yanına oturdu, Jakob'un doğum saatini on beş yıl önce kendi tuttuğu defterden çıkarıp Rat'ın yeni sütun sırasına göre kopyaya aktardı. Hane boş kalmadı.
+
+Ayın sonunda Mehlgasse'de bir doğum çağrıldı. Kapının önünde bekleyen adam terziydi; parmakları iğne izleriyle doluydu, yüzünde bir günlük sakal vardı. Karısı ikinci kez doğuruyordu. İlk çocuk bir yaşındaydı, pencerenin önünde bir tahta bardakla oynuyordu.
+
+Doğum uzun sürdü. Karısının sesi sokağa kadar gidiyordu, ama Gerdraut'un ellerinde titreme yoktu. Çocuğun omzu sıkışmıştı; Gerdraut onu üç kez çevirip yerine oturttu, sonra yavaşça çekti. Kan, leğenin kenarından taşmadan durdu. Yeni doğan, ilk nefesini alıp soluk soluğa ağladı; terzi kapının eşiğinden içeri bir adım attı, sonra durdu. Gerdraut çocuğu yıkamadan önce adama döndü, adını ve mesleğini sordu. Adam bir an tereddüt etti, ocağın yanındaki sandalyeye bakıp oturdu. Sonra söyledi: adı Ortolf, mesleği terzi, yaşı otuz bir.
 
 "Çocuğun saati?"
 

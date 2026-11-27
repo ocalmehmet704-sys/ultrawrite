@@ -10,27 +10,31 @@ Fermuarın üstündeki etiketlerden birinde alıcı yazıyordu: Fikriye Aksoy, C
 
 "Bilmem. Göndereni değil, alıcıyı bulacaksın." Kâmil çantayı uzatırken ilk kez bakışını kaçırdı. "Kapıda kimse yoksa geri dönersin. Beklemeye kalkma. Sayaç senin."
 
-Rüstem depo çıkışındaki kayıt defterine adını yazdı, yanına saati koydu: bir kırk üç. Bir üst sayfada aynı gece için Ramazan'ın bıraktığı kayıt vardı. Ramazan dört paketi kapıda bırakmış, dördüne de "adres yok" yazmıştı. Rüstem bunu okuyunca defteri kapatmadan önce kalemi kapağına taktı.
+Sayaç ne demekti, Rüstem sormadı. Bu ay onun satırında iki kademe düşmüştü. Üçüncüye yaklaşmamak için her gece biraz daha dikkatli çalışıyordu, bunu Kâmil de biliyordu. Zamanlı paketlerde süre dolmadan teslim edilirse prim tam yazılırdı. Geç kalınırsa kademe iner, o kademe ay sonunda cebe girmezdi.
+
+Rüstem depo çıkışındaki kayıt defterine adını yazdı, yanına saati koydu: bir kırk üç. Bir üst sayfada aynı gece için Ramazan'ın bıraktığı kayıt vardı. Ramazan dört paketi kapıda bırakmış, dördüne de "adres yok" yazmıştı. Rüstem bunu okuyunca kalemi kapağına taktı.
 
 Çantayı kamyonetin arka kutusundaki soğutucu bölmeye yerleştirdi. Dış yüzey ılıktı, fermuarın altından ise ince bir soğukluk sızıyordu. Parmaklarını bir an yüzeyde tuttu, sonra çekti. Uygulamada yirmi dört adres sıralıydı. Çoğu tek satırdı. Bu adresin altında ayrı bir renkte "zamanlı" yazıyordu. Rüstem bu etiketi dokuz yıldır görmüştü ama bir kez bile dikkatle okumamıştı.
 
-Kamyonetin kapısını kapatmadan önce Kâmil'in hâlâ ona baktığını gördü. Kâmil başını salladı, bir şey daha söylemedi. Rüstem vites koluna uzanırken aynada rampanın ışıklarının çantanın bıraktığı yerde toplandığını gördü. Oraya bir daha bakmadı.
+Kamyonetin kapısını kapatmadan önce Kâmil'in hâlâ ona baktığını gördü. Kâmil başını salladı, bir şey daha söylemedi. Vites koluna uzanırken aynada rampanın ışıklarının çantanın bıraktığı yerde toplandığını gördü. Oraya bir daha bakmadı.
 
-Yağmur Haydarpaşa'nın altına girdiğinde başlamıştı. Silecek her geçişte bir kez takılıyordu. Rüstem kolu iki kez vurdu, üçüncüde düzelmedi, sonunda elle bastırıp tuttu. Tünelin içinde bir otobüsün farları arkadan göz kırpar gibi yanıp söndü. Kadıköy'de sokaklar kapanmıştı. Köşedeki büfenin önünde iki adam hâlâ çay içiyor, tezgâhın altında bir kedi uyuyordu. Kırmızıda beklerken uygulamanın sayacı yanıp sönüyordu. Sayaç kırmızıda da işliyordu.
+Yağmur Haydarpaşa'nın altına girdiğinde başlamıştı. Silecek her geçişte bir kez takılıyordu. Rüstem kolu iki kez vurdu, üçüncüde düzelmedi, sonunda elle bastırıp tuttu. Tünelin içinde bir otobüsün farları arkadan yanıp sönüyordu. Kadıköy'de sokaklar kapanmıştı. Köşedeki büfenin önünde iki adam hâlâ çay içiyor, tezgâhın altında bir kedi uyuyordu. Kırmızıda beklerken uygulamanın sayacı ekranda yanıp sönüyordu. Sayaç kırmızıda da işliyordu. Çantanın fermuarına takılı kayıt cihazı iki virgül yedi gösteriyordu. Sekize kadar payı vardı, ama Rüstem o payın ne kadar sürede biteceğini bilmiyordu.
+
+Ağustos'ta da bir zamanlı paket taşımıştı. Bir hastane kapısına bırakıp imza kutusuna "teslim" yazmıştı. Paketi kimin aldığını hiç öğrenmemişti. Bu işin en az sevdiği yanı buydu, hep kapının ötesi bilinmezdi.
 
 Çantanın üstü ıslanıyordu. Rüstem onu montunun altına çekti, ama soğuk ceketinin içine yayıldı ve bu ona hiç hoş gelmedi. Kamyoneti Caferağa sokağının başında kaldırıma çekti.
 
-Apartmanın kapısı kapalıydı, ama kilidin çerçevesi ayrılmıştı. Birisi oraya bir tahta sıkıştırmış, tahta yerinden oynamıştı. Zil panosunda on bir isim vardı. Üçüncü katın satırına bant yapıştırılmış, bandın üstüne kalemle "Aksoy F." yazılmıştı. Rüstem zile bastı. İçeriden bir ses geldi, sonra kesildi. Numarayı çevirdi, telefon uzun uzun çaldı, kimse açmadı. Saate baktı: ikiyi kırk dört geçiyordu.
+Apartmanın kapısı kapalıydı, ama kilidin çerçevesi ayrılmıştı. Birisi oraya bir tahta sıkıştırmış, tahta yerinden oynamıştı. Zil panosunda on bir isim vardı. Üçüncü katın satırına bant yapıştırılmış, bandın üstüne kalemle "Aksoy F." yazılmıştı. Bandın altından eski bir isim okunuyordu, üstü çizilmişti: Murat Aksoy. Rüstem zile bastı. İçeriden bir ses geldi, sonra kesildi. Numarayı çevirdi, telefon uzun uzun çaldı, kimse açmadı. Saate baktı: ikiyi kırk dört geçiyordu.
 
 Bir süre yağmurun altında bekledi. Pencerelerin çoğu karanlıktı. Üçüncü katın küçük penceresinde sarımtırak bir lamba yanıyordu. Işık perdeye vuruyor, perdenin kıvrımlarını gösteriyordu. Kapının arkasında birinin olup olmadığını bilmiyordu. Bilmenin tek yolu yukarı çıkmaktı.
 
 Çantayı yeniden kucakladı, apartman kapısını omzuyla itti.
 
-Merdivenin ışığı iki basamakta bir sönüyordu. Rüstem her basamakta düğmeye bastı; ışık ayaklarının ucunu zar zor gösteriyordu. İkinci katın kapısında bir çift çocuk ayakkabısı vardı, içlerine kâğıt tıkılmıştı. Duvarda eski bir ilan kâğıdı yapışıyordu, üstünde kaybolmuş bir köpeğin fotoğrafı, altında bir telefon numarası. Bir televizyon açıktı, sesi kapının altından sızıyordu.
+Merdivenin ışığı iki basamakta bir sönüyordu. Rüstem her basamakta düğmeye bastı; ışık ayaklarının ucunu zar zor gösteriyordu. İkinci katın kapısında bir çift çocuk ayakkabısı vardı, içlerine kâğıt tıkılmıştı. Bir televizyon açıktı, sesi kapının altından sızıyordu. Duvarda eski bir ilan kâğıdı yapışıyordu: kaybolmuş bir köpeğin fotoğrafı, altında bir telefon numarası. Ne kadar eski olduğunu kâğıdın sararmasından anladı.
 
 Üçüncü katın sahanlığında tahta boyalı bir kapı vardı. Altından mutfağın sarı çizgisi geliyordu. Rüstem üç kez çaldı, aralarında bekleyerek. Ayak sesi gelmedi. Kolu tuttu, kilitliydi.
 
-Komşunun kapısı açıldı. Arkada on iki on üç yaşlarında bir çocuk duruyordu; üstünde eski bir eşofman, ayağında yırtık terlik vardı. Kapının kenarına yaslandı.
+Komşunun kapısı açıldı. Arkada on iki on üç yaşlarında bir çocuk duruyordu; üstünde eski bir eşofman, ayağında yırtık terlik vardı. Kapının kenarına yaslandı. İçeriden bir kadın sesi seslendi: "Tolga, kapıyı kapat." Çocuk kıpırdamadı.
 
 "Fikriye teyze yok," dedi. "Dün akşam ambulansla götürmüşler."
 
@@ -44,7 +48,13 @@ Rüstem fermuarı açıp baktı. Buz paketleri çatlamamıştı, sıcaklık çiz
 
 "Biliyorum." Çocuk ona bir an baktı. "Annem içeri koymamı istemedi, kapıyı açmadı."
 
-Kapıda imza isteniyordu, alıcı yoktu. Komşu alıcı değildi. Kurala göre çantayı yeniden kamyonete taşıyıp depoya dönmesi gerekiyordu. Depoya gitmek yarım saatlik bir yoldu, buzdolabına girmeyen ilaç o sürede ısınırdı. Komşunun kapısına bırakmak da kuralın dışındaydı. Rüstem bu ikisini tartmadı. Hastane vardı, o da kuralın dışındaydı ama bir tek orada soğutucu olduğunu biliyordu.
+Çocuk kapının eşiğine oturdu, terliğinin ucuyla sahanlığın kiremitini çizdi. "Ne yapacaksın?"
+
+"Bilmiyorum."
+
+"Teyzenin bir kedisi vardı. Onu da götürdüler mi, bilmiyorum." Çocuk anahtarı cebinden yeniden çıkardı, avucunda çevirdi. "Kedi yoktu bu sabah. Pencere açıktı."
+
+Kapıda imza isteniyordu, alıcı yoktu. Komşu alıcı değildi. Kurala göre çantayı kamyonete geri taşıyıp depoya dönmesi gerekiyordu. Depoya gitmek yarım saatlik bir yoldu, buzdolabına girmeyen ilaç o sürede ısınırdı. Komşunun kapısına bırakmak da kuralın dışındaydı. Rüstem ikisini tartmadı. Hastane vardı, o da kuralın dışındaydı ama orada en azından soğutucu olduğunu biliyordu.
 
 "Kadıköy'de hastane kaç tane?"
 
@@ -60,7 +70,7 @@ Acilin girişinde iki sedye vardı. Birinde bir adam uyuyordu, öbürü boştu. 
 
 Kadın bilgisayarda bir şeyler aradı, sonra telefonu alıp yoğun bakıma haber verdi. Ses kısık geldi. "Sorumlu hemşire geliyor. Bekleyin."
 
-Rüstem beklerken çantayı yere koymadı. Saat üçü geçmişti. Bir güvenlik görevlisi kapıya yaslanmış, tatlı bir şey yiyordu. Yoğun bakım kapısı açıldığında yorgun bir yüzle bir kadın çıktı. Boynunda adının yazılı olduğu bir kart vardı, Rüstem okudu: Sevgül Doğan.
+Rüstem beklerken çantayı yere koymadı. Saat üçü geçmişti. Bir güvenlik görevlisi kapıya yaslanmış, bir şeker paketinin kâğıdını açıyordu. Rüstem ona bakarken sayaç telefonunda yine yanıp söndü. Kırmızı rakam bir kademe daha yaklaşmıştı, bu da artık değiştirilemezdi. Yoğun bakım kapısı açıldığında yorgun bir yüzle bir kadın çıktı. Boynunda adının yazılı olduğu bir kart vardı, Rüstem okudu: Sevgül Doğan.
 
 "Siz misiniz?"
 
@@ -70,7 +80,11 @@ Kadın çantayı aldı, etiketin üstünden parmağını geçirdi. "Hanım yoğu
 
 "Komşusunun çocuğu söyledi. Ailesi burada değil."
 
-Kadın bir an durdu. Sonra tarayıcıya uzanan Rüstem'in elini gördü. "Benim adımı yazmazsın."
+"Dışarıdan gelen ilaç yoğun bakıma kendi reçetesi olmadan girmez," dedi kadın.
+
+"Reçete çantanın içinde. Eczanenin kodu var." Rüstem etiketi çevirdi.
+
+Kadın kodu okudu, yüzünü buruşturdu. Bir an durdu. Sonra tarayıcıya uzanan Rüstem'in elini gördü. "Benim adımı yazmazsın."
 
 "Sistem alıcı adı istiyor. Sizin adınızı yazmam, alıcı dışı diye kaydederim."
 

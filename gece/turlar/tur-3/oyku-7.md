@@ -10,7 +10,7 @@ Recep Dadaş iki gün önce Güney Galerisi'nde göçük altında kalmıştı. K
 
 Şükran filtre kayıtlarını açtı. Damıtıcının ikinci kademesi dün gece on bir ile on bir buçuk arasında durmuş, kimse yeniden başlatmamıştı. Bu tankın tuzu o kademeden geçmişti. Filtre 3B'nin ağında beyaz bir kabuk vardı. Parmağının ucuyla dokundu, kabuk kırıldı. İçi tuz gibi gevrekti, ama tuz gibi değildi; kenarlarında hâlâ bir sararma vardı.
 
-Numune şişesini doldurdu, iki damla çekip probu daldırdı. Sayı yine yükseldi. Dışarıda fırtına uyarısı yanıp sönüyordu: üç gün, belki dört. Bu süre boyunca sera kolu kapalı kalırdı, çünkü kubbenin basıncını dışarıdaki toz düşürürdü. Laboratuvar sabah yediden önce yanıt vermezdi. Tank yüzde seksen dörtteydi, saat altıda ana hatta bağlanacaktı.
+Numune şişesini doldurdu, iki damla çekip probu daldırdı. Sayı yine yükseldi. Her numunenin etiketine üç harflik kodunu yazdı, saatini ekledi, sonra etiketi kendi elinin iziyle kapatmadan bıraktı; kayıt sistemi onu kendiliğinden okuyordu. Dışarıda fırtına uyarısı yanıp sönüyordu: üç gün, belki dört. Bu süre boyunca sera kolu kapalı kalırdı, çünkü kubbenin basıncını dışarıdaki toz düşürürdü. Laboratuvar sabah yediden önce yanıt vermezdi. Tank yüzde seksen dörtteydi, saat altıda ana hatta bağlanacaktı.
 
 Etiketi değiştirmedi. Ekrana tek satır yazdı: Medikal havuz, numune alındı, koordinatöre bildiriliyor. Gece nöbetindeki laboratuvar teknisyeni Ferhat'ı aradı. Ferhat, sesi uykudan çıkmış gibi, sabah yediye kadar kapının kapalı olduğunu söyledi. Şükran kapatmadan önce bir şey daha sordu: "Sen olsan ne yapardın?" Ferhat bir süre cevap vermedi. Sonra "Sen onu sormadan önce ben de yapmıştım," dedi ve hattı kapattı.
 
@@ -35,6 +35,18 @@ Burak Sönmez sabah beşte çizelgeyi masasına yaymıştı. Kâğıdın kenarla
 "Karıştırınca yüze iner."
 
 "İnmez. Damıtıcının ikinci kademesi dün gece durdu, bunu sen de biliyorsun. Filtre 3B'ye bak. Kabuk çökmüş, sodyum ağa yapışmış. Yüzde ikide de içilmez. Ama sulamaya girerse sera tuza dayanıklı hattı kaldırır. Kurak kolun buğdayı iki yıldır bu tuzla büyüyor."
+
+"Sera bir gün eder, Şükran. Koloni ise üç yüz kişi."
+
+"Sera bugünü kurtarır. Sen bugünü istiyorsun."
+
+Sönmez kupayı eline aldı, içine baktı, sonra geri koydu. "Bana bir alternatif söyle. Bir tane. Sonra seni dinlerim."
+
+"Yedek tank."
+
+"Yedek tank yirmi gün. Fırtına üç gün, sonra yeniden kuyruk. Ben o kuyruğu sana bırakmıyorum."
+
+"Ben de onu sana bırakmıyorum."
 
 Sönmez çizelgenin kenarındaki bir kutuyu tırnağıyla kazıdı. Bir süre konuşmadı. Duvarın içinden rüzgârın bastırdığı bir uğultu geliyordu; Şükran bunu ilk kez fark etti. Sonra kâğıdı Şükran'a doğru çevirdi. Sera satırının üstü çizilmiş, altına kalemle bir şey yazılıp silinmişti. Silinen kelimeyi okuyamadı.
 
@@ -70,7 +82,7 @@ Sera kubbesinin ışığı mordu, havası ağır ve nemliydi. Ebru Kılıç sır
 
 "Yüzde dört tuzu kaldırır. Kurak koldaki buğday tuza alıştırılmış. Bunu bana sen anlattın."
 
-Ebru bir süre sıraya baktı. Sonra fenerini tezgâha koydu, kollarını sıvadı. "Kolu ben tutarım. Vanayı sen çevir. Kayda kimin adı yazılacak?"
+Ebru bir süre sıraya baktı. Tavana, sulama borularına bakar gibi kafasını kaldırdı. Drenaj hattı açıktı, tuz kökten dışarı akmıyordu, orada birikiyordu. Sonra fenerini tezgâha koydu, kollarını sıvadı. "Kolu ben tutarım. Vanayı sen çevir. Kayda kimin adı yazılacak?"
 
 "Benim."
 
@@ -87,6 +99,8 @@ Boru hattında bir tıkırtı oldu, pompanın sesi değişti. Duvardaki manometr
 "Sekiz dakikada köklere gelir," dedi.
 
 Ebru, kendi önlüğünden bir şerit kopardı, Şükran'ın avucuna sardı. Düğümü sertçe attı. "Ellerini tutmak için tutmadın," dedi. "Bu kadarına bakarım."
+
+Tavandaki püskürtücüler bir an sustu, sonra yeniden çalıştı. Yaprakların üstünde ince bir su tabakası belirdi, sıraların arasındaki beyaz çizgilerin üstünden geçip kayboldu. Ebru bunu gördü, bir şey söylemedi.
 
 Şükran tabletteki kaydı açtı. Manuel yönlendirme, saat 05.56, kullanıcı: Ergin. Kaydı okudu, sonra tableti kapatmadan elinde tuttu. Ekranda kendi adı duruyordu, daha önce hiç orada görmemişti.
 
@@ -106,9 +120,21 @@ Sönmez altıya beş kala girdi. Yüzünde uykusuz bir kızgınlık vardı, ama 
 
 "Yirmi gün." Sönmez tekrarladı, güldü, gülüşü yarıda kesildi. "Yirmi gün, sen de biliyorsun, bir kantin raporu değil. Fırtına girerse yedek tank da yarısına iner. Bunu nasıl açıklarım?"
 
-"Açıklamanıza gerek yok. Kayıt benim."
+"Aradım sizi. Açtınız, arka planda kapı kapandı, sonra hiçbir şey."
 
-"Kayıt benim. Koordinatör sensin, ben imzayı atarım." Sönmez bir an duraksadı, sonra omuzlarını düşürdü. "Ne kadar tuz, ne kadar ayrım. Bunların hiçbiri sana ait değil."
+"Çıkarken kapattım. Koridor fırtına için kapalıydı, yolu uzun tuttu." Sönmez yeleğinin cebinden bir mendil çıkarıp Şükran'ın eline uzattı, sonra vazgeçti, mendili geri koydu.
+
+"Açıklamanıza gerek yok. Kaydı ben yazdım."
+
+"Yazdın. İmza bende." Sönmez bir an duraksadı, sonra omuzlarını düşürdü. "Ne kadar tuz, ne kadar ayrım. Bunların hiçbiri sana ait değil."
+
+"Eline ne oldu?"
+
+"Vida. Kenarı çizdi."
+
+"Revire git."
+
+"Revir kapalı. Sen kapattın."
 
 Şükran cevap vermedi. Avucundaki şerit ısınmaya başlamıştı.
 

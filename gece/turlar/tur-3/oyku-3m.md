@@ -1,6 +1,6 @@
-Bant on bir buçukta yeniden çalıştı. Hacer çantanın ağzını açtı, paketleri tek tek taradı, her birini rotasına bağladı. Uygulama Zeytinburnu'nun son durağını en sona koymuştu. Sona kalan iş sabaha karşı biterdi.
+Bant on bir buçukta yeniden çalıştı. Hacer çantanın ağzını açtı, paketleri tek tek taradı, her birini rotasına bağladı. Tarayıcı her okumada kısa bir ses çıkarıyordu, sayısı yirmi ikiye gelmişti. Uygulama Zeytinburnu'nun son durağını en sona koymuştu. Sona kalan iş sabaha karşı biterdi, bunu biliyordu. Yine de sabah dokuzda kapısına gidilmesi gereken paketler vardı ve onları sona bırakmak, kendi puanına dokunmak demekti.
 
-Eczane kutusu bantta değildi. Tuncer'in masasının yanındaki plastik sepette duruyordu, üstünde kalemle iki satır: ELDEN. KAPIYA BIRAKMAYIN. Hacer kutuyu aldı. Hafifti ama köşeleri sertti.
+Eczane kutusu bantta değildi. Tuncer'in masasının yanındaki plastik sepette duruyordu. Kutunun üstüne kalemle iki satır yazılmıştı: ELDEN. KAPIYA BIRAKMAYIN. Altında yazıcının çıkardığı etiket vardı: Şükran Terzioğlu, Zeytinburnu, daire 14. Hacer kutuyu aldı. Hafifti ama köşeleri sertti, kolunun altına girince yan tarafına çarpıp kendini hatırlattı.
 
 "Sistem onu sona atmış," dedi Tuncer. Telsizi kolunda cızırdadı, tabletini çevirdi.
 
@@ -10,13 +10,19 @@ Eczane kutusu bantta değildi. Tuncer'in masasının yanındaki plastik sepette 
 
 "Dört kat var. Asansör yok."
 
-Tuncer bir yere dokundu, başını kaldırmadan, "Yetişirsen yetişir," dedi.
+"Bu saatte dört kat."
 
-Bandın öbür ucunda Sami plastik bardağa çay doldurup paketlerin arasına sıkıştı. Hacer ona bakmadı. Zeytinburnu'nun o sokaklarında dört katlı binaların her katında iki daire vardı; numaralar yukarı doğru sayılırdı. Hacer bunu on yıldır biliyordu. Rampada bir kamyon geri geri yanaşıyordu, uyarı sesi avluya yayılmıştı. Hacer kutunun üstündeki yırtık logoyu parmağıyla bir kez takip etti. Sonra kutuyu çantanın en üstüne koydu, alttaki iki paketi yana itti, fermuarı zorla kapattı. Rotayı yeniden sıraladı. Zeytinburnu artık ilk duraktı. Uygulama itiraz etmedi; bir sonraki durağı ekranın altında gösterdi. Anahtarı cebinden çıkarıp avucunda tuttu ve kapıdan çıktı.
+Tuncer bir yere dokundu, başını kaldırmadan, "Yetişirsen yetişir," dedi. Hacer bunu bir izin gibi aldı, izin olmadığını da biliyordu.
 
-Binanın kapısı aralıktı, merdiven ışığı yanmıyordu. Hacer telefonun fenerini açıp çıktı. Üçüncü katta durdu, kutuyu iki eline aldı. Dördüncü katta iki kapı vardı. Birinin üstünde plastik bir 8 yapışıktı, öbürü yıpranmış bir çelikti. Hacer 8'in önünde durdu ve kapıyı üç kez tıklattı.
+Bandın öbür ucunda Sami plastik bardağa çay doldurup paketlerin arasına sıkıştı. Bardaktan çıkan buhar raflara doğru süzülüyordu. Hacer ona bakmadı. Zeytinburnu'nun o sokaklarında dört katlı binaların her katında iki daire vardı, numaralar yukarı doğru sayılırdı. Bunu on yıldır o sokaklarda öğrenmişti. Rampada bir kamyon geri geri yanaşıyordu, uyarı sesi avluya yayılmıştı. Hacer kutunun üstündeki yırtık logoyu parmağıyla bir kez takip etti.
 
-İçeriden sandalye çekildi. Kapı az açıldı, zincir gerildi.
+Sonra kutuyu çantanın en üstüne koydu, alttaki iki paketi yana itti, fermuarı zorla kapattı. Rotayı yeniden sıraladı. Zeytinburnu artık ilk duraktı. Uygulama itiraz etmedi; bir sonraki durağı ekranın altında gösterdi. Anahtarı cebinden çıkarıp avucunda tuttu, kaskını taktı, çeneliğin tokasını sıkmadan kapıdan çıktı.
+
+Binanın kapısı aralıktı, merdiven ışığı yanmıyordu. Hacer telefonun fenerini açıp çıktı. Basamakların bir kısmı kırıktı, kırık yerler sarı boyayla işaretlenmişti. Üçüncü katta durdu, kutuyu iki eline aldı, nefesi düzelsin diye birkaç saniye bekledi. Bir kapının ardından radyo çalıyordu. Sonra ses kesildi.
+
+Dördüncü katta iki kapı vardı. Birinin üstünde plastik bir 8 yapışıktı, öbürü yıpranmış bir çelikti. Hacer 8'in önünde durdu ve kapıyı üç kez tıklattı. Kapı kalın ve soğuktu, tıklatışının sesi sahanlığın içinde küçük kaldı.
+
+İçeriden sandalye çekildi. Ayak sesleri geldi, sonra durdu. Kapı az açıldı, zincir gerildi.
 
 "Kim o?"
 
@@ -24,50 +30,60 @@ Binanın kapısı aralıktı, merdiven ışığı yanmıyordu. Hacer telefonun f
 
 "Benim. Ne getirdin?"
 
-Hacer kutuyu zincirin aralığından uzattı, etiketi çevirdi. Kadın gözlüğünü burnunun ucuna indirip okudu, sonra bir daha okudu.
+Hacer kutuyu zincirin aralığından uzattı, etiketi çevirdi. Kadın gözlüğünü burnunun ucuna indirip okudu, sonra bir daha okudu. Dudaklarını oynatarak bir şeyler saydı.
 
-"Adım bu," dedi. "Daire on dört yazıyor. Bu binada sekiz daire var. On dört nerede?"
+"Adım bu," dedi. "Daire on dört yazıyor. Bu binada sekiz daire var, istersen sen de say. On dört nerede?"
 
 "Sistemde öyle."
 
-"Sistemde öyleyse öyledir. Ben o sistemi okuyamam."
+"Sistemde öyleyse öyledir. Ben o sistemi okuyamam. Bir de doğum yılı yazıyor, bak. Bin dokuz yüz kırk dört. Ben kırk yedi doğumluyum. Kırk dört olmaz ki."
 
-Kadın kutuya uzandı, parmakları etiketin kenarında durdu.
+Hacer etiketin alt satırına baktı. Doğru yazıyordu. Kutudaki yıl, kadının yaşına göre üç yıl geriye düşüyordu. Hacer bunu kadına söylemedi. Söylemesine gerek yoktu.
 
 "İçinde ne var?"
 
 "Bilmiyorum. Etiket size."
 
-"Oğlum yatırıyor. Eczaneyi o arar, bana bir şey söylemezler."
+"Oğlum yatırıyor. Eczaneyi o arar, bana bir şey söylemezler. Ben de ne yazdığını okumam."
+
+Kadın kutuya uzandı, parmakları etiketin kenarında durdu. Zincir hâlâ takılıydı, kadının eli kapının aralığından yarısı kadar içeri giriyordu.
 
 Hacer tabletini çıkardı. Uygulama, alıcının paketi elinde tuttuğu bir fotoğraf istiyordu. Kadın başını salladı.
 
 "Fotoğraf çekme. Kapıdan benim yüzümü çekecek, nereye gidecek o?"
 
-"Sistem istiyor."
+"Uygulama istiyor."
 
-"Sistem beni tanımaz."
+"Uygulamanın benim yüzüme ne işi var."
 
-Hacer uygulamaya fotoğrafın alınamadığını yazdı. Tablet bir uyarı çıkardı, teslimatı yine de onayladı. Kutu kadının elinde kaldı. Kadın kapıyı kapattı, zinciri taktı. Hacer merdivene döndü.
+Hacer uygulamaya fotoğrafın alınamadığını yazdı. Tablet bir uyarı çıkardı: fotoğrafsız onaylanan teslimat incelemeye alınırdı. Hacer onayladı. Kutu kadının elinde kaldı. Kadın kutuyu iki eliyle göğsüne bastırdı, sonra kapıyı kapattı, zinciri taktı. Hacer merdivene döndü. Aşağıya inerken kapının ardından radyo yeniden açıldı.
 
-Merdivende telefon titredi. Teslimat incelemeye alınmıştı, ekranda öyle yazıyordu. Altında yeni bir iş: Bakırköy, acil, otuz sekiz lira.
+Merdivende telefon titredi. Teslimat incelemeye alınmıştı, ekranda öyle yazıyordu. Altında yeni bir iş: Bakırköy, acil, otuz sekiz lira. Hacer ikinci kattan birinciye inerken parmağını ekrana bastırdı, telefonu cebine koydu, sonra yeniden çıkardı.
 
-Hacer üçüncü kattan ikinciye inerken işi kabul etti. Sonra durdu, incelemedeki satırı açtı. Neden bölümü boştu, uygulama bir açıklama istiyordu. Hacer hiçbir şey yazmadan geri kapattı.
+Birinci katın kapısında bir çift terlik vardı. Kapının alt boşluğundan bir çocuğun sesi geliyordu. Hacer dışarı çıkarken o kapı açılmadı.
 
-Sokağa çıkınca motosiklet ıslak kaldırımın kenarında duruyordu. Kontağı çevirdi. Otuz sekiz lira, bu ayki kira taksitinin dörtte birine yetiyordu. Bir kedi park halindeki arabanın altından çıkıp geri girdi. Bakırköy'e giden yol, Yeşilköy'e doğru uzun ve düzdü.
+Sokakta motosiklet ıslak kaldırımın kenarında duruyordu. Kontağı çevirdi, gaz verdi. Otuz sekiz lira bu ayki kira taksitinin dörtte birine yetiyordu. Ceza iki puandı, ama puanlar hafta sonu bonusunu düşürdüğü ölçüde para demekti.
 
-Bakırköy'de adres bir apartmanın arka kapısıydı. Paketi bir çırak teslim aldı, imzaladı, paketi kollarına alıp içeri geçti. Kapı arkasından çarparak kapandı. Hacer kısa bir süre bekledi, sonra motosikletine döndü.
+Bakırköy'e giden yol sahil boyunca ilerliyordu. Trafik azdı. Bir kedi park halindeki arabanın altından çıkıp geri girdi. Denizden gelen rüzgâr kaskın içine sızıyordu. Hacer bir kırmızıda durdu, telefonu cebinden çıkarıp sipariş notunu okudu: Arka kapı, zile basmayın, bekleyin. Yeşil yandı, gitti.
 
-Yedi buçukta merkez sessizdi. Bant durmuştu, kafeste birbirine yaslanan boş kutular vardı. Hacer çantasını Tuncer'in masasına bıraktı, ekranı açtı. Uygulamada incelemedeki satır duruyordu: Zeytinburnu, fotoğraf yok, ceza iki puan.
+Bakırköy'de adres bir apartmanın arka kapısıydı. Kapının üstündeki eski lamba yanmıyordu. Hacer yirmi saniye bekledi, sonra kapıyı çalmadan önce telefonda açık duran kodu okudu. Bir çırak geldi, gözleri kısıktı, paketi aldı, imzaladı. Tabletini Hacer'e geri uzatmadı, yalnızca imzayı gösterdi. Paketi kollarına alıp içeri geçti, kapı arkasından çarparak kapandı.
 
-"Fotoğrafsız teslim düşmez," dedi Tuncer. Tabletini Hacer'e çevirdi. Üç seçenek vardı: Adres hatası. Alıcı fotoğraf vermedi. Diğer.
+Hacer kısa bir süre bekledi. Sonra motosikletine döndü, koltuğun üstündeki ıslak tozu eliyle sildi.
 
-"Adres yanlış," dedi Hacer. "Bina sekiz daireli. Daire on dört yok."
+Yedi buçukta merkez sessizdi. Bant durmuştu, kafeste birbirine yaslanan boş kutular vardı. Tuncer kapının yanında sigarasını yakmıştı; duman sabah serinliğinde yavaşça yükseliyordu. Hacer çantasını masaya boşalttı, ekranı açtı. Uygulamada incelemedeki satır duruyordu: Zeytinburnu, fotoğraf yok, ceza iki puan.
+
+"Fotoğrafsız teslim düşmez," dedi Tuncer. Sigarayı kül tablasına bastırdı, tabletini Hacer'e çevirdi. Üç seçenek vardı: Adres hatası. Alıcı fotoğraf vermedi. Diğer.
+
+"Adres yanlış," dedi Hacer. "Bina sekiz daireli. Daire on dört yok. Doğum yılı da yanlış."
 
 "Adres hatası seçersin. Ama kanıt istiyorlar."
 
 "Kanıt bende. Kadın fotoğraf istemedi, ben de çekmedim."
 
+Tuncer bir süre tablete baktı. Sonra, "Geçen ay ben de aynı yerden bir ceza yemiştim," dedi, konuyu uzatmadan tableti biraz daha Hacer'e doğru çevirdi.
+
 Hacer parmağını "Adres hatası" üstüne bastı. Sonra "Diğer" alanına, uygulamanın kabul ettiği kadar kısa tek bir satır yazdı: Bina sekiz daireli, daire 14 yok, alıcı fotoğraf vermedi.
+
+Sami arkasından geçerken masanın kenarına bir bardak çay bıraktı. Hacer çayı almadı.
 
 Tuncer kaydı onayladı. Ekrandaki incelemede yazısı kayboldu. Kutunun geçmişinde artık fotoğrafın alınmadığı yazıyordu, altında Hacer'in yazdığı tek satır duruyordu.

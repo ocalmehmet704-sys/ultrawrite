@@ -1,6 +1,10 @@
 Yangın gece yarısını geçince söndürülmüştü ama depo hâlâ sıcaktı. Rasih Dinçer çizmesinin burnuyla ıslak tahtaları yokladı, sonra ağırlığını verdi. Pasaport'taki Ege Pamuk Ticarethanesi'nin çatısı çökmüş, duvarlar kurum içinde kalmıştı. Balyaların yarısı yanmamıştı. Kömürleşmiş dış katmanın altından beyaz lif çıkıyordu. Yakılmak için yığılmış bir iş gibi durmuyordu, bu ilk işaretti.
 
-Konak Emniyeti'nden üç yıl önce ayrılmıştı. Nedenini kimse sormuyordu, o da anlatmıyordu. Şimdi Ege Yangın Sigorta'nın eksperiydi. Cebinde hasar dosyası vardı: 2.300 balya, on dört ton, bir milyon iki yüz bin lira.
+Depo kapısının önünde işçiler toplanmıştı. Kimse konuşmuyordu, herkes eline bir şey almıştı: bir kazma, bir sigara, bir tas çay. Rasih onların yanından geçerken başlarını çevirmediler.
+
+Konak Emniyeti'nden üç yıl önce ayrılmıştı. Nedenini sormayan çoktu, anlatan yoktu. Bir de Kemeraltı'nda 1971 yangını vardı. O da bir sigortanın dosyasıydı. Rasih o zaman da bir eksperdi ve raporunu bir hafta içinde yazmıştı: kaza. Yazmak kolaydı. Bundan sonrası hep kolay geçti.
+
+Şimdi Ege Yangın Sigorta'nın eksperiydi. Cebinde hasar dosyası vardı: 2.300 balya, on dört ton, bir milyon iki yüz bin lira.
 
 İtfaiye çavuşu Osman Ceylan kantarın yanında bekliyordu. Elindeki kararmış eldiveni çıkarmaya uğraşıyordu.
 
@@ -8,7 +12,7 @@ Konak Emniyeti'nden üç yıl önce ayrılmıştı. Nedenini kimse sormuyordu, o
 "Kapı nasıldı?"
 "Dışarıdan asma kilit. Eridi, kapının kenarına yapışmış."
 
-Kulübe bir kutu kadardı. Refik Eser sobaya dönük yatıyordu, bir eli demir kapağa uzanmıştı. Rasih eğildi. Yüzüne bakmadı, bileğindeki saatin camına baktı. Kararmıştı, ibreleri beş on dörtte durmuştu. Yirmi yıldır bu kantarın başında duran adamın saati de durmuştu.
+Kulübe bir kutu kadardı. Refik Eser sobaya dönük yatıyordu, bir eli demir kapağa uzanmıştı. Yanında bir tencere yemek vardı, kapağı açılmamıştı. Rasih eğildi. Yüzüne bakmadı, bileğindeki saatin camına baktı. Kararmıştı, ibreleri beş on dörtte durmuştu. Yirmi yıldır bu kantarın başında duran adamın saati de durmuştu.
 
 Kantar kulübenin önündeydi. Kirişi uzundu, kefesi çelikti. Kirişin üstündeki sürgü yanmamıştı, yalnızca boyası kabarmıştı. Rasih diş aralığına baktı. Sürgü dokuz tonun üstünde, dokuz bin yüz kırkta duruyordu. Bir kamyon bu ağırlıkla geçmişse dosyadaki rakam yanlıştı. Geçmemişse kamyonun içinde başka bir şey vardı.
 
@@ -20,15 +24,18 @@ Kantar kulübenin önündeydi. Kirişi uzundu, kefesi çelikti. Kirişin üstün
 
 Rasih sürgünün soğuk demirine bir parmak dokundurdu. Sonra eldivenini Osman'a uzattı, bu kez alınmadı.
 
-"Kulübeye kimse girmesin. Savcı gelene kadar."
+"Kulübeye girmesin kimse. Savcı gelene kadar."
 
 Arabaya binerken kavrama kaydı. Motoru ikinci denemede çalıştırdı.
 
-Oğuz'un ofisi Alsancak'ta bir pasajın üst katındaydı. Camı buğulu bir odaydı, duvarda Ege Pamuk'un bayraklı takvimi asılıydı. Kemal Oğuz kırk beş yaşında, kolları katlanmış, bir tüccardan çok bir hesapçıya benziyordu. Kapının yanında Sadri duruyordu: uzun, ensesi kırmızı, ayakkabısının kenarında kömür izi vardı.
+Oğuz'un ofisi Alsancak'ta bir pasajın üst katındaydı. Camı buğulu bir odaydı, duvarda Ege Pamuk'un bayraklı takvimi asılıydı. Kemal Oğuz kırk beş yaşında, kolları katlanmış, bir tüccardan çok bir hesapçıya benziyordu. Kahveyi kendisi koydu, fincanı Rasih'in önüne itti. Kapının yanında Sadri duruyordu: uzun, ensesi kırmızı, ayakkabısının kenarında kömür izi vardı.
 
-"Oturun Rasih Bey. Kahve?"
-"Refik Eser'in karısına para verdiniz mi?"
-"On bin lira. Mezarlığı da ben ödeyeceğim. Bu şehirde bir bekçinin ölümünü kimse böyle karşılamaz."
+"Konak'taki Kemeraltı yangınını hatırlıyorum," dedi Oğuz. "Güzel bir rapor yazmıştınız. Kısa."
+"Kısa olmak zor değil."
+"Değil. Oturun Rasih Bey. Kahve soğudu."
+
+Rasih oturmadı. "Refik Eser'in karısına para verdiniz mi?"
+"On bin lira. Mezarlığı da ben ödeyeceğim. Bu şehirde bir bekçinin ölümü böyle karşılanmaz."
 "Kantarda dokuz ton görünüyor."
 "Kantarlar kayar. Hasan Usta her yıl ayar yapar, sürgü bir milim oynar."
 "Bir milim değil. Beş yüz kilo."
@@ -36,13 +43,18 @@ Oğuz'un ofisi Alsancak'ta bir pasajın üst katındaydı. Camı buğulu bir oda
 Oğuz güldü. "Siz eski polissiniz. Ölçüyü bilirsiniz."
 
 "Basmane'de bir odada oturuyorum, kirasını üç aydır ödemedim. Odanın sahibi sizin dostunuzmuş."
-"Dostum değil, komşum. Bu şehirde herkes birbirini tanır. Raporu kaza diye yazın. Soba, ocak, bekçinin uykusu. Sigorta öder, ben borcumu öderim. Siz de borcunuzu."
+"Dostum değil, komşum. Bu sokakta herkes birbirini tanır. Raporu kaza diye yazın. Soba, ocak, bekçinin uykusu. Sigorta öder, ben borcumu öderim. Siz de borcunuzu."
 
 Sadri elini cebine atacakken Oğuz tek parmağını kaldırdı, adam durdu. Çekmeceden kalın bir zarf çıkardı, masanın ortasına koydu. Saymadı. Saymayı bilen adam saymaz.
 
 "Otuz bin."
 "Refik öldü."
 "Refik bir gece kapıda uyudu."
+
+"Nazife Eser'i lojmandan çıkarıyorsunuz."
+"Lojman benim. Kiracıyı nasıl çıkaracağımı size mi soracağım?"
+"Kaza yazarsam lojman kalır mı?"
+"Kalır da kalmaz da. Bu bir pazarlık, Rasih Bey. Pazarlıkta herkes bir şey kaybeder."
 
 Rasih zarfa dokunmadı. "Cafer'in kamyonu nerede?"
 
@@ -56,9 +68,11 @@ Oğuz zarfı yeniden çekmeceye koydu, çekmeceyi kapatmadı. "Anlatın. Halit A
 
 Kapıdan çıkarken Sadri kapıyı tuttu. Ayakkabısındaki kömür izi merdivenin ilk basamağında da vardı.
 
-Nazife Eser'in lojmanı depo bahçesinin arkasındaydı, kantara bakan iki odalı bir yapıydı. Merdivenin tahtaları çürümüş, kapının üstüne boşaltma kâğıdı yapıştırılmıştı. Kâğıdın kenarı rüzgârda kıvrılıyordu. Kadın kapıyı açtı, elinde bir erkek gömleği vardı, ütü masasının üstündeki ütü hâlâ ılıktı.
+Nazife Eser'in lojmanı depo bahçesinin arkasındaydı, kantara bakan iki odalı bir yapıydı. Merdivenin tahtaları çürümüştü, kapının üstüne boşaltma kâğıdı yapıştırılmıştı. Kâğıdın kenarı rüzgârda kıvrılıyordu. Kadın kapıyı açtı. Elinde bir erkek gömleği vardı, ütü masasının üstündeki ütü hâlâ ılıktı. Odanın köşesinde bir tencere, içinde tek bir kaşık vardı.
 
-"Dün öğlen Oğuz'un adamı geldi," dedi. "Otuz gün. Kâğıdı kendi eliyle yapıştırdı."
+"Refik'in öğle yemeği," dedi kadın. "Gitmeden yemeğini almamış. Tencere burada duruyor."
+"Dün öğlen Oğuz'un adamı geldi, değil mi?"
+"Dün öğlen geldi. Otuz gün. Kâğıdı kendi eliyle yapıştırdı."
 "Refik ne zamandır kulübede yatıyordu?"
 "Ekimden beri. Patron istedi. Geceleri kulübede kalacaksın, kamyon gelince kendin dışarıdan kilitleyeceksin, sabah Sadri açacak. Refik itiraz etmedi. Kira lazımdı."
 "Gece kapı kilitli miydi?"
@@ -80,15 +94,17 @@ Nazife gömleğe bakıyordu. Sesi düzdü, ağlamıyordu.
 "Yazmazsanız?"
 "Bilmem."
 
+Kapının yanındaki çivide ipe bağlı küçük bir anahtar asılıydı. "Refik'in," dedi kadın. "Lojmanın. Kulübenin anahtarı Sadri'de. Hep Sadri'de."
+
 Nazife gömleği ütü masasının üzerine koydu, ütünün fişini çekti. "Benim kocam yirmi yıl o kantarı bekledi. Yazın o zaman. Ama bilmem demeyin."
 
-Üçü on geçe Rasih kantarın arkasındaki duvarın dibine çömeldi. Tahta soğuğu pantolonundan geçiyordu. Ayaklarını hissetmiyordu, bunu önemsemedi. Yolun sonundan bir motor sesi geldi, farlar depo kapısına çevrildi.
+Üçü on geçe Rasih kantarın arkasındaki duvarın dibine çömeldi. Tahta soğuğu pantolonundan geçiyordu. Ayaklarını hissetmiyordu, bunu önemsemedi. Basmane tarafından bir yük treni düdük çaldı, tren uzaklaşırken raylar tıkırdadı. Sonra yolun sonundan bir motor sesi geldi. Farlar depo kapısına çevrildi. Kanvasın altından balyaların köşeleri çıkıyordu.
 
-Kamyon kulübenin önünde durdu. Cafer indi, kapının asma kilidine uzandı. Arkasından Sadri geldi, kolunda bir teneke vardı. Kokusu balyalardan önce geldi: benzin.
+Kamyon kulübenin önünde durdu. Kapının plakası okunuyordu, otuz beş, bir de sonra gelen harfler. Cafer indi, kapının asma kilidine uzandı. Arkasından Sadri geldi, kolunda bir teneke vardı. Kokusu balyalardan önce geldi: benzin.
 
 Rasih ortaya çıktı. "Bırak onu."
 
-Sadri tenekeyi yere koydu, eli belindeki tabancaya gitti. Rasih daha yakındaydı. Bileğine çarptı, tabanca beton üstünde kaydı, ikisi birlikte yere düştü. Rasih tabancayı kaptı. Rasih Sadri'nin çenesine dirsek attı, adam doğrulmaya çalışırken yumruk attı. Cafer kamyonun öbür tarafından raylara koştu.
+Sadri tenekeyi yere koydu, eli belindeki tabancaya gitti. Rasih daha yakındaydı. Bileğine çarptı, tabanca beton üstünde kaydı, ikisi birlikte yere düştü. Rasih tabancayı kaptı. Sadri doğrulmaya çalışırken yumruğu çenesine indi. Cafer kamyonun öbür tarafından raylara koştu.
 
 Ray boyunca koşuyordu, ayakkabısı tahtaların arasına takılıyordu. Rasih onu bir vagonun arkasında yakaladı. Cafer dizlerinin üstüne çöktü, nefesi yırtık bir körük gibiydi.
 
@@ -102,8 +118,12 @@ Ray boyunca koşuyordu, ayakkabısı tahtaların arasına takılıyordu. Rasih o
 
 Rasih Cafer'in yakasını bıraktı. Tabancanın şarjörünü çıkarıp cebine koydu. Cafer'in yüzünde korkudan çok anlamaya çalışan bir ifade vardı.
 
-Sabah sekizde Ege Yangın Sigorta'nın bekleme salonunda oturdu. Halit Aksoy'un odasında raporu önüne koydu, kendi kalemiyle imzaladı. Kaza. Aksoy okudu, kaşını kaldırmadı, zarfı beklemedi. "Temiz rapor, Rasih Bey," dedi. "Ödemeyi bu hafta yaparız."
+Sabah sekizde Ege Yangın Sigorta'nın bekleme salonunda kırk kişi oturuyordu. Hepsi kendi yangınını anlatmak için gelmişti. Rasih'in sırası geldiğinde Halit Aksoy'un odasında raporu önüne koydu, kendi kalemiyle imzaladı. Kaza. Aksoy okudu, kaşını kaldırmadı. "Temiz rapor, Rasih Bey," dedi. "Ödemeyi bu hafta yaparız." Çekmecesinden bir fotoğraf destesi çıkardı, ilkini çevirdi. "Yangın yerinin resimleri var mı sizde?"
+"Hepsi yandı."
+Aksoy başını salladı, desteyi çekmeceye geri koydu.
 
-Rasih akşam Oğuz'un ofisinde zarfı aldı. Sayıyı bu kez sayarak aldı.
+Rasih'in Konak'taki masasında da böyle bir sabah olmuştu. Bir sigara paketi, bir kalem, bir imza.
 
-On gün sonra Sadri lojmanın kapısını dışarıdan kilitledi, anahtarı cebine attı. Nazife Eser bohçayı kendi omzuna aldı. Rasih'in arabasının yanından geçti ve Basmane'ye doğru yürüdü. Arkasında lojmanın kapısı kilitliydi.
+Akşam Oğuz'un ofisinde zarfı aldı. Bu kez sayarak aldı.
+
+On gün sonra Sadri lojmanın kapısını dışarıdan kilitledi, anahtarı cebine attı. Nazife Eser bohçayı kendi omzuna aldı, öğle yemeği tenceresini de içine koydu. Rasih'in arabasının yanından geçti ve Basmane'ye doğru yürüdü. Arkasında lojmanın kapısı kilitliydi.
