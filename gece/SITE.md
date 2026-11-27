@@ -19,12 +19,12 @@
 - Test: 11 kontrol geçti. Görülen sorun: 404'te başlıktaki üstü çizili ilk deneme anlamsızdı, "Bu sayfa yok." olarak sadeleştirildi.
 
 ## Sabah özeti
-Fikir havuzundaki yararlı işler 4 turda bitti; saat erken olduğu için boş tur atıp değişiklik uydurmadım, burada durdum.
+Fikir havuzundaki yararlı işler bitti; zamanlanmış görevler uyandırınca ekran görüntülerine yeniden baktım (tur 5) ve başka somut sorun bulamayınca değişiklik uydurmadım.
 
 En önemli 3 değişiklik:
 1. JS yoksa/çalışmazsa bölümlerin görünmez kalması düzeltildi; küçük mono etiketlerin kontrastı AA'ya çıkarıldı.
 2. Favicon, paylaşım görseli (og.png), skip link, 404.html, JSON-LD `url`.
-3. Mobilde kurulum komutları artık tam okunuyor.
+3. Mobilde kurulum komutları artık tam okunuyor; hero'nun yan boşluğu hatası (içerik ekran kenarına yapışıktı) düzeltildi.
 
 Kalan sorunlar:
 - og.png Fraunces yerine Georgia ile üretildi (sandbox'ta font yok).
@@ -37,3 +37,7 @@ Kalan sorunlar:
 - Değişen: `.hero` kuralı `.wrap`'in yan boşluğunu sıfırlıyordu; hero içeriği ve kart mobilde ekranın sol kenarına yapışıktı, masaüstünde de üst menüyle hizasızdı (130 px ve 162 px). `padding` yerine `padding-block` kullanıldı.
 - Test: 11 kontrol geçti; 390, 768, 1200, 1440 px'te taşma yok. Mobil hero görüntüsü `gece/site-ekran/m-hero.png`.
 - Not: Bu hata önceki turlarda ekran görüntüsüne yeterince dikkatli bakılmadığı için kaçmıştı; mobil hero artık 16 px boşlukla başlıyor.
+
+## Tur 6 (01:17)
+- Değişiklik yok. Her metin düğümü için açık ve karanlık modda otomatik kontrast taraması yapıldı: karanlıkta sorun yok; açıkta yalnız sticky üst menü (yarı saydam arka plan) işaretlendi, bu tarayıcı betiğinin saydam karışımı çözememesinden gelen yanlış alarm, menü renkleri elle hesaplandığında geçiyor.
+- Mobil orta bölümler (skill listesi, sayılar) ekran görüntüsünde düzgün.
