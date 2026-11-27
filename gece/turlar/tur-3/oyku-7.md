@@ -136,7 +136,7 @@ Sönmez altıya beş kala girdi. Yüzünde uykusuz bir kızgınlık vardı, ama 
 
 "Revir kapalı. Sen kapattın."
 
-Şükran cevap vermedi. Avucundaki şerit ısınmaya başlamıştı.
+Avucundaki şerit ısınmaya başlamıştı.
 
 Kapının arkasından bir çocuk sesi geldi. Sönmez başını çevirdi. "Kızım," dedi, yüzü bir an yumuşadı. "Okul kapalı, sabahtan beri burada. Oyunun sonuna gelmedi." Sonra çocuğa bir şey söylemedi, yalnızca kapıyı yarım kapattı. Kapıyı kapatmadan önce tablete döndü.
 
@@ -145,5 +145,11 @@ Sönmez tabletin başına geçti. Önce "Tıbbi" kelimesinin üzerinden bir çiz
 "Artık tıbbi değil," dedi. "Tarımsal. Sera hattına verilen yüzde dört. Protokolde bu satır yoktu, ama şimdi var."
 
 Ebru kolu hâlâ tutuyordu. Şükran bunu tabletin yansımasında gördü. Ebru'nun yüzünde bir gülümseme yoktu; yalnızca kolu bırakmamak için ellerini kasmıştı.
+
+"Recep'in ailesi var mı?"
+
+"Kayıtta yok."
+
+"Kayıtta yok." Sönmez bunu iki kez söyledi, üçüncüde sesi değişmedi. Tabletin kenarındaki boş alana bakmadan bir şey daha yazmadı.
 
 Sönmez tabletten çekildi, yedek tankın vanasına gitti. Kol ilk turda dönmedi. İki eliyle asılıp ikinci kez zorlayınca döndü ve sonuna kadar çevrildi. Ana hat buzdan gelen suyla doldu. Sera kolunda ise Recep Dadaş'ın tuzu, kayıtta tarımsal diye geçerek buğdayın köklerine indi.

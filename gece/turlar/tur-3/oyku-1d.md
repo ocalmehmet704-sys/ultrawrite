@@ -44,13 +44,23 @@ Anneli cevap vermek için annesine baktı. Gret kızın önüne geçti. Ottilie 
 
 Meydandakiler yaklaşıp dinlemeye başladı. Mathis başını Ottilie'ye çevirmeden konuştu. "Kiracı, meclis onu bilir. Bu mavi Lichtmess'ten önce bile yasaktı."
 
+Mathis Anneli'ye döndü. "Annen bu bezi sana aldı mı?"
+
+"Evet."
+
+"Annen mavinin yasak olduğunu biliyor muydu?"
+
+Gret araya girdi. "Bilmiyordum. Pazarda herkes mavi giyiyor, ben de..."
+
+"Bilmemek ceza değil," dedi Mathis. "Ama bu bezi giymek ceza."
+
 Gret tekrar başlığa uzandı. "Çıkarıyorum," dedi. Mathis başlığı kendisi aldı, fırçayı kovaya batırdı ve başlığın içine sürdü. Gri mavinin üstüne oturdu. Kumaşın yüzü bir an daha koyu göründü, sonra kurudu ve mavi kayboldu. Anneli'nin başı çıplak kaldı. Kulakları kızardı, elleri eteğine yapıştı.
 
 Ottilie çeşmenin basamağına döndü. Lenhard dükkândan koşarak gelmiş, nefes nefese kalmıştı. "Ne oldu?"
 
 "Gri oldu," dedi Ottilie.
 
-Mathis başlığı çeşmenin kenarına serdi. Boya kuruyordu. Kumaşın kenarına doğru ince bir mavi çizgi görünmeye başladı; boya kenara inmemişti, bez dikişinden hâlâ mavi tutuyordu. Gri boya kumaşın üstünde duruyordu. Su değse tutmazdı. Ottilie bunu bir çırak gibi öğrenmişti, unutmamıştı.
+Mathis başlığı çeşmenin kenarına serdi. Boya kuruyordu. Kumaşın kenarına doğru ince bir mavi çizgi görünmeye başladı; boya kenara inmemişti, bez dikişinden hâlâ mavi tutuyordu. Gri boya kumaşın üstünde duruyordu. Su değse tutmazdı. Ottilie bunu bir çırak gibi öğrenmişti, unutmamıştı. Pazarın öbür ucunda, bir ipin üstünde, eski bir mavi kurdele hâlâ sallanıyordu. Kimse onu indirmeye cesaret edememişti. Fırıncının karısı kapısının eşiğinde durup o kurdeleye baktı, sonra gri şalını başına çekti.
 
 Mathis kovanın kulpunu eline aldı ve pazarın öbür ucuna doğru yürüdü. Fırçanın damlaları yolda ardında izlerini bıraktı; pazar kalabalığı onları ayağının altında ezdi.
 
@@ -74,11 +84,13 @@ Ottilie bir şey söylemedi, küpün kenarındaki sıvıyı kepçeyle karıştı
 
 "Yağmurda da gri kalacak."
 
+Vinzenz mühürü tezgâhtan aldı, kurdun dişlerine parmağıyla dokundu, sonra parmağını hemen çekti. "Bu kurt bu yıl daha sert yapılmış," dedi. "Ya da ben öyle görüyorum."
+
 Vinzenz dükkânın içinde biraz dolaştı. İpler tavandan sarkıyordu. Ottilie daha önce asmadığı kadar sık asmıştı. "Hepsi aynı mı?" diye sordu.
 
 "Aynı."
 
-Vinzenz kapıya yöneldi. Mühürü tezgâhta bıraktı, geri dönüp almadı.
+Vinzenz kapıya yöneldi. Mühürü tezgâhta bıraktı, geri dönüp almadı. Kapıdan çıkarken fenerin ışığı tavandaki iplere vurdu. Yağmur yağmıyordu, ama havada nem vardı. Ottilie bunu ıslak bir kumaşın kokusundan anladı.
 
 Ottilie o gece bütün topları astı. Lenhard şap karışımını hazırlarken çocuk fenerin altında esniyordu, Ottilie onu uyumaya gönderdi. Çocuk gitmeden önce küpün başında bir an durdu. "Kayınvalide bunu yapar mıydı?" diye sordu. Ottilie kepçeyi sıvıya soktu, çıkardı. "Yapardı," dedi. "Ama bu kadar çabuk değil." Her topu önce koyu maviye, sonra griye daldırdı. Mavi kumaşın içinde kaldı, gri yüzeyde durdu. İpler dükkânın içinde sıra sıra gerildi. Yukarıdan bakılınca hepsi tek renkli bir örtü gibi görünüyordu. Mühürü son topun ucuna basmadan önce bir süre elinde tuttu. Kurdun dişleri soğuktu. Sonra bastı.
 
@@ -96,11 +108,15 @@ Berthold ilk topu bir tezgâhın üstüne açtı. Kumaşı parmaklarının aras�
 
 Berthold omuz silkti, ikinci topa geçti. Meclis üyelerinden Ulrich Stoll merdivenden inip ambara girdi, bir topun kenarını parmağıyla yokladı, sonra eldivenlerini çıkarıp kapının yanına bıraktı. "Vinzenz'in istediği gri bu mu?" diye sordu. Ottilie cevap vermedi, Berthold da onun yerine konuştu: "Bu gri. Hepsi aynı gri." Hiçbirinde kötü bir leke yoktu.
 
+Berthold bir yıl önce ambarın köşesinde yanmış bir bez yığını görmüştü. Neden orada olduğunu sormamıştı, kimse de ona söylememişti. Şimdi o köşeye bakmadan topları yığıyordu.
+
 Ambarın duvarında kancalar vardı. Üzerinde gri cüppeler asılıydı. Meclis üyelerinin omuzları birbirine benzemiyordu, her cüppe başka bir gövdenin şeklini taşıyordu. Vinzenz'in cüppesi en ortadaydı. Ottilie etekteki gri kumaşa baktı. Bu bez onun astığı topların birinden kesilmişti; kenarındaki dikiş Lenhard'ın dikişiydi. Onu tanıyordu, ama bunu kimse öğrenmeyecekti.
 
 Berthold son topu da açtı, bu kez kumaşı kendi ellerinde ters çevirdi, kenarındaki dikişe baktı. "Bu dikiş dokumacının değil," dedi. "Ama dikiş de önemli değil. Önemli olan renk." Sonra kapıyı işaret etti. "Yağmur gelirse meclis yine üşür. Bunu bilirsin."
 
 Berthold parayı Ottilie'nin avucuna koydu. Ottilie parayı kemerinin içine sakladı, dışarı çıktı. Kağnılar boşalmış, Lenhard dizginleri tutarken gökyüzüne bakıyordu.
+
+Rathaus'un basamağında Vinzenz fenerini söndürmüş, gökyüzüne bakıyordu. Lenhard onu gördü, dizginleri daha sıkı tuttu.
 
 "Bulut var," dedi çocuk.
 
@@ -118,11 +134,11 @@ Vinzenz merdivenin ortasına indi. Sol kolu tutmuyordu, ağırlığını sağa v
 
 "Benim küpüm," dedi Ottilie.
 
-Kalabalıkta biri tekrarladı, sonra başkası. Ulrich Stoll merdivenin öbür tarafında durdu, cüppesinin yakasını çekti ve yağmurun içinde bir süre kendi kumaşına baktı. "Kumaş ıslanınca çıkıyor," dedi kimseye, ama herkes duydu. "Ben bunu söylemiştim. Kumaşı görmeden söylemiştim." Kimse onu düzeltmedi, çünkü haklıydı.
+Kalabalıkta biri tekrarladı, sonra başkası. Bir kadın şemsiyesini sallayıp "Ben de ıslanırsam maviye dönerim, o zaman meclise katılırım!" dedi. Birkaç kişi güldü, ama gülüşün içinde bir tereddüt vardı. Ulrich Stoll merdivenin öbür tarafında durdu, cüppesinin yakasını çekti ve yağmurun içinde bir süre kendi kumaşına baktı. "Kumaş ıslanınca çıkıyor," dedi kimseye, ama herkes duydu. "Ben bunu söylemiştim. Kumaşı görmeden söylemiştim." Kimse onu düzeltmedi, çünkü haklıydı.
 
-Dom'un çanları yeniden çalmaya başladı. Vinzenz çanın sesinden önce bir şey daha söyleyecek gibi ağzını açtı, sonra kapattı ve merdivenden inmeden önce sol kolunu cüppesinin içinde tuttu.
+Dom'un çanları yeniden çalmaya başladı. Vinzenz bir şey daha söyleyecek gibi ağzını açtı, sonra kapattı.
 
-Mathis kovayı yere koydu. Gri boya yağmurla kenara doğru akıyordu. Fırça kovanın içinde yüzüyordu. Kimse onu almak için eğilmedi.
+Gri boya yağmurla kenara doğru akıyordu. Fırça çeşmenin yanındaki kovanın içinde yüzüyordu. Kimse onu almak için eğilmedi.
 
 Vinzenz bir an daha durdu, sonra merdivenin ortasında sol kolunu cüppesinin içine çekti. Meclis üyeleri arkasında duruyordu, kimse ona yardım etmedi; herkes kendi kolunu inceledi. Kalabalık çanın sesinde dağıldı, Dom'un kapısı açılmadı, yağmur yağmaya devam etti.
 

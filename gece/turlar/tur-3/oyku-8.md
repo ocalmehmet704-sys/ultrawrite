@@ -18,7 +18,13 @@ Rıza garajdan gelmişti. Elleri talaştan kireç rengine dönmüştü. Lavaboya
 
 "Sorsam ne diyecektin?"
 
-Rıza cevap vermedi. Başını kaldırıp tavana baktı. Ocağın üstünden kirişin ortasına bir çatlak iniyordu. İki yanına demir bağlanmış, arası alçıyla kapatılmıştı. Alçı henüz beyazdı, boya tutmamıştı.
+"Ne diyecektim? Merdiveni babam yaptı, bak, tek bir basamak düz değil. Elli yıldır üstünden çıkıyoruz, hâlâ ayakta. Sen bunu bir hesap makinesine koyup bölersin, ben tahtayı tutarım. Hani o da bir ölçü ama..."
+
+"Basamaklar kâğıtta yok."
+
+"Yok."
+
+Rıza başını kaldırıp tavana baktı. Ocağın üstünden kirişin ortasına bir çatlak iniyordu. İki yanına demir bağlanmış, arası alçıyla kapatılmıştı. Alçı henüz beyazdı, boya tutmamıştı.
 
 "Bunu ben yaptım. Geçen kış, babamın pensiyonuyla demir aldım, bir gece sabaha kadar uğraştım. Ünal'ın kâğıdında bu tavan yok, altı kat var."
 
@@ -48,6 +54,12 @@ Sevim ocağın kapağını kapattı. "O benim işim."
 
 "Tapu bizim."
 
+"Tapu da kâğıt, Rıza."
+
+"Babam her kâğıdı üç kez okurdu. Sen bir kere okuyup imza atıyorsun."
+
+"Ben okudum. Sen okumadın."
+
 *
 
 Bahçeye çıktıklarında incir ağacının dibinde çimenin içine bir kazık çakılmıştı. Ucuna turuncu bir şerit bağlanmıştı, rüzgâr şeridi gövdeye vuruyordu. Bahçe duvarının dibinde babanın yıllar önce bıraktığı kırık bir sandalye hâlâ yatıyordu. Kimse onu kaldırmamıştı.
@@ -65,6 +77,12 @@ Rıza kazığa baktı, ayağıyla bir kez vurdu. Kazık oynamadı.
 "Ağacın kökünü de ölçmüşlerdir."
 
 Rıza kazığı çekmeye yeltendi, sonra durdu. Sevim incir ağacına yaslanmış, kollarını kavuşturmuştu. Ağacın dallarında henüz yaprak yoktu, gövde kuruydu.
+
+"Bu ağacın kökü duvarın altına girmiş," dedi Rıza. "Geçen yaz baktım, bahçe duvarı yarım parmak dışarı kaymış. Ünal'ın adamı bunu da görmüş, not almış."
+
+"Ağacı kesersek duvar durur."
+
+"Durur. Ağacı ben kesmem."
 
 "Kredi ne zaman?" dedi Rıza.
 
@@ -88,13 +106,23 @@ Rıza'nın sesi değişmedi, ama eli değişti. Sağ eli yumruk oldu, incir ağa
 
 Rıza yanıt vermedi. Eğilip şeridi kopardı, cebine tıktı. Sonra kazığın başını iki eliyle kavrayıp sertçe çekti. Kazık çıkmadı, ucu toprakta kırıldı.
 
-"Altı aydır ben ödüyorum," dedi Sevim. "Her ay bankaya gittim, sıraya girdim, memur bana her seferinde aynı şeyi sordu. Kardeşiniz nerede? Kardeşim garajda, dedim."
+"Altı aydır ben ödüyorum," dedi Sevim. "Her ay bankaya gittim, sıraya girdim. Dokuz kez gittim, memur her seferinde aynı şeyi sordu. Kardeşiniz nerede? Kardeşim garajda, dedim."
+
+"Dokuz kalmış."
+
+"Dokuz. Bir taksit ne kadar, sen bilirsin."
 
 "Bilmem," dedi Rıza.
 
 "Eline bak."
 
 "Dokunma."
+
+Parmağı bükülmüyordu. Rıza bunu kendi kendine yoklar gibi sağ elini sol eline aldı, işaret parmağını bir kez oynattı, durdu.
+
+"Kırıldı mı?"
+
+"Bana ne."
 
 Kan kabuğun üstünden iniyor, toprağa damlıyordu. Sevim bu kez kollarını çözdü, bir adım attı. Rıza geri çekildi, cebindeki şeridi yokladı, sonra kazığın kırık ucunu yerden aldı.
 
@@ -134,6 +162,10 @@ Kan kabuğun üstünden iniyor, toprağa damlıyordu. Sevim bu kez kollarını �
 
 "Anlamadın."
 
+"Fiyatı siz yazdınız, Ünal Bey. Pazarlığı ben yaparım."
+
+"Sevim Hanım, ben sizi düşünüyorum."
+
 Ünal klasörü kapattı, cebinden bir zarf çıkardı, Sevim'in önündeki muşambaya koydu. "Bakın, mesele şu. Bu şerh gelecek ay ödenmezse banka icraya gider. Ödemeyi Sevim Hanım yapıyor, altı aydır. Bunu da biliyorum."
 
 Sevim zarfı açtı. İçinde ödeme planı vardı, son taksit kırmızı kalemle işaretlenmişti. Rakamlara bir süre baktı, sonra zarfı katladı.
@@ -162,16 +194,32 @@ Sevim mutfak penceresinden izliyordu. Muşambanın üstünde ödeme planı açı
 
 "Kardeşim kendi işine bakıyor."
 
+"Bir yıl sürer mahkeme. Bu sürede evin değeri de düşer, bunu siz de bilirsiniz."
+
+"Ekspertiz sizin dediğiniz gibiyse, bir ekspertiz daha ayarlarım, Rıza Bey. Bu ülkede her kiriş bir raporu bulur."
+
+"Bulur. Ama kirişi ben kurdum."
+
+Sokağa güneş henüz vurmamıştı. Kaldırımın gölgesi arabanın altına kadar uzanıyordu.
+
 Kazığı kaputun üstüne bıraktı. Ünal'ın yüzü değişmedi, yalnız dudağı kıvrıldı. Sevim bahçe kapısından çıkıp yanlarına geldi, kollarını kavuşturmadı, sadece dikildi.
 
 "Ben imzalamıyorum."
 
 "Hanımefendi, banka..."
 
-"Bankayı ben hallederim. Bir taksit değil, bütün borcu. Gerekirse garajı satarız, o da bizim." Rıza'ya döndü, bakışı sertleşmeden. "Değil mi?"
+"Bankayı ben hallederim. Bir taksit değil, bütün borcu. Bankaya dokuzda giderim, sıra alırsam ilk ben olurum. Gerekirse garajı satarız, o da bizim." Rıza'ya döndü, bakışı sertleşmeden. "Değil mi?"
 
 Rıza bir şey demedi. Elini cebine soktu, şeridi çıkardı, avucunda sıkıp tekrar cebine koydu.
 
 Ünal bir şey demeden kazığı aldı, arka koltuğa attı, kapıyı çarptı. Araba sokağın sonuna kadar gitti, freni gıcırdadı, döndü, bir daha gelmedi.
 
-Sevim içeri girip protokolü muşambadan aldı, ocağın kapağını kaldırıp içine attı. Kâğıdın kenarı önce kıvrıldı, sonra Ünal'ın adının yazılı olduğu satır alevlendi. Rıza kapının eşiğinde elini havluya sardı; kan havluya işledi.
+"Duvar kayacak."
+
+"Kaysın. Ağacı ben kesmem."
+
+"Dokuz taksit var, Rıza."
+
+"Biliyorum." Rıza elini uzattı. "Ver şunu, son sayfayı ben de bir kez okuyayım."
+
+Sevim cevap vermeden içeri girdi, protokolü muşambadan aldı, ocağın kapağını kaldırıp içine attı. Kâğıdın kenarı önce kıvrıldı, sonra Ünal'ın adının yazılı olduğu satır alevlendi. Rıza kapının eşiğinde elini havluya sardı; kan havluya işledi.

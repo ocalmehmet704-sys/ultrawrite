@@ -16,7 +16,7 @@ Kırk yedi fıçı vardı. İkinci arabanın arkasındaki bir fıçı çatlamı�
 
 "Sayarım."
 
-Ammer tüy kaleme mürekkep batırdı, kâğıda yazdı: iki araba, Mangolt Lauber, kırk yedi fıçı, şarap, Ungeld ödenecek. Kâğıdı dört katladı, kapı evinin sandığına attı. Sandık cumartesi günü Ratsdiener Kaspar Gesell'in arabasına yüklenir, pazartesi sabahı Kanzlei'de kopyalanırdı. Yıllardır böyle yürüyordu. Ammer bunu hiç değiştirmemişti.
+Ammer tüy kaleme mürekkep batırdı, kâğıda yazdı: iki araba, Mangolt Lauber, kırk yedi fıçı, şarap, Ungeld ödenecek. Kâğıdı dört katladı, kapı evinin sandığına attı. Sandık cumartesi günü Ratsdiener Kaspar Gesell'in arabasına yüklenir, pazartesi sabahı Kanzlei'de kopyalanırdı. Yıllardır böyle yürüyordu. Ammer bunu hiç değiştirmemişti. Cumartesi akşamı sandığın kilidini bir kez daha yokladı, kapıyı kapatıp Tor'un arkasındaki evine gitti. Evi iki odalıydı, ocağı akşamları ancak ısıtırdı.
 
 Lauber son fıçıyı da geçince kapı evinin penceresine yaklaştı. "Adım orada mı?"
 
@@ -52,11 +52,11 @@ Hepp kalemini masaya bıraktı. "Rat'ın mahzenine. Perşembe günü karara bağ
 
 "Kammer bunu bilmiyor mu?"
 
-"Kammer kırk bir istiyor," dedi Hepp. "Mayıs'ta giden rapor kırk bir diyecek. Kırk bir veriyoruz."
+"Kammer kırk bir istiyor," dedi Hepp. "Hallerau'nun ayrıcalığı Kayser'in adına bir sayıyla ödenir, her yıl o sayı Mayıs'ta gider. Mayıs'ta giden rapor kırk bir diyecek. Kırk bir veriyoruz."
 
 "Perşembe kararını görebilir miyim?"
 
-Hepp çekmeceyi açtı, dosyayı çıkardı, ama sayfayı Ammer'e uzatmadı. "Karar Rat'ın. Okumak sana düşmez, yalnızca kitaba geçirirsin. Sen de öyle yaptın, yirmi yıldır."
+Hepp çekmeceyi açtı, dosyayı çıkardı, ama sayfayı Ammer'e uzatmadı. Kitabın öbür sayfalarına bakmasına da izin vermedi; yalnızca bir ara ciltte açtı. Oradaki satırlar kısaydı ve hepsi aynı sözle bitiyordu. "Karar Rat'ın. Okumak sana düşmez, yalnızca kitaba geçirirsin. Sen de öyle yaptın, yirmi yıldır."
 
 Ammer buna itiraz etmedi, çünkü doğruydu. Kitabın sayfalarında yüzlerce satır vardı ve birçoğunu kendi eliyle yazmıştı: "Ungeld ödendi", "Ungeld ödenmedi", "Rat'a bağışlandı". Bağışlandı yazılı satırların hangi fıçılar olduğunu hiç sormamıştı.
 
@@ -71,6 +71,8 @@ Ammer satırın altına baktı. Boş bir çizgi vardı, üstünde küçük harfl
 "Gördüm," dedi Ammer. "Doğru bulmadım."
 
 "Doğru bulmak Rat'ın işi. Sen imzalarsın."
+
+Ammer, Hepp'in çekmeceyi yeniden kapatmasını izledi.
 
 Ammer tüy kalemi aldı. Mürekkep koyuydu, sabahın soğuğunda kalınlaşmıştı. Yazdı: L. Ammer. Hepp kurutma kumunu açtı, yazının üstüne serpti, fazlasını sayfadan silkeledi ve kitabı kapattı.
 
@@ -107,6 +109,8 @@ Ammer yeni bir kâğıt çekti, tüy kalemi aldı. Kelimeyi kelimeye yazdı ve t
 "Ne dediyse o."
 
 Gesell kâğıdı katlayıp pelerininin iç cebine koydu. "Lauber üç gün kulede yatacak. Ungeld iki katına çıkıyor. Arabaları Jörg sürecek. Sen de yaşlandın, Ammer. Gözün hâlâ keskin, bu iyi."
+
+Ammer bu sözün ne anlama geldiğini sormadı. Gesell kapıya yürüdü, eşikte durdu. "Perşembe'de yemin var. Metni ezberle, yemin sırasında kâğıda bakılmaz."
 
 Ammer masadaki tüy kalemi düz hizaya çevirdi.
 

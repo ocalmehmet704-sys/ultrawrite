@@ -68,9 +68,9 @@ Oğuz zarfı yeniden çekmeceye koydu, çekmeceyi kapatmadı. "Anlatın. Halit A
 
 Kapıdan çıkarken Sadri kapıyı tuttu. Ayakkabısındaki kömür izi merdivenin ilk basamağında da vardı.
 
-Nazife Eser'in lojmanı depo bahçesinin arkasındaydı, kantara bakan iki odalı bir yapıydı. Merdivenin tahtaları çürümüştü, kapının üstüne boşaltma kâğıdı yapıştırılmıştı. Kâğıdın kenarı rüzgârda kıvrılıyordu. Kadın kapıyı açtı. Elinde bir erkek gömleği vardı, ütü masasının üstündeki ütü hâlâ ılıktı. Odanın köşesinde bir tencere, içinde tek bir kaşık vardı.
+Nazife Eser'in lojmanı depo bahçesinin arkasındaydı, kantara bakan iki odalı bir yapıydı. Merdivenin tahtaları çürümüştü, kapının üstüne boşaltma kâğıdı yapıştırılmıştı. Kâğıdın kenarı rüzgârda kıvrılıyordu. Kadın kapıyı açtı. Elinde bir erkek gömleği vardı, ütü masasının üstündeki ütü hâlâ ılıktı. Odanın köşesinde boş bir tencere duruyordu.
 
-"Refik'in öğle yemeği," dedi kadın. "Gitmeden yemeğini almamış. Tencere burada duruyor."
+"Sabah ona çorba koymuştum," dedi kadın. "Almadan gitti. Tencere burada duruyor."
 "Dün öğlen Oğuz'un adamı geldi, değil mi?"
 "Dün öğlen geldi. Otuz gün. Kâğıdı kendi eliyle yapıştırdı."
 "Refik ne zamandır kulübede yatıyordu?"
@@ -98,9 +98,9 @@ Kapının yanındaki çivide ipe bağlı küçük bir anahtar asılıydı. "Refi
 
 Nazife gömleği ütü masasının üzerine koydu, ütünün fişini çekti. "Benim kocam yirmi yıl o kantarı bekledi. Yazın o zaman. Ama bilmem demeyin."
 
-Üçü on geçe Rasih kantarın arkasındaki duvarın dibine çömeldi. Tahta soğuğu pantolonundan geçiyordu. Ayaklarını hissetmiyordu, bunu önemsemedi. Basmane tarafından bir yük treni düdük çaldı, tren uzaklaşırken raylar tıkırdadı. Sonra yolun sonundan bir motor sesi geldi. Farlar depo kapısına çevrildi. Kanvasın altından balyaların köşeleri çıkıyordu.
+Üçü on geçe Rasih kantarın arkasındaki duvarın dibine çömeldi. Tahta soğuğu pantolonundan geçiyordu. Ayaklarını hissetmiyordu, bunu önemsemedi. Basmane tarafından bir yük treni düdük çaldı, tren uzaklaşırken raylar tıkırdadı. Sonra yolun sonundan bir motor sesi geldi. Farlar depo kapısına çevrildi. Kanvasın altından balyaların köşeleri çıkıyordu. Yanmamış balyalar yarın öğleden sonra ikinci kez ekspertize girecekti. Rasih bunu biliyordu, bu gece yakılacaklarını da.
 
-Kamyon kulübenin önünde durdu. Kapının plakası okunuyordu, otuz beş, bir de sonra gelen harfler. Cafer indi, kapının asma kilidine uzandı. Arkasından Sadri geldi, kolunda bir teneke vardı. Kokusu balyalardan önce geldi: benzin.
+Kamyon depo kapısının önünde durdu. Plakası okunuyordu: otuz beş, sonra harfler. Cafer indi, depo kapısının asma kilidine uzandı. Arkasından Sadri geldi, kolunda bir teneke vardı. Kokusu balyalardan önce geldi: benzin.
 
 Rasih ortaya çıktı. "Bırak onu."
 
@@ -110,7 +110,7 @@ Ray boyunca koşuyordu, ayakkabısı tahtaların arasına takılıyordu. Rasih o
 
 "Oğuz para verdi abi. Üç yüz lira."
 "Ne yükü?"
-"Depodaki pamuğun yarısı Mersin'e gitti. Kalanı yandı. Sigorta on dört ton ödeyecek."
+"Depodaki pamuğun yarısı Mersin'e gitti. Kalanını bu gece yakacaktık. Sigorta on dört ton ödeyecek."
 "Refik?"
 "Sadri kilidi taktı, zinciri geri çekti. Refik içeriden vurdu. Ben kamyona bindim. Alev sonra başladı."
 "Önce kilit mi, benzin mi?"
@@ -122,7 +122,7 @@ Sabah sekizde Ege Yangın Sigorta'nın bekleme salonunda kırk kişi oturuyordu.
 "Hepsi yandı."
 Aksoy başını salladı, desteyi çekmeceye geri koydu.
 
-Rasih'in Konak'taki masasında da böyle bir sabah olmuştu. Bir sigara paketi, bir kalem, bir imza.
+Konak'taki eski masasında da böyle sabahlar olmuştu. Bir fincan çay, bir kalem, bir imza.
 
 Akşam Oğuz'un ofisinde zarfı aldı. Bu kez sayarak aldı.
 

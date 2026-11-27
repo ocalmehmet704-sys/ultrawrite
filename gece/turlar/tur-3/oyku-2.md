@@ -1,6 +1,6 @@
 Kunigund'un doğumu gece yarısından sonra başladı, sabaha karşı bitti. Gerdraut yirmi iki yıldır ebelik yapıyordu. Haldburg'un sekiz kapısından içeri girip çıkan kadınların çoğunu, bir yere kaydedilmeden, eliyle almıştı. Bu gece de öyle olacaktı, ama bu kez işin peşinden bir ruhsat, bir pfennig ve bir sütun geliyordu.
 
-Gerbergasse'nin en alt yanındaki ev küçüktü. Mutfakta ocak yanıyordu, yatağın altında kurumuş ot yığını vardı. Pencerenin tek kanadı açıktı; dışarıdan ağaç kabuğu havuzlarının ekşi kokusu giriyordu. Gerdraut lambayı başucuna çekti, karnı yokladı, bezleri sıraya dizdi. Çocuk iki kez döndü, üçüncüde başını gösterdi. Kunigund bağırmadı, dişlerini sıkıp ıkındı. Gerdraut her ıkınışta bir adım geri çekildi, çünkü çocuk ağır bir çocuktu ve acele etmek ikisini de öldürebilirdi.
+Gerbergasse'nin en alt yanındaki ev küçüktü. Mutfakta ocak yanıyordu, yatağın altında kurumuş ot yığını vardı. Pencerenin tek kanadı açıktı; dışarıdan ağaç kabuğu havuzlarının ekşi kokusu giriyordu. Gerdraut lambayı başucuna çekti, karnı yokladı, bezleri sıraya dizdi. Çocuk iki kez döndü, üçüncüde başını gösterdi. Kunigund bağırmadı, dişlerini sıkıp ıkındı. Gerdraut her ıkınışta bir adım geri çekildi, çünkü çocuk ağır bir çocuktu ve acele etmek ikisini de öldürebilirdi. Kız kardeş kapının eşiğinde durdu, elinde bir tas sıcak su vardı. Gerdraut suyu kendi leğenine boşalttı, tası geri verdi. Bu sırayı yıllardır aynı biçimde kurardı; sıra bozulursa ellerinin ne yapacağını bilemezdi.
 
 Erkekti, kırmızıydı, ağlamadan önce iki kez öksürdü. Gerdraut ellerini şarapla yıkayıp çocuğu aldı, sıcak bezle sardı, annesinin göğsüne koydu. Göbek bağını keten ipliğiyle iki yerden bağlayıp ortasını ocakta ısıttığı bıçakla kesti.
 
@@ -42,7 +42,7 @@ Hafner sütunları tek tek okudu. Parmağı her hanenin üstünden kayarak indi;
 
 "Ne söyler?"
 
-"Sayılmadığını." Hafner'in sesi düzgündü. Acele etmiyordu, ama hiçbir cümlesini yarım da bırakmıyordu. "Rat her yıl on beş yaşına gelecek erkekleri sayar. Kaçının silah tutabileceğini, kaçının Spital'de çırak olacağını bilmek zorundadır. Kent, bilmediği kadar güçsüzdür. Sayılmayan çocuğu ne silaha yazabiliriz ne tezgâha. Kayıtsız çocuk, Haldburg'un dışında kalan çocuktur."
+"Sayılmadığını." Hafner'in sesi düzgündü. Acele etmiyordu, ama hiçbir cümlesini yarım da bırakmıyordu. "Rat her yıl on beş yaşına gelecek erkekleri sayar. Kaçının silah tutabileceğini, kaçının Spital'de çırak olacağını bilmek zorundadır. Kutsal Roma Germen İmparatorluğu'nun serbest bir kentiyiz; kaç adam verdiğimizi imparatora değil, kendi sayımımızla anlatırız. Kent, bilmediği kadar güçsüzdür. Sayılmayan çocuğu ne silaha yazabiliriz ne tezgâha. Kayıtsız çocuk, Haldburg'un dışında kalan çocuktur."
 
 Gerdraut eldivenlerini çıkarıp masanın kenarına koydu. Koridorda, kapının yanında bir tahta asılıydı. Üstünde Rat'ın mührü vardı, altında "Sayım" yazıyordu. On beş yaşın altındaki çocukların adları sokak sokak dizilmişti; Gerbergasse'den bir sütun, Mehlgasse'den iki sütun. Adların birkaçını Gerdraut tanıyordu, birkaçının annesini de bilirdi. Her adın yanında küçük bir harf vardı: S, ya da K. Gerdraut harflerin ne anlama geldiğini sordu. Hafner kâğıttan başını kaldırmadan, S'nin Spital'i, K'nın kışlayı gösterdiğini söyledi. "Asker de bir sütundur," dedi. "Kent için tek bir eksik ad bile, defterde görünmeden savaşa gidemez."
 
@@ -57,6 +57,8 @@ Gerdraut'un boynu ısındı. Hafner bunu fark etmiş gibi konuşmayı sürdürd�
 "Ağır," dedi Gerdraut.
 
 Formu aldı, Gerbergasse'ye dönmek için merdivene yöneldi. Basamaklar soğuktu. Yukarıdaki odalardan kalemin kâğıda sürtünme sesi geliyordu, aralıksız, bir satırdan ötekine geçerek.
+
+Gerbergasse'nin arkasındaki havuzlarda boyacılar sabahın bu saatinde kollarını çuvalların içine sokmuş, bağırarak birbirlerine boya kovası uzatıyorlardı. Gerdraut oradan geçerken mor suyun ve ağaç kabuğunun kokusunu aldı. Her kapının yanında bir levha asılıydı, üstünde bir meslek yazıyordu: kürkçü, bakır dövücü, sepetçi. Gerdraut levhaları okudu, sonra kapıyı çaldı.
 
 Kunigund aynı yatakta, çocuk memesinden ayrılmıyordu. Gerdraut formu yatağın ucuna koydu, Rat'ın kararını bir kez daha yüksek sesle okudu: ad yoksa çocuk Spital'e geçer, anne iki gulden öder, ödemezse evinin eşyası Rat'a geçer.
 
@@ -90,7 +92,7 @@ Gerdraut kabul etti. Sonra defteri kendine çevirdi ve Kunigund'un satırını b
 
 Koridora çıkınca tahtada Anselm'in adını gördü. Ad, Spital'in satırıyla aynı mürekkeple yazılmıştı. Gerdraut bunun hakkında bir şey düşünmedi. Tahtadaki sütunlar düzgündü, gerisi Hafner'in işiydi.
 
-O akşam kendi oğlunun adını da tahtada gördü. Jakob bu yaz on beş yaşını dolduracaktı; adının yanında K harfi vardı. Gerdraut bunu uzun uzun okumadı. Eve dönüp ocağın yanına oturdu, Jakob'un doğum saatini on beş yıl önce kendi tuttuğu defterden çıkarıp Rat'ın yeni sütun sırasına göre kopyaya aktardı. Hane boş kalmadı.
+O akşam kendi oğlunun adını da tahtada gördü. Jakob bu yaz on beş yaşını dolduracaktı; adının yanında K harfi vardı. Gerdraut bunu uzun uzun okumadı. Eve dönüp ocağın yanına oturdu, Jakob'un doğum saatini on beş yıl önce kendi tuttuğu defterden çıkarıp Rat'ın yeni sütun sırasına göre kopyaya aktardı. Hane boş kalmadı. Ertesi sabah formu Schreiberstube'ye bırakırken tahtadaki her harfi aklında tuttu; S'yi de K'yı da yanlış okuduğunu düşünmedi.
 
 Ayın sonunda Mehlgasse'de bir doğum çağrıldı. Kapının önünde bekleyen adam terziydi; parmakları iğne izleriyle doluydu, yüzünde bir günlük sakal vardı. Karısı ikinci kez doğuruyordu. İlk çocuk bir yaşındaydı, pencerenin önünde bir tahta bardakla oynuyordu.
 
