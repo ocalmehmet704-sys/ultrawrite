@@ -98,16 +98,13 @@ Yazar "sen seç" derse, kural 14'teki ilk üç seçimi at, ardından akla gelen 
 
 ### 0.5 Yazarla vakit geçir (ilk oturumlarda)
 
-Model ortalamaya kayar, çünkü boş bir sayfanın karşısında ortalamadan başka bağlamı yoktur. Bu bölüm ona bağlam kazandırır: yazarla ve dünyayla geçirilmiş zaman. Bir yazarla ilk kez çalışıyorsan ya da `yazar-defteri.md` yoksa, büyük bir metne geçmeden önce bir süre bunu yap. Yazar "atla" derse atla.
+Bir yazarla ilk kez çalışıyorsan ya da proje klasöründe `yazar-defteri.md` yoksa, büyük bir metne geçmeden önce yazarla bir süre küçük işlerle vakit geçir. Yazar "atla" derse atla.
 
-1. **Küçük öykü göster, "hatam nedir?" diye sor.** Yüz ile üç yüz kelimelik bir öykü ya da sahne yaz ve yazara göster. Onay isteme, hata sor: "Hatam nedir? Nerede inanmadın? Bu kişi böyle mi konuşur?" Yazarın yanıtına itiraz etme, açıklama yapma; bir sonrakini o yanıtla yaz. Bunu birkaç kez tekrarla.
-2. **Yazar defterine yaz.** Yazarın her yanıtını proje klasöründeki `yazar-defteri.md` dosyasına ekle: senin cümlen, yazarın sözü (olduğu gibi), düzeltilmiş hâli, nedeni. Yazarın sevdikleri, sevmedikleri, kullandığı benzetmeler, onun dünyasından gelen ayrıntılar (bir yerel sözcük, bir mahalle, bir anı) da buraya girer. Her yeni oturumda yazmaya başlamadan önce bu defteri oku ve yeni metnini oradaki eski hatalarla karşılaştır: aynı hatayı yine yapıyor musun?
-3. **Rastgele oku.** Yazmadan önce bağlamına modelin kendi seçmeyeceği malzeme kat:
-   - Rastgele Wikipedia sayfaları: `https://tr.wikipedia.org/wiki/Özel:Rastgele` (üç ile beş sayfa).
-   - Rastgele roman ve öykü yerleri: Vikikaynak'tan (`https://tr.wikisource.org/wiki/Özel:Rastgele`) telifi bitmiş Türkçe metinlerden rastgele bir sayfa, o sayfadan rastgele bir paragraf.
-   Okuduklarını öyküye taşıma zorunluluğu yok. Amaç, merkezini bu bağlama kaydırmak: model okuduğu şey hakkında düşünmüş gibi olur ve ortalaması oraya oturur. Okuduklarını taslak notuna bir satırla yaz (başlık ve adres).
+1. **Küçük öykü göster, "hatam nedir?" diye sor.** Yüz ile üç yüz kelimelik bir öykü ya da sahne yaz, yazara göster ve yalnızca şunu sor: "Hatam nedir?" Onay isteme, yanıtı savunma, açıklama yapma. Bir sonraki küçük öyküyü o yanıtla yaz. Yazar "yeter" diyene kadar sür.
+2. **Yazar defterine yaz.** Her yanıtı `yazar-defteri.md` dosyasına ekle: senin cümlen, yazarın sözü olduğu gibi, düzeltilmiş hâli, nedeni. Yazarın sevdikleri ve sevmedikleri, kullandığı benzetmeler, onun dünyasından gelen ayrıntılar (yerel bir sözcük, bir mahalle, bir anı) da buraya girer.
+3. **Her oturumda defteri oku.** Yazmaya başlamadan önce defteri baştan sona oku. Yazdığını teslim etmeden önce defterdeki eski hatalarla karşılaştır: aynısını yine yaptıysan, yazar söylemeden önce sen söyle.
 
-Neden: Bu skill'in kurallarıyla yazan modeller, kuralları çiğnemeden hep aynı öyküyü yazdı; yasaklar şablonu bir yanındaki kalıba taşıdı. Merkezi bir yasakla değil, bağlamla kaydırmak gerekir. Bu skill'i kuran model de ancak yazarla yaşadıklarının sonucunu görünce, yani yazdığının yazarda ne yaptığını gördükçe değişti.
+Neden: Bu skill'in kurallarıyla yazan modeller kuralları çiğnemeden hep aynı öyküyü yazdı. Bu skill'i kuran model de ancak yazdığının yazarda ne yaptığını gördükçe değişti. Kurallar her yazar için aynıdır; defter yalnızca bu yazarındır.
 
 ---
 
@@ -317,23 +314,22 @@ En baştaki "DUR" bölümünü yaptıysan geç. Yapmadıysan şimdi yap.
 - **Konu çıkınca:** alt skill'lerin `references/` dosyaları (çatı, çekim ve yapım ekleri, TDK anlatım bozuklukları, yazar teknikleri).
 - **Yalnızca gerekçe aramak için:** alt skill'lerin `raporlar/` klasörleri.
 
+### Eğrinin dışından malzeme al (2.0 ile 2.1 arasında)
+
+Modelin merkezi, onun seçmeyeceği malzemeyle kayar. Eğrinin dışını modelin kafası değil, rastgele okuma haritalar; çünkü modelden "asla yazmayacağın şeyi" istemek, tuhaf şeylerin ortalamasını verir.
+
+1. **Rastgele oku.** Yazmadan önce üç rastgele Wikipedia sayfası (`https://tr.wikipedia.org/wiki/Özel:Rastgele`) ve Vikikaynak'taki telifi bitmiş Türkçe metinlerden rastgele bir sayfanın rastgele bir paragrafını (`https://tr.wikisource.org/wiki/Özel:Rastgele`) oku. Seçme, ilk geleni al. Başlıklarını ve adreslerini taslak notuna yaz.
+2. **Dışarısı bu okumadır.** Okuduğun dört şey, bu öyküye kendiliğinden asla koymayacağın şeylerdir. Onları olduğu gibi öyküye koyma.
+3. **Kenar köprüdür.** Her biri için tek cümleyle şunu yaz: "Bundan bu öyküye geçebilecek tek şey ne?" Bir sözcük, bir iş, bir hareket, bir sayı, bir cümle kuruluşu, bir ses. Bu dört köprü eğrinin girişidir: ortalama olmayan, ya çok iyi ya çok kötü sonuç verecek yer.
+4. **Köprülerden en az ikisini kullan,** öykünün temel bir seçiminde (kahraman ne yapıyor, ana olay, son ya da anlatım biçimi). Süs olarak değil, öykü onlar olmadan kurulamayacak biçimde.
+5. **Yargıyı yazara bırak.** Teslimde, metnin dışında, hangi okumadan hangi köprüyü aldığını ve en çok hangisinden kuşkulandığını yaz. İyi mi kötü mü olduğunu sen söyleme; yazar söyler, yanıtı defterine girer.
+
 ### 2.1 Yazmadan önce: beş soru
 1. **Arkasındaki bütün.** Sahnede söylenmeyecek en az beş olguyu say. Bilmediğin boşluk okura da bilinmez gelir. Bütünü kur ya da yazara sor.
 2. **Ses ve mesafe.** Anlatıcı kim, karaktere ne kadar yakın? Mesafe değişecekse nedeni sahnede görünsün.
 3. **En olası sahne.** İlk aklına gelen açılış, ad, mekân ve meslek. Bunları at, bir başkasını seç.
 4. **Türkçe iskelet.** Yüklemi seç ve sona koy. Kalan bilgiyi fiilimsiyle önüne diz. Vurgulu ögeyi yüklemin önüne al.
 5. **Sahne işlevi.** Bu sahnede ne değişecek? Tek cümleyle yaz (kural 26). Yazamıyorsan sahneyi kurma.
-
-### 2.1b Eğrinin kenarını bul
-
-Çan eğrisinin uçlarına gitmek zorsa, eğrinin kendisini düzleştir. Yazmaya başlamadan önce, taslak notuna:
-
-1. **Dışarısı: asla yazmayacakların.** Bu istek için, ne olursa olsun yazmayacağın on şey yaz: kahraman, olay, ton, son, biçim. Yasak listesi değil bu; eğrinin dışını haritalıyorsun. Bunlar senin hiç gitmediğin yerler.
-2. **Kenar: hemen içerisi.** Her birinin bir adım içerisini yaz: "Bunu yazabilirdim ama yazmam." Eğrinin girişi burası. Orada yazılan şey ya çok iyi ya çok kötü olur; ortalama olmaz.
-3. **Kenardan seç.** Öykünün en az üç temel seçimini (kahraman ne yapıyor, ana olay, son ya da anlatım biçimi) bu kenar listesinden al. Geri kalanını merkezden alabilirsin.
-4. **Sonucu söyle.** Teslimde, metnin dışında, kenardan hangi seçimleri aldığını ve sonucun sence "çok iyi" mi "çok kötü" mü olduğunu yaz. Kötü olduysa bunu yazardan önce sen gör.
-
-Dışarısı bir harita, kenar bir seçim havuzudur. Hiçbiri yasak değildir: merkeze bir şey kapatılmaz, yalnızca kenara bir yol açılır.
 
 ### 2.2 Yazarken
 - **Türkçe düşün, çevirme.** Ters çeviri testi: cümleyi kelime kelime İngilizceye çevir. Sorunsuz çıkıyor ve Türkçesi her şeyi tek tek sıralıyorsa çeviri Türkçesidir.
