@@ -32,3 +32,8 @@ Kalan sorunlar:
 - Sitemap'te tek URL var, 404 eklenmedi (doğru).
 
 Öneri: main'e birleştirilebilir. Değişiklikler küçük, her tur testten geçti (taşma, konsol, klavye sekmeleri, kopyala, kart gizle/göster, reduced-motion). `google-site-verification` ve doğrulama dosyası, skills/, .claude-plugin/, LICENSE ve kart metinleri dokunulmadı. Ekran görüntüleri: `gece/site-ekran/`.
+
+## Tur 5 (00:35, zamanlanmış görevle devam)
+- Değişen: `.hero` kuralı `.wrap`'in yan boşluğunu sıfırlıyordu; hero içeriği ve kart mobilde ekranın sol kenarına yapışıktı, masaüstünde de üst menüyle hizasızdı (130 px ve 162 px). `padding` yerine `padding-block` kullanıldı.
+- Test: 11 kontrol geçti; 390, 768, 1200, 1440 px'te taşma yok. Mobil hero görüntüsü `gece/site-ekran/m-hero.png`.
+- Not: Bu hata önceki turlarda ekran görüntüsüne yeterince dikkatli bakılmadığı için kaçmıştı; mobil hero artık 16 px boşlukla başlıyor.
