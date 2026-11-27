@@ -72,7 +72,7 @@ Kadın kapıya yürürken durdu. "Kocamı sevmediğimi düşünüyorsunuz."
 
 ---
 
-Son vapur kerosen ve ıslak halat kokuyordu. Vedat üst güverteye çıktı, korkuluğa sırtını verip sigara yaktı. Yağmur kesilmişti ama tuz rüzgârla yüzüne vuruyordu. Alsancak'ın ışıkları gerilerde kalıyor, karşıda Karşıyaka'nın sarı pencereleri sayılabilecek kadar belirginleşiyordu. Alt güvertede bir simitçi çocuk, köşeye sıkışmış iki kadın, bir de kucağındaki torbayı hiç bırakmayan yaşlı bir adam vardı. Motor titreyerek Karşıyaka'ya açıldı. Yaşlı adam torbasından yarım bir şişe çıkardı, Vedat'a uzattı. "Bir yudum, Efendi. Deniz soğuk." Vedat başını salladı. Adam şişeyi geri çekti, torbayı yeniden kucağına aldı. Kontrolör koridorda biletleri delgileyerek ilerliyordu. Vedat'ın önünde durdu.
+Son vapur kerosen ve ıslak halat kokuyordu. Makine dairesinin kapağında kirli bir kedi uyuyordu. Vedat üst güverteye çıktı, korkuluğa sırtını verip sigara yaktı. Yağmur kesilmişti ama tuz rüzgârla yüzüne vuruyordu. Alsancak'ın ışıkları gerilerde kalıyor, karşıda Karşıyaka'nın sarı pencereleri sayılabilecek kadar belirginleşiyordu. Alt güvertede bir simitçi çocuk, köşeye sıkışmış iki kadın, bir de kucağındaki torbayı hiç bırakmayan yaşlı bir adam vardı. Motor titreyerek Karşıyaka'ya açıldı. Yaşlı adam torbasından yarım bir şişe çıkardı, Vedat'a uzattı. "Bir yudum, Efendi. Deniz soğuk." Vedat başını salladı. Adam şişeyi geri çekti, torbayı yeniden kucağına aldı. Kontrolör koridorda biletleri delgileyerek ilerliyordu. Vedat'ın önünde durdu.
 
 "Biletiniz, Abi."
 
@@ -180,15 +180,15 @@ Zeki bu sefer gerçekten güldü. Kâzım'a döndü. Kâzım başını salladı.
 
 "Beş," dedi Zeki. "Olsun."
 
-Vedat zarfı aldı, kalınlığını parmağıyla ölçtü. Yeni basılmış kâğıtlardı, birbirine yapışıktı, beş bin lira eder gibi değildi, beş bin lira ediyordu. Atölyeden çıkarken Kâzım'ın bakışı sırtında kaldı. Vedat dönmedi.
+Vedat zarfı aldı, kalınlığını parmağıyla ölçtü. Yeni basılmış kâğıtlardı, birbirine yapışıktı. Beş bin liraydı. Atölyeden çıkarken Kâzım'ın bakışı sırtında kaldı. Vedat dönmedi.
 
 ---
 
-Ertesi sabah yağmur kesilmişti ama kaldırımlar hâlâ ıslaktı. Caddede esnaf kepenk açıyordu. Vedat dudağının kenarındaki şişi parmağıyla yokladı. Kulağındaki uğultu gece boyunca kesilmemişti. Nuran merdivende bekliyordu; şemsiyesini kapının önüne dayamış, topuklarını saymadan durmuştu. Vedat anahtarı çevirdi, içeri geçti, çekmeceden bileti aldı. Sigara yaktı, ilk dumanı ağzında tuttu, sonra bıraktı. Kâğıdı küllüğe koydu, kibritle yaktı. Delikler önce kıvrıldı, sonra karardı.
+Ertesi sabah yağmur kesilmişti ama kaldırımlar hâlâ ıslaktı. Caddede bir çırak kepenkleri tek tek kaldırıyordu; her biri ağır bir gıcırtıyla açılıyordu. Vedat dudağının kenarındaki şişi parmağıyla yokladı. Kulağındaki uğultu gece boyunca kesilmemişti. Nuran merdivende bekliyordu; şemsiyesini kapının önüne dayamış, topuklarını saymadan durmuştu. Vedat anahtarı çevirdi, içeri geçti, çekmeceden bileti aldı. Sigara yaktı, ilk dumanı ağzında tuttu, sonra bıraktı. Kâğıdı küllüğe koydu, kibritle yaktı. Delikler önce kıvrıldı, sonra karardı.
 
 Rapor masanın üstündeydi, iki satır. Zeki'nin kullandığı sözcüklerle yazılmıştı. Vedat sabah iki kez okumuştu. Her cümlede Zeki'nin sesi vardı. Değiştirmemişti.
 
-Nuran kapıda durdu. "Bilet?"
+Nuran kapıda durdu. Eldivenleri hâlâ elindeydi. "Bilet?"
 
 "Yandı."
 
@@ -236,9 +236,17 @@ Nuran bu kez açıkça baktı. "Yüzünüz?"
 
 Nuran bunu da not etti, bir şey demedi.
 
+"Cenaze ne zaman?"
+
+"Yarın öğleden sonra. Babasının yanına, Bornova'ya."
+
+"Gelmeyeceğim."
+
+"Gelmeyin."
+
 "Vapurdaki kontrolör?"
 
-"Biletini kesti. Bir daha kesmeyecek."
+"Biletini kesti. Bir daha kesmeyecek, bilet de kalmayacak."
 
 "Bu bir cevap mı?"
 

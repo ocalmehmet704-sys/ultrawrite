@@ -86,6 +86,10 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 — Yediden akşam dörde kadar su hatlarındayım. Eve gelip yatıyorum. Kendime ev alamadım, bilirsin. Taksidi son üç yıldır ben ödüyorum. İlk iki yılı sen yolladın.
 — Ne zaman yolladığımı biliyorsun, demek ki.
 — Biliyorum. Her ay aynı tarihte geldi.
+— Son gün ne oldu? Ben telefonda duydum, gerisini bilmiyorum.
+— Sabah ekmek almaya indi. Ben kapıdan çıkarken pencerede duruyordu.
+— Pencerede mi?
+— Bana el salladı. Öğleden sonra düştü.
 — Hastanenin yatak parasını kim ödedi?
 — Üç ayın ikisini ben, birini sigorta.
 — Ben bir şey yolladım mı o üç ayda?
@@ -125,6 +129,10 @@ Bodrum merdiveninin son basamağında Hayri durdu. Tahta basamak gıcırdadı.
 
 Kazan duvarın dibinde duruyordu, boyası dökülmüş, üstünde küçük bir mavi ışık yanıyordu.
 
+— Gece bodruma iniyor musun?
+— İniyorum. Kazanın sesini dinlerim.
+— Hangi ses?
+— Bir tık. Kazan öksürünce bilirsin.
 — Yanıyor.
 — Yanıyor.
 — Bu kış yakıyor musun?
@@ -143,6 +151,13 @@ Kazan duvarın dibinde duruyordu, boyası dökülmüş, üstünde küçük bir m
 — Para yolladın.
 — Para da bir şey.
 — Para da bir şey. Ama çatı da bir şeydi.
+
+Raflar kireç kokuyordu. Neriman raftaki kutulara baktı, hepsinin kapağı kapalıydı.
+
+— Bu raf neden bu kadar dolu?
+— Ben koydum. Bir şeyi bir yere koymadan bırakmıyorum.
+— Babam da öyle yapardı.
+— Babam her şeyi bir yere koymazdı. Kenara atardı, sonra ben toplardım.
 
 Neriman duvarda kahverengi bir leke gördü. Kenarı kabarmıştı. Parmağını dayadı.
 
@@ -219,12 +234,20 @@ Neriman kâğıda yalnızca rakamı yazdı. Teklifin yarısı, eksi gaz, eksi ki
 
 — Bana bu kadar yetmez.
 — Sana yetiyor. Benim taksitim kapanır.
+— Taksit kapanınca ne değişecek?
+— Bir şey değişmeyecek. Yalnız bankadan mesaj gelmez.
+— O zaman iyi uyursun.
 — Bankaya bunu nasıl anlatırım?
 — Maaş bordrosunu uzatırsın. Adam bakmadan hesap yapar, sen de bakmadan imzalarsın.
 
 Hayri kâğıdı katlamadı, masanın üstünde bıraktı.
 
 — Noter cuma. Ama önce Salı'yı kapatacağım.
+
+— Bir kere daha düşün.
+— Üç kere düşündüm. Üç kere de aynı çıktı.
+
+Hayri bardakları aldı, lavaboya götürdü, musluğu açtı. Su sesi mutfağı doldurdu, bir süre kimse bir şey söylemedi.
 
 Neriman kâğıdı ön yüzüne çevirdi, köşedeki numarayı buldu. Telefonu eline aldı.
 
