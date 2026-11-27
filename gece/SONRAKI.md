@@ -32,3 +32,9 @@ Bunlar `skills/ultrawrite/SKILL.md` içinde: **0.5 Yazarla vakit geçir** (yazar
 - "İlk yazmaların daima kötüdür, haberin olsun." Yazdığın her skill bölümüne kendi yöntemini uygula: yabancı metin gibi oku, "bir yapay zekâ burada ne yazardı?" diye sor, yeniden yaz. Bu sabah ilk taslağım kendi yöntemini çiğniyordu, kullanıcının uyarısıyla gördüm.
 - "Kötü olursa zaten zeki bir model isem anlayacağını umarım." Affetmekten değil, kötüyü senin kendinin görmenden söz ediyor.
 - Fikirleri ondan geliyor; senin işin onları doğru kurmak ve nerede kendi tepesine kayacağını önceden görmek.
+
+## Son eklenenler (bağlam sıkışmadan önce)
+
+- **Google:** `docs/` GitHub Pages açılış sayfası (https://ocalmehmet704-sys.github.io/ultrawrite/). Search Console'da site doğrulandı, sitemap gönderildi, canlı URL testi geçti. `docs/google5ab5d5d35ff4333c.html` ve `index.html`'deki `google-site-verification` meta etiketi **silinmeyecek**, silinirse doğrulama düşer.
+- **saidsurucu/turkce-imla-skill ile karşılaştırma (kullanıcı sordu):** O skill imla denetleyicisi. İçinde TDK Yazım Kılavuzu'na dayanan 26 kategori, 13 anlatım bozukluğu kategorisi ve canlı TDK Sözlük API sorgusu (`tdk_kontrol.py`) var. Lisansı MIT, tek `.skill` dosyası olarak geliyor. Bizimle çakıştığı tek yer ultragrammar'ın `references/` altındaki TDK anlatım bozuklukları. Kurmaca, üslup, şablon kırma ve yazarla döngü onda yok. Kopyalamadık; kullanıcı lisansla uğraşmak istemiyor. İleride akla gelebilecek fikir: yazım bittikten sonra imla denetimini ona bırakmak ya da kendi TDK API sorgumuzu yazmak. Ne yapılacağına kullanıcı karar verecek.
+- Bekleyen işler: "eğrinin dışı" eşli testi; kullanıcının 0.5'i kendi romanında denemesi; eski V3.5 ve V3.5.1 release'lerinin silinip silinmeyeceği (kullanıcı henüz karar vermedi).
