@@ -96,7 +96,7 @@ Adelheid meydana yürüdü. Bakkalın önündeki kadınlar bir adım geri çekil
 
 Kuyu başındaki kadınlar başlarını eğmişti. Yalnız Grete'nin başı eğik değildi. Ludwig Meclis'in sırasında duruyordu, elinde tahta bir liste vardı.
 
-Kâtiplik odası Belediye binasının ikinci katındaydı. Pencerelerinde demir parmaklık, kapısı ağırdı. Gerwig masanın arkasında oturuyordu; önünde iki kopya ve kırmızı mühürlü bir zarf duruyordu. Masanın kenarında iki tahtadan bir başparmak sıkacağı vardı, vidası yağlıydı. Adelheid onun ne kadar eski olduğunu bilmiyordu. Yanında bir nöbetçi dikiliyordu. Caspar kapının yanında duruyor, sol kolunu sağ eliyle tutuyordu.
+Kâtiplik odası Meclis binasının ikinci katındaydı. Pencerelerinde demir parmaklık, kapısı ağırdı. Gerwig masanın arkasında oturuyordu; önünde iki kopya ve kırmızı mühürlü bir zarf duruyordu. Masanın kenarında iki tahtadan bir başparmak sıkacağı vardı, vidası yağlıydı. Adelheid onun ne kadar eski olduğunu bilmiyordu. Yanında bir nöbetçi dikiliyordu. Caspar kapının yanında duruyor, sağ kolunu sol eliyle tutuyordu.
 
 — Kepek sekiz yazıldı, dedi Gerwig. Küp yeşil kaldı. Yirmi iki kumaş gitti. Bir yanlış bu kenti üç ay geri bıraktı. Yanlışı kim yazdırdı?
 
@@ -108,7 +108,7 @@ Adelheid çırağa baktı. Caspar on üç yaşındaydı ve sıkaca bakmamaya ça
 
 — Çırağın adını rügeden çıkarabilirim, dedi Gerwig. Bana bir tarif lazım, tek bir tarif. Söyleyin, bu odada başka bir şey olmaz.
 
-Adelheid kepeğin sayısını değil, Caspar'ın sol kolunu düşündü. Kol, eskimiş önlüğün altında kalkıp iniyordu.
+Adelheid kepeğin sayısını değil, Caspar'ın sağ kolunu düşündü. Kol, eskimiş önlüğün altında kalkıp iniyordu.
 
 — Kepek dört, dedi.
 

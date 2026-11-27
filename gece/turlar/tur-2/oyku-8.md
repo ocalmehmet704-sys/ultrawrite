@@ -29,7 +29,7 @@ Neriman arabanın kapısını açıp indi, çantasından anahtarını çıkardı
 — Gece bahçeye bir bakıyor. Ben sabah yedide çıkıyorum, akşam yediden önce gelmiyorum. Kimse bakmıyordu.
 — Ben bakıyordum.
 — Ankara'dan mı?
-— Ankara'dan.
+— Evet, oradan.
 
 Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmuştu, emlakçının adı hâlâ okunuyordu.
 
@@ -100,6 +100,7 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 — Yolladın. İlk ayın parasını sen yolladın.
 — Ne kadar?
 — Yetmedi. Ama yolladın.
+— Tamam.
 — Geçen hafta bankaya gittim. Senin payını alabilir miyim diye.
 — Ne dediler?
 — Bordroyu uzattım. Adam bakmadan hesap yaptı. Olmadı. Kredi çıkıyor ama senin payın bana kalmıyor.
@@ -113,15 +114,12 @@ Hayri bardağı eline aldı, içmedi.
 
 — Çay soğudu.
 — Sen de içmedin.
-
-— Adam üç ay bekler, dedi bana. Bu sonbahar satmazsak fiyat düşer.
+— Adam ne dedi sana?
+— Üç ay bekler, dedi. Bu sonbahar satmazsak fiyat düşer.
 — Düşer. Her yer düşüyor.
 — Sen satmak istiyorsun, ben tutmak. Yazıyı mı tura mı atalım?
 — Ben senin için satmak istemiyorum, Hayri. Kendim için satıyorum.
 — Biliyorum. Ben de kendim için tutuyorum.
-
-Neriman bardağa dokunmadı.
-
 — Ev sigortalı mı?
 — Geçen kış yenilettim.
 — Kombi çalışıyor mu?
@@ -138,14 +136,14 @@ Bodrum merdiveninin son basamağında Hayri durdu. Tahta basamak gıcırdadı.
 
 Kazan duvarın dibinde duruyordu, boyası dökülmüş, üstünde küçük bir mavi ışık yanıyordu.
 
+— Işık yanıyor.
+— Yanıyor. Kazan sağlam.
 — Gece bodruma iniyor musun?
 — İniyorum. Kazanın sesini dinlerim.
 — Hangi ses?
 — Bir tık. Kazan öksürünce bilirsin.
 — Kazanı ne zaman değiştirdiniz?
 — Dört yıl önce. Eskisi öksürmekten kurtulamadı.
-— Yanıyor.
-— Yanıyor.
 — Bu kış yakıyor musun?
 — Yakıyorum.
 — Doğalgaz faturası kimin adına?
@@ -161,7 +159,7 @@ Kazan duvarın dibinde duruyordu, boyası dökülmüş, üstünde küçük bir m
 — Yani ben bu evde bir şey yapmadım.
 — Para yolladın.
 — Para da bir şey.
-— Para da bir şey. Ama çatı da bir şeydi.
+— Çatı da bir şeydi.
 
 Raflar kireç kokuyordu. Neriman raftaki kutulara baktı, hepsinin kapağı kapalıydı.
 
@@ -173,9 +171,8 @@ Raflar kireç kokuyordu. Neriman raftaki kutulara baktı, hepsinin kapağı kapa
 Neriman duvarda kahverengi bir leke gördü. Kenarı kabarmıştı. Parmağını dayadı.
 
 — Kuru.
-— Ayda bir bakıyorum. Çatıdan su gelirse ilk burada belli olur.
-— Ayda bir.
-— Ayda bir.
+— Ne sıklıkla bakıyorsun?
+— Ayda bir. Çatıdan su gelirse ilk burada belli olur.
 
 Neriman parmağına bulaşan tozu pantolonuna sildi.
 
@@ -230,7 +227,6 @@ Hayri güldü.
 — Üç ayda ben de bir şey öğrenirim.
 — Neyi?
 — Bakmadan imzalamayı.
-— Altı yıl bu kapıdan tek başıma girip çıktım.
 — Ben de bu kapıdan çıktım. Otuz yıl önce.
 — Sen çıktın. Ben çıkmadım.
 — Sen nereye gidersin?
@@ -254,8 +250,7 @@ Neriman kâğıda yalnızca rakamı yazdı. Teklifin yarısı, eksi gaz, eksi ki
 — Taksit kapanınca ne değişecek?
 — Bir şey değişmeyecek. Yalnız bankadan mesaj gelmez.
 — O zaman iyi uyursun.
-— Bankaya bunu nasıl anlatırım?
-— Maaş bordrosunu uzatırsın. Adam bakmadan hesap yapar, sen de bakmadan imzalarsın.
+— Bankaya bunu sen anlatırsın. Maaş bordrosunu uzatırsın. Adam bakmadan hesap yapar, sen de bakmadan imzalarsın.
 
 Hayri kâğıdı katlamadı, masanın üstünde bıraktı.
 
@@ -265,7 +260,6 @@ Hayri kâğıdı katlamadı, masanın üstünde bıraktı.
 — Alırım.
 
 — Noter cuma. Ama önce Salı'yı kapatacağım.
-
 — Bir kere daha düşün.
 — Üç kere düşündüm. Üç kere de aynı çıktı.
 
