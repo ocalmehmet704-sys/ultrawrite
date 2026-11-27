@@ -31,7 +31,10 @@ Neriman arabanın kapısını açıp indi, çantasından anahtarını çıkardı
 — Ankara'dan mı?
 — Evet, oradan.
 
-Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmuştu, emlakçının adı hâlâ okunuyordu.
+Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmuştu, emlakçının adı hâlâ okunuyordu. Altındaki telefon numarasının son rakamları silinmişti.
+
+— Tabelayı da indirir misin?
+— Salı günü indiririm.
 
 — Emlakçıyı kim çağırdı?
 — Ben. Geçen ay.
@@ -43,7 +46,7 @@ Neriman bahçe duvarına çakılı tabelaya baktı. Kenarları güneşten solmu�
 — Neden?
 — Alıcı sorarmış, dedi.
 
-Karşı balkonda biri perdeyi araladı, sonra kapattı. Komşunun kapısı açıldı, Sabri Amca başını uzattı.
+Karşı balkonda biri perdeyi araladı, sonra kapattı. Perde bir daha açılmadı. Komşunun kapısı açıldı, Sabri Amca başını uzattı.
 
 — Hoş geldin Neriman. Anahtar bende, gece bir bakarım.
 — Sabri Amca, bu kapının kaç anahtarı olduğunu sen de mi sayıyorsun?
@@ -78,7 +81,10 @@ Hayri çaydanlığı ocağa koydu. Alev tutmadı, kibriti çaktı.
 — Hatırlıyorum. O kış ben para yolluyordum.
 — Evet. Ben de o parayla ilacı aldım.
 
-Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
+Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı. Çaydanlığın kapağı gevşekti, her kaynayışta tıkırdadı.
+
+— Kapağı da değiştirmedin mi?
+— Değiştirmedim. Sesi bana iyi geliyor.
 
 — Kiraya versek?
 — Kiracı çıkmaz. Merdiven sallanıyor, banyonun kapısı kapanmıyor.
@@ -93,7 +99,7 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 — Son gün ne oldu? Ben telefonda duydum, gerisini bilmiyorum.
 — Sabah ekmek almaya indi. Ben kapıdan çıkarken pencerede duruyordu.
 — Pencerede mi?
-— Bana el salladı. Öğleden sonra düştü.
+— Bana el salladı. Öğleden sonra düştü, bir daha kalkmadı.
 — Hastanenin yatak parasını kim ödedi?
 — Üç ayın ikisini ben, birini sigorta.
 — Ben bir şey yolladım mı o üç ayda?
@@ -110,7 +116,7 @@ Hayri çayı iki bardağa doldurdu, birini Neriman'ın önüne bıraktı.
 — Ben senin yerinde olsam, bu evi sana satardım.
 — Benim yerimde olsan, kendi taksitini bana sorardın.
 
-Hayri bardağı eline aldı, içmedi.
+Hayri bardağı eline aldı, içmedi. Neriman bardağın kulpunu çevirdi.
 
 — Çay soğudu.
 — Sen de içmedin.
@@ -160,6 +166,8 @@ Kazan duvarın dibinde duruyordu, boyası dökülmüş, üstünde küçük bir m
 — Para yolladın.
 — Para da bir şey.
 — Çatı da bir şeydi.
+— Bu evde kendine bir şey aldın mı?
+— Bir oltayı. Göl kenarına gitmek için.
 
 Raflar kireç kokuyordu. Neriman raftaki kutulara baktı, hepsinin kapağı kapalıydı.
 
@@ -171,8 +179,7 @@ Raflar kireç kokuyordu. Neriman raftaki kutulara baktı, hepsinin kapağı kapa
 Neriman duvarda kahverengi bir leke gördü. Kenarı kabarmıştı. Parmağını dayadı.
 
 — Kuru.
-— Ne sıklıkla bakıyorsun?
-— Ayda bir. Çatıdan su gelirse ilk burada belli olur.
+— Ayda bir bakıyorum. Çatıdan su gelirse ilk burada belli olur.
 
 Neriman parmağına bulaşan tozu pantolonuna sildi.
 
@@ -186,6 +193,7 @@ Neriman parmağına bulaşan tozu pantolonuna sildi.
 — Ben bu parayı da yollamam, Hayri. Bunu şimdiden söyleyeyim.
 — Biliyorum. Sen yollamıyorsun, bana bırakıyorsun.
 — Bırakmıyorum. Alıcıya bırakıyorum.
+— Alıcı da leke görür.
 — Duvarı boyatalım mı?
 — Boyarsan leke çıkmaz. Altında ne varsa kalır.
 — Peki ne yapacağız?
@@ -203,11 +211,13 @@ Hayri merdiven altındaki vanayı gösterdi. Neriman çevirdi, boru bir kere ök
 — Vanayı nasıl kapatacağını bilmiyorsun.
 — Bilirim. Çevirince susar.
 
+Hayri ışığı kapattı. Kazanın mavi ışığı karanlıkta tek başına yanıyordu, Hayri merdivenin ilk basamağını buldu.
+
 Hayri merdivenin son basamağını atlayıp çıktı. Neriman ayağını tam üstüne koydu, tahta yine gıcırdadı.
 
 *
 
-Akşam olunca Hayri lambayı mutfağa taşıdı. Pencerenin ötesinde kapı yalnızca bir karartıydı. Neriman emlakçının kâğıdını çevirdi, arkasına rakamları yazdı.
+Akşam olunca Hayri lambayı mutfağa taşıdı. Pencerenin ötesinde kapı yalnızca bir karartıydı. Neriman emlakçının kâğıdını çevirdi, arkasına rakamları alt alta yazdı.
 
 — Altı yılın gazı, kiremit, bu kışın bakımı. Toplamı benim payımdan düşeceksin.
 — Bunlar benim masrafım. Ben ödedim.
@@ -220,7 +230,7 @@ Hayri kâğıda baktı, kalemi aldı, bir rakamın üstünü çizdi.
 — Bu rakam fazla.
 — Fazla değil. Kiremidi sen tek başına değiştirdin, ben tarif ettim. Yarısı bende.
 
-Hayri güldü.
+Hayri bir kez güldü, sonra güldüğünü kesti.
 
 — Üç ay ver bana. Bu kışı geçireyim, bankaya ondan sonra giderim.
 — Üç ay sonra fiyat düşer. Bunu sen de biliyorsun.
@@ -239,37 +249,46 @@ Hayri güldü.
 — Babamın odası.
 — Yatak yerinde değil mi?
 — Yerinde değil. Ben oynattım.
-— Noterde benim adım önce yazılsın.
-— Önce ya da sonra fark etmez. Tapu ikimizin.
-— Senin için fark etmez. Kapıyı her sabah açan benim.
 
 Neriman kâğıda yalnızca rakamı yazdı. Teklifin yarısı, eksi gaz, eksi kiremit. Kâğıdı Hayri'ye uzattı.
+
+— Babamın payı nerede bu rakamda?
+— Yok. Tapu harcı var, onu da yazdım.
 
 — Bana bu kadar yetmez.
 — Sana yetiyor. Benim taksitim kapanır.
 — Taksit kapanınca ne değişecek?
 — Bir şey değişmeyecek. Yalnız bankadan mesaj gelmez.
-— O zaman iyi uyursun.
-— Bankaya bunu sen anlatırsın. Maaş bordrosunu uzatırsın. Adam bakmadan hesap yapar, sen de bakmadan imzalarsın.
+— Bankaya bunu nasıl anlatırım?
+— Maaş bordrosunu uzatırsın. Adam bakmadan hesap yapar, sen de bakmadan imzalarsın.
 
 Hayri kâğıdı katlamadı, masanın üstünde bıraktı.
 
-— Yeni anahtarı ver bana. Eskisi dönmüyor.
+— Yeni anahtarı sana vereyim mi?
+— Ver. Eskisi dönmüyor.
 — Sabri Amca'da da bir tane var.
 — Onu sen al.
 — Alırım.
-
 — Noter cuma. Ama önce Salı'yı kapatacağım.
 — Bir kere daha düşün.
 — Üç kere düşündüm. Üç kere de aynı çıktı.
+— Noterde ben de imzalayacak mıyım?
+— İmzalayacaksın. Yoksa para yatmaz.
 
 Hayri bardakları aldı, lavaboya götürdü, musluğu açtı. Su sesi mutfağı doldurdu, bir süre kimse bir şey söylemedi.
 
-Neriman kâğıdı ön yüzüne çevirdi, köşedeki numarayı buldu. Telefonu eline aldı.
+Kâğıt masada düz duruyordu, rakamlar arkada kalmıştı. Neriman kâğıdı ön yüzüne çevirdi, köşedeki numarayı buldu. Telefonu eline aldı.
 
-— Şimdi mi?
+— Bu kadar acele mi?
 — Salı gelmesin diye şimdi.
 
-Telefon ikinci kez çalmadan açıldı.
+Hayri lavabonun başında durdu, musluğu kapatmadı.
+
+— Musluğu kapat.
+— Kapatıyorum.
+
+Son damla lavaboya düştü.
+
+Pencerenin ötesinde Sabri Amca'nın bahçe lambası yandı. Telefon ikinci kez çalmadan açıldı.
 
 — Salıya gerek yok. Payımı kardeşime satıyorum.
