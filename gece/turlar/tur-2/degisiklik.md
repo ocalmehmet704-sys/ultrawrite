@@ -15,3 +15,7 @@ Sahne bütçesi, sondan başla (2.1 altıncı soru), kural 21'in yeni örneği, 
 
 ## Tur koşulları
 - On bir yazar `haiku` / `medium`. Kontrol `sonnet` / `medium`.
+- Yükleme ve kirlenme (araç kayıtlarından): on iki yazarın hiçbiri `gece/` belgelerini açmadı; mektuplu üçü yalnızca `yazara-mektup.md`'yi açtı. On ikisi de altı SKILL.md'yi açtı; `references/` açan tek yazar 1d (bir dosya). Tur 2 temiz.
+- İlk taslak dosyası: on iki yazarın dokuzu ayrı bir taslak dosyası yazdı (1, 1m, 1d, 3, 3m, 4, 6, 7, 8); 2, 5, 6m yazmadı. Tur 1'de ayrı taslak yazan yoktu.
+- Düzenek kusuru: taslaklar ortak geçici klasöre gitti; 3m ve 8 aynı adı (`taslak-1.md`) kullandı, biri ötekini ezdi. 3m'nin taslak metni notunda duruyor.
+- Kör eşleştirme için eşler `kor/` altında A/B adıyla kopyalandı; anahtar `kor/anahtar.md`.
