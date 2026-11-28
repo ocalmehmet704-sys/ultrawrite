@@ -336,7 +336,7 @@ export function initKagit(opts) {
   }
 
   /* ---- sahneler ---- */
-  var H = { t: 0, dur: 4300, g: 0, done: !heroEski || !heroYeni, manual: false, seen: true };
+  var H = { t: 0, dur: 2600, g: 0, done: !heroEski || !heroYeni, manual: false, seen: true };
   var He = null;
   if (heroEski && heroYeni) {
     He = harfle(heroEski, heroEski.textContent.trim());
@@ -351,14 +351,14 @@ export function initKagit(opts) {
   function renderHero(t) {
     if (!He) return;
     if (t >= 1300 && !H.g) { geoY(He); H.gy = geoEl(heroYeni); H.g = 1; }
-    coz(He, seg(t, 1300, 3000));
-    belir(heroYeni, H.gy, seg(t, 3300, 4300));
+    coz(He, seg(t, 1300, 2000));
+    belir(heroYeni, H.gy, seg(t, 1800, 2500));
   }
   renderHero(0);
 
   var T0 = 1500, DS = 800, D = T0 + DS;
   var C = {
-    k: 0, t: 0, dur: D + 4700 + 4300, round: 0, first: true, started: false, manual: false,
+    k: 0, t: 0, dur: D + 3000 + 4300, round: 0, first: true, started: false, manual: false,
     sw: false, g: 0, gy: null, seen: true, ev: []
   };
   var Ce = null, curRect = null;
@@ -376,9 +376,9 @@ export function initKagit(opts) {
           [r.right, r.top + r.height * .6], [r.left + r.width * .3, r.bottom], [r.left + r.width * .7, r.bottom], [r.left + r.width * .5, r.top], [r.right, r.bottom - 6]];
         pts.forEach(function (q, i) { su.bubbles(q[0] + (q[0] <= r.left ? -14 : q[0] >= r.right ? 14 : 0), q[1] + (q[1] >= r.bottom ? 14 : q[1] <= r.top ? -14 : 0), { count: i % 2 ? 1 : 2, radius: 16 }); });
       } } },
-      { t: D + 2500, f: function () { liveYaz(C.k, true); } },
-      { t: D + 3600, f: function () { var m = merkez(); if (su) su.ripple(m.x, m.y, .45); } },
-      { t: D + 4500, f: function () { var m = merkez(); if (su) su.ripple(m.x, m.y, .3); } }
+      { t: D + 700, f: function () { liveYaz(C.k, true); } },
+      { t: D + 1900, f: function () { var m = merkez(); if (su) su.ripple(m.x, m.y, .45); } },
+      { t: D + 2800, f: function () { var m = merkez(); if (su) su.ripple(m.x, m.y, .3); } }
     ];
   }
   function begin(k) {
@@ -412,11 +412,11 @@ export function initKagit(opts) {
     yaz(Ce, C.first ? 1 : seg(t, 0, 700));
     if (t >= T0 && !C.g) { geoY(Ce); C.gy = yeni ? geoEl(yeni) : null; C.g = 1; }
     cizgi(Ce, seg(t, T0, D));
-    var s = a < 0 ? 0 : a < 1400 ? eIO(a / 1400) : a < 3500 ? 1 : a < 4700 ? 1 - eOut((a - 3500) / 1200) : 0;
+    var s = a < 0 ? 0 : a < 1400 ? eIO(a / 1400) : a < 1800 ? 1 : a < 3000 ? 1 - eOut((a - 1800) / 1200) : 0;
     batir(specSh, s, vt);
-    coz(Ce, seg(a, 500, 2200));
+    coz(Ce, seg(a, 150, 900));
     if (C.sw) {
-      var bp = seg(a, 2500, 3500);
+      var bp = seg(a, 650, 1250);
       if (yeni) belir(yeni, C.gy, bp);
       if (not) not.style.opacity = bp <= 0 ? '0' : bp >= 1 ? '' : eIO(bp).toFixed(3);
     }
