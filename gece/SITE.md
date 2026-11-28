@@ -41,3 +41,9 @@ Kalan sorunlar:
 ## Tur 6 (01:17)
 - Değişiklik yok. Her metin düğümü için açık ve karanlık modda otomatik kontrast taraması yapıldı: karanlıkta sorun yok; açıkta yalnız sticky üst menü (yarı saydam arka plan) işaretlendi, bu tarayıcı betiğinin saydam karışımı çözememesinden gelen yanlış alarm, menü renkleri elle hesaplandığında geçiyor.
 - Mobil orta bölümler (skill listesi, sayılar) ekran görüntüsünde düzgün.
+
+## Tur 7 (10:45, main ile birleştirme)
+- main'de Grok'un eklediği `slop.html` ve `.nojekyll` site-gece'ye birleştirildi (çakışma yok).
+- Google için: `data:` favicon'lar kaldırıldı (Google bunları göstermez); gerçek dosyalar eklendi (`favicon.svg`, `favicon-48.png`, `favicon-180.png`), iki sayfada da bağlandı. `WebSite` JSON-LD (ad ve alternatif adlar) ve `og:site_name` eklendi. Başlık "ultrawrite: Claude için Türkçe kurmaca yazım skill'i" yapıldı. `slop.html` og:image aldı, soluk metin kontrastı düzeltildi.
+- 404: ekran görüntüsündeki 404, `slop.html` yayına girmeden önce açıldığı içindi; `.nojekyll` sonrası canlıda 200 dönüyor.
+- Sınır: Google'ın site adı/ikonu `github.io/ultrawrite/` gibi alt yol için güvenilir çalışmaz; özel alan adı ya da `ocalmehmet704-sys.github.io` adlı kullanıcı sitesi gerekir.
