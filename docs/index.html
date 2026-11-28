@@ -3,32 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ultrawrite: Türkçe kurmaca yazım skill'i (Claude)</title>
+<title>ultrawrite: Claude için Türkçe kurmaca yazım skill'i</title>
 <meta name="description" content="ultrawrite, yapay zekânın Türkçe roman ve öykü yazarken çeviri Türkçesine, tek tona ve şablona kaymasını önleyen, araştırmaya dayalı bir Claude skill ailesidir.">
 <meta name="keywords" content="ultrawrite, Türkçe yazım, Claude skill, yapay zeka Türkçe, roman yazma, öykü yazma, çeviri Türkçesi, AI slop, Claude Code eklentisi">
 <meta name="google-site-verification" content="1j5kV-eOSbh7UmBtscDqg0kOuaBdkzzJlFaA8Gf3Fa8" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%239a3b26'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Georgia,serif' font-size='16' font-weight='600' fill='%23f5f0e8'%3Eu%3C/text%3E%3C/svg%3E">
 <link rel="canonical" href="https://ocalmehmet704-sys.github.io/ultrawrite/">
-<meta property="og:title" content="ultrawrite: Türkçe kurmaca yazım skill'i">
+<meta property="og:title" content="ultrawrite: Claude için Türkçe kurmaca yazım skill'i">
+<meta property="og:site_name" content="ultrawrite">
 <meta property="og:description" content="Yapay zekânın Türkçesini çeviri kokusundan ve şablondan kurtaran, araştırmaya dayalı Claude skill ailesi.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ocalmehmet704-sys.github.io/ultrawrite/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-48.png" type="image/png" sizes="48x48">
+<link rel="apple-touch-icon" href="favicon-180.png">
+<meta property="og:image" content="https://ocalmehmet704-sys.github.io/ultrawrite/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#f6f1e9" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#14120f" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ultrawrite","description":"Türkçe kurmaca yazım için araştırmaya dayalı Claude skill ailesi.","codeRepository":"https://github.com/ocalmehmet704-sys/ultrawrite","programmingLanguage":"Markdown","inLanguage":"tr"}
+{"@context":"https://schema.org","@type":"WebSite","name":"ultrawrite","alternateName":["ultrawrite skill","ultrawrite Türkçe kurmaca yazım"],"url":"https://ocalmehmet704-sys.github.io/ultrawrite/","inLanguage":"tr"}
 </script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareSourceCode","name":"ultrawrite","description":"Türkçe kurmaca yazım için araştırmaya dayalı Claude skill ailesi.","codeRepository":"https://github.com/ocalmehmet704-sys/ultrawrite","programmingLanguage":"Markdown","inLanguage":"tr","url":"https://ocalmehmet704-sys.github.io/ultrawrite/"}
+</script>
+<script>document.documentElement.classList.add('js')</script>
 <style>
 :root{
-  --bg:#f6f1e9;--bg-2:#efe8dc;--fg:#1d1a16;--mute:#5f574c;--faint:#8b8274;
+  --bg:#f6f1e9;--bg-2:#efe8dc;--fg:#1d1a16;--mute:#5f574c;--faint:#6f665a;
   --line:#ddd3c3;--acc:#9a3b26;--acc-soft:#9a3b2614;--card:#fbf8f2;
   --strike:#9a3b26;--shadow:0 24px 48px -28px rgba(70,45,20,.28);
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#14120f;--bg-2:#1b1814;--fg:#ece5d8;--mute:#ada393;--faint:#7c7366;
+  --bg:#14120f;--bg-2:#1b1814;--fg:#ece5d8;--mute:#ada393;--faint:#9a9080;
   --line:#2f2a23;--acc:#e3866d;--acc-soft:#e3866d1a;--card:#1a1713;
   --strike:#e3866d;--shadow:0 24px 48px -28px rgba(0,0,0,.7);
 }}
@@ -38,6 +49,8 @@ body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.65 Geist,syst
 body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
 a{color:inherit}
+.skip{position:absolute;left:12px;top:-60px;z-index:20;padding:10px 16px;background:var(--fg);color:var(--bg);border-radius:8px}
+.skip:focus{top:12px}
 a:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:4px}
 .wrap{max-width:1180px;margin:0 auto;padding:0 32px}
 .serif{font-family:Fraunces,Georgia,serif;font-optical-sizing:auto}
@@ -61,7 +74,7 @@ nav a:hover{color:var(--fg)}
 .btn svg{width:17px;height:17px}
 
 /* hero */
-.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:72px;align-items:center;min-height:calc(100dvh - 64px);padding:72px 0 96px}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:72px;align-items:center;min-height:calc(100dvh - 64px);padding-block:72px 96px}
 .hero h1{font-weight:400;font-size:clamp(44px,6.4vw,88px);line-height:.98;letter-spacing:-.035em;margin:22px 0 28px}
 .hero h1 s{text-decoration:none;position:relative;color:var(--faint);font-style:italic;font-weight:300}
 .hero h1 s::after{content:"";position:absolute;left:-2%;right:-2%;top:54%;height:3px;background:var(--strike);transform-origin:left;transform:scaleX(0);animation:strike .9s .5s cubic-bezier(.65,0,.35,1) forwards}
@@ -153,19 +166,20 @@ footer{border-top:1px solid var(--line);padding:40px 0 56px;color:var(--faint);f
 footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 
 /* reveal */
-.rv{opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1);transition-delay:calc(var(--i,0) * 90ms)}
-.rv.in{opacity:1;transform:none}
+.js .rv{opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1);transition-delay:calc(var(--i,0) * 90ms)}
+.js .rv.in{opacity:1;transform:none}
 
 @media (max-width:900px){
   .wrap{padding:0 16px}
   nav a:not(.btn){display:none}
-  .hero{grid-template-columns:1fr;gap:48px;min-height:0;padding:48px 0 72px}
+  .hero{grid-template-columns:1fr;gap:48px;min-height:0;padding-block:48px 72px}
   .principle,.skills,.basis,.install{padding:80px 0}
   .principle .wrap,.sec-head,.finding{grid-template-columns:1fr;gap:16px}
   .sk,.inst{grid-template-columns:1fr}
   .tabs{flex-direction:row;overflow-x:auto;border-left:0;border-bottom:1px solid var(--line);scrollbar-width:none;margin:0 -16px;padding:0 16px}
   .tabs button{white-space:nowrap;margin:0 0 -1px;border-left:0;border-bottom:2px solid transparent;padding:0 12px}
   .tabs button[aria-selected=true]{border-bottom-color:var(--acc);background:transparent}
+  .cmd code{white-space:normal;overflow-wrap:anywhere;font-size:13px}
   .sk-main{min-height:0;gap:40px;padding:32px}
   .sk-list li{grid-template-columns:1fr;gap:4px}
   .nums{grid-template-columns:1fr}
@@ -176,12 +190,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
   .hero h1 s::after{transform:scaleX(1)}
-  .rv{opacity:1;transform:none}
+  .js .rv{opacity:1;transform:none}
 }
 </style>
 <!-- pages-rebuild -->
 </head>
 <body>
+<a class="skip" href="#main">İçeriğe geç</a>
 
 <header>
   <div class="wrap">
@@ -196,7 +211,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
   </div>
 </header>
 
-<main>
+<main id="main">
   <section class="wrap hero">
     <div>
       <span class="eyebrow">Claude için Türkçe kurmaca skill ailesi</span>
