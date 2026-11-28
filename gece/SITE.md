@@ -70,3 +70,10 @@ Kalan sorunlar:
 - Test (Playwright, SwiftShader): 37/37 geçti. 1440/390/768 taşma yok, konsol hatası yok (CDN engelli testte yalnız beklenen "Failed to load resource"), sekmeler klavyeyle, kopyala, kart gizle/göster, reduced-motion, tema (tık, Enter, yenilemede kalıcı), WebGL'siz ve CDN'siz yedek, JS'siz görünüm, skip link, piksel tabanlı kontrast taraması dört görünümde sorunsuz.
 - Ekran görüntüleri: `v3-d-hero.png`, `v3-d-gece-hero.png`, `v3-m-hero.png`, `v3-m-gece-hero.png`, bölümler `v3-*-ilke/skiller/dayanak/kurulum.png`, batma dizisi `v3-batma-1..6.png`, `v3-reduced.png`, `v3-webgl-yok.png`, `v3-cdn-yok.png`, `v3-js-yok.png`, `v3-toggle-gece.png`.
 - Kalan: SwiftShader yavaş olduğu için batma dizisi kareleri gerçek zamanda seyrek alındı; gerçek GPU'da fps ölçülmedi. Hareket eden kartlar Playwright'ın "sabit değil" kontrolüne takılıyor (insan kullanımında sorun beklenmez, test `force` ile tıklıyor). Mobilde hero kartı ekranın çoğunu kapladığı için su ilk ekranda kenarlarda görünüyor.
+
+## Ahtapot (gerçek sprite)
+- Düz çizilmiş kollar kaldırıldı. `docs/js/kagit.js` artık `docs/img/aht2-kol1..6.png` (6 poz: rahat, uzanıyor, tam uzanmış, kavrıyor, çekiyor, bırakıyor) ve `aht2-govde1..3.png` (3 görünüm) kullanır. Kollar `<img>` ile çizilir; canvas yok.
+- Kol karesi kâğıt batışına (`s`) ve uzanmaya (`u`) bağlı sürekli olarak seçilir; kâğıt inerken 4 ve 5, kâğıt battığında 6. kare. Kareler arası geçiş kare başına son %20'de çapraz solma. Dört kol farklı faz ve eğimde, ikisi aynalı.
+- Su altı kısmı (`.kg-lo`) su rengine boyanır ve alttan soluklaşır; kâğıdın üstündeki kısım (`.kg-hi`) canlı kalır. Gövde derinde, 3px bulanık, 3 görünüm arasında yavaşça geçer.
+- Reduced-motion'da hiç kurulmaz. Görseller `new Image` ile önden yüklenir; yüklenemezse gizlenir.
+- Test (Playwright, SwiftShader, 1440 açık/koyu, 390 açık/koyu): konsolda uygulama hatası yok, yatay taşma yok, "sonraki" çalışıyor, sekme gizle/göster sonrası kollar geri geliyor, reduced-motion'da `.kg-aht` yok. Kareler: `v7-anim-01..14.png`, ızgara `v7-anim-izgara.png`, mobil `v7-anim-izgara-mobil.png`.
