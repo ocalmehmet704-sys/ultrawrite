@@ -20,8 +20,8 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#e6f2f4" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#06141b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#2f8389" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#071527" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Geist:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -33,377 +33,270 @@
 </script>
 <script>document.documentElement.classList.add('js');try{var _t=localStorage.getItem('uw-theme');if(_t==='light'||_t==='dark')document.documentElement.setAttribute('data-theme',_t)}catch(e){}</script>
 <style>
+/* Kâğıt ve su: tepeden bakılan sığ havuz, yüzeyde krem kâğıtlar. Cam, blur, hap, iç içe kart yok. */
 :root{
-  --fg:#0b2530;--mute:#2f4752;--faint:#35505a;
-  --line:rgba(11,37,48,.16);--acc:#8c321f;--acc-soft:#8c321f14;--card:#f4fbfc;
-  --strike:#9a3b26;--bg:#eef8f9;
-  --panel:rgba(243,250,251,.94);--shell:rgba(255,255,255,.26);--shell-line:rgba(255,255,255,.62);
-  --hi:inset 0 1px 0 rgba(255,255,255,.9);--slip:rgba(250,254,254,.97);
-  --shade:rgba(2,52,66,.42);--ring:rgba(10,96,116,.7);--wb1:rgba(90,200,215,.42);--wb2:rgba(8,110,130,.62);--bubo:rgba(0,90,110,.45);
-  --sea-top:#d3f0f3;--sea-mid:#5fb9c6;--sea-bot:#16788b;
+  --ink:#1b1a17;--mute:#46423a;--faint:#57524a;--acc:#9a3b26;--acc-soft:rgba(154,59,38,.09);
+  --paper:#f3eee4;--rule:rgba(27,26,23,.16);--rule2:rgba(27,26,23,.42);
+  --wet:rgba(30,86,92,.26);--gol:rgba(3,58,66,.5);--sea:#2f8389;--su-rgb:38,142,140;
+  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .32 0 0 0 0 .27 0 0 0 0 .18 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
-  --fg:#e7f2f4;--mute:#b3cbd2;--faint:#9fb9c1;
-  --line:rgba(231,242,244,.16);--acc:#f0957c;--acc-soft:#f0957c1f;--card:#0b2232;
-  --strike:#f0957c;--bg:#071925;
-  --panel:rgba(6,21,32,.92);--shell:rgba(140,190,225,.08);--shell-line:rgba(170,215,240,.18);
-  --hi:inset 0 1px 0 rgba(190,230,255,.12);--slip:rgba(9,27,40,.96);
-  --shade:rgba(0,0,0,.6);--ring:rgba(170,220,240,.7);--wb1:rgba(40,110,150,.4);--wb2:rgba(2,24,44,.72);--bubo:rgba(0,20,40,.5);
-  --sea-top:#08182a;--sea-mid:#06253a;--sea-bot:#020c16;
-}}
-:root[data-theme=dark]{
-  --fg:#e7f2f4;--mute:#b3cbd2;--faint:#9fb9c1;
-  --line:rgba(231,242,244,.16);--acc:#f0957c;--acc-soft:#f0957c1f;--card:#0b2232;
-  --strike:#f0957c;--bg:#071925;
-  --panel:rgba(6,21,32,.92);--shell:rgba(140,190,225,.08);--shell-line:rgba(170,215,240,.18);
-  --hi:inset 0 1px 0 rgba(190,230,255,.12);--slip:rgba(9,27,40,.96);
-  --shade:rgba(0,0,0,.6);--ring:rgba(170,220,240,.7);--wb1:rgba(40,110,150,.4);--wb2:rgba(2,24,44,.72);--bubo:rgba(0,20,40,.5);
-  --sea-top:#08182a;--sea-mid:#06253a;--sea-bot:#020c16;
-}
-/* koyu iç kart (skill yöneticisi): iki modda da koyu su tonu */
-.under{
-  --fg:#e7f2f4;--mute:#b9d0d6;--faint:#a6c0c8;--line:rgba(231,242,244,.22);
-  --acc:#f4a089;--acc-soft:#f4a0891f;color:var(--fg);
-}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#e4ddd0;--wet:rgba(8,26,46,.36);--gol:rgba(0,4,12,.72);--sea:#0b1b30;--su-rgb:18,52,86}}
+:root[data-theme=dark]{--paper:#e4ddd0;--wet:rgba(8,26,46,.36);--gol:rgba(0,4,12,.72);--sea:#0b1b30;--su-rgb:18,52,86}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--sea-bot)}
-body{margin:0;background:transparent;color:var(--fg);font:400 17px/1.65 Geist,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
-#sea{position:fixed;inset:0;z-index:-1;pointer-events:none;
-  background:linear-gradient(180deg,var(--sea-top),var(--sea-mid) 48%,var(--sea-bot))}
-#sea canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0;transition:opacity 1s cubic-bezier(.16,1,.3,1)}
-#sea canvas.on{opacity:1}
-a{color:inherit}
-.skip{position:absolute;left:12px;top:-60px;z-index:20;padding:10px 16px;background:var(--fg);color:var(--bg);border-radius:8px}
-.skip:focus{top:12px}
-a:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:3px;border-radius:4px}
-.wrap{max-width:1180px;margin:0 auto;padding:0 32px}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--sea)}
+body{margin:0;color:var(--ink);font:400 17px/1.65 Geist,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip;padding-top:52px}
+#su{position:fixed;inset:0;width:100%;height:100%;z-index:-1;display:block;pointer-events:none}
+a{color:inherit;text-underline-offset:3px;text-decoration-thickness:1px}
+.skip{position:absolute;left:12px;top:-60px;z-index:20;padding:10px 16px;background:var(--ink);color:var(--paper)}
+.skip:focus{top:62px}
+a:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.wrap{max-width:1280px;margin:0 auto;padding:0 48px}
 .serif{font-family:Fraunces,Georgia,serif;font-optical-sizing:auto}
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
-.eyebrow{font:500 12px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.eyebrow{font:500 12px/1.3 "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
 
-/* yüzen yüzeyler: dış kabuk + iç çekirdek; dalga JS'den --by/--rx/--rz alır */
-[data-float]{transform:perspective(1100px) translate3d(0,var(--by,0px),0) rotateX(var(--rx,0deg)) rotateZ(var(--rz,0deg));transform-origin:50% 100%}
-.shell{position:relative;padding:6px;border-radius:34px;background:var(--shell);border:1px solid var(--shell-line)}
-.panel{background:var(--panel);border-radius:28px;box-shadow:var(--hi)}
-.shell::after{content:"";position:absolute;left:9%;right:9%;top:calc(100% + 8px);height:30px;border-radius:50%;pointer-events:none;
-  background:radial-gradient(closest-side,var(--shade),transparent);
-  transform:translate3d(0,calc(var(--by,0px) * -1.4),0) scaleX(calc(1 + var(--bn,0) * .07));opacity:calc(.8 - var(--bn,0) * .3)}
+/* kâğıt: düz krem, çok ince doku, suya değen kenarda ıslak koyulaşma. Gölge kardeş .golge (dibe düşer) */
+.yaprak{position:relative;transform-style:preserve-3d}
+.golge{position:absolute;inset:0;border-radius:2px;background:var(--gol);transform:translate3d(24px,28px,0);filter:blur(14px);pointer-events:none}
+.kagit{position:relative;background:var(--noise),var(--paper);border-radius:2px;color:var(--ink);
+  box-shadow:inset 0 0 0 1px rgba(70,58,36,.1),inset 0 -12px 16px -12px var(--wet),inset 0 0 24px -12px var(--wet)}
+.havuz{perspective:1200px;perspective-origin:50% 50%;transform-style:preserve-3d}
+.col{width:min(600px,46%)}
 
-/* nav: suyun üstünde yüzen ada */
-header{position:sticky;top:0;z-index:10;padding-top:12px;pointer-events:none}
-header .shell{pointer-events:auto;border-radius:999px;padding:5px}
-header .shell::after{top:calc(100% + 4px);height:18px}
-.navin{display:flex;align-items:center;justify-content:space-between;height:56px;padding:0 8px 0 22px;border-radius:999px;
-  background:var(--panel);box-shadow:var(--hi);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+/* menü: ince düz kâğıt şerit, sabit */
+header{position:fixed;top:0;left:0;right:0;z-index:10;background:var(--noise),var(--paper);border-bottom:1px solid var(--rule2);box-shadow:0 4px 8px -4px var(--gol)}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:51px}
 .mark{font:600 20px/1 Fraunces,serif;letter-spacing:-.02em;text-decoration:none}
 .mark span{color:var(--acc)}
-nav{display:flex;gap:26px;align-items:center;font-size:15px}
-nav a{text-decoration:none;color:var(--mute);transition:color .3s cubic-bezier(.16,1,.3,1)}
-nav a:hover{color:var(--fg)}
-.btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--fg);
-  background:var(--fg);color:var(--bg);font:500 15px/1 Geist,sans-serif;text-decoration:none;cursor:pointer;
-  transition:transform .35s cubic-bezier(.32,.72,0,1),background .3s cubic-bezier(.16,1,.3,1),color .3s cubic-bezier(.16,1,.3,1)}
-.btn:hover{transform:translateY(-2px)}
-.btn:active{transform:translateY(0) scale(.98)}
-.btn.ghost{background:transparent;color:var(--fg)}
-.btn svg{width:17px;height:17px}
-.theme{min-width:44px;min-height:44px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer;display:grid;place-items:center;transition:background .3s cubic-bezier(.16,1,.3,1)}
+nav{display:flex;gap:24px;align-items:center;font-size:15px}
+nav a{text-decoration:none;color:var(--mute)}
+nav a:hover{color:var(--ink);text-decoration:underline}
+.theme{width:44px;height:44px;margin-right:-10px;border:0;background:transparent;color:var(--ink);cursor:pointer;display:grid;place-items:center}
 .theme:hover{background:var(--acc-soft)}
 .theme svg{width:20px;height:20px}
 .theme .i-sun{display:none}
 html[data-theme=dark] .theme .i-sun{display:block}html[data-theme=dark] .theme .i-moon{display:none}
 @media (prefers-color-scheme:dark){html:not([data-theme=light]) .theme .i-sun{display:block}html:not([data-theme=light]) .theme .i-moon{display:none}}
 
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 20px;border-radius:2px;background:var(--ink);color:var(--paper);font:500 15px/1 Geist,sans-serif;text-decoration:none;cursor:pointer;border:0}
+.btn:hover{background:#000}
+.btn svg{width:17px;height:17px}
+.tl{display:inline-flex;align-items:center;gap:8px;min-height:46px;font-weight:500;text-decoration:underline;text-decoration-color:var(--rule2)}
+.tl:hover{text-decoration-color:currentColor}
+.tl svg{width:17px;height:17px}
+
 /* hero */
-.hero{display:grid;grid-template-columns:1.12fr .88fr;gap:56px;align-items:center;min-height:calc(100dvh - 74px);padding-block:64px 96px}
-.hero-txt .panel{padding:44px 44px 48px;position:relative}
-.hero h1{font-weight:400;font-size:clamp(44px,6.2vw,86px);line-height:.98;letter-spacing:-.035em;margin:22px 0 28px}
-.hero h1 .sunk{display:inline-block;position:relative;padding-top:.4em;margin-top:-.4em;padding-bottom:.14em;margin-bottom:-.14em;
-  -webkit-mask-image:linear-gradient(180deg,#000 57%,rgba(0,0,0,.45) 60%,rgba(0,0,0,.2) 100%);mask-image:linear-gradient(180deg,#000 57%,rgba(0,0,0,.45) 60%,rgba(0,0,0,.2) 100%)}
-.hero h1 s{text-decoration:none;position:relative;display:inline-block;color:var(--mute);font-style:italic;font-weight:300;
-  animation:hsink 1.6s .9s cubic-bezier(.55,0,.7,.4) both}
-@keyframes hsink{from{transform:translateY(-.34em)}}
-.hero h1 s::after{content:"";position:absolute;left:-2%;right:-2%;top:54%;height:3px;background:var(--strike);transform-origin:left;transform:scaleX(0);animation:strike .9s .4s cubic-bezier(.65,0,.35,1) forwards}
-@keyframes strike{to{transform:scaleX(1)}}
-.hero h1 .sunk::after{content:"";position:absolute;left:0;right:0;top:calc(.4em + 54%);height:10px;pointer-events:none;opacity:.9;
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='10' viewBox='0 0 60 10'%3E%3Cpath d='M0 5Q15 0 30 5T60 5' fill='none' stroke='%2318849a' stroke-width='1.6'/%3E%3C/svg%3E") repeat-x 0 0/60px 10px;animation:drift 6s linear infinite}
-@keyframes drift{to{background-position-x:60px}}
-.hero h1 .risebox{display:inline-block;overflow:hidden;padding:0 .06em .08em;margin:0 -.06em -.08em;vertical-align:bottom}
-.hero h1 em{display:inline-block;font-style:normal;color:var(--acc);animation:hrise 1.2s 1.75s cubic-bezier(.2,.9,.25,1.12) both}
-@keyframes hrise{from{transform:translateY(105%)}}
-.lead{font-size:19px;color:var(--mute);max-width:52ch;margin:0 0 36px}
-.cta{display:flex;flex-wrap:wrap;gap:12px}
-.hero-side{display:flex;flex-direction:column;gap:18px;min-width:0}
-.more{margin:0;font-size:14px;color:var(--mute);align-self:flex-start;background:var(--panel);border:1px solid var(--shell-line);border-radius:999px;padding:7px 16px;box-shadow:var(--hi)}
-.more a{text-decoration:underline;text-underline-offset:3px}
+.hero{display:grid;grid-template-columns:min(600px,46%) minmax(0,1fr);column-gap:6vw;align-items:start;padding-block:72px 140px}
+.hero > *{min-width:0}
+.hero-pg{padding:46px 52px 40px}
+.hero h1{font-weight:400;font-size:clamp(40px,4.3vw,62px);line-height:1.06;letter-spacing:-.03em;margin:20px 0 26px}
+.hero h1 > span{display:block;width:fit-content}
+.hero h1 .eski{position:relative;color:var(--mute);font-style:italic;font-weight:300}
+.hero h1 .eski::after{content:"";position:absolute;left:-2%;right:-2%;top:54%;height:3px;background:var(--acc);transform-origin:left;animation:cizgi .9s .4s cubic-bezier(.65,0,.35,1) both}
+@keyframes cizgi{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.hero h1 .yeni{color:var(--acc)}
+.lead{font-size:18px;color:var(--mute);max-width:46ch;margin:0 0 30px}
+.cta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 26px}
+.more{margin:26px 0 0;padding-top:16px;border-top:1px solid var(--rule);font-size:15px}
+.more a{text-decoration:underline;text-decoration-color:var(--rule2)}
+.more a:hover{text-decoration-color:currentColor}
 
-/* yaprak kart: batan ve çıkan cümleler */
-.spec{margin:0}
-.spec-top{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;border-radius:28px 28px 10px 10px}
-.spec-foot{padding:16px 22px 20px;border-radius:10px 10px 28px 28px}
-.pool{display:flex;flex-direction:column;gap:8px;padding:8px 0}
-.slip{background:var(--slip);border-radius:18px;padding:16px 18px;box-shadow:0 14px 30px -18px var(--shade),var(--hi)}
-.slip .eyebrow{display:block;margin-bottom:10px}
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--acc);margin-right:8px;animation:pulse 2.4s ease-in-out infinite}
-@keyframes pulse{50%{opacity:.25}}
-.before{font:300 italic 21px/1.35 Fraunces,serif;color:var(--mute)}
-.before span{background:linear-gradient(var(--strike),var(--strike)) no-repeat 0 58%/100% 1.5px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.after{font:400 26px/1.3 Fraunces,serif}
-.why{font-size:14px;color:var(--mute);min-height:44px;margin:0}
-.ticks{display:flex;gap:6px;margin-top:14px}
-.ticks i{flex:1;height:3px;border-radius:2px;background:var(--line);transition:background .5s cubic-bezier(.16,1,.3,1)}
+/* dönen kart: küçük ayrı kâğıt */
+.kart{justify-self:end;width:100%;max-width:380px;margin:220px 0 0}
+.spec{padding:18px 22px 20px}
+.spec-ust{display:flex;justify-content:space-between;align-items:center;padding-bottom:12px;border-bottom:1px solid var(--rule)}
+.spec-blok{padding:16px 0 14px;border-bottom:1px solid var(--rule)}
+.spec-blok + .spec-blok{padding-top:14px}
+.spec-blok .eyebrow{display:block;margin-bottom:8px}
+.spec-eski{font:300 italic 20px/1.35 Fraunces,serif;color:var(--mute);text-decoration:line-through;text-decoration-color:var(--acc);text-decoration-thickness:1.5px}
+.spec-yeni{font:400 24px/1.3 Fraunces,serif;color:var(--ink)}
+.spec-not{font-size:14px;color:var(--mute);margin:14px 0 0}
+.ticks{display:flex;gap:6px;margin-top:12px}
+.ticks i{flex:1;height:2px;background:var(--rule)}
 .ticks i.on{background:var(--acc)}
-/* canlandırma açıkken: slipler havuzda, su çizgisinin üstünde yüzer */
-.spec.anim .pool{position:relative;display:block;height:300px;padding:0;overflow:hidden;margin:6px 0}
-.spec.anim .pool::before{content:"";position:absolute;left:0;right:0;bottom:0;height:96px;pointer-events:none;z-index:2;border-radius:0 0 8px 8px;
-  background:linear-gradient(180deg,var(--wb1),var(--wb2))}
-.spec.anim .pool::after{content:"";position:absolute;left:0;right:0;bottom:90px;height:12px;pointer-events:none;z-index:3;
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='12' viewBox='0 0 80 12'%3E%3Cpath d='M0 6Q20 0 40 6T80 6V12H0Z' fill='rgba(255,255,255,.28)'/%3E%3Cpath d='M0 6Q20 0 40 6T80 6' fill='none' stroke='rgba(255,255,255,.9)' stroke-width='1.6'/%3E%3C/svg%3E") repeat-x 0 0/80px 12px;animation:drift2 5s linear infinite}
-@keyframes drift2{to{background-position-x:80px}}
-.spec.anim .slip{position:absolute;left:14px;right:14px;bottom:84px;z-index:1;
-  transform:translate3d(var(--tx,0px),var(--ty,0px),0) rotateZ(var(--sr,0deg));
-  -webkit-mask-image:linear-gradient(180deg,#000 calc(var(--wl,999px) - 1px),rgba(0,0,0,.55) var(--wl,999px),transparent calc(var(--wl,999px) + 90px));
-  mask-image:linear-gradient(180deg,#000 calc(var(--wl,999px) - 1px),rgba(0,0,0,.55) var(--wl,999px),transparent calc(var(--wl,999px) + 90px));
-  opacity:var(--op,1)}
-.spec.anim #slip-a{--op:0}
-.spec.anim .before span{background-size:0% 1.5px;transition:background-size .8s cubic-bezier(.65,0,.35,1)}
-.spec.anim .before.struck span{background-size:100% 1.5px}
-.wake{display:none}
-.spec.anim .wake{display:block;position:absolute;z-index:3;left:var(--wx,50%);bottom:96px;width:var(--ww,80%);height:22px;border-radius:50%;pointer-events:none;
-  transform:translate(-50%,50%) scaleX(var(--ws,1));opacity:var(--wk,0);
-  background:radial-gradient(closest-side,rgba(255,255,255,.95),rgba(255,255,255,.5) 55%,rgba(255,255,255,0))}
-.bubbles{position:absolute;inset:0;pointer-events:none;z-index:4}
-.bub{position:absolute;width:var(--s);height:var(--s);margin:calc(var(--s) / -2) 0 0 calc(var(--s) / -2);border-radius:50%;
-  border:1.4px solid rgba(255,255,255,.95);outline:1px solid var(--bubo);background:radial-gradient(circle at 34% 30%,rgba(255,255,255,.95) 0 16%,rgba(255,255,255,.18) 34%,rgba(170,230,240,.16) 72%);
-  box-shadow:0 0 8px rgba(255,255,255,.35);animation:bub var(--d) cubic-bezier(.3,.55,.4,1) var(--dl) both;opacity:0}
-.hero-txt .bub{border-color:var(--ring);background:radial-gradient(circle at 34% 30%,rgba(255,255,255,.95) 0 16%,rgba(120,200,215,.18) 40%,transparent 72%)}
-@keyframes bub{0%{opacity:0;transform:translate(0,0) scale(.5)}12%{opacity:.95}82%{opacity:.95;transform:translate(var(--dx),var(--dy)) scale(1)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1.7)}}
-.spray{position:absolute;width:6px;height:6px;margin:-3px;border-radius:50%;background:#fff;box-shadow:0 0 0 1px var(--bubo),0 0 6px rgba(255,255,255,.8);
-  animation:spray .9s cubic-bezier(.2,.7,.3,1) var(--dl) both;opacity:0}
-@keyframes spray{0%{opacity:0;transform:translate(0,0)}15%{opacity:1}55%{transform:translate(calc(var(--dx) * .7),var(--dy))}100%{opacity:0;transform:translate(var(--dx),4px) scale(.5)}}
 
-/* bölümler: içerik kartları suyun üstünde */
-section.blk{padding:44px 0}
-.blk .panel{padding:72px 64px}
-.principle .panel{display:grid;grid-template-columns:220px 1fr;gap:48px}
-.principle blockquote{margin:0;font:300 clamp(30px,3.8vw,52px)/1.15 Fraunces,serif;letter-spacing:-.02em;max-width:22ch}
+/* bölümler: her biri tek kâğıt, iç ayrım ince çizgi */
+section.blk{padding:64px 0}
+.pg{padding:56px 56px 52px}
+.pg h2{font:400 clamp(28px,2.6vw,38px)/1.1 Fraunces,serif;letter-spacing:-.02em;margin:14px 0 30px;max-width:22ch}
+.principle blockquote{margin:18px 0 0;font:300 clamp(28px,2.7vw,40px)/1.18 Fraunces,serif;letter-spacing:-.02em}
 .principle blockquote b{font-weight:500;color:var(--acc)}
-.principle p{color:var(--mute);max-width:58ch;margin:32px 0 0}
-.sec-head{display:grid;grid-template-columns:220px 1fr;gap:48px;margin-bottom:56px}
-.sec-head h2{font:400 clamp(30px,3.4vw,46px)/1.05 Fraunces,serif;letter-spacing:-.025em;margin:0;max-width:20ch}
-.sk{display:grid;grid-template-columns:1fr 1.4fr;gap:28px}
-.sk-main{background:linear-gradient(160deg,#16485b,#0a2433);color:var(--fg);border:1px solid var(--line);border-radius:22px;padding:40px;display:flex;flex-direction:column;justify-content:space-between;min-height:380px}
-.sk-main h3{font:400 44px/1 Fraunces,serif;letter-spacing:-.03em;margin:0 0 16px}
-.sk-main p{margin:0;color:var(--mute);max-width:36ch}
-.sk-main .mono{font-size:13px;color:var(--faint)}
-.sk-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
-.sk-list li{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:18px 4px;border-bottom:1px solid var(--line);align-items:baseline;transition:padding .4s cubic-bezier(.16,1,.3,1)}
-.sk-list li:hover{padding-left:14px}
-.sk-list b{font:500 15px/1.2 "JetBrains Mono",monospace;color:var(--acc)}
-.sk-list span{color:var(--mute)}
-.nums{display:grid;grid-template-columns:2fr 1fr 1fr;border-top:1px solid var(--fg);margin-top:8px}
-.nums div{padding:28px 24px 28px 0;border-right:1px solid var(--line)}
-.nums div:last-child{border-right:0;padding-left:24px}
-.nums div:nth-child(2){padding-left:24px}
-.nums strong{display:block;font:300 clamp(48px,6vw,84px)/1 Fraunces,serif;letter-spacing:-.04em}
-.nums small{display:block;margin-top:10px;color:var(--mute);font-size:15px;max-width:30ch}
-.finding{display:grid;grid-template-columns:220px 1fr;gap:48px;margin-top:88px}
-.finding h3{font:400 30px/1.15 Fraunces,serif;letter-spacing:-.02em;margin:0 0 18px;max-width:24ch}
-.finding p{color:var(--mute);max-width:60ch;margin:0}
-.steps{list-style:none;padding:0;margin:44px 0 0;counter-reset:s}
-.steps li{counter-increment:s;display:grid;grid-template-columns:64px 1fr;gap:12px;padding:22px 0;border-top:1px solid var(--line)}
-.steps li::before{content:"0" counter(s);font:400 14px/1.9 "JetBrains Mono",monospace;color:var(--acc)}
-.steps b{display:block;font-weight:500;margin-bottom:4px}
+.principle p{color:var(--mute);margin:26px 0 0;padding-top:20px;border-top:1px solid var(--rule)}
+.toc{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule2);counter-reset:t}
+.toc li{display:grid;grid-template-columns:2.2em 128px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--rule);align-items:baseline}
+.toc li::before{content:counter(t,decimal-leading-zero);counter-increment:t;font:400 13px/1 "JetBrains Mono",monospace;color:var(--faint)}
+.toc b{font:500 14px/1.3 "JetBrains Mono",monospace;color:var(--acc)}
+.toc span{color:var(--mute);font-size:16px}
+.toc .lead-row span strong{display:block;color:var(--ink);font:400 24px/1.1 Fraunces,serif;margin-bottom:6px}
+.toc .lead-row .mono{display:block;margin-top:10px;font-size:13px;color:var(--faint)}
+.nums{display:grid;grid-template-columns:1.6fr 1fr 1fr;border-top:1px solid var(--rule2);margin-top:18px}
+.nums div{padding:22px 16px 22px 0;border-right:1px solid var(--rule)}
+.nums div + div{padding-left:16px}
+.nums div:last-child{border-right:0}
+.nums strong{display:block;font:300 clamp(40px,3.6vw,56px)/1 Fraunces,serif;letter-spacing:-.04em}
+.nums small{display:block;margin-top:10px;color:var(--mute);font-size:14px}
+.finding{margin-top:40px;padding-top:28px;border-top:1px solid var(--rule)}
+.finding h3{font:400 27px/1.15 Fraunces,serif;letter-spacing:-.02em;margin:12px 0 14px}
+.finding p{color:var(--mute);margin:0}
+.steps{list-style:none;padding:0;margin:28px 0 0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:10px;padding:16px 0;border-top:1px solid var(--rule)}
+.steps li::before{content:"0" counter(s);font:400 13px/1.9 "JetBrains Mono",monospace;color:var(--acc)}
+.steps b{display:block;font-weight:500;margin-bottom:2px}
 .steps span{color:var(--mute)}
 
-/* kurulum */
-.inst{display:grid;grid-template-columns:220px minmax(0,1fr);gap:20px;align-items:start}
-.tabs{display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--line)}
-.tabs button{all:unset;cursor:pointer;min-height:44px;display:flex;align-items:center;padding:0 16px;margin-left:-1px;border-left:2px solid transparent;color:var(--mute);font:500 15px/1.2 Geist,sans-serif;transition:color .3s,border-color .3s,background .3s}
-.tabs button:hover{color:var(--fg)}
-.tabs button[aria-selected=true]{color:var(--fg);border-left-color:var(--acc);background:var(--acc-soft)}
-.tabs button:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
-[role=tabpanel]{animation:fade .4s cubic-bezier(.16,1,.3,1)}
-@keyframes fade{from{opacity:0;transform:translateY(6px)}}
-.note{margin:28px 0 0!important;padding-top:20px;border-top:1px solid var(--line);font-size:14px!important;color:var(--faint)!important}
-.inst > *,.hero > *,.sk > *{min-width:0}
-.box{border:1px solid var(--line);border-radius:22px;padding:32px;background:var(--card)}
+.tabs{display:flex;flex-wrap:wrap;gap:0 18px;border-bottom:1px solid var(--rule2);margin-bottom:22px}
+.tabs button{all:unset;cursor:pointer;min-height:44px;display:flex;align-items:center;margin-bottom:-1px;border-bottom:2px solid transparent;color:var(--mute);font:500 14px/1.2 Geist,sans-serif}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--acc)}
+.tabs button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 .box h3{font:500 18px/1.2 Geist,sans-serif;margin:0 0 6px}
-.box > p{margin:0 0 22px;color:var(--mute);font-size:15px}
-.cmd{display:flex;align-items:center;gap:12px;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:6px 6px 6px 16px;margin-top:10px}
-.cmd code{flex:1;min-width:0;font:400 14px/1.5 "JetBrains Mono",monospace;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+.box > div > p{margin:0 0 16px;color:var(--mute);font-size:15px}
+.cmd{display:flex;align-items:center;gap:10px;border-top:1px solid var(--rule);padding:4px 0}
+.cmd:last-of-type{border-bottom:1px solid var(--rule)}
+.cmd code{flex:1;min-width:0;font:400 13.5px/1.5 "JetBrains Mono",monospace;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
 .cmd code::before{content:"> ";color:var(--acc)}
-.copy{min-width:44px;min-height:44px;border:0;border-radius:10px;background:transparent;color:var(--mute);cursor:pointer;display:grid;place-items:center;transition:background .3s,color .3s}
+.copy{min-width:44px;min-height:44px;border:0;background:transparent;color:var(--mute);cursor:pointer;display:grid;place-items:center}
 .copy:hover{background:var(--acc-soft);color:var(--acc)}
 .copy svg{width:18px;height:18px}
 .copy[data-done]{color:var(--acc)}
-.box .btn{margin-top:8px}
+.box .btn{margin-top:6px}
+.note{margin:24px 0 0;padding-top:16px;border-top:1px solid var(--rule);font-size:14px;color:var(--faint)}
 
-footer{padding:20px 0 48px;color:var(--faint);font-size:14px}
-footer .shell{border-radius:999px}
-footer .panel{border-radius:999px;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;padding:20px 30px}
-
-/* reveal */
-.js .rv{opacity:0;transform:translateY(18px);transition:opacity .9s cubic-bezier(.16,1,.3,1),transform .9s cubic-bezier(.16,1,.3,1);transition-delay:calc(var(--i,0) * 90ms)}
-.js .rv.in{opacity:1;transform:none}
+footer{padding:24px 0 56px}
+.foot{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;padding:16px 22px;font-size:14px;color:var(--faint)}
 
 @media (max-width:900px){
+  body{padding-top:48px}
+  header{}
+  .bar{min-height:47px}
   .wrap{padding:0 16px}
-  nav{gap:8px}
-  nav a:not(.btn){display:none}
-  .navin{padding-left:18px}
-  .hero{grid-template-columns:1fr;gap:36px;min-height:0;padding-block:36px 56px}
-  .hero-txt .panel{padding:28px 22px 32px;border-radius:26px}
-  section.blk{padding:22px 0}
-  .blk .panel{padding:36px 22px;border-radius:26px}
-  .shell{border-radius:32px;padding:5px}
-  .principle .panel,.sec-head,.finding{grid-template-columns:1fr;gap:16px}
-  .sk,.inst{grid-template-columns:1fr}
-  .tabs{flex-direction:row;overflow-x:auto;border-left:0;border-bottom:1px solid var(--line);scrollbar-width:none;margin:0 -22px;padding:0 22px}
-  .tabs button{white-space:nowrap;margin:0 0 -1px;border-left:0;border-bottom:2px solid transparent;padding:0 12px}
-  .tabs button[aria-selected=true]{border-bottom-color:var(--acc);background:transparent}
-  .cmd code{white-space:normal;overflow-wrap:anywhere;font-size:13px}
-  .box{padding:22px}
-  .sk-main{min-height:0;gap:40px;padding:28px}
-  .sk-list li{grid-template-columns:1fr;gap:4px}
+  .hero{grid-template-columns:1fr;padding-block:20px 56px}
+  .hero > .yaprak:first-child{width:86%}
+  .hero-pg{padding:20px 20px 18px}
+  .hero h1{font-size:clamp(32px,9vw,42px);margin:10px 0 12px}
+  .lead{font-size:15.5px;line-height:1.5;margin-bottom:14px}
+  .more{margin-top:10px;padding-top:10px}
+  .kart{width:80%;max-width:none;margin:56px 0 0}
+  .spec-eski{font-size:18px}.spec-yeni{font-size:21px}
+  section.blk{padding:36px 0}
+  .col{width:86%}
+  .pg{padding:28px 22px}
+  nav{gap:4px}
+  nav a{display:none}
+  .toc li{grid-template-columns:2em 1fr;gap:4px 8px}
+  .toc li span{grid-column:2}
   .nums{grid-template-columns:1fr}
-  .nums div,.nums div:nth-child(2),.nums div:last-child{border-right:0;border-bottom:1px solid var(--line);padding:24px 0}
-  .finding{margin-top:56px}
-  .before{font-size:19px}.after{font-size:23px}
-  footer .shell,footer .panel{border-radius:26px}
+  .nums div,.nums div + div{border-right:0;border-bottom:1px solid var(--rule);padding:18px 0}
+  .cmd code{white-space:normal;overflow-wrap:anywhere;font-size:12.5px}
+  .golge{transform:translate3d(14px,18px,0);filter:blur(10px)}
 }
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
-  .hero h1 s::after{transform:scaleX(1)}
-  .js .rv{opacity:1;transform:none}
-  [data-float]{transform:none}
+  html{scroll-behavior:auto}
 }
 </style>
-<!-- pages-rebuild -->
 </head>
 <body>
 <a class="skip" href="#main">İçeriğe geç</a>
-<div id="sea" aria-hidden="true"></div>
+<canvas id="su" aria-hidden="true"></canvas>
 
 <header>
   <div class="wrap">
-    <div class="shell" data-float data-flat>
-      <div class="navin">
-        <a class="mark" href="#">ultra<span>write</span></a>
-        <nav aria-label="Ana menü">
-          <a href="#ilke">İlke</a>
-          <a href="slop.html">YZ izleri</a>
-          <a href="#skiller">Skill'ler</a>
-          <a href="#dayanak">Dayanak</a>
-          <a class="btn ghost" href="#kurulum">Kurulum</a>
-          <button class="theme" id="theme" type="button" aria-pressed="false" aria-label="Koyu mod"><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
-        </nav>
-      </div>
+    <div class="bar">
+      <a class="mark" href="#">ultra<span>write</span></a>
+      <nav aria-label="Ana menü">
+        <a href="#ilke">İlke</a>
+        <a href="slop.html">YZ izleri</a>
+        <a href="#skiller">Skill'ler</a>
+        <a href="#dayanak">Dayanak</a>
+        <a href="#kurulum">Kurulum</a>
+        <button class="theme" id="theme" type="button" aria-pressed="false" aria-label="Koyu mod"><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+      </nav>
     </div>
   </div>
 </header>
 
-<main id="main">
+<main id="main" class="havuz">
   <section class="wrap hero">
-    <div class="hero-txt shell" data-float>
-      <div class="panel">
+    <div class="yaprak">
+      <i class="golge" aria-hidden="true"></i>
+      <div class="kagit hero-pg" id="hero-kagit">
         <span class="eyebrow">Claude için Türkçe kurmaca skill ailesi</span>
-        <h1 class="serif"><span class="sunk"><s>O yere çarpmıştı.</s></span><br><span class="risebox"><em>Düştü.</em></span></h1>
+        <h1 class="serif" id="hero-baslik"><span class="eski">O yere çarpmıştı.</span><span class="yeni">Düştü.</span></h1>
         <p class="lead">Yapay zekâ Türkçe yazarken İngilizce düşünüp çeviriyor ve her öyküyü aynı şablona döküyor. ultrawrite, bunu araştırmayla ve testle düzeltmeye çalışan sekiz skill'lik bir aile.</p>
         <div class="cta">
           <a class="btn" href="#kurulum">Kurulum
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="btn ghost" href="https://github.com/ocalmehmet704-sys/ultrawrite">
+          <a class="tl" href="https://github.com/ocalmehmet704-sys/ultrawrite">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
             GitHub</a>
         </div>
+        <p class="more"><a href="slop.html">Daha fazla YZ izi örneği →</a></p>
       </div>
     </div>
 
-    <div class="hero-side">
-      <figure class="spec shell" data-float aria-label="Skill'in düzelttiği cümle örnekleri">
-        <div class="panel spec-top">
-          <span class="eyebrow"><span class="dot"></span>Taslak / düzeltme</span>
-          <span class="eyebrow mono" id="sp-n">01 / 05</span>
-        </div>
-        <div class="pool" id="pool">
-          <div class="wake" aria-hidden="true"></div>
-          <div class="slip" id="slip-b"><span class="eyebrow">Yapay zekâ yazdı</span><div class="before"><span id="sp-b">Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.</span></div></div>
-          <div class="slip" id="slip-a"><span class="eyebrow">Türkçesi</span><div class="after" id="sp-a">Babasının öldüğü haberi gelince ev sustu.</div></div>
-          <div class="bubbles" aria-hidden="true"></div>
-        </div>
-        <div class="panel spec-foot">
-          <p class="why" id="sp-w">Ad zinciri değil fiil. Türkçe olayı fiille anlatır.</p>
-          <div class="ticks" aria-hidden="true"></div>
-        </div>
-      </figure>
-      <p class="more"><a href="slop.html">Daha fazla YZ izi örneği →</a></p>
-    </div>
+    <figure class="kart yaprak" aria-label="Skill'in düzelttiği cümle örnekleri" style="margin-bottom:0">
+      <i class="golge" aria-hidden="true"></i>
+      <div class="kagit spec" id="spec">
+        <div class="spec-ust"><span class="eyebrow">Taslak / düzeltme</span><span class="eyebrow mono spec-sayac">01 / 05</span></div>
+        <div class="spec-blok"><span class="eyebrow">Yapay zekâ yazdı</span><div class="spec-eski">Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.</div></div>
+        <div class="spec-blok"><span class="eyebrow">Türkçesi</span><div class="spec-yeni">Babasının öldüğü haberi gelince ev sustu.</div></div>
+        <p class="spec-not">Ad zinciri değil fiil. Türkçe olayı fiille anlatır.</p>
+        <div class="ticks" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <p class="sr" id="spec-canli" aria-live="polite"></p>
+    </figure>
   </section>
+
 
   <section class="principle blk" id="ilke">
     <div class="wrap">
-      <div class="shell" data-float><div class="panel">
-        <span class="eyebrow rv">Ana ilke</span>
-        <div>
-          <blockquote class="rv" style="--i:1">Bir cümle, anlattığı şeye oranla <b>iş görmeyen sözcük</b> taşıdığı ölçüde kötüdür.</blockquote>
-          <p class="rv" style="--i:2">"O yere çarpmıştı" yazan model İngilizce düşünüyor. Türkçesi "düştü". Skill'deki otuz altı kuralın her biri bu ilkenin bir yüzü: fiilimsi seçimi, zaman eki, ses, sahne, dönem.</p>
-        </div>
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
+        <span class="eyebrow">Ana ilke</span>
+        <blockquote>Bir cümle, anlattığı şeye oranla <b>iş görmeyen sözcük</b> taşıdığı ölçüde kötüdür.</blockquote>
+        <p>"O yere çarpmıştı" yazan model İngilizce düşünüyor. Türkçesi "düştü". Skill'deki otuz altı kuralın her biri bu ilkenin bir yüzü: fiilimsi seçimi, zaman eki, ses, sahne, dönem.</p>
       </div></div>
     </div>
   </section>
 
   <section class="skills blk" id="skiller">
     <div class="wrap">
-      <div class="shell" data-float><div class="panel">
-        <div class="sec-head">
-          <span class="eyebrow rv">Sekiz skill</span>
-          <h2 class="rv" style="--i:1">Bir yönetici, yedi uzman. Her biri ayrı bir yetenek olarak yüklenir.</h2>
-        </div>
-        <div class="sk">
-          <div class="sk-main under rv">
-            <div>
-              <span class="mono">ultrawrite</span>
-              <h3 class="serif" style="margin-top:14px">Yönetici</h3>
-              <p>Yazmadan önce soruları sorar, alt skill'leri yükletir, yazım sırasını taşır. İlk taslağın kötü olduğunu bilir: yazar, fark eder, yeniden üretir.</p>
-            </div>
-            <span class="mono">/plugin install ultrawrite@ultrawrite</span>
-          </div>
-          <ul class="sk-list">
-            <li class="rv" style="--i:1"><b>ultragrammar</b><span>Fiilimsiler, çatı, ekler, söz dizimi. Türkçenin iskeleti.</span></li>
-            <li class="rv" style="--i:2"><b>ultratense</b><span>Zaman ve kip: -dı, -mış, -mıştı, -acaktı.</span></li>
-            <li class="rv" style="--i:3"><b>ultravoice</b><span>Duygu, ritim, anlatıcı mesafesi.</span></li>
-            <li class="rv" style="--i:4"><b>ultracheck</b><span>Yapay zekâ izleri, şablon, dönem ve dil tutarlılığı.</span></li>
-            <li class="rv" style="--i:5"><b>ultracraft</b><span>Anlatım araştırması, yazar teknikleri, <i>1984</i> cümle çözümlemesi.</span></li>
-            <li class="rv" style="--i:6"><b>ultraworld</b><span>Arka plan dünyası ve paralel hikâye.</span></li>
-            <li class="rv" style="--i:7"><b>ultrabrutal</b><span>Brutal kitle seviyesi.</span></li>
-          </ul>
-        </div>
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
+        <span class="eyebrow">Sekiz skill</span>
+        <h2>Bir yönetici, yedi uzman. Her biri ayrı bir yetenek olarak yüklenir.</h2>
+        <ol class="toc">
+          <li class="lead-row"><b>ultrawrite</b><span><strong>Yönetici</strong>Yazmadan önce soruları sorar, alt skill'leri yükletir, yazım sırasını taşır. İlk taslağın kötü olduğunu bilir: yazar, fark eder, yeniden üretir.<span class="mono">/plugin install ultrawrite@ultrawrite</span></span></li>
+          <li><b>ultragrammar</b><span>Fiilimsiler, çatı, ekler, söz dizimi. Türkçenin iskeleti.</span></li>
+          <li><b>ultratense</b><span>Zaman ve kip: -dı, -mış, -mıştı, -acaktı.</span></li>
+          <li><b>ultravoice</b><span>Duygu, ritim, anlatıcı mesafesi.</span></li>
+          <li><b>ultracheck</b><span>Yapay zekâ izleri, şablon, dönem ve dil tutarlılığı.</span></li>
+          <li><b>ultracraft</b><span>Anlatım araştırması, yazar teknikleri, <i>1984</i> cümle çözümlemesi.</span></li>
+          <li><b>ultraworld</b><span>Arka plan dünyası ve paralel hikâye.</span></li>
+          <li><b>ultrabrutal</b><span>Brutal kitle seviyesi.</span></li>
+        </ol>
       </div></div>
     </div>
   </section>
 
   <section class="basis blk" id="dayanak">
     <div class="wrap">
-      <div class="shell" data-float><div class="panel">
-        <span class="eyebrow rv">Neye dayanıyor</span>
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
+        <span class="eyebrow">Neye dayanıyor</span>
         <div class="nums">
-          <div class="rv" style="--i:1"><strong class="serif">6.000</strong><small>cümle, bir romanda tek tek incelendi: neden bu cümle de başkası değil?</small></div>
-          <div class="rv" style="--i:2"><strong class="serif">34</strong><small>öykü, bir gecelik testte yazıldı ve karşılaştırıldı.</small></div>
-          <div class="rv" style="--i:3"><strong class="serif">36</strong><small>kural, her biri bir kaynağa ya da teste bağlı.</small></div>
+          <div><strong class="serif">6.000</strong><small>cümle, bir romanda tek tek incelendi: neden bu cümle de başkası değil?</small></div>
+          <div><strong class="serif">34</strong><small>öykü, bir gecelik testte yazıldı ve karşılaştırıldı.</small></div>
+          <div><strong class="serif">36</strong><small>kural, her biri bir kaynağa ya da teste bağlı.</small></div>
         </div>
-
         <div class="finding">
-          <span class="eyebrow rv">Testin bulgusu</span>
-          <div>
-            <h3 class="serif rv">Yasak bir kalıbı kaldırır, şablonu kaldırmaz.</h3>
-            <p class="rv" style="--i:1">Bir kalıbı yasaklanan model hemen yanındaki kalıba kayıyor. Bu yüzden ultrawrite modele yasak yerine bağlam ve malzeme veriyor. Kaynaklar: TDK ve DergiPark makaleleri, belâgat geleneği, okur deneyleri.</p>
-            <ol class="steps">
-              <li class="rv"><div><b>Yazarla vakit geçir</b><span>Küçük öyküler gösterir, "hatam nedir?" diye sorar, cevabı bir yazar defterine yazar.</span></div></li>
-              <li class="rv" style="--i:1"><div><b>Eğrinin dışından malzeme al</b><span>Rastgele Vikipedi ve Vikikaynak sayfaları okur, öyküye köprüler kurar.</span></div></li>
-              <li class="rv" style="--i:2"><div><b>Yaz, fark et, yeniden üret</b><span>"Bir yapay zekâ burada ne yazardı?" diye sorar ve ilk taslağı atar.</span></div></li>
-            </ol>
-          </div>
+          <span class="eyebrow">Testin bulgusu</span>
+          <h3>Yasak bir kalıbı kaldırır, şablonu kaldırmaz.</h3>
+          <p>Bir kalıbı yasaklanan model hemen yanındaki kalıba kayıyor. Bu yüzden ultrawrite modele yasak yerine bağlam ve malzeme veriyor. Kaynaklar: TDK ve DergiPark makaleleri, belâgat geleneği, okur deneyleri.</p>
+          <ol class="steps">
+            <li><div><b>Yazarla vakit geçir</b><span>Küçük öyküler gösterir, "hatam nedir?" diye sorar, cevabı bir yazar defterine yazar.</span></div></li>
+            <li><div><b>Eğrinin dışından malzeme al</b><span>Rastgele Vikipedi ve Vikikaynak sayfaları okur, öyküye köprüler kurar.</span></div></li>
+            <li><div><b>Yaz, fark et, yeniden üret</b><span>"Bir yapay zekâ burada ne yazardı?" diye sorar ve ilk taslağı atar.</span></div></li>
+          </ol>
         </div>
       </div></div>
     </div>
@@ -411,16 +304,12 @@ footer .panel{border-radius:999px;display:flex;justify-content:space-between;gap
 
   <section class="install blk" id="kurulum">
     <div class="wrap">
-      <div class="shell" data-float><div class="panel">
-        <div class="sec-head">
-          <span class="eyebrow rv">Kurulum</span>
-          <h2 class="rv" style="--i:1">Claude'a, Cursor'a, Codex'e, Grok'a, Manus'a.</h2>
-        </div>
-        <div class="inst rv">
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
+        <span class="eyebrow">Kurulum</span>
+        <h2>Claude'a, Cursor'a, Codex'e, Grok'a, Manus'a.</h2>
         <div class="tabs" role="tablist" aria-label="Kurulacak ortam"><button role="tab" id="t-claude-code" aria-controls="p-claude-code" aria-selected="true" tabindex="0">Claude Code</button><button role="tab" id="t-claude-app" aria-controls="p-claude-app" aria-selected="false" tabindex="-1">Claude uygulaması</button><button role="tab" id="t-npx" aria-controls="p-npx" aria-selected="false" tabindex="-1">Her ajan (skills CLI)</button><button role="tab" id="t-cursor" aria-controls="p-cursor" aria-selected="false" tabindex="-1">Cursor</button><button role="tab" id="t-codex" aria-controls="p-codex" aria-selected="false" tabindex="-1">Codex</button><button role="tab" id="t-gemini" aria-controls="p-gemini" aria-selected="false" tabindex="-1">Gemini CLI</button><button role="tab" id="t-copilot" aria-controls="p-copilot" aria-selected="false" tabindex="-1">GitHub Copilot</button><button role="tab" id="t-grok" aria-controls="p-grok" aria-selected="false" tabindex="-1">Grok Build</button><button role="tab" id="t-manus" aria-controls="p-manus" aria-selected="false" tabindex="-1">Manus</button></div>
         <div class="box"><div role="tabpanel" id="p-claude-code" aria-labelledby="t-claude-code" ><h3>Claude Code</h3><p>Eklenti olarak kurulur, sekiz skill birden gelir. Skill'ler <span class="mono">ultrawrite:</span> önekiyle görünür.</p><div class="cmd"><code>/plugin marketplace add ocalmehmet704-sys/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>/plugin install ultrawrite@ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-claude-app" aria-labelledby="t-claude-app" hidden><h3>Claude uygulaması</h3><p>Son sürümdeki sekiz <span class="mono">.skill</span> dosyasını Ayarlar, Skills bölümünden tek tek yükleyin.</p><a class="btn" href="https://github.com/ocalmehmet704-sys/ultrawrite/releases/latest">Son sürümü indir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a></div><div role="tabpanel" id="p-npx" aria-labelledby="t-npx" hidden><h3>Her ajan (skills CLI)</h3><p>Açık Agent Skills standardını okuyan ajanların çoğuna tek komutla kurar; hangi ajana kurulacağını sorar.</p><div class="cmd"><code>npx skills add ocalmehmet704-sys/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-cursor" aria-labelledby="t-cursor" hidden><h3>Cursor</h3><p>Projenin <span class="mono">.cursor/skills</span> klasörüne kopyalanır.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p .cursor/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* .cursor/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-codex" aria-labelledby="t-codex" hidden><h3>Codex</h3><p>Kullanıcı düzeyinde <span class="mono">~/.agents/skills</span> klasörüne kopyalanır; tek projede kullanmak için <span class="mono">.agents/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p ~/.agents/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* ~/.agents/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-gemini" aria-labelledby="t-gemini" hidden><h3>Gemini CLI</h3><p><span class="mono">~/.gemini/skills</span> klasörüne kopyalanır; tek proje için <span class="mono">.gemini/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p ~/.gemini/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* ~/.gemini/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-copilot" aria-labelledby="t-copilot" hidden><h3>GitHub Copilot</h3><p>Projenin <span class="mono">.github/skills</span> klasörüne kopyalanır; kişisel kullanım için <span class="mono">~/.copilot/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p .github/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* .github/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-grok" aria-labelledby="t-grok" hidden><h3>Grok Build</h3><p><span class="mono">~/.grok/skills</span> klasörüne kopyalanır; tek proje için <span class="mono">.grok/skills</span>.</p><div class="cmd"><code>git clone --depth 1 https://github.com/ocalmehmet704-sys/ultrawrite /tmp/ultrawrite</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div><div class="cmd"><code>mkdir -p ~/.grok/skills &amp;&amp; cp -r /tmp/ultrawrite/skills/* ~/.grok/skills/</code><button class="copy" aria-label="Komutu kopyala"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></svg></button></div></div><div role="tabpanel" id="p-manus" aria-labelledby="t-manus" hidden><h3>Manus</h3><p>Son sürümdeki sekiz <span class="mono">.skill</span> dosyasını Skills menüsünde "Upload a skill" ile yükleyin. Kullanırken sohbete <span class="mono">/ultrawrite</span> yazın.</p><a class="btn" href="https://github.com/ocalmehmet704-sys/ultrawrite/releases/latest">Son sürümü indir <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></a></div>
           <p class="note">Sekiz klasörü her zaman yan yana kurun. ultrawrite yöneticidir; Skill aracı olmayan ortamlarda diğer yedisini yanındaki klasörlerden okur, eksik olan varsa yazara söyler.</p>
-        </div>
         </div>
       </div></div>
     </div>
@@ -429,7 +318,7 @@ footer .panel{border-radius:999px;display:flex;justify-content:space-between;gap
 
 <footer>
   <div class="wrap">
-    <div class="shell" data-float><div class="panel">
+    <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit foot">
       <span>ultrawrite · araştırmaya dayalı · açık kaynak</span>
       <a href="https://github.com/ocalmehmet704-sys/ultrawrite">github.com/ocalmehmet704-sys/ultrawrite</a>
     </div></div>
@@ -437,163 +326,24 @@ footer .panel{border-radius:999px;display:flex;justify-content:space-between;gap
 </footer>
 <script>
 (function(){
-  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-  // reveal
-  var els = document.querySelectorAll('.rv');
-  if (reduce || !('IntersectionObserver' in window)) { els.forEach(function(e){e.classList.add('in')}); }
-  else {
-    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); }, {rootMargin:'0px 0px -8% 0px'});
-    els.forEach(function(e){ io.observe(e); });
-  }
-
-  // su sıçraması: 3B sahne (varsa) halka dalga ve kabarcık çizer; DOM'da köpük ve kabarcık
-  function splash(x, y, amp){ try{ window.dispatchEvent(new CustomEvent('uw:splash',{detail:{x:x,y:y,amp:amp}})); }catch(e){} }
-  function rnd(a,b){ return a+Math.random()*(b-a); }
-  function bubbles(box, cx, cy, n, spread, rise){
-    for (var j=0;j<n;j++){
-      var s=document.createElement('i'); s.className='bub';
-      var dp=rnd(12,82); s.style.cssText='left:'+(cx+rnd(-spread,spread))+'px;top:'+(cy+dp)+'px;--s:'+rnd(6,16).toFixed(1)+'px;--dx:'+rnd(-14,14).toFixed(1)+'px;--dy:'+(-(dp+rnd(4,26)+rise)).toFixed(1)+'px;--d:'+rnd(1,1.9).toFixed(2)+'s;--dl:'+rnd(0,.6).toFixed(2)+'s';
-      s.addEventListener('animationend', function(){ this.remove(); });
-      box.appendChild(s);
-    }
-  }
-  function spray(box, cx, cy, n, spread){
-    for (var j=0;j<n;j++){
-      var s=document.createElement('i'); s.className='spray';
-      s.style.cssText='left:'+(cx+rnd(-spread*.5,spread*.5))+'px;top:'+cy+'px;--dx:'+rnd(-spread,spread).toFixed(1)+'px;--dy:'+(-rnd(10,34)).toFixed(1)+'px;--dl:'+rnd(0,.25).toFixed(2)+'s';
-      s.addEventListener('animationend', function(){ this.remove(); });
-      box.appendChild(s);
-    }
-  }
-
-  // örnek kart: yapay zekâ cümlesi suya batar, düzeltilmiş cümle sudan çıkar
-  var P = [
-    ["Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.", "Babasının öldüğü haberi gelince ev sustu.", "Ad zinciri değil fiil. Türkçe olayı fiille anlatır."],
-    ["O, onun annesinin ona verdiği yüzüğü parmağından çıkardı.", "Annesinden kalan yüzüğü çıkardı.", "Türkçe zamiri ekte taşır; o, onun, ona İngilizceden gelir."],
-    ["Derin bir üzüntü hissetti ve gözleri doldu.", "Çayını soğuyana kadar karıştırdı.", "Duyguya ad koyma, duyguyu taşıyan hareketi yaz."],
-    ["Konuşamayacak kadar yorgundu.", "Ağzını açacak hâli yoktu.", "\"-amayacak kadar\" İngilizce \"too ... to\" kalıbının çevirisi."],
-    ["Saatine baktı; buluşmaya on dakika vardı. (Mainz, 1455)", "Akşam çanı çaldı; şehrin kapıları birazdan kapanacaktı.", "1455'te kol saati yoktu, zamanı çan söylerdi."]
-  ];
-  var fig=document.querySelector('.spec'), pool=document.getElementById('pool'),
-      sb=document.getElementById('slip-b'), sa=document.getElementById('slip-a'),
-      b=document.getElementById('sp-b'), a=document.getElementById('sp-a'), w=document.getElementById('sp-w'),
-      n=document.getElementById('sp-n'), tk=document.querySelector('.ticks'), wake=pool.querySelector('.wake'), bb=pool.querySelector('.bubbles'),
-      k=0, run=0, timers=[], tw=[], rafT=0;
-  var WL=96, REST=84, anim=!reduce && !!window.requestAnimationFrame;
-  tk.innerHTML=P.map(function(_,j){return '<i'+(j===0?' class="on"':'')+'></i>'}).join('');
-  var t=tk.querySelectorAll('i');
-  function pad(x){return (x<10?'0':'')+x}
-  if (anim) fig.classList.add('anim');
-
-  function sizePool(){
-    if(!anim) return;
-    var ob=b.textContent, oa=a.textContent, m=0;
-    P.forEach(function(p){ b.textContent=p[0]; a.textContent=p[1]; m=Math.max(m, sb.offsetHeight, sa.offsetHeight); });
-    b.textContent=ob; a.textContent=oa; sa._h=sb._h=sa._w=sb._w=0;
-    pool.style.height=(m+REST+30)+'px';
-  }
-  function set(el, o){
-    var h=el._h||(el._h=el.offsetHeight), ty=o.ty||0;
-    el.style.setProperty('--ty', ty.toFixed(2)+'px');
-    el.style.setProperty('--tx', (o.tx||0).toFixed(2)+'px');
-    el.style.setProperty('--sr', (o.r||0).toFixed(2)+'deg');
-    el.style.setProperty('--op', (o.op==null?1:o.op).toFixed(3));
-    el.style.setProperty('--wl', (h-(WL-REST)-ty).toFixed(1)+'px');
-  }
-  function wakeAt(el, op, sc){
-    if(!el._w){ el._w=el.offsetWidth; el._l=el.offsetLeft; }
-    wake.style.setProperty('--wx', (el._l+el._w/2)+'px');
-    wake.style.setProperty('--ww', (el._w*1.04)+'px');
-    wake.style.setProperty('--wk', op.toFixed(3));
-    wake.style.setProperty('--ws', (sc||1).toFixed(3));
-  }
-  function step(now){
-    rafT=0;
-    tw=tw.filter(function(o){
-      if(o.my!==run) return false;
-      if(o.s==null) o.s=now;
-      var p=Math.min(1,(now-o.s)/o.d); o.fn(p);
-      if(p>=1){ if(o.done) o.done(); return false; }
-      return true;
-    });
-    if(tw.length) rafT=requestAnimationFrame(step);
-  }
-  function tween(d, fn, done, my){ tw.push({d:d,fn:fn,done:done,my:my}); if(!rafT) rafT=requestAnimationFrame(step); }
-  function later(ms, f, my){ timers.push(setTimeout(function(){ if(my===run) f(); }, ms)); }
-  function halt(){ run++; tw=[]; timers.forEach(clearTimeout); timers=[]; if(rafT){cancelAnimationFrame(rafT);rafT=0;} }
-  function easeOutBack(x){ var c=1.5; return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2); }
-  function pt(el){ var r=el.getBoundingClientRect(), pr=pool.getBoundingClientRect(); return {x:r.left+r.width/2, y:pr.bottom-WL, lx:el.offsetLeft+el.offsetWidth/2, ly:pool.offsetHeight-WL, w:el.offsetWidth}; }
-
-  function show(i){
-    halt(); var my=run, p=P[i];
-    w.textContent=p[2]; n.textContent=pad(i+1)+' / '+pad(P.length);
-    t.forEach(function(x,j){ x.classList.toggle('on', j<=i); });
-    a.setAttribute('aria-label', p[1]);
-    if (!anim){ b.textContent=p[0]; a.textContent=p[1]; return; }
-
-    // eski düzeltme akıntıyla uzaklaşır
-    var hadA = sa.getAttribute('data-on')==='1';
-    function prepA(){ sa.setAttribute('data-on','0'); a.textContent=p[1]; sa._h=0; set(sa,{ty:sa.offsetHeight+90, op:1}); }
-    if (hadA) tween(520, function(q){ set(sa,{tx:46*q*q, op:1-q, r:q*2}); wakeAt(sa,.35*(1-q)); }, prepA, my); else prepA();
-
-    // yeni yapay zekâ cümlesi suya düşer
-    b.parentNode.classList.remove('struck'); b.textContent=p[0]; sb._h=0;
-    set(sb,{ty:-40, op:0});
-    tween(760, function(q){ var e=easeOutBack(q); set(sb,{ty:-40*(1-e), op:Math.min(1,q*2.2)}); if(q>.45) wakeAt(sb,.55*(1-(q-.45)/.55)+.25,1); },
-      function(){ var o=pt(sb); splash(o.x,o.y,.45); spray(bb,o.lx,o.ly,6,o.w*.4); later(260, strike, my); }, my);
-
-    function strike(){ b.parentNode.classList.add('struck'); later(1150, sink, my); }
-    function sink(){
-      var h=sb.offsetHeight, o=pt(sb);
-      splash(o.x,o.y,1.5); spray(bb,o.lx,o.ly,16,o.w*.55); bubbles(bb,o.lx,o.ly,22,o.w*.42,0);
-      tween(1600, function(q){ var e=q*q*(1.6-.6*q); set(sb,{ty:e*(h+96), r:-2.2*e}); wakeAt(sb, Math.min(1,.4+q*2)*(1-q*.85), 1+q*.25); }, null, my);
-      later(900, rise, my);
-    }
-    function rise(){
-      var h=sa.offsetHeight, o=pt(sa);
-      bubbles(bb,o.lx,o.ly,12,o.w*.35,0); splash(o.x,o.y,.7);
-      tween(1500, function(q){ var e=1-Math.pow(1-q,3)*(1-q*1.4); set(sa,{ty:(1-e)*(h+96)}); if(q>.5) wakeAt(sa,.25+.6*(1-q),1+(1-q)*.3); },
-        function(){ sa.setAttribute('data-on','1'); var o2=pt(sa); spray(bb,o2.lx,o2.ly,5,o2.w*.3); later(4300, function(){ k=(k+1)%P.length; show(k); }, my); }, my);
-    }
-  }
-  document.addEventListener('visibilitychange', function(){
-    if (document.hidden){ halt(); }
-    else if (anim) show(k);
-  });
-  if (anim){
-    sizePool();
-    var rz; addEventListener('resize', function(){ clearTimeout(rz); rz=setTimeout(sizePool, 150); });
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(sizePool);
-    // başlık: "O yere çarpmıştı." batarken halka dalga ve kabarcık
-    setTimeout(function(){
-      if (document.hidden) return;
-      var s=document.querySelector('.hero h1 s'), box=document.querySelector('.hero-txt .panel');
-      var r=s.getBoundingClientRect(), br=box.getBoundingClientRect(), wy=r.top+r.height*.6;
-      splash(r.left+r.width/2, wy, .9);
-      var bx=document.createElement('div'); bx.className='bubbles'; bx.setAttribute('aria-hidden','true'); box.appendChild(bx);
-      bubbles(bx, r.left-br.left+r.width/2, wy-br.top-56, 14, r.width*.45, 24);
-      setTimeout(function(){ bx.remove(); }, 4200);
-    }, 1100);
-  }
-  show(0);
-
+  var root=document.documentElement;
   // tema düğmesi
-  var tb=document.getElementById('theme'), root=document.documentElement, mq=matchMedia('(prefers-color-scheme: dark)');
+  var tb=document.getElementById('theme'), mq=matchMedia('(prefers-color-scheme: dark)');
   function dark(){var a=root.getAttribute('data-theme');return a?a==='dark':mq.matches}
-  function paintBtn(){var d=dark();tb.setAttribute('aria-pressed',d);tb.setAttribute('aria-label',d?'Açık moda geç':'Koyu moda geç');
-    var m=document.querySelectorAll('meta[name=theme-color]');m.forEach(function(x){x.setAttribute('content',d?'#06141b':'#e6f2f4');x.removeAttribute('media')});if(window.__seaRedraw)window.__seaRedraw()}
-  tb.addEventListener('click',function(){var n=dark()?'light':'dark';root.setAttribute('data-theme',n);try{localStorage.setItem('uw-theme',n)}catch(e){}paintBtn()});
-  paintBtn();
-  // tabs
+  function paintBtn(emit){var d=dark();tb.setAttribute('aria-pressed',d);tb.setAttribute('aria-label',d?'Açık moda geç':'Koyu moda geç');
+    document.querySelectorAll('meta[name=theme-color]').forEach(function(x){x.setAttribute('content',d?'#0b1b30':'#2f8389');x.removeAttribute('media')});
+    if(emit)document.dispatchEvent(new CustomEvent('themechange',{detail:{theme:d?'dark':'light'}}))}
+  tb.addEventListener('click',function(){var n=dark()?'light':'dark';root.setAttribute('data-theme',n);try{localStorage.setItem('uw-theme',n)}catch(e){}paintBtn(true)});
+  mq.addEventListener&&mq.addEventListener('change',function(){if(!root.getAttribute('data-theme'))paintBtn(true)});
+  paintBtn(false);
+  // sekmeler
   var tl=document.querySelectorAll('[role=tab]');
   function sel(btn){ tl.forEach(function(b){ var on=b===btn; b.setAttribute('aria-selected',on); b.tabIndex=on?0:-1;
     document.getElementById(b.getAttribute('aria-controls')).hidden=!on; }); }
   tl.forEach(function(b,i){ b.addEventListener('click',function(){sel(b)});
     b.addEventListener('keydown',function(e){ var d={ArrowDown:1,ArrowRight:1,ArrowUp:-1,ArrowLeft:-1}[e.key];
       if(d){ e.preventDefault(); var n=tl[(i+d+tl.length)%tl.length]; sel(n); n.focus(); } }); });
-
-  // copy
+  // kopyala
   document.querySelectorAll('.copy').forEach(function(btn){
     btn.addEventListener('click', function(){
       var txt = btn.previousElementSibling.textContent;
@@ -605,386 +355,6 @@ footer .panel{border-radius:999px;display:flex;justify-content:space-between;gap
   });
 })();
 </script>
-<script type="module">
-// 3B su sahnesi: düşük poligonlu deniz tabanı (ayrı geçişte dokuya çizilir) + üstünde kırılan, yansıtan su yüzeyi.
-// Three.js sürümü sabit: 0.170.0. WebGL2 ya da CDN yoksa statik 2B yedek.
-const host = document.getElementById('sea');
-const mqR = matchMedia('(prefers-reduced-motion: reduce)'), mqD = matchMedia('(prefers-color-scheme: dark)');
-const isDark = () => { const a = document.documentElement.getAttribute('data-theme'); return a ? a === 'dark' : mqD.matches; };
-const small = () => innerWidth < 700;
-window.__sea = { mode: 'css', running: false };
-
-// ortak dalga formülü (shader ile birebir aynı)
-const RIP = [0, 1, 2, 3].map(() => ({ x: 0, z: 0, t: -99, a: 0 }));
-function waveH(x, z, t) {
-  let h = 0.22 * Math.sin(x * 0.38 + t * 0.8) + 0.16 * Math.sin(z * 0.5 - t * 0.95 + x * 0.16)
-        + 0.06 * Math.sin((x + z) * 0.85 + t * 1.4) + 0.025 * Math.sin((x - z) * 1.5 - t * 2.0);
-  for (const r of RIP) {
-    const age = t - r.t;
-    if (age > 0 && age < 6) {
-      const d = Math.hypot(x - r.x, z - r.z), f = age * 2.4;
-      h += r.a * Math.exp(-(d - f) * (d - f) * 0.7) * Math.exp(-age * 0.45) * Math.sin(d * 3.2 - age * 7.0) * 0.55;
-    }
-  }
-  return h;
-}
-function hash(i, j) { const s = Math.sin(i * 127.1 + j * 311.7) * 43758.5453; return s - Math.floor(s); }
-function vnoise(x, y) {
-  const i = Math.floor(x), j = Math.floor(y), fx = x - i, fy = y - j, ux = fx * fx * (3 - 2 * fx), uy = fy * fy * (3 - 2 * fy);
-  const a = hash(i, j), b = hash(i + 1, j), c = hash(i, j + 1), d = hash(i + 1, j + 1);
-  return a + (b - a) * ux + (c - a) * uy + (a - b - c + d) * ux * uy;
-}
-function fbm(x, y) { return vnoise(x, y) * .55 + vnoise(x * 2.1 + 5, y * 2.1 + 9) * .3 + vnoise(x * 4.3 + 1, y * 4.3 + 3) * .15; }
-// deniz tabanı yüksekliği
-function floorY(x, z) {
-  const s = 10 - z;
-  let y = -3.3 - s * 0.012 + (fbm(x * .16, z * .16) - .5) * 2.2 + Math.sin(x * .5 + z * .3) * .25;
-  y += Math.max(0, fbm(x * .11 + 20, z * .11 - 7) - .58) * 7.0; // kaya kümeleri
-  return Math.min(y, -1.9);
-}
-// perspektife uyan ızgara: yakında sık, uzakta seyrek; köşeler titretilir (low-poly)
-function buildGrid(THREE, cols, rows, yFn, seed) {
-  const V = [];
-  for (let j = 0; j <= rows; j++) {
-    V[j] = [];
-    for (let i = 0; i <= cols; i++) {
-      let u = i / cols * 2 - 1, v = j / rows;
-      if (i > 0 && i < cols) u += (hash(i + seed, j) - .5) * 1.1 / cols;
-      if (j > 0 && j < rows) v += (hash(j + seed, i + 3) - .5) * .7 / rows;
-      const s = (12 / .85) * (Math.exp(2.0 * v) - 1), z = 10 - s, x = u * (12 + .85 * s);
-      V[j][i] = [x, yFn(x, z), z];
-    }
-  }
-  const pos = [], shade = [];
-  const tri = (a, b, c, k) => { pos.push(...a, ...b, ...c); shade.push(k, k, k); };
-  for (let j = 0; j < rows; j++) for (let i = 0; i < cols; i++) {
-    const a = V[j][i], b = V[j][i + 1], c = V[j + 1][i], d = V[j + 1][i + 1];
-    if ((i + j) % 2) { tri(a, b, c, hash(i * 3 + seed, j)); tri(b, d, c, hash(i, j * 5 + seed)); }
-    else { tri(a, b, d, hash(i * 7, j + seed)); tri(a, d, c, hash(i + seed, j * 11)); }
-  }
-  const g = new THREE.BufferGeometry();
-  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
-  g.setAttribute('aShade', new THREE.Float32BufferAttribute(shade, 1));
-  return g;
-}
-
-const PAL = {
-  light: { fog: [.80, .93, .95], skyH: [.84, .95, .97], skyZ: [.50, .80, .91], deep: [.0, .42, .52],
-    sandA: [.93, .82, .58], sandB: [.74, .64, .45], rock: [.26, .40, .40], caus: [.42, .44, .34],
-    light: [.3, .3, -.9], lightCol: [1, .97, .88], spec: .8, foam: [1, 1, 1], amb: .42, abs: 1 },
-  dark: { fog: [.02, .055, .10], skyH: [.08, .14, .26], skyZ: [.01, .03, .08], deep: [.0, .045, .09],
-    sandA: [.34, .44, .56], sandB: [.22, .30, .40], rock: [.10, .17, .23], caus: [.18, .30, .42],
-    light: [-.25, .32, -.91], lightCol: [.82, .9, 1], spec: 1.7, foam: [.72, .84, .95], amb: .34, abs: .62 }
-};
-
-const WAVE_GLSL = /* glsl */`
-uniform float uTime;
-uniform vec4 uRip[4];
-float waveH(vec2 p){
-  float t=uTime;
-  float h=0.22*sin(p.x*0.38+t*0.8)+0.16*sin(p.y*0.5-t*0.95+p.x*0.16)
-         +0.06*sin((p.x+p.y)*0.85+t*1.4)+0.025*sin((p.x-p.y)*1.5-t*2.0);
-  for(int i=0;i<4;i++){
-    vec4 r=uRip[i]; float age=t-r.z;
-    if(age>0.0&&age<6.0){
-      float d=distance(p,r.xy); float f=age*2.4;
-      h+=r.w*exp(-(d-f)*(d-f)*0.7)*exp(-age*0.45)*sin(d*3.2-age*7.0)*0.55;
-    }
-  }
-  return h;
-}
-float foamAt(vec2 p){
-  float f=0.0;
-  for(int i=0;i<4;i++){
-    vec4 r=uRip[i]; float age=uTime-r.z;
-    if(age>0.0&&age<6.0){
-      float d=distance(p,r.xy); float fr=age*2.4;
-      f+=r.w*(exp(-(d-fr)*(d-fr)*3.0)*exp(-age*0.5)*1.2+exp(-(d-fr*0.55)*(d-fr*0.55)*4.0)*exp(-age*0.8)*0.8+exp(-d*d*0.8)*exp(-age*1.2)*1.4);
-    }
-  }
-  return f;
-}`;
-
-function fallback2d() {
-  // statik 2B yedek: aynı perspektif ızgaranın düz gölgeli üçgenleri
-  const c = document.createElement('canvas'); host.appendChild(c);
-  const ctx = c.getContext('2d'); if (!ctx) return;
-  window.__sea = { mode: '2d', running: false };
-  function draw() {
-    const W = innerWidth, H = innerHeight, dpr = Math.min(devicePixelRatio || 1, 1.5);
-    c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    const P = isDark() ? PAL.dark : PAL.light, f = H / (2 * Math.tan((W / H < .8 ? 62 : 48) * Math.PI / 360));
-    const cy = 7.2, cz = 9, pitch = Math.atan2(7.2, 12), cp = Math.cos(pitch), sp = Math.sin(pitch);
-    const proj = (x, y, z) => { const dy = y - cy, dz = z - cz, zc = -dy * sp - dz * cp, yc = dy * cp - dz * sp; return [W / 2 + x / zc * f, H / 2 - yc / zc * f, zc]; };
-    ctx.fillStyle = `rgb(${P.fog.map(v => v * 255 | 0)})`; ctx.fillRect(0, 0, W, H);
-    const cols = small() ? 26 : 40, rows = Math.round(cols * 1.18), L = P.light, ll = Math.hypot(...L);
-    for (let j = rows - 1; j >= 0; j--) for (let i = 0; i < cols; i++) {
-      const q = (ii, jj) => { let u = ii / cols * 2 - 1, v = jj / rows; if (ii > 0 && ii < cols) u += (hash(ii, jj) - .5) * 1.1 / cols;
-        const s = (12 / .85) * (Math.exp(2 * v) - 1), z = 10 - s, x = u * (12 + .85 * s); return [x, waveH(x, z, 2.4) * 1.0, z]; };
-      const A = q(i, j), B = q(i + 1, j), C = q(i, j + 1), D = q(i + 1, j + 1);
-      for (const [p0, p1, p2] of [[A, B, D], [A, D, C]]) {
-        const ux = p1[0] - p0[0], uy = p1[1] - p0[1], uz = p1[2] - p0[2], vx = p2[0] - p0[0], vy = p2[1] - p0[1], vz = p2[2] - p0[2];
-        let nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx; const nl = Math.hypot(nx, ny, nz) || 1; if (ny < 0) { nx = -nx; ny = -ny; nz = -nz; }
-        const lam = Math.max(0, (nx * L[0] + ny * L[1] + nz * L[2]) / nl / ll), dist = Math.hypot(p0[0], p0[2] - cz), fog = 1 - Math.exp(-Math.pow(dist * .022, 1.6));
-        const col = P.deep.map((d, k) => { const base = d * (.75 + lam * .9) + (P.sandB[k] - d) * .18 * Math.exp(-dist * .05); return Math.round(Math.min(1, base * (1 - fog) + P.fog[k] * fog) * 255); });
-        const a = proj(...p0), b = proj(...p1), cc = proj(...p2); if (a[2] <= .1 || b[2] <= .1 || cc[2] <= .1) continue;
-        ctx.fillStyle = ctx.strokeStyle = `rgb(${col})`; ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.lineTo(cc[0], cc[1]); ctx.closePath(); ctx.fill(); ctx.stroke();
-      }
-    }
-    c.classList.add('on');
-  }
-  draw();
-  let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(draw, 150); });
-  window.__seaRedraw = draw;
-}
-
-async function start() {
-  let ok = false;
-  try { const t = document.createElement('canvas'); ok = !!(window.WebGL2RenderingContext && t.getContext('webgl2')); } catch (e) { ok = false; }
-  if (!ok) return fallback2d();
-  let THREE;
-  try { THREE = await import('https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js'); }
-  catch (e) { return fallback2d(); }
-
-  let renderer;
-  try {
-    renderer = new THREE.WebGLRenderer({ antialias: !small(), alpha: false, powerPreference: 'high-performance' });
-  } catch (e) { return fallback2d(); }
-  renderer.outputColorSpace = THREE.LinearSRGBColorSpace; // renkler doğrudan ekran değeri olarak yazılır
-  const cvs = renderer.domElement; host.appendChild(cvs);
-
-  const camera = new THREE.PerspectiveCamera(48, 1, 0.1, 140);
-  const floorScene = new THREE.Scene(), waterScene = new THREE.Scene();
-  const v3 = a => new THREE.Vector3(...a);
-  const U = {
-    uTime: { value: 0 }, uRip: { value: RIP.map(() => new THREE.Vector4(0, 0, -99, 0)) },
-    uFog: { value: v3(PAL.light.fog) }, uSkyH: { value: v3(PAL.light.skyH) }, uSkyZ: { value: v3(PAL.light.skyZ) },
-    uDeep: { value: v3(PAL.light.deep) }, uSandA: { value: v3(PAL.light.sandA) }, uSandB: { value: v3(PAL.light.sandB) },
-    uRock: { value: v3(PAL.light.rock) }, uCaus: { value: v3(PAL.light.caus) }, uLight: { value: v3(PAL.light.light).normalize() }, uSun: { value: v3([.45, .85, .35]).normalize() },
-    uLightCol: { value: v3(PAL.light.lightCol) }, uSpec: { value: 1 }, uFoam: { value: v3([1, 1, 1]) }, uAmb: { value: .3 },
-    uDepth: { value: 0 }, uAbs: { value: 1 }, uRes: { value: new THREE.Vector2(1, 1) }, tFloor: { value: null },
-    uBurst: { value: [0, 1, 2].map(() => new THREE.Vector4(0, 0, -99, 0)) }, uPx: { value: 800 }
-  };
-
-  // 1) deniz tabanı: düz gölgeli üçgenler, kostik ışık, derinlikle koyulaşma
-  const floorMat = new THREE.ShaderMaterial({
-    uniforms: U, side: THREE.DoubleSide, defines: { CAUS_ITER: small() ? 3 : 4 },
-    vertexShader: /* glsl */`
-      attribute float aShade; varying float vShade; varying vec3 vW;
-      void main(){ vShade=aShade; vec4 w=modelMatrix*vec4(position,1.0); vW=w.xyz; gl_Position=projectionMatrix*viewMatrix*w; }`,
-    fragmentShader: /* glsl */`
-      uniform float uTime,uDepth,uAmb,uAbs; uniform vec3 uSandA,uSandB,uRock,uCaus,uSun,uDeep,uFog,uLightCol;
-      varying float vShade; varying vec3 vW;
-      float caustic(vec2 uv,float time){
-        vec2 p=mod(uv*6.28318,6.28318)-250.0; vec2 i=p; float c=1.0; float inten=.005;
-        for(int n=0;n<CAUS_ITER;n++){
-          float t=time*(1.0-(3.5/float(n+1)));
-          i=p+vec2(cos(t-i.x)+sin(t+i.y),sin(t-i.y)+cos(t+i.x));
-          c+=1.0/length(vec2(p.x/(sin(i.x+t)/inten),p.y/(cos(i.y+t)/inten)));
-        }
-        c/=float(CAUS_ITER); c=1.17-pow(c,1.4); return clamp(pow(abs(c),8.0),0.0,1.0);
-      }
-      void main(){
-        vec3 n=normalize(cross(dFdx(vW),dFdy(vW))); if(n.y<0.0) n=-n;
-        vec3 base=mix(uSandB,uSandA,vShade);
-        base=mix(uRock*(0.75+0.5*vShade),base,smoothstep(0.62,0.9,n.y));
-        float lam=max(dot(n,uSun),0.0);
-        vec3 col=base*(uAmb+lam*0.62*uLightCol);
-        float c=caustic(vW.xz*0.085+vec2(0.0,uTime*0.004),uTime*0.55);
-        col+=uCaus*c*smoothstep(0.45,0.95,n.y)*(0.35+0.5*lam);
-        float depth=-vW.y; float dist=length(cameraPosition-vW);
-        float ab=1.0-exp(-(depth*0.11+dist*0.022+uDepth*0.6)*uAbs);
-        col=mix(col,uDeep,clamp(ab,0.0,0.88));
-        col=min(col,vec3(0.86,0.9,0.86));
-        float fog=1.0-exp(-pow(dist*0.024,1.6));
-        gl_FragColor=vec4(mix(col,uFog*0.55+uDeep*0.45,clamp(fog,0.0,1.0)),1.0);
-      }`
-  });
-
-  // kabarcıklar: su altında yükselir (yalnız GPU'da hesaplanır)
-  const BN = 96, bSeed = new Float32Array(BN * 3), bIdx = new Float32Array(BN), bPos = new Float32Array(BN * 3);
-  for (let i = 0; i < BN; i++) { bSeed[i * 3] = Math.random() * 2 - 1; bSeed[i * 3 + 1] = Math.random() * 2 - 1; bSeed[i * 3 + 2] = Math.random(); bIdx[i] = i % 3; }
-  const bGeo = new THREE.BufferGeometry();
-  bGeo.setAttribute('position', new THREE.BufferAttribute(bPos, 3));
-  bGeo.setAttribute('aSeed', new THREE.BufferAttribute(bSeed, 3));
-  bGeo.setAttribute('aIdx', new THREE.BufferAttribute(bIdx, 1));
-  const bMat = new THREE.ShaderMaterial({
-    uniforms: U, transparent: true, depthWrite: false,
-    vertexShader: /* glsl */`
-      uniform float uTime,uPx; uniform vec4 uBurst[3]; attribute vec3 aSeed; attribute float aIdx; varying float vA;
-      void main(){
-        vec4 b=uBurst[int(aIdx+0.5)]; float age=uTime-b.z-aSeed.z*0.9;
-        vec3 p=vec3(b.x+aSeed.x*0.8*b.w, -2.6+age*(1.3+aSeed.z*0.6), b.y+aSeed.y*0.6*b.w);
-        p.x+=sin(age*5.0+aSeed.z*20.0)*0.08;
-        float alive=(age>0.0&&age<3.0&&p.y<-0.05&&b.w>0.0)?1.0:0.0;
-        vA=alive*smoothstep(0.0,0.3,age);
-        vec4 mv=viewMatrix*vec4(p,1.0);
-        gl_PointSize=alive*uPx*(0.07+0.08*fract(aSeed.z*7.13))/max(-mv.z,0.1);
-        gl_Position=projectionMatrix*mv;
-      }`,
-    fragmentShader: /* glsl */`
-      uniform vec3 uFoam; varying float vA;
-      void main(){
-        vec2 q=gl_PointCoord-0.5; float d=length(q)*2.0; if(d>1.0) discard;
-        float rim=smoothstep(0.55,0.95,d)*(1.0-smoothstep(0.95,1.0,d));
-        float spot=1.0-smoothstep(0.0,0.28,length(q-vec2(-0.16,-0.16))*2.0);
-        gl_FragColor=vec4(uFoam,(rim*0.85+spot*0.9+0.08)*vA);
-      }`
-  });
-  const bubblesPts = new THREE.Points(bGeo, bMat); bubblesPts.frustumCulled = false;
-
-  // 2) su yüzeyi: dalga tepe noktasında, kırılma (taban dokusu), Fresnel yansıma, speküler, köpük
-  const waterMat = new THREE.ShaderMaterial({
-    uniforms: U, side: THREE.DoubleSide,
-    vertexShader: WAVE_GLSL + /* glsl */`
-      varying vec3 vW;
-      void main(){ vec3 p=position; p.y=waveH(p.xz); vW=p; gl_Position=projectionMatrix*viewMatrix*vec4(p,1.0); }`,
-    fragmentShader: WAVE_GLSL + /* glsl */`
-      uniform sampler2D tFloor; uniform vec2 uRes; uniform float uSpec,uDepth;
-      uniform vec3 uDeep,uSkyH,uSkyZ,uLight,uLightCol,uFog,uFoam;
-      varying vec3 vW;
-      void main(){
-        vec3 n=normalize(cross(dFdx(vW),dFdy(vW))); if(n.y<0.0) n=-n;
-        vec3 v=normalize(cameraPosition-vW);
-        float ndv=max(dot(n,v),0.0);
-        float fr=0.02+0.98*pow(1.0-ndv,5.0);
-        vec2 suv=clamp(gl_FragCoord.xy/uRes+n.xz*0.05,0.001,0.999);
-        vec3 refr=texture2D(tFloor,suv).rgb;
-        vec3 water=mix(refr,uDeep,0.1+uDepth*0.3);
-        vec3 r=reflect(-v,n);
-        vec3 sky=mix(uSkyH,uSkyZ,clamp(r.y*1.4,0.0,1.0));
-        vec3 col=mix(water,sky,clamp(fr*1.15+0.04,0.0,0.9));
-        vec3 hv=normalize(uLight+v); float nh=max(dot(n,hv),0.0);
-        col+=uLightCol*(pow(nh,90.0)*0.55+pow(nh,14.0)*0.08)*uSpec;
-        col*=0.9+0.2*max(dot(n,normalize(vec3(-0.3,1.0,0.4))),0.0);
-        float g=0.5+0.5*sin(vW.x*9.0+sin(vW.z*7.0+uTime))*sin(vW.z*8.0-uTime*1.3+sin(vW.x*5.0));
-        float f=foamAt(vW.xz); f=smoothstep(0.2,0.7,f*(0.5+0.9*g));
-        col=mix(col,uFoam,f*0.92);
-        float dist=length(cameraPosition-vW);
-        float fog=1.0-exp(-pow(dist*0.022,1.6));
-        gl_FragColor=vec4(mix(col,uFog,clamp(fog,0.0,1.0)),1.0);
-      }`
-  });
-
-  let floorMesh, waterMesh, rt, W = 0, H = 0, lastSmall = null;
-  function build() {
-    const sm = small(); if (sm === lastSmall) return; lastSmall = sm;
-    if (floorMesh) { floorScene.remove(floorMesh); floorMesh.geometry.dispose(); waterScene.remove(waterMesh); waterMesh.geometry.dispose(); }
-    const cols = sm ? 30 : 50, rows = Math.round(cols * 1.18);
-    floorMesh = new THREE.Mesh(buildGrid(THREE, cols, rows, floorY, 3), floorMat); floorMesh.frustumCulled = false;
-    waterMesh = new THREE.Mesh(buildGrid(THREE, Math.round(cols * .62), Math.round(rows * .62), () => 0, 17), waterMat); waterMesh.frustumCulled = false;
-    floorScene.add(floorMesh); floorScene.add(bubblesPts); waterScene.add(waterMesh);
-  }
-  function resize() {
-    W = innerWidth; H = innerHeight; build();
-    const dpr = Math.min(devicePixelRatio || 1, small() ? 1.25 : 1.5);
-    renderer.setPixelRatio(dpr); renderer.setSize(W, H, false);
-    const aspect = W / H; camera.aspect = aspect; camera.fov = aspect < .8 ? 62 : 48; camera.updateProjectionMatrix();
-    const bw = Math.round(W * dpr * (small() ? .5 : .75)), bh = Math.round(H * dpr * (small() ? .5 : .75));
-    if (!rt) rt = new THREE.WebGLRenderTarget(bw, bh, { depthBuffer: true, generateMipmaps: false });
-    else rt.setSize(bw, bh);
-    U.tFloor.value = rt.texture;
-    U.uRes.value.set(W * dpr, H * dpr);
-    U.uPx.value = bh / (2 * Math.tan(camera.fov * Math.PI / 360));
-  }
-  function applyTheme() {
-    const P = isDark() ? PAL.dark : PAL.light;
-    ['fog', 'skyH', 'skyZ', 'deep', 'sandA', 'sandB', 'rock', 'caus', 'lightCol', 'foam'].forEach(k => U['u' + k[0].toUpperCase() + k.slice(1)].value.set(...P[k]));
-    U.uLight.value.set(...P.light).normalize(); U.uSpec.value = P.spec; U.uAmb.value = P.amb; U.uAbs.value = P.abs;
-    renderer.setClearColor(new THREE.Color(...P.fog), 1);
-  }
-
-  // kamera: hafif eğik bakış; sayfa kaydıkça biraz ilerler ve su koyulaşır
-  let prog = 0;
-  const look = new THREE.Vector3();
-  function placeCamera() {
-    camera.position.set(0, 7.2 - prog * .9, 9 - prog * 5);
-    look.set(0, 0, -3 - prog * 5.5); camera.lookAt(look);
-    camera.updateMatrixWorld(); U.uDepth.value = prog;
-  }
-  function onScroll() { const m = document.documentElement.scrollHeight - innerHeight; prog = m > 0 ? Math.min(1, scrollY / m) : 0; if (!running) frame(performance.now()); }
-
-  // ekran noktası -> su düzlemi (y=0) üzerindeki dünya noktası
-  const ndc = new THREE.Vector3(), dir = new THREE.Vector3();
-  function toWorld(sx, sy) {
-    ndc.set(sx / W * 2 - 1, -(sy / H) * 2 + 1, .5).unproject(camera);
-    dir.copy(ndc).sub(camera.position);
-    if (dir.y > -1e-4) return null;
-    const k = -camera.position.y / dir.y;
-    return { x: camera.position.x + dir.x * k, z: camera.position.z + dir.z * k };
-  }
-
-  const t0 = performance.now(); let ri = 0, bi = 0;
-  const now = () => mqR.matches ? 2.4 : (performance.now() - t0) / 1000;
-  function ripple(sx, sy, amp, bub) {
-    const p = toWorld(sx, sy); if (!p) return;
-    const t = now(), r = RIP[ri]; r.x = p.x; r.z = p.z; r.t = t; r.a = amp;
-    U.uRip.value[ri].set(p.x, p.z, t, amp); ri = (ri + 1) % 4;
-    if (bub) { U.uBurst.value[bi].set(p.x, p.z, t, Math.min(1.4, amp + .3)); bi = (bi + 1) % 3; }
-    if (!running) frame(performance.now());
-  }
-  addEventListener('uw:splash', e => { if (!mqR.matches) ripple(e.detail.x, e.detail.y, e.detail.amp, e.detail.amp > .5); });
-  addEventListener('pointerdown', e => { if (!mqR.matches) ripple(e.clientX, e.clientY, .5, false); }, { passive: true });
-
-  // yüzen kartlar: dalganın o noktadaki yüksekliği ve eğimi CSS değişkenlerine
-  const floats = [...document.querySelectorAll('[data-float]')];
-  let boxes = [];
-  function measure() {
-    boxes = floats.map(el => {
-      const r = el.getBoundingClientRect(), fixed = !!el.closest('header');
-      return { el, cx: r.left + r.width / 2, cy: r.top + r.height * .75 + (fixed ? 0 : scrollY), w: r.width, h: r.height, fixed, flat: el.hasAttribute('data-flat'), last: '' };
-    });
-  }
-  function bob(t) {
-    for (const b of boxes) {
-      const sy = b.fixed ? b.cy : b.cy - scrollY;
-      if (sy < -b.h || sy > H + b.h) continue;
-      const p = toWorld(b.cx, Math.min(Math.max(sy, 2), H - 2)); if (!p) continue;
-      const h = waveH(p.x, p.z, t), e = .35;
-      const hx = (waveH(p.x + e, p.z, t) - waveH(p.x - e, p.z, t)) / (2 * e), hz = (waveH(p.x, p.z + e, t) - waveH(p.x, p.z - e, t)) / (2 * e);
-      const by = Math.max(-7, Math.min(7, -h * 10 * (b.flat ? .45 : 1) * Math.min(1, 520 / b.h)));
-      const rx = Math.max(-1.6, Math.min(1.6, -hz * 4.5)) * Math.min(1, 300 / b.h) * (b.flat ? .5 : 1);
-      const rz = b.flat ? 0 : Math.max(-1, Math.min(1, hx * 3.2)) * Math.min(1, 360 / b.w);
-      const key = by.toFixed(1) + rx.toFixed(2) + rz.toFixed(2);
-      if (key === b.last) continue; b.last = key;
-      const s = b.el.style;
-      s.setProperty('--by', by.toFixed(2) + 'px'); s.setProperty('--rx', rx.toFixed(3) + 'deg'); s.setProperty('--rz', rz.toFixed(3) + 'deg');
-      s.setProperty('--bn', (-by / 7).toFixed(3));
-    }
-  }
-
-  let running = false, last = 0, first = true;
-  function frame(ts) {
-    const t = now(); U.uTime.value = t; placeCamera();
-    renderer.setRenderTarget(rt); renderer.render(floorScene, camera);
-    renderer.setRenderTarget(null); renderer.render(waterScene, camera);
-    if (running) bob(t);
-    if (first) { first = false; cvs.classList.add('on'); }
-  }
-  function loop(ts) {
-    if (small() && ts - last < 32) return; // mobilde ~30 fps
-    last = ts; frame(ts);
-  }
-  function play() { if (running || document.hidden || mqR.matches) return; running = true; renderer.setAnimationLoop(loop); }
-  function pause() { running = false; renderer.setAnimationLoop(null); }
-  function sync() { pause(); if (mqR.matches) floats.forEach(el => { ['--by', '--rx', '--rz', '--bn'].forEach(k => el.style.removeProperty(k)); }); frame(performance.now()); play(); }
-
-  cvs.addEventListener('webglcontextlost', e => { e.preventDefault(); pause(); });
-  cvs.addEventListener('webglcontextrestored', () => sync());
-  resize(); applyTheme(); measure(); onScroll();
-  let rtm; addEventListener('resize', () => { clearTimeout(rtm); rtm = setTimeout(() => { resize(); measure(); if (!running) frame(performance.now()); }, 150); });
-  addEventListener('scroll', onScroll, { passive: true });
-  if ('ResizeObserver' in window) new ResizeObserver(() => measure()).observe(document.body);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
-  document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); else sync(); });
-  const chg = () => sync();
-  mqR.addEventListener ? mqR.addEventListener('change', chg) : mqR.addListener(chg);
-  mqD.addEventListener ? mqD.addEventListener('change', () => { applyTheme(); if (!running) frame(performance.now()); }) : 0;
-  window.__seaRedraw = () => { applyTheme(); if (!running) frame(performance.now()); };
-  window.__sea = { mode: 'webgl', get running() { return running; }, get info() { return { calls: renderer.info.render.calls, tris: renderer.info.render.triangles }; }, renderer };
-  frame(performance.now()); play();
-}
-start();
-</script>
+<script type="module" src="js/main.js"></script>
 </body>
 </html>
