@@ -33,36 +33,22 @@
 </script>
 <script>document.documentElement.classList.add('js');try{var _t=localStorage.getItem('uw-theme');if(_t==='light'||_t==='dark')document.documentElement.setAttribute('data-theme',_t)}catch(e){}</script>
 <style>
-/* Kâğıt ve su: yukarıdan baktığımız bir su yüzeyi, üstünde yüzen müsvedde kâğıtları. Cam yok, bulanık panel yok. */
+/* Kâğıt ve su: tepeden bakılan sığ havuz, yüzeyde krem kâğıtlar. Cam, blur, hap, iç içe kart yok. */
 :root{
   --ink:#1b1a17;--mute:#46423a;--faint:#57524a;--acc:#9a3b26;--acc-soft:rgba(154,59,38,.09);
-  --paper:#f3eee4;--paper2:#e9e1d1;--rule:rgba(27,26,23,.16);--rule2:rgba(27,26,23,.42);
-  --wet:rgba(30,86,92,.24);--shade:rgba(2,60,70,.42);
-  --tint1:rgba(46,140,150,.86);--tint2:rgba(10,78,92,.93);--inkc:#16465e;
-  --causb:soft-light;--causo:.5;
-  --sea-top:#86c3c4;--sea-mid:#2f8389;--sea-bot:#0d4b54;
-  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .32 0 0 0 0 .27 0 0 0 0 .18 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  --caus:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256'%3E%3Cfilter id='c' x='0' y='0' width='100%25' height='100%25'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.016 .021' numOctaves='2' seed='5' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='0 0 0 0 0 0 0 .12 .9 .12 0 0 0 0 0 0 0'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23c)'/%3E%3C/svg%3E");
+  --paper:#f3eee4;--rule:rgba(27,26,23,.16);--rule2:rgba(27,26,23,.42);
+  --wet:rgba(30,86,92,.26);--gol:rgba(3,58,66,.5);--sea:#2f8389;--su-rgb:38,142,140;
+  --noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .32 0 0 0 0 .27 0 0 0 0 .18 0 0 0 .08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
-  --paper:#e4ddd0;--paper2:#d8cfbf;--wet:rgba(8,26,46,.34);--shade:rgba(0,4,12,.72);
-  --tint1:rgba(16,44,74,.9);--tint2:rgba(3,14,30,.95);--inkc:#9cc4dc;--causb:screen;--causo:.16;
-  --sea-top:#0b1b30;--sea-mid:#071527;--sea-bot:#030b16;
-}}
-:root[data-theme=dark]{
-  --paper:#e4ddd0;--paper2:#d8cfbf;--wet:rgba(8,26,46,.34);--shade:rgba(0,4,12,.72);
-  --tint1:rgba(16,44,74,.9);--tint2:rgba(3,14,30,.95);--inkc:#9cc4dc;--causb:screen;--causo:.16;
-  --sea-top:#0b1b30;--sea-mid:#071527;--sea-bot:#030b16;
-}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--paper:#e4ddd0;--wet:rgba(8,26,46,.36);--gol:rgba(0,4,12,.72);--sea:#0b1b30;--su-rgb:18,52,86}}
+:root[data-theme=dark]{--paper:#e4ddd0;--wet:rgba(8,26,46,.36);--gol:rgba(0,4,12,.72);--sea:#0b1b30;--su-rgb:18,52,86}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--sea-bot)}
-body{margin:0;background:transparent;color:var(--ink);font:400 17px/1.65 Geist,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
-#sea{position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(180deg,var(--sea-top),var(--sea-mid) 50%,var(--sea-bot))}
-#sea canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0;transition:opacity 1.2s cubic-bezier(.16,1,.3,1)}
-#sea canvas.on{opacity:1}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;background:var(--sea)}
+body{margin:0;color:var(--ink);font:400 17px/1.65 Geist,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip;padding-top:52px}
+#su{position:fixed;inset:0;width:100%;height:100%;z-index:-1;display:block;pointer-events:none}
 a{color:inherit;text-underline-offset:3px;text-decoration-thickness:1px}
 .skip{position:absolute;left:12px;top:-60px;z-index:20;padding:10px 16px;background:var(--ink);color:var(--paper)}
-.skip:focus{top:12px}
+.skip:focus{top:62px}
 a:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
 .sr{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .wrap{max-width:1280px;margin:0 auto;padding:0 48px}
@@ -70,34 +56,30 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--acc);outline-offset
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
 .eyebrow{font:500 12px/1.3 "JetBrains Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
 
-/* kâğıt: düz krem, ince doku, suya değen kenarda hafif ıslak koyulaşma; gölgesi suyun içine, aşağı-sağa, bulanık */
-.paper{position:relative;background:var(--noise),var(--paper);border-radius:2px;color:var(--ink);
-  box-shadow:inset 0 0 0 1px rgba(70,58,36,.08),inset 0 -14px 18px -14px var(--wet),inset 0 0 26px -14px var(--wet)}
-.paper::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:2px;
-  box-shadow:18px 26px 30px -10px var(--shade);
-  transform:translate3d(calc(var(--bn,0) * 3px),calc(var(--bn,0) * 5px - var(--by,0px)),0)}
-[data-float]{transform:perspective(1200px) translate3d(0,var(--by,0px),0) rotateX(var(--rx,0deg)) rotateZ(var(--rz,0deg));transform-origin:50% 60%}
+/* kâğıt: düz krem, çok ince doku, suya değen kenarda ıslak koyulaşma. Gölge kardeş .golge (dibe düşer) */
+.yaprak{position:relative;transform-style:preserve-3d}
+.golge{position:absolute;inset:0;border-radius:2px;background:var(--gol);transform:translate3d(24px,28px,0);filter:blur(14px);pointer-events:none}
+.kagit{position:relative;background:var(--noise),var(--paper);border-radius:2px;color:var(--ink);
+  box-shadow:inset 0 0 0 1px rgba(70,58,36,.1),inset 0 -12px 16px -12px var(--wet),inset 0 0 24px -12px var(--wet)}
+.havuz{perspective:1200px;perspective-origin:50% 50%;transform-style:preserve-3d}
 .col{width:min(600px,46%)}
 
-/* menü: ince düz kâğıt şerit */
-header{position:sticky;top:0;z-index:10;padding-top:14px;pointer-events:none}
-.bar{pointer-events:auto;display:flex;align-items:center;justify-content:space-between;min-height:52px;padding:0 4px 0 20px}
-.bar::after{box-shadow:10px 14px 18px -10px var(--shade)}
+/* menü: ince düz kâğıt şerit, sabit */
+header{position:fixed;top:0;left:0;right:0;z-index:10;background:var(--noise),var(--paper);border-bottom:1px solid var(--rule2);box-shadow:0 4px 8px -4px var(--gol)}
+.bar{display:flex;align-items:center;justify-content:space-between;min-height:51px}
 .mark{font:600 20px/1 Fraunces,serif;letter-spacing:-.02em;text-decoration:none}
 .mark span{color:var(--acc)}
 nav{display:flex;gap:24px;align-items:center;font-size:15px}
 nav a{text-decoration:none;color:var(--mute)}
 nav a:hover{color:var(--ink);text-decoration:underline}
-.theme{width:44px;height:44px;border:0;background:transparent;color:var(--ink);cursor:pointer;display:grid;place-items:center}
+.theme{width:44px;height:44px;margin-right:-10px;border:0;background:transparent;color:var(--ink);cursor:pointer;display:grid;place-items:center}
 .theme:hover{background:var(--acc-soft)}
 .theme svg{width:20px;height:20px}
 .theme .i-sun{display:none}
 html[data-theme=dark] .theme .i-sun{display:block}html[data-theme=dark] .theme .i-moon{display:none}
 @media (prefers-color-scheme:dark){html:not([data-theme=light]) .theme .i-sun{display:block}html:not([data-theme=light]) .theme .i-moon{display:none}}
 
-/* düğmeler: dikdörtgen mürekkep; ikincil = altı çizili bağlantı */
-.btn{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 20px;border-radius:2px;background:var(--ink);color:var(--paper);
-  font:500 15px/1 Geist,sans-serif;text-decoration:none;cursor:pointer;border:0}
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:0 20px;border-radius:2px;background:var(--ink);color:var(--paper);font:500 15px/1 Geist,sans-serif;text-decoration:none;cursor:pointer;border:0}
 .btn:hover{background:#000}
 .btn svg{width:17px;height:17px}
 .tl{display:inline-flex;align-items:center;gap:8px;min-height:46px;font-weight:500;text-decoration:underline;text-decoration-color:var(--rule2)}
@@ -105,79 +87,45 @@ html[data-theme=dark] .theme .i-sun{display:block}html[data-theme=dark] .theme .
 .tl svg{width:17px;height:17px}
 
 /* hero */
-.hero{overflow-x:clip;display:grid;grid-template-columns:min(600px,46%) minmax(0,1fr);column-gap:6vw;align-items:start;padding-block:64px 120px}
+.hero{display:grid;grid-template-columns:min(600px,46%) minmax(0,1fr);column-gap:6vw;align-items:start;padding-block:72px 140px}
 .hero > *{min-width:0}
 .hero-pg{padding:46px 52px 40px}
 .hero h1{font-weight:400;font-size:clamp(40px,4.3vw,62px);line-height:1.06;letter-spacing:-.03em;margin:20px 0 26px}
-.hero h1 .hl > *{display:block;width:fit-content}
-.hero h1 s{text-decoration:none;position:relative;color:var(--mute);font-style:italic;font-weight:300}
-.hero h1 s::after{content:"";position:absolute;left:-2%;right:-2%;top:54%;height:3px;background:var(--acc);transform-origin:left;transform:scaleX(0);animation:strike .9s .4s cubic-bezier(.65,0,.35,1) forwards}
-@keyframes strike{to{transform:scaleX(1)}}
-.hero h1 em{font-style:normal;color:var(--acc)}
-/* canlandırma açıkken iki metin aynı yerde: eski yıkanır, yenisi belirir */
-.mo .hero h1 .hl{display:grid}
-.mo .hero h1 .hl > *{grid-area:1/1}
-.mo .hero h1 em{opacity:0}
+.hero h1 > span{display:block;width:fit-content}
+.hero h1 .eski{position:relative;color:var(--mute);font-style:italic;font-weight:300}
+.hero h1 .eski::after{content:"";position:absolute;left:-2%;right:-2%;top:54%;height:3px;background:var(--acc);transform-origin:left;animation:cizgi .9s .4s cubic-bezier(.65,0,.35,1) both}
+@keyframes cizgi{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.hero h1 .yeni{color:var(--acc)}
 .lead{font-size:18px;color:var(--mute);max-width:46ch;margin:0 0 30px}
-.cta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 26px}
+.cta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 26px}
 .more{margin:26px 0 0;padding-top:16px;border-top:1px solid var(--rule);font-size:15px}
 .more a{text-decoration:underline;text-decoration-color:var(--rule2)}
 .more a:hover{text-decoration-color:currentColor}
 
-/* batan kâğıt: derinlik --dp (0 yüzey, 1 derin). Su rengi ve kostik ışık iki ince katmanla; küçülme, bulanıklık, kırılma JS'ten */
-.paper::after{opacity:calc(1 - var(--dp,0))}
-.paper.sinking{-webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--me),#000 calc(100% - var(--me)),transparent),linear-gradient(180deg,transparent,#000 var(--me),#000 calc(100% - var(--me)),transparent);
-  -webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent,#000 var(--me),#000 calc(100% - var(--me)),transparent),linear-gradient(180deg,transparent,#000 var(--me),#000 calc(100% - var(--me)),transparent);mask-composite:intersect}
-.tint,.caus{position:absolute;inset:0;pointer-events:none;z-index:5;border-radius:2px}
-.tint{background:linear-gradient(160deg,var(--tint1),var(--tint2));opacity:calc(var(--dp,0) * .6)}
-.caus{background:var(--caus) 0 0/200px 200px,var(--caus) 70px 40px/290px 290px;mix-blend-mode:var(--causb);opacity:calc(var(--dp,0) * var(--causo));animation:cdrift 16s linear infinite}
-@keyframes cdrift{to{background-position:200px 100px,-220px 330px}}
-
-/* dönen kart: tek kâğıt; yapay zekâ cümlesi yıkanır, düzeltme aynı kâğıtta belirir */
-.spec{margin:200px 0 0;position:relative;max-width:420px;width:100%;justify-self:end}
-.sheet{padding:18px 22px 20px}
-.sheet-top{display:flex;justify-content:space-between;align-items:center;padding-bottom:12px;border-bottom:1px solid var(--rule)}
-.pool{display:flex;flex-direction:column;gap:14px;padding:16px 0 14px;border-bottom:1px solid var(--rule)}
-.lay .eyebrow{display:block;margin-bottom:8px}
-.before{font:300 italic 20px/1.35 Fraunces,serif;color:var(--mute)}
-.before span{background:linear-gradient(var(--acc),var(--acc)) no-repeat 0 58%/100% 1.5px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.after{font:400 24px/1.3 Fraunces,serif;color:var(--ink)}
-.why{font-size:14px;color:var(--mute);min-height:44px;margin:14px 0 0}
+/* dönen kart: küçük ayrı kâğıt */
+.kart{justify-self:end;width:100%;max-width:380px;margin:220px 0 0}
+.spec{padding:18px 22px 20px}
+.spec-ust{display:flex;justify-content:space-between;align-items:center;padding-bottom:12px;border-bottom:1px solid var(--rule)}
+.spec-blok{padding:16px 0 14px;border-bottom:1px solid var(--rule)}
+.spec-blok + .spec-blok{padding-top:14px}
+.spec-blok .eyebrow{display:block;margin-bottom:8px}
+.spec-eski{font:300 italic 20px/1.35 Fraunces,serif;color:var(--mute);text-decoration:line-through;text-decoration-color:var(--acc);text-decoration-thickness:1.5px}
+.spec-yeni{font:400 24px/1.3 Fraunces,serif;color:var(--ink)}
+.spec-not{font-size:14px;color:var(--mute);margin:14px 0 0}
 .ticks{display:flex;gap:6px;margin-top:12px}
 .ticks i{flex:1;height:2px;background:var(--rule)}
 .ticks i.on{background:var(--acc)}
-.spec.anim .pool{display:grid;align-items:start}
-.spec.anim .lay{grid-area:1/1}
-.spec.anim .before span{background-size:0% 1.5px;transition:background-size .8s cubic-bezier(.65,0,.35,1)}
-.spec.anim .before.struck span{background-size:100% 1.5px}
-.bubbles{position:absolute;inset:0;pointer-events:none;z-index:6;overflow:visible}
 
-/* su olayları (yalnız JS ile): kabarcık derinden izleyiciye gelir, büyür, netleşir, yüzeyde halka olup söner */
-.bub{position:absolute;width:var(--s);height:var(--s);margin:calc(var(--s) / -2) 0 0 calc(var(--s) / -2);border-radius:50%;
-  border:1.3px solid rgba(255,255,255,.95);background:radial-gradient(circle at 34% 30%,rgba(255,255,255,.95) 0 15%,rgba(255,255,255,.22) 34%,rgba(180,230,235,.14) 72%);
-  box-shadow:0 0 0 1px rgba(0,50,60,.28);opacity:0;animation:bub var(--d) cubic-bezier(.55,0,.8,.6) var(--dl) both}
-@keyframes bub{0%{opacity:0;transform:translate(0,0) scale(.2);filter:blur(2.6px)}
-  20%{opacity:.5}
-  86%{opacity:1;transform:translate(var(--dx),var(--dy)) scale(1);filter:blur(0)}
-  100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(2);filter:blur(0);background:transparent;border-width:.6px}}
-.halo{position:absolute;pointer-events:none;border:1.5px solid rgba(255,255,255,.85);border-radius:2px;filter:url(#uw-foam);
-  box-shadow:0 0 4px rgba(255,255,255,.4);animation:halo 1.4s cubic-bezier(.2,.7,.3,1) both}
-@keyframes halo{from{opacity:.95;transform:scale(1)}to{opacity:0;transform:scale(var(--hx),var(--hy))}}
-.spray{position:absolute;width:5px;height:5px;margin:-2.5px;border-radius:50%;background:#fff;box-shadow:0 0 0 1px rgba(0,50,60,.25);
-  animation:spray 1s cubic-bezier(.2,.7,.3,1) var(--dl) both;opacity:0}
-@keyframes spray{0%{opacity:0;transform:translate(0,0) scale(.6)}20%{opacity:1}100%{opacity:0;transform:translate(var(--dx),var(--dy)) scale(1)}}
-
-/* bölümler: her biri tek kâğıt sayfa; ayrımlar ince çizgi */
-section.blk{padding:56px 0}
+/* bölümler: her biri tek kâğıt, iç ayrım ince çizgi */
+section.blk{padding:64px 0}
 .pg{padding:56px 56px 52px}
 .pg h2{font:400 clamp(28px,2.6vw,38px)/1.1 Fraunces,serif;letter-spacing:-.02em;margin:14px 0 30px;max-width:22ch}
 .principle blockquote{margin:18px 0 0;font:300 clamp(28px,2.7vw,40px)/1.18 Fraunces,serif;letter-spacing:-.02em}
 .principle blockquote b{font-weight:500;color:var(--acc)}
 .principle p{color:var(--mute);margin:26px 0 0;padding-top:20px;border-top:1px solid var(--rule)}
-.toc{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule2)}
+.toc{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule2);counter-reset:t}
 .toc li{display:grid;grid-template-columns:2.2em 128px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--rule);align-items:baseline}
 .toc li::before{content:counter(t,decimal-leading-zero);counter-increment:t;font:400 13px/1 "JetBrains Mono",monospace;color:var(--faint)}
-.toc{counter-reset:t}
 .toc b{font:500 14px/1.3 "JetBrains Mono",monospace;color:var(--acc)}
 .toc span{color:var(--mute);font-size:16px}
 .toc .lead-row span strong{display:block;color:var(--ink);font:400 24px/1.1 Fraunces,serif;margin-bottom:6px}
@@ -197,7 +145,6 @@ section.blk{padding:56px 0}
 .steps b{display:block;font-weight:500;margin-bottom:2px}
 .steps span{color:var(--mute)}
 
-/* kurulum */
 .tabs{display:flex;flex-wrap:wrap;gap:0 18px;border-bottom:1px solid var(--rule2);margin-bottom:22px}
 .tabs button{all:unset;cursor:pointer;min-height:44px;display:flex;align-items:center;margin-bottom:-1px;border-bottom:2px solid transparent;color:var(--mute);font:500 14px/1.2 Geist,sans-serif}
 .tabs button:hover{color:var(--ink)}
@@ -217,74 +164,46 @@ section.blk{padding:56px 0}
 .note{margin:24px 0 0;padding-top:16px;border-top:1px solid var(--rule);font-size:14px;color:var(--faint)}
 
 footer{padding:24px 0 56px}
-footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;padding:16px 22px;font-size:14px;color:var(--faint)}
-
-/* kaydırınca sayfa derinden yüzeye gelir */
-.js .rv{opacity:0;transform:translate3d(0,14px,0) scale(.975);filter:blur(2px);transition:opacity 1s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1),filter 1s cubic-bezier(.16,1,.3,1)}
-.js .rv.in{opacity:1;transform:none;filter:none}
+.foot{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap:wrap;padding:16px 22px;font-size:14px;color:var(--faint)}
 
 @media (max-width:900px){
+  body{padding-top:48px}
+  header{}
+  .bar{min-height:47px}
   .wrap{padding:0 16px}
-  .hero{grid-template-columns:1fr;padding-block:22px 56px}
-  .hero-f{width:86%}
-  .hero-pg{padding:24px 22px 22px}
-  .hero h1{font-size:clamp(34px,9.4vw,46px);margin:14px 0 16px}
-  .lead{font-size:16px;line-height:1.55;margin-bottom:18px}
-  .more{margin-top:16px;padding-top:12px}
-  .spec{justify-self:end;width:86%;margin-top:40px}
-  .after{font-size:21px}.before{font-size:18px}
-  section.blk{padding:28px 0}
+  .hero{grid-template-columns:1fr;padding-block:20px 56px}
+  .hero > .yaprak:first-child{width:86%}
+  .hero-pg{padding:20px 20px 18px}
+  .hero h1{font-size:clamp(32px,9vw,42px);margin:10px 0 12px}
+  .lead{font-size:15.5px;line-height:1.5;margin-bottom:14px}
+  .more{margin-top:10px;padding-top:10px}
+  .kart{width:80%;max-width:none;margin:56px 0 0}
+  .spec-eski{font-size:18px}.spec-yeni{font-size:21px}
+  section.blk{padding:36px 0}
   .col{width:86%}
-  .pg{padding:30px 22px}
+  .pg{padding:28px 22px}
   nav{gap:4px}
   nav a{display:none}
-  .bar{padding-left:16px}
   .toc li{grid-template-columns:2em 1fr;gap:4px 8px}
   .toc li span{grid-column:2}
   .nums{grid-template-columns:1fr}
   .nums div,.nums div + div{border-right:0;border-bottom:1px solid var(--rule);padding:18px 0}
   .cmd code{white-space:normal;overflow-wrap:anywhere;font-size:12.5px}
+  .golge{transform:translate3d(14px,18px,0);filter:blur(10px)}
 }
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important}
-  .hero h1 s::after{transform:scaleX(1)}
-  .js .rv{opacity:1;transform:none;filter:none}
-  [data-float]{transform:none}
+  html{scroll-behavior:auto}
 }
 </style>
-<!-- pages-rebuild -->
 </head>
 <body>
 <a class="skip" href="#main">İçeriğe geç</a>
-<div id="sea" aria-hidden="true"></div>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-  <filter id="uw-wh" x="-8%" y="-30%" width="116%" height="160%" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency=".012 .05" numOctaves="2" seed="11" result="n"><animate attributeName="baseFrequency" dur="7s" values=".012 .05;.015 .043;.012 .05" repeatCount="indefinite"/></feTurbulence>
-    <feDisplacementMap in="SourceGraphic" in2="n" scale="0" xChannelSelector="R" yChannelSelector="G"/>
-  </filter>
-  <filter id="uw-wb" x="-8%" y="-30%" width="116%" height="160%" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency=".012 .05" numOctaves="2" seed="3" result="n"><animate attributeName="baseFrequency" dur="6s" values=".012 .05;.016 .042;.012 .05" repeatCount="indefinite"/></feTurbulence>
-    <feDisplacementMap in="SourceGraphic" in2="n" scale="0" xChannelSelector="R" yChannelSelector="G"/>
-  </filter>
-  <filter id="uw-ih" x="-30%" y="-80%" width="160%" height="260%" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="3" seed="21" result="n"><animate attributeName="baseFrequency" dur="9s" values=".03;.024;.03" repeatCount="indefinite"/></feTurbulence>
-    <feDisplacementMap in="SourceGraphic" in2="n" scale="0" xChannelSelector="R" yChannelSelector="B"/>
-  </filter>
-  <filter id="uw-foam" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency=".09" numOctaves="2" seed="4" result="n"/>
-    <feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G" result="d"/>
-    <feComponentTransfer in="n" result="m"><feFuncA type="table" tableValues="0 0 1 1"/></feComponentTransfer>
-    <feComposite in="d" in2="m" operator="in"/>
-  </filter>
-  <filter id="uw-ib" x="-30%" y="-80%" width="160%" height="260%" color-interpolation-filters="sRGB">
-    <feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="3" seed="8" result="n"><animate attributeName="baseFrequency" dur="8s" values=".03;.025;.03" repeatCount="indefinite"/></feTurbulence>
-    <feDisplacementMap in="SourceGraphic" in2="n" scale="0" xChannelSelector="R" yChannelSelector="B"/>
-  </filter>
-</svg>
+<canvas id="su" aria-hidden="true"></canvas>
 
 <header>
   <div class="wrap">
-    <div class="bar paper">
+    <div class="bar">
       <a class="mark" href="#">ultra<span>write</span></a>
       <nav aria-label="Ana menü">
         <a href="#ilke">İlke</a>
@@ -298,12 +217,13 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
   </div>
 </header>
 
-<main id="main">
+<main id="main" class="havuz">
   <section class="wrap hero">
-    <div class="hero-f" data-float>
-      <div class="paper hero-pg">
+    <div class="yaprak">
+      <i class="golge" aria-hidden="true"></i>
+      <div class="kagit hero-pg" id="hero-kagit">
         <span class="eyebrow">Claude için Türkçe kurmaca skill ailesi</span>
-        <h1 class="serif"><span class="hl"><s>O yere çarpmıştı.</s><em>Düştü.</em></span></h1>
+        <h1 class="serif" id="hero-baslik"><span class="eski">O yere çarpmıştı.</span><span class="yeni">Düştü.</span></h1>
         <p class="lead">Yapay zekâ Türkçe yazarken İngilizce düşünüp çeviriyor ve her öyküyü aynı şablona döküyor. ultrawrite, bunu araştırmayla ve testle düzeltmeye çalışan sekiz skill'lik bir aile.</p>
         <div class="cta">
           <a class="btn" href="#kurulum">Kurulum
@@ -316,26 +236,23 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
       </div>
     </div>
 
-    <figure class="spec" aria-label="Skill'in düzelttiği cümle örnekleri">
-      <div class="sheet-f" data-float>
-        <div class="sheet paper" id="sheet">
-          <div class="sheet-top"><span class="eyebrow">Taslak / düzeltme</span><span class="eyebrow mono" id="sp-n">01 / 05</span></div>
-          <div class="pool" id="pool">
-            <div class="lay" id="slip-b"><span class="eyebrow">Yapay zekâ yazdı</span><div class="before"><span id="sp-b">Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.</span></div></div>
-            <div class="lay" id="slip-a"><span class="eyebrow">Türkçesi</span><div class="after" id="sp-a">Babasının öldüğü haberi gelince ev sustu.</div></div>
-          </div>
-          <p class="why" id="sp-w">Ad zinciri değil fiil. Türkçe olayı fiille anlatır.</p>
-          <div class="ticks" aria-hidden="true"></div>
-        </div>
+    <figure class="kart yaprak" aria-label="Skill'in düzelttiği cümle örnekleri" style="margin-bottom:0">
+      <i class="golge" aria-hidden="true"></i>
+      <div class="kagit spec" id="spec">
+        <div class="spec-ust"><span class="eyebrow">Taslak / düzeltme</span><span class="eyebrow mono spec-sayac">01 / 05</span></div>
+        <div class="spec-blok"><span class="eyebrow">Yapay zekâ yazdı</span><div class="spec-eski">Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.</div></div>
+        <div class="spec-blok"><span class="eyebrow">Türkçesi</span><div class="spec-yeni">Babasının öldüğü haberi gelince ev sustu.</div></div>
+        <p class="spec-not">Ad zinciri değil fiil. Türkçe olayı fiille anlatır.</p>
+        <div class="ticks" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i></div>
       </div>
-      <p class="sr" id="sp-live" aria-live="polite"></p>
-      <div class="bubbles" aria-hidden="true"></div>
+      <p class="sr" id="spec-canli" aria-live="polite"></p>
     </figure>
   </section>
 
+
   <section class="principle blk" id="ilke">
     <div class="wrap">
-      <div class="col" data-float><div class="paper pg rv">
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
         <span class="eyebrow">Ana ilke</span>
         <blockquote>Bir cümle, anlattığı şeye oranla <b>iş görmeyen sözcük</b> taşıdığı ölçüde kötüdür.</blockquote>
         <p>"O yere çarpmıştı" yazan model İngilizce düşünüyor. Türkçesi "düştü". Skill'deki otuz altı kuralın her biri bu ilkenin bir yüzü: fiilimsi seçimi, zaman eki, ses, sahne, dönem.</p>
@@ -345,7 +262,7 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
 
   <section class="skills blk" id="skiller">
     <div class="wrap">
-      <div class="col" data-float><div class="paper pg rv">
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
         <span class="eyebrow">Sekiz skill</span>
         <h2>Bir yönetici, yedi uzman. Her biri ayrı bir yetenek olarak yüklenir.</h2>
         <ol class="toc">
@@ -364,7 +281,7 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
 
   <section class="basis blk" id="dayanak">
     <div class="wrap">
-      <div class="col" data-float><div class="paper pg rv">
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
         <span class="eyebrow">Neye dayanıyor</span>
         <div class="nums">
           <div><strong class="serif">6.000</strong><small>cümle, bir romanda tek tek incelendi: neden bu cümle de başkası değil?</small></div>
@@ -387,7 +304,7 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
 
   <section class="install blk" id="kurulum">
     <div class="wrap">
-      <div class="col" data-float><div class="paper pg rv">
+      <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit pg">
         <span class="eyebrow">Kurulum</span>
         <h2>Claude'a, Cursor'a, Codex'e, Grok'a, Manus'a.</h2>
         <div class="tabs" role="tablist" aria-label="Kurulacak ortam"><button role="tab" id="t-claude-code" aria-controls="p-claude-code" aria-selected="true" tabindex="0">Claude Code</button><button role="tab" id="t-claude-app" aria-controls="p-claude-app" aria-selected="false" tabindex="-1">Claude uygulaması</button><button role="tab" id="t-npx" aria-controls="p-npx" aria-selected="false" tabindex="-1">Her ajan (skills CLI)</button><button role="tab" id="t-cursor" aria-controls="p-cursor" aria-selected="false" tabindex="-1">Cursor</button><button role="tab" id="t-codex" aria-controls="p-codex" aria-selected="false" tabindex="-1">Codex</button><button role="tab" id="t-gemini" aria-controls="p-gemini" aria-selected="false" tabindex="-1">Gemini CLI</button><button role="tab" id="t-copilot" aria-controls="p-copilot" aria-selected="false" tabindex="-1">GitHub Copilot</button><button role="tab" id="t-grok" aria-controls="p-grok" aria-selected="false" tabindex="-1">Grok Build</button><button role="tab" id="t-manus" aria-controls="p-manus" aria-selected="false" tabindex="-1">Manus</button></div>
@@ -401,7 +318,7 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
 
 <footer>
   <div class="wrap">
-    <div class="col" data-float><div class="paper">
+    <div class="col yaprak"><i class="golge" aria-hidden="true"></i><div class="kagit foot">
       <span>ultrawrite · araştırmaya dayalı · açık kaynak</span>
       <a href="https://github.com/ocalmehmet704-sys/ultrawrite">github.com/ocalmehmet704-sys/ultrawrite</a>
     </div></div>
@@ -409,214 +326,16 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
 </footer>
 <script>
 (function(){
-  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var anim = !reduce && !!window.requestAnimationFrame;
-  if (anim) document.documentElement.classList.add('mo');
-
-  // kaydırınca sayfalar derinden yüzeye gelir
-  var els = document.querySelectorAll('.rv');
-  if (reduce || !('IntersectionObserver' in window)) { els.forEach(function(e){e.classList.add('in')}); }
-  else {
-    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); }, {rootMargin:'0px 0px -6% 0px'});
-    els.forEach(function(e){ io.observe(e); });
-  }
-
-  // 3B sahneye haber: ekrandaki noktada halka dalga, köpük ve kabarcık
-  function splash(x, y, amp){ try{ window.dispatchEvent(new CustomEvent('uw:splash',{detail:{x:x,y:y,amp:amp}})); }catch(e){} }
-  function rnd(a,b){ return a+Math.random()*(b-a); }
-  function ease(q){ return q<.5 ? 2*q*q : 1-Math.pow(-2*q+2,2)/2; }
-  function easeOut(q){ return 1-Math.pow(1-q,3); }
-  function rel(el, box){ var a=el.getBoundingClientRect(), b=box.getBoundingClientRect(); return {x:a.left-b.left, y:a.top-b.top, w:a.width, h:a.height, sx:a.left+a.width/2, sy:a.top+a.height/2}; }
-  function add(box, cls, css){ var s=document.createElement('i'); s.className=cls; s.style.cssText=css; s.addEventListener('animationend', function(){ this.remove(); }); box.appendChild(s); }
-  // kabarcık: derinden izleyiciye gelir (küçük, bulanık -> büyük, net), yüzeyde halka olup söner
-  function bubbles(box, r, n, spread){
-    var cx=r.x+r.w/2, cy=r.y+r.h/2;
-    for (var j=0;j<n;j++){
-      var x=r.x+rnd(.05,.95)*r.w, y=r.y+rnd(.08,.92)*r.h;
-      add(box,'bub','left:'+x.toFixed(1)+'px;top:'+y.toFixed(1)+'px;--s:'+rnd(7,17).toFixed(1)+'px;--dx:'+((x-cx)*.2+rnd(-5,5)).toFixed(1)+'px;--dy:'+((y-cy)*.2+rnd(-5,5)).toFixed(1)+'px;--d:'+rnd(1.1,1.9).toFixed(2)+'s;--dl:'+rnd(0,spread).toFixed(2)+'s');
-    }
-  }
-  // köpük: kâğıdın çevresinde yüzeyde genişleyen halka ve dışa saçılan damlalar
-  function foam(box, r, grow, n){
-    add(box,'halo','left:'+r.x+'px;top:'+r.y+'px;width:'+r.w+'px;height:'+r.h+'px;--hx:'+(1+grow*2/r.w).toFixed(4)+';--hy:'+(1+grow*2/r.h).toFixed(4));
-    for (var j=0;j<n;j++){
-      var side=Math.random()*(r.w+r.h)*2, x, y, nx=0, ny=0;
-      if (side<r.w){ x=r.x+side; y=r.y; ny=-1; }
-      else if (side<r.w*2){ x=r.x+side-r.w; y=r.y+r.h; ny=1; }
-      else if (side<r.w*2+r.h){ x=r.x; y=r.y+side-r.w*2; nx=-1; }
-      else { x=r.x+r.w; y=r.y+side-r.w*2-r.h; nx=1; }
-      var d=rnd(8,grow+10);
-      add(box,'spray','left:'+x.toFixed(1)+'px;top:'+y.toFixed(1)+'px;--dx:'+(nx*d+rnd(-6,6)).toFixed(1)+'px;--dy:'+(ny*d+rnd(-6,6)).toFixed(1)+'px;--dl:'+rnd(0,.3).toFixed(2)+'s');
-    }
-  }
-  // kâğıdın derinliği: gerçek perspektifle derine iner (negatif translateZ, hafif rotateX/rotateZ), kararır,
-  // suyun rengini alır, kenarları maskeyle yumuşar, kırılmayla kıvrılır. Kaçış noktası ekranın ortası (Three.js kamerasının baktığı yer).
-  function layers(pg){
-    if (pg._t) return; pg._t=1;
-    ['tint','caus'].forEach(function(c){ var i=document.createElement('i'); i.className=c; i.setAttribute('aria-hidden','true'); pg.appendChild(i); });
-  }
-  function depth(pg, dp, z, fid){
-    var st=pg.style; st.setProperty('--dp', dp.toFixed(3));
-    var dm=document.querySelector('#'+fid+' feDisplacementMap');
-    if (dp>.002){
-      if (!pg._o){ var r=pg.getBoundingClientRect(); pg._o=Math.round(innerWidth/2-r.left)+'px '+Math.round(innerHeight/2-r.top)+'px'; }
-      st.transformOrigin=pg._o;
-      st.transform='perspective(860px) translate3d(0,'+(dp*10).toFixed(1)+'px,'+(-dp*z).toFixed(1)+'px) rotateX('+(dp*2.4).toFixed(2)+'deg) rotateZ('+(-dp*.7).toFixed(2)+'deg)';
-      st.filter='url(#'+fid+') blur('+(dp*1.3).toFixed(2)+'px) brightness('+(1-dp*.13).toFixed(3)+')';
-      st.setProperty('--me', (dp*18).toFixed(1)+'px'); pg.classList.add('sinking');
-      if (dm) dm.setAttribute('scale', (dp*7).toFixed(2));
-    } else {
-      pg._o=null; st.transform=''; st.transformOrigin=''; st.filter=''; pg.classList.remove('sinking'); if (dm) dm.setAttribute('scale','0');
-    }
-  }
-  function mask(el, v){ el.style.webkitMaskImage=el.style.maskImage=v; }
-  // eski mürekkep suda çözülür: soldan sağa ilerleyen maske, bulanıklık ve kırılmayla harfler dağılıp söner
-  function wash(el, w, fid){
-    var a=w*130-30;
-    mask(el, w>.005 ? 'linear-gradient(100deg,transparent '+a.toFixed(1)+'%,#000 '+(a+30).toFixed(1)+'%)' : '');
-    el.style.opacity = (1-w*.75).toFixed(3) * (w>=1 ? 0 : 1);
-    el.style.filter = w>.01 ? 'url(#'+fid+') blur('+(w*4).toFixed(2)+'px)' : '';
-    el.style.transform = w>.01 ? 'scale('+(1+w*.05).toFixed(4)+')' : '';
-    var dm=document.querySelector('#'+fid+' feDisplacementMap'); if (dm) dm.setAttribute('scale', (w*40).toFixed(1));
-  }
-  // yeni mürekkep aynı yönde açılan maskeyle belirir
-  function ink(el, v){
-    var b=v*130-30;
-    mask(el, v<.995 ? 'linear-gradient(100deg,#000 '+b.toFixed(1)+'%,transparent '+(b+30).toFixed(1)+'%)' : '');
-    el.style.opacity=v.toFixed(3); el.style.filter = v<.995 ? 'blur('+((1-v)*2.5).toFixed(2)+'px)' : '';
-  }
-
-  var tw=[], rafT=0;
-  function step(now){
-    rafT=0;
-    var list=tw; tw=[];
-    var keep=list.filter(function(o){
-      if (o.dead && o.dead()) return false;
-      if (o.s==null) o.s=now;
-      var p=Math.min(1,(now-o.s)/o.d); o.fn(p);
-      if (p>=1){ if(o.done) o.done(); return false; }
-      return true;
-    });
-    tw=keep.concat(tw); // done() içinde başlayan tween'ler kaybolmasın
-    if (tw.length) rafT=requestAnimationFrame(step);
-  }
-  function tween(d, fn, done, dead){ tw.push({d:d,fn:fn,done:done,dead:dead}); if(!rafT) rafT=requestAnimationFrame(step); }
-
-  // başlık: kâğıt iner, "O yere çarpmıştı." suda yıkanır, aynı yerde "Düştü." belirir, kâğıt yüzeye çıkar
-  function hero(){
-    var pg=document.querySelector('.hero-pg'), f=pg.parentNode, s=pg.querySelector('h1 s'), em=pg.querySelector('h1 em');
-    function final(){ depth(pg,0,120,'uw-wh'); s.style.visibility='hidden'; s.setAttribute('aria-hidden','true'); ink(em,1); }
-    if (document.hidden) return final();
-    layers(pg);
-    var bx=document.createElement('div'); bx.className='bubbles'; bx.setAttribute('aria-hidden','true'); f.appendChild(bx);
-    var r=rel(pg,bx); splash(r.sx, r.sy, 1); foam(bx, r, 18, 16);
-    tween(1500, function(q){ depth(pg, ease(q)*.9, 120, 'uw-wh'); });
-    setTimeout(function(){
-      bubbles(bx, rel(pg,bx), 16, 1.2); bubbles(bx, rel(s,bx), 12, .8);
-      tween(1700, function(q){ wash(s, q, 'uw-ih'); }, function(){
-        s.style.visibility='hidden'; s.setAttribute('aria-hidden','true');
-        tween(900, function(q){ ink(em, q); }, function(){
-          tween(1300, function(q){ depth(pg, .9*(1-easeOut(q)), 120, 'uw-wh'); }, function(){
-            final(); var r2=rel(pg,bx); splash(r2.sx, r2.sy, .5); foam(bx, r2, 14, 8);
-            setTimeout(function(){ bx.remove(); }, 2600);
-          });
-        });
-      });
-    }, 900);
-  }
-  if (anim){
-    if ('IntersectionObserver' in window){
-      var hio=new IntersectionObserver(function(es){ if (es[0].intersectionRatio>=.5){ hio.disconnect(); setTimeout(hero, 1300); } }, {threshold:[.5]});
-      hio.observe(document.querySelector('.hero-pg'));
-    } else setTimeout(hero, 1500);
-  }
-
-  // dönen kart: tek kâğıt. Yapay zekâ cümlesi çizilir, kâğıt iner, cümle yıkanır, düzeltme belirir, kâğıt çıkar.
-  var P = [
-    ["Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.", "Babasının öldüğü haberi gelince ev sustu.", "Ad zinciri değil fiil. Türkçe olayı fiille anlatır."],
-    ["O, onun annesinin ona verdiği yüzüğü parmağından çıkardı.", "Annesinden kalan yüzüğü çıkardı.", "Türkçe zamiri ekte taşır; o, onun, ona İngilizceden gelir."],
-    ["Derin bir üzüntü hissetti ve gözleri doldu.", "Çayını soğuyana kadar karıştırdı.", "Duyguya ad koyma, duyguyu taşıyan hareketi yaz."],
-    ["Konuşamayacak kadar yorgundu.", "Ağzını açacak hâli yoktu.", "\"-amayacak kadar\" İngilizce \"too ... to\" kalıbının çevirisi."],
-    ["Saatine baktı; buluşmaya on dakika vardı. (Mainz, 1455)", "Akşam çanı çaldı; şehrin kapıları birazdan kapanacaktı.", "1455'te kol saati yoktu, zamanı çan söylerdi."]
-  ];
-  var fig=document.querySelector('.spec'), sheet=document.getElementById('sheet'), pool=document.getElementById('pool'),
-      sb=document.getElementById('slip-b'), sa=document.getElementById('slip-a'),
-      b=document.getElementById('sp-b'), a=document.getElementById('sp-a'), w=document.getElementById('sp-w'),
-      n=document.getElementById('sp-n'), tk=document.querySelector('.ticks'), live=document.getElementById('sp-live'), bb=fig.querySelector('.bubbles'),
-      k=0, run=0, timers=[];
-  tk.innerHTML=P.map(function(_,j){return '<i'+(j===0?' class="on"':'')+'></i>'}).join('');
-  var t=tk.querySelectorAll('i');
-  function pad(x){return (x<10?'0':'')+x}
-  if (anim){ fig.classList.add('anim'); pool.setAttribute('aria-hidden','true'); w.setAttribute('aria-hidden','true'); layers(sheet); }
-
-  function sizePool(){
-    if (!anim) return;
-    var ob=b.textContent, oa=a.textContent, ow=w.textContent, m=0, mw=0;
-    pool.style.minHeight=''; w.style.minHeight='';
-    P.forEach(function(p){ b.textContent=p[0]; a.textContent=p[1]; w.textContent=p[2]; m=Math.max(m, sb.offsetHeight, sa.offsetHeight); mw=Math.max(mw, w.offsetHeight); });
-    b.textContent=ob; a.textContent=oa; w.textContent=ow;
-    pool.style.minHeight=(m+31)+'px'; w.style.minHeight=mw+'px';
-  }
-  function later(ms, f, my){ timers.push(setTimeout(function(){ if(my===run) f(); }, ms)); }
-  function halt(){ run++; timers.forEach(clearTimeout); timers=[]; }
-
-  function show(i){
-    halt(); var my=run, p=P[i], dead=function(){ return my!==run; };
-    n.textContent=pad(i+1)+' / '+pad(P.length);
-    t.forEach(function(x,j){ x.classList.toggle('on', j<=i); });
-    if (!anim){ b.textContent=p[0]; a.textContent=p[1]; w.textContent=p[2]; return; }
-    depth(sheet, 0, 150, 'uw-wb');
-
-    function begin(){
-      sa._on=0; b.parentNode.classList.remove('struck');
-      b.textContent=p[0]; a.textContent=p[1]; w.textContent=p[2];
-      sb.style.visibility=''; wash(sb, 0, 'uw-ib'); ink(sb, 0); ink(sa, 0); ink(w, 0);
-      tween(700, function(q){ ink(sb, q); }, function(){
-        later(350, function(){ b.parentNode.classList.add('struck'); later(1150, sink, my); }, my);
-      }, dead);
-    }
-    if (sa._on) tween(500, function(q){ ink(sa, 1-q); ink(w, 1-q); }, begin, dead); else begin();
-
-    function sink(){
-      var r=rel(sheet,bb); splash(r.sx, r.sy, 1); foam(bb, r, 18, 14);
-      tween(1300, function(q){ depth(sheet, ease(q), 150, 'uw-wb'); }, null, dead);
-      later(250, function(){ bubbles(bb, rel(sheet,bb), 16, .9); }, my);
-      later(700, function(){
-        bubbles(bb, rel(sb,bb), 12, .7);
-        tween(1600, function(q){ wash(sb, q, 'uw-ib'); }, function(){
-          sb.style.visibility='hidden';
-          tween(900, function(q){ ink(sa, q); ink(w, q); }, function(){
-            sa._on=1; live.textContent='Yapay zekâ yazdı: '+p[0]+' Türkçesi: '+p[1]+' '+p[2];
-            later(250, rise, my);
-          }, dead);
-        }, dead);
-      }, my);
-    }
-    function rise(){
-      tween(1200, function(q){ depth(sheet, 1-easeOut(q), 150, 'uw-wb'); }, function(){
-        depth(sheet, 0, 150, 'uw-wb'); var r=rel(sheet,bb); splash(r.sx, r.sy, .5); foam(bb, r, 12, 7);
-        later(4300, function(){ k=(k+1)%P.length; show(k); }, my);
-      }, dead);
-    }
-  }
-  document.addEventListener('visibilitychange', function(){
-    if (document.hidden) halt();
-    else if (anim) show(k);
-  });
-  if (anim){
-    sizePool();
-    var rz; addEventListener('resize', function(){ clearTimeout(rz); rz=setTimeout(sizePool, 150); });
-    if (document.fonts && document.fonts.ready) document.fonts.ready.then(sizePool);
-  }
-  show(0);
-
+  var root=document.documentElement;
   // tema düğmesi
-  var tb=document.getElementById('theme'), root=document.documentElement, mq=matchMedia('(prefers-color-scheme: dark)');
+  var tb=document.getElementById('theme'), mq=matchMedia('(prefers-color-scheme: dark)');
   function dark(){var a=root.getAttribute('data-theme');return a?a==='dark':mq.matches}
-  function paintBtn(){var d=dark();tb.setAttribute('aria-pressed',d);tb.setAttribute('aria-label',d?'Açık moda geç':'Koyu moda geç');
-    var m=document.querySelectorAll('meta[name=theme-color]');m.forEach(function(x){x.setAttribute('content',d?'#071527':'#2f8389');x.removeAttribute('media')});if(window.__seaRedraw)window.__seaRedraw()}
-  tb.addEventListener('click',function(){var n=dark()?'light':'dark';root.setAttribute('data-theme',n);try{localStorage.setItem('uw-theme',n)}catch(e){}paintBtn()});
-  paintBtn();
+  function paintBtn(emit){var d=dark();tb.setAttribute('aria-pressed',d);tb.setAttribute('aria-label',d?'Açık moda geç':'Koyu moda geç');
+    document.querySelectorAll('meta[name=theme-color]').forEach(function(x){x.setAttribute('content',d?'#0b1b30':'#2f8389');x.removeAttribute('media')});
+    if(emit)document.dispatchEvent(new CustomEvent('themechange',{detail:{theme:d?'dark':'light'}}))}
+  tb.addEventListener('click',function(){var n=dark()?'light':'dark';root.setAttribute('data-theme',n);try{localStorage.setItem('uw-theme',n)}catch(e){}paintBtn(true)});
+  mq.addEventListener&&mq.addEventListener('change',function(){if(!root.getAttribute('data-theme'))paintBtn(true)});
+  paintBtn(false);
   // sekmeler
   var tl=document.querySelectorAll('[role=tab]');
   function sel(btn){ tl.forEach(function(b){ var on=b===btn; b.setAttribute('aria-selected',on); b.tabIndex=on?0:-1;
@@ -624,7 +343,6 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
   tl.forEach(function(b,i){ b.addEventListener('click',function(){sel(b)});
     b.addEventListener('keydown',function(e){ var d={ArrowDown:1,ArrowRight:1,ArrowUp:-1,ArrowLeft:-1}[e.key];
       if(d){ e.preventDefault(); var n=tl[(i+d+tl.length)%tl.length]; sel(n); n.focus(); } }); });
-
   // kopyala
   document.querySelectorAll('.copy').forEach(function(btn){
     btn.addEventListener('click', function(){
@@ -637,399 +355,6 @@ footer .paper{display:flex;justify-content:space-between;gap:12px 24px;flex-wrap
   });
 })();
 </script>
-<script type="module">
-// 3B su sahnesi: düşük poligonlu deniz tabanı (ayrı geçişte dokuya çizilir) + üstünde kırılan, yansıtan su yüzeyi.
-// Three.js sürümü sabit: 0.170.0. WebGL2 ya da CDN yoksa statik 2B yedek.
-const host = document.getElementById('sea');
-const mqR = matchMedia('(prefers-reduced-motion: reduce)'), mqD = matchMedia('(prefers-color-scheme: dark)');
-const isDark = () => { const a = document.documentElement.getAttribute('data-theme'); return a ? a === 'dark' : mqD.matches; };
-const small = () => innerWidth < 700;
-window.__sea = { mode: 'css', running: false };
-
-// ortak dalga formülü (shader ile birebir aynı)
-const RIP = [0, 1, 2, 3].map(() => ({ x: 0, z: 0, t: -99, a: 0 }));
-function waveH(x, z, t) {
-  let h = 0.13 * Math.sin(x * 0.38 + t * 0.55) + 0.10 * Math.sin(z * 0.5 - t * 0.65 + x * 0.16)
-        + 0.035 * Math.sin((x + z) * 0.85 + t * 1.0) + 0.015 * Math.sin((x - z) * 1.5 - t * 1.4);
-  for (const r of RIP) {
-    const age = t - r.t;
-    if (age > 0 && age < 6) {
-      const d = Math.hypot(x - r.x, z - r.z), f = age * 2.4;
-      h += r.a * Math.exp(-(d - f) * (d - f) * 0.7) * Math.exp(-age * 0.45) * Math.sin(d * 3.2 - age * 7.0) * 0.55;
-    }
-  }
-  return h;
-}
-function hash(i, j) { const s = Math.sin(i * 127.1 + j * 311.7) * 43758.5453; return s - Math.floor(s); }
-function vnoise(x, y) {
-  const i = Math.floor(x), j = Math.floor(y), fx = x - i, fy = y - j, ux = fx * fx * (3 - 2 * fx), uy = fy * fy * (3 - 2 * fy);
-  const a = hash(i, j), b = hash(i + 1, j), c = hash(i, j + 1), d = hash(i + 1, j + 1);
-  return a + (b - a) * ux + (c - a) * uy + (a - b - c + d) * ux * uy;
-}
-function fbm(x, y) { return vnoise(x, y) * .55 + vnoise(x * 2.1 + 5, y * 2.1 + 9) * .3 + vnoise(x * 4.3 + 1, y * 4.3 + 3) * .15; }
-// deniz tabanı yüksekliği
-function floorY(x, z) {
-  const s = 10 - z;
-  let y = -3.3 - s * 0.012 + (fbm(x * .16, z * .16) - .5) * 2.2 + Math.sin(x * .5 + z * .3) * .25;
-  y += Math.max(0, fbm(x * .11 + 20, z * .11 - 7) - .58) * 7.0; // kaya kümeleri
-  return Math.min(y, -1.9);
-}
-// perspektife uyan ızgara: yakında sık, uzakta seyrek; köşeler titretilir (low-poly)
-function buildGrid(THREE, cols, rows, yFn, seed) {
-  const V = [];
-  for (let j = 0; j <= rows; j++) {
-    V[j] = [];
-    for (let i = 0; i <= cols; i++) {
-      let u = i / cols * 2 - 1, v = j / rows;
-      if (i > 0 && i < cols) u += (hash(i + seed, j) - .5) * 1.1 / cols;
-      if (j > 0 && j < rows) v += (hash(j + seed, i + 3) - .5) * .7 / rows;
-      const s = (12 / .85) * (Math.exp(2.0 * v) - 1), z = 10 - s, x = u * (12 + .85 * s);
-      V[j][i] = [x, yFn(x, z), z];
-    }
-  }
-  const pos = [], shade = [];
-  const tri = (a, b, c, k) => { pos.push(...a, ...b, ...c); shade.push(k, k, k); };
-  for (let j = 0; j < rows; j++) for (let i = 0; i < cols; i++) {
-    const a = V[j][i], b = V[j][i + 1], c = V[j + 1][i], d = V[j + 1][i + 1];
-    if ((i + j) % 2) { tri(a, b, c, hash(i * 3 + seed, j)); tri(b, d, c, hash(i, j * 5 + seed)); }
-    else { tri(a, b, d, hash(i * 7, j + seed)); tri(a, d, c, hash(i + seed, j * 11)); }
-  }
-  const g = new THREE.BufferGeometry();
-  g.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
-  g.setAttribute('aShade', new THREE.Float32BufferAttribute(shade, 1));
-  return g;
-}
-
-const PAL = {
-  light: { fog: [.42, .66, .68], skyH: [.62, .80, .80], skyZ: [.30, .56, .62], deep: [.02, .25, .29],
-    sandA: [.26, .54, .52], sandB: [.15, .39, .40], rock: [.09, .27, .29], caus: [.16, .20, .16],
-    light: [.3, .3, -.9], lightCol: [1, .98, .92], spec: .45, foam: [1, 1, 1], amb: .5, abs: 1 },
-  dark: { fog: [.015, .035, .075], skyH: [.05, .09, .17], skyZ: [.01, .02, .06], deep: [.0, .03, .07],
-    sandA: [.10, .19, .28], sandB: [.07, .13, .21], rock: [.04, .08, .14], caus: [.07, .12, .17],
-    light: [-.12, .34, -.93], lightCol: [.86, .91, 1], spec: 1.4, foam: [.72, .82, .92], amb: .34, abs: .62 }
-};
-
-const WAVE_GLSL = /* glsl */`
-uniform float uTime;
-uniform vec4 uRip[4];
-float waveH(vec2 p){
-  float t=uTime;
-  float h=0.13*sin(p.x*0.38+t*0.55)+0.10*sin(p.y*0.5-t*0.65+p.x*0.16)
-         +0.035*sin((p.x+p.y)*0.85+t*1.0)+0.015*sin((p.x-p.y)*1.5-t*1.4);
-  for(int i=0;i<4;i++){
-    vec4 r=uRip[i]; float age=t-r.z;
-    if(age>0.0&&age<6.0){
-      float d=distance(p,r.xy); float f=age*2.4;
-      h+=r.w*exp(-(d-f)*(d-f)*0.7)*exp(-age*0.45)*sin(d*3.2-age*7.0)*0.55;
-    }
-  }
-  return h;
-}
-float foamAt(vec2 p){
-  float f=0.0;
-  for(int i=0;i<4;i++){
-    vec4 r=uRip[i]; float age=uTime-r.z;
-    if(age>0.0&&age<6.0){
-      float d=distance(p,r.xy); float fr=age*2.4;
-      f+=r.w*(exp(-(d-fr)*(d-fr)*7.0)*exp(-age*0.6)*0.9+exp(-(d-fr*0.6)*(d-fr*0.6)*9.0)*exp(-age*0.9)*0.45);
-    }
-  }
-  return f;
-}`;
-
-function fallback2d() {
-  // statik 2B yedek: aynı perspektif ızgaranın düz gölgeli üçgenleri
-  const c = document.createElement('canvas'); host.appendChild(c);
-  const ctx = c.getContext('2d'); if (!ctx) return;
-  window.__sea = { mode: '2d', running: false };
-  function draw() {
-    const W = innerWidth, H = innerHeight, dpr = Math.min(devicePixelRatio || 1, 1.5);
-    c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    const P = isDark() ? PAL.dark : PAL.light, f = H / (2 * Math.tan((W / H < .8 ? 62 : 48) * Math.PI / 360));
-    const cy = 7.2, cz = 9, pitch = Math.atan2(7.2, 12), cp = Math.cos(pitch), sp = Math.sin(pitch);
-    const proj = (x, y, z) => { const dy = y - cy, dz = z - cz, zc = -dy * sp - dz * cp, yc = dy * cp - dz * sp; return [W / 2 + x / zc * f, H / 2 - yc / zc * f, zc]; };
-    ctx.fillStyle = `rgb(${P.fog.map(v => v * 255 | 0)})`; ctx.fillRect(0, 0, W, H);
-    const cols = small() ? 26 : 40, rows = Math.round(cols * 1.18), L = P.light, ll = Math.hypot(...L);
-    for (let j = rows - 1; j >= 0; j--) for (let i = 0; i < cols; i++) {
-      const q = (ii, jj) => { let u = ii / cols * 2 - 1, v = jj / rows; if (ii > 0 && ii < cols) u += (hash(ii, jj) - .5) * 1.1 / cols;
-        const s = (12 / .85) * (Math.exp(2 * v) - 1), z = 10 - s, x = u * (12 + .85 * s); return [x, waveH(x, z, 2.4) * 1.0, z]; };
-      const A = q(i, j), B = q(i + 1, j), C = q(i, j + 1), D = q(i + 1, j + 1);
-      for (const [p0, p1, p2] of [[A, B, D], [A, D, C]]) {
-        const ux = p1[0] - p0[0], uy = p1[1] - p0[1], uz = p1[2] - p0[2], vx = p2[0] - p0[0], vy = p2[1] - p0[1], vz = p2[2] - p0[2];
-        let nx = uy * vz - uz * vy, ny = uz * vx - ux * vz, nz = ux * vy - uy * vx; const nl = Math.hypot(nx, ny, nz) || 1; if (ny < 0) { nx = -nx; ny = -ny; nz = -nz; }
-        const lam = Math.max(0, (nx * L[0] + ny * L[1] + nz * L[2]) / nl / ll), dist = Math.hypot(p0[0], p0[2] - cz), fog = 1 - Math.exp(-Math.pow(dist * .022, 1.6));
-        const col = P.deep.map((d, k) => { const base = d * (.75 + lam * .9) + (P.sandB[k] - d) * .18 * Math.exp(-dist * .05); return Math.round(Math.min(1, base * (1 - fog) + P.fog[k] * fog) * 255); });
-        const a = proj(...p0), b = proj(...p1), cc = proj(...p2); if (a[2] <= .1 || b[2] <= .1 || cc[2] <= .1) continue;
-        ctx.fillStyle = ctx.strokeStyle = `rgb(${col})`; ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.lineTo(cc[0], cc[1]); ctx.closePath(); ctx.fill(); ctx.stroke();
-      }
-    }
-    c.classList.add('on');
-  }
-  draw();
-  let rt; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(draw, 150); });
-  window.__seaRedraw = draw;
-}
-
-async function start() {
-  let ok = false;
-  try { const t = document.createElement('canvas'); ok = !!(window.WebGL2RenderingContext && t.getContext('webgl2')); } catch (e) { ok = false; }
-  if (!ok) return fallback2d();
-  let THREE;
-  try { THREE = await import('https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.min.js'); }
-  catch (e) { return fallback2d(); }
-
-  let renderer;
-  try {
-    renderer = new THREE.WebGLRenderer({ antialias: !small(), alpha: false, powerPreference: 'high-performance' });
-  } catch (e) { return fallback2d(); }
-  renderer.outputColorSpace = THREE.LinearSRGBColorSpace; // renkler doğrudan ekran değeri olarak yazılır
-  const cvs = renderer.domElement; host.appendChild(cvs);
-
-  const camera = new THREE.PerspectiveCamera(48, 1, 0.1, 140);
-  const floorScene = new THREE.Scene(), waterScene = new THREE.Scene();
-  const v3 = a => new THREE.Vector3(...a);
-  const U = {
-    uTime: { value: 0 }, uRip: { value: RIP.map(() => new THREE.Vector4(0, 0, -99, 0)) },
-    uFog: { value: v3(PAL.light.fog) }, uSkyH: { value: v3(PAL.light.skyH) }, uSkyZ: { value: v3(PAL.light.skyZ) },
-    uDeep: { value: v3(PAL.light.deep) }, uSandA: { value: v3(PAL.light.sandA) }, uSandB: { value: v3(PAL.light.sandB) },
-    uRock: { value: v3(PAL.light.rock) }, uCaus: { value: v3(PAL.light.caus) }, uLight: { value: v3(PAL.light.light).normalize() }, uSun: { value: v3([.45, .85, .35]).normalize() },
-    uLightCol: { value: v3(PAL.light.lightCol) }, uSpec: { value: 1 }, uFoam: { value: v3([1, 1, 1]) }, uAmb: { value: .3 },
-    uDepth: { value: 0 }, uAbs: { value: 1 }, uRes: { value: new THREE.Vector2(1, 1) }, tFloor: { value: null },
-    uBurst: { value: [0, 1, 2].map(() => new THREE.Vector4(0, 0, -99, 0)) }, uPx: { value: 800 }
-  };
-
-  // 1) deniz tabanı: düz gölgeli üçgenler, kostik ışık, derinlikle koyulaşma
-  const floorMat = new THREE.ShaderMaterial({
-    uniforms: U, side: THREE.DoubleSide, defines: { CAUS_ITER: small() ? 3 : 4 },
-    vertexShader: /* glsl */`
-      attribute float aShade; varying float vShade; varying vec3 vW;
-      void main(){ vShade=aShade; vec4 w=modelMatrix*vec4(position,1.0); vW=w.xyz; gl_Position=projectionMatrix*viewMatrix*w; }`,
-    fragmentShader: /* glsl */`
-      uniform float uTime,uDepth,uAmb,uAbs; uniform vec3 uSandA,uSandB,uRock,uCaus,uSun,uDeep,uFog,uLightCol;
-      varying float vShade; varying vec3 vW;
-      float caustic(vec2 uv,float time){
-        vec2 p=mod(uv*6.28318,6.28318)-250.0; vec2 i=p; float c=1.0; float inten=.005;
-        for(int n=0;n<CAUS_ITER;n++){
-          float t=time*(1.0-(3.5/float(n+1)));
-          i=p+vec2(cos(t-i.x)+sin(t+i.y),sin(t-i.y)+cos(t+i.x));
-          c+=1.0/length(vec2(p.x/(sin(i.x+t)/inten),p.y/(cos(i.y+t)/inten)));
-        }
-        c/=float(CAUS_ITER); c=1.17-pow(c,1.4); return clamp(pow(abs(c),8.0),0.0,1.0);
-      }
-      void main(){
-        vec3 n=normalize(cross(dFdx(vW),dFdy(vW))); if(n.y<0.0) n=-n;
-        vec3 base=mix(uSandB,uSandA,vShade);
-        base=mix(uRock*(0.75+0.5*vShade),base,smoothstep(0.62,0.9,n.y));
-        float lam=max(dot(n,uSun),0.0);
-        vec3 col=base*(uAmb+lam*0.62*uLightCol);
-        float c=caustic(vW.xz*0.085+vec2(0.0,uTime*0.004),uTime*0.55);
-        col+=uCaus*c*smoothstep(0.45,0.95,n.y)*(0.25+0.35*lam);
-        float depth=-vW.y; float dist=length(cameraPosition-vW);
-        float ab=1.0-exp(-(depth*0.11+dist*0.022+uDepth*0.6)*uAbs);
-        col=mix(col,uDeep,clamp(ab,0.0,0.88));
-        col=min(col,vec3(0.86,0.9,0.86));
-        float fog=1.0-exp(-pow(dist*0.024,1.6));
-        gl_FragColor=vec4(mix(col,uFog*0.55+uDeep*0.45,clamp(fog,0.0,1.0)),1.0);
-      }`
-  });
-
-  // kabarcıklar: su altında yükselir (yalnız GPU'da hesaplanır)
-  const BN = 96, bSeed = new Float32Array(BN * 3), bIdx = new Float32Array(BN), bPos = new Float32Array(BN * 3);
-  for (let i = 0; i < BN; i++) { bSeed[i * 3] = Math.random() * 2 - 1; bSeed[i * 3 + 1] = Math.random() * 2 - 1; bSeed[i * 3 + 2] = Math.random(); bIdx[i] = i % 3; }
-  const bGeo = new THREE.BufferGeometry();
-  bGeo.setAttribute('position', new THREE.BufferAttribute(bPos, 3));
-  bGeo.setAttribute('aSeed', new THREE.BufferAttribute(bSeed, 3));
-  bGeo.setAttribute('aIdx', new THREE.BufferAttribute(bIdx, 1));
-  const bMat = new THREE.ShaderMaterial({
-    uniforms: U, transparent: true, depthWrite: false,
-    vertexShader: /* glsl */`
-      uniform float uTime,uPx; uniform vec4 uBurst[3]; attribute vec3 aSeed; attribute float aIdx; varying float vA,vK;
-      void main(){
-        vec4 b=uBurst[int(aIdx+0.5)]; float age=uTime-b.z-aSeed.z*1.1; const float life=2.2;
-        float k=clamp(age/life,0.0,1.0);
-        vec3 s=vec3(b.x+aSeed.x*1.1*b.w, 0.0, b.y+aSeed.y*0.8*b.w);
-        vec3 dir=normalize(s-cameraPosition);
-        vec3 p=s+dir*(3.0*(1.0-k*k)+0.04);
-        p.x+=sin(age*4.0+aSeed.z*20.0)*0.05*(1.0-k);
-        float alive=(age>0.0&&age<life&&b.w>0.0)?1.0:0.0;
-        vA=alive*smoothstep(0.0,0.3,k); vK=k;
-        vec4 mv=viewMatrix*vec4(p,1.0);
-        gl_PointSize=alive*uPx*(0.05+0.06*fract(aSeed.z*7.13))*(0.4+0.6*k)/max(-mv.z,0.1);
-        gl_Position=projectionMatrix*mv;
-      }`,
-    fragmentShader: /* glsl */`
-      uniform vec3 uFoam; varying float vA,vK;
-      void main(){
-        vec2 q=gl_PointCoord-0.5; float d=length(q)*2.0; if(d>1.0) discard;
-        float soft=mix(0.45,0.06,vK);
-        float rim=smoothstep(0.6-soft,0.9,d)*(1.0-smoothstep(1.0-soft*0.5,1.0,d));
-        float spot=1.0-smoothstep(0.0,0.28,length(q-vec2(-0.16,-0.16))*2.0);
-        gl_FragColor=vec4(uFoam,(rim*0.8+spot*0.8*vK+0.06)*vA);
-      }`
-  });
-  const bubblesPts = new THREE.Points(bGeo, bMat); bubblesPts.frustumCulled = false;
-
-  // 2) su yüzeyi: dalga tepe noktasında, kırılma (taban dokusu), Fresnel yansıma, speküler, köpük
-  const waterMat = new THREE.ShaderMaterial({
-    uniforms: U, side: THREE.DoubleSide,
-    vertexShader: WAVE_GLSL + /* glsl */`
-      varying vec3 vW;
-      void main(){ vec3 p=position; p.y=waveH(p.xz); vW=p; gl_Position=projectionMatrix*viewMatrix*vec4(p,1.0); }`,
-    fragmentShader: WAVE_GLSL + /* glsl */`
-      uniform sampler2D tFloor; uniform vec2 uRes; uniform float uSpec,uDepth;
-      uniform vec3 uDeep,uSkyH,uSkyZ,uLight,uLightCol,uFog,uFoam;
-      varying vec3 vW;
-      void main(){
-        vec3 n=normalize(cross(dFdx(vW),dFdy(vW))); if(n.y<0.0) n=-n;
-        vec3 v=normalize(cameraPosition-vW);
-        float ndv=max(dot(n,v),0.0);
-        float fr=0.02+0.98*pow(1.0-ndv,5.0);
-        vec2 suv=clamp(gl_FragCoord.xy/uRes+n.xz*0.035,0.001,0.999);
-        vec3 refr=texture2D(tFloor,suv).rgb;
-        vec3 water=mix(refr,uDeep,0.1+uDepth*0.3);
-        vec3 r=reflect(-v,n);
-        vec3 sky=mix(uSkyH,uSkyZ,clamp(r.y*1.4,0.0,1.0));
-        vec3 col=mix(water,sky,clamp(fr*1.15+0.04,0.0,0.9));
-        vec3 hv=normalize(uLight+v); float nh=max(dot(n,hv),0.0);
-        col+=uLightCol*(pow(nh,120.0)*0.5+pow(nh,40.0)*0.035)*uSpec;
-        col*=0.9+0.2*max(dot(n,normalize(vec3(-0.3,1.0,0.4))),0.0);
-        float g=0.5+0.5*sin(vW.x*9.0+sin(vW.z*7.0+uTime))*sin(vW.z*8.0-uTime*1.3+sin(vW.x*5.0));
-        float g2=0.5+0.5*sin(vW.x*23.0+vW.z*5.0+uTime*0.7)*sin(vW.z*19.0-vW.x*4.0);
-        float f=foamAt(vW.xz); f=smoothstep(0.3,0.75,f*(0.2+0.8*g)*(0.35+0.9*g2));
-        col=mix(col,uFoam,f*0.7);
-        float dist=length(cameraPosition-vW);
-        float fog=1.0-exp(-pow(dist*0.022,1.6));
-        gl_FragColor=vec4(mix(col,uFog,clamp(fog,0.0,1.0)),1.0);
-      }`
-  });
-
-  let floorMesh, waterMesh, rt, W = 0, H = 0, lastSmall = null;
-  function build() {
-    const sm = small(); if (sm === lastSmall) return; lastSmall = sm;
-    if (floorMesh) { floorScene.remove(floorMesh); floorMesh.geometry.dispose(); waterScene.remove(waterMesh); waterMesh.geometry.dispose(); }
-    const cols = sm ? 30 : 50, rows = Math.round(cols * 1.18);
-    floorMesh = new THREE.Mesh(buildGrid(THREE, cols, rows, floorY, 3), floorMat); floorMesh.frustumCulled = false;
-    waterMesh = new THREE.Mesh(buildGrid(THREE, Math.round(cols * .62), Math.round(rows * .62), () => 0, 17), waterMat); waterMesh.frustumCulled = false;
-    floorScene.add(floorMesh); floorScene.add(bubblesPts); waterScene.add(waterMesh);
-  }
-  function resize() {
-    W = innerWidth; H = innerHeight; build();
-    const dpr = Math.min(devicePixelRatio || 1, small() ? 1.25 : 1.5);
-    renderer.setPixelRatio(dpr); renderer.setSize(W, H, false);
-    const aspect = W / H; camera.aspect = aspect; camera.fov = aspect < .8 ? 62 : 48; camera.updateProjectionMatrix();
-    const bw = Math.round(W * dpr * (small() ? .5 : .75)), bh = Math.round(H * dpr * (small() ? .5 : .75));
-    if (!rt) rt = new THREE.WebGLRenderTarget(bw, bh, { depthBuffer: true, generateMipmaps: false });
-    else rt.setSize(bw, bh);
-    U.tFloor.value = rt.texture;
-    U.uRes.value.set(W * dpr, H * dpr);
-    U.uPx.value = bh / (2 * Math.tan(camera.fov * Math.PI / 360));
-  }
-  function applyTheme() {
-    const P = isDark() ? PAL.dark : PAL.light;
-    ['fog', 'skyH', 'skyZ', 'deep', 'sandA', 'sandB', 'rock', 'caus', 'lightCol', 'foam'].forEach(k => U['u' + k[0].toUpperCase() + k.slice(1)].value.set(...P[k]));
-    U.uLight.value.set(...P.light).normalize(); U.uSpec.value = P.spec; U.uAmb.value = P.amb; U.uAbs.value = P.abs;
-    renderer.setClearColor(new THREE.Color(...P.fog), 1);
-  }
-
-  // kamera: hafif eğik bakış; sayfa kaydıkça biraz ilerler ve su koyulaşır
-  let prog = 0;
-  const look = new THREE.Vector3();
-  function placeCamera() {
-    camera.position.set(0, 7.2 - prog * .9, 9 - prog * 5);
-    look.set(0, 0, -3 - prog * 5.5); camera.lookAt(look);
-    camera.updateMatrixWorld(); U.uDepth.value = prog;
-  }
-  function onScroll() { const m = document.documentElement.scrollHeight - innerHeight; prog = m > 0 ? Math.min(1, scrollY / m) : 0; if (!running) frame(performance.now()); }
-
-  // ekran noktası -> su düzlemi (y=0) üzerindeki dünya noktası
-  const ndc = new THREE.Vector3(), dir = new THREE.Vector3();
-  function toWorld(sx, sy) {
-    ndc.set(sx / W * 2 - 1, -(sy / H) * 2 + 1, .5).unproject(camera);
-    dir.copy(ndc).sub(camera.position);
-    if (dir.y > -1e-4) return null;
-    const k = -camera.position.y / dir.y;
-    return { x: camera.position.x + dir.x * k, z: camera.position.z + dir.z * k };
-  }
-
-  const t0 = performance.now(); let ri = 0, bi = 0;
-  const now = () => mqR.matches ? 2.4 : (performance.now() - t0) / 1000;
-  function ripple(sx, sy, amp, bub) {
-    const p = toWorld(sx, sy); if (!p) return;
-    const t = now(), r = RIP[ri]; r.x = p.x; r.z = p.z; r.t = t; r.a = amp;
-    U.uRip.value[ri].set(p.x, p.z, t, amp); ri = (ri + 1) % 4;
-    if (bub) { U.uBurst.value[bi].set(p.x, p.z, t, Math.min(1.4, amp + .3)); bi = (bi + 1) % 3; }
-    if (!running) frame(performance.now());
-  }
-  addEventListener('uw:splash', e => { if (!mqR.matches) ripple(e.detail.x, e.detail.y, e.detail.amp, e.detail.amp > .5); });
-  addEventListener('pointerdown', e => { if (!mqR.matches && !(e.target.closest && e.target.closest('.paper'))) ripple(e.clientX, e.clientY, .45, false); }, { passive: true });
-  let lpx = 0, lpy = 0, lpt = 0, lastR = 0;
-  addEventListener('pointermove', e => {
-    if (mqR.matches || e.pointerType !== 'mouse') return;
-    const t = performance.now(), v = Math.hypot(e.clientX - lpx, e.clientY - lpy) / Math.max(t - lpt, 1);
-    lpx = e.clientX; lpy = e.clientY; lpt = t;
-    if (v > .02 && v < .35 && t - lastR > 900 && !(e.target.closest && e.target.closest('.paper'))) { lastR = t; ripple(e.clientX, e.clientY, .14, false); }
-  }, { passive: true });
-
-  // yüzen kartlar: dalganın o noktadaki yüksekliği ve eğimi CSS değişkenlerine
-  const floats = [...document.querySelectorAll('[data-float]')];
-  let boxes = [];
-  function measure() {
-    boxes = floats.map(el => {
-      const r = el.getBoundingClientRect(), fixed = !!el.closest('header');
-      return { el, cx: r.left + r.width / 2, cy: r.top + r.height * .75 + (fixed ? 0 : scrollY), w: r.width, h: r.height, fixed, flat: el.hasAttribute('data-flat'), last: '' };
-    });
-  }
-  function bob(t) {
-    for (const b of boxes) {
-      const sy = b.fixed ? b.cy : b.cy - scrollY;
-      if (sy < -b.h || sy > H + b.h) continue;
-      const p = toWorld(b.cx, Math.min(Math.max(sy, 2), H - 2)); if (!p) continue;
-      const h = waveH(p.x, p.z, t), e = .35;
-      const hx = (waveH(p.x + e, p.z, t) - waveH(p.x - e, p.z, t)) / (2 * e), hz = (waveH(p.x, p.z + e, t) - waveH(p.x, p.z - e, t)) / (2 * e);
-      const big = Math.min(1, 260 / b.h);
-      const by = Math.max(-3, Math.min(3, -h * 14 * big));
-      const rx = Math.max(-.6, Math.min(.6, -hz * 3)) * big;
-      const rz = Math.max(-.6, Math.min(.6, hx * 2.4)) * Math.min(1, 300 / b.w);
-      const key = by.toFixed(1) + rx.toFixed(2) + rz.toFixed(2);
-      if (key === b.last) continue; b.last = key;
-      const s = b.el.style;
-      s.setProperty('--by', by.toFixed(2) + 'px'); s.setProperty('--rx', rx.toFixed(3) + 'deg'); s.setProperty('--rz', rz.toFixed(3) + 'deg');
-      s.setProperty('--bn', (-by / 3).toFixed(3));
-    }
-  }
-
-  let running = false, last = 0, first = true;
-  function frame(ts) {
-    const t = now(); U.uTime.value = t; placeCamera();
-    renderer.setRenderTarget(rt); renderer.render(floorScene, camera);
-    renderer.setRenderTarget(null); renderer.render(waterScene, camera);
-    if (running) bob(t);
-    if (first) { first = false; cvs.classList.add('on'); }
-  }
-  function loop(ts) {
-    if (small() && ts - last < 32) return; // mobilde ~30 fps
-    last = ts; frame(ts);
-  }
-  function play() { if (running || document.hidden || mqR.matches) return; running = true; renderer.setAnimationLoop(loop); }
-  function pause() { running = false; renderer.setAnimationLoop(null); }
-  function sync() { pause(); if (mqR.matches) floats.forEach(el => { ['--by', '--rx', '--rz', '--bn'].forEach(k => el.style.removeProperty(k)); }); frame(performance.now()); play(); }
-
-  cvs.addEventListener('webglcontextlost', e => { e.preventDefault(); pause(); });
-  cvs.addEventListener('webglcontextrestored', () => sync());
-  resize(); applyTheme(); measure(); onScroll();
-  let rtm; addEventListener('resize', () => { clearTimeout(rtm); rtm = setTimeout(() => { resize(); measure(); if (!running) frame(performance.now()); }, 150); });
-  addEventListener('scroll', onScroll, { passive: true });
-  if ('ResizeObserver' in window) new ResizeObserver(() => measure()).observe(document.body);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
-  document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); else sync(); });
-  const chg = () => sync();
-  mqR.addEventListener ? mqR.addEventListener('change', chg) : mqR.addListener(chg);
-  mqD.addEventListener ? mqD.addEventListener('change', () => { applyTheme(); if (!running) frame(performance.now()); }) : 0;
-  window.__seaRedraw = () => { applyTheme(); if (!running) frame(performance.now()); };
-  window.__sea = { mode: 'webgl', get running() { return running; }, get info() { return { calls: renderer.info.render.calls, tris: renderer.info.render.triangles }; }, renderer };
-  frame(performance.now()); play();
-}
-start();
-</script>
+<script type="module" src="js/main.js"></script>
 </body>
 </html>
