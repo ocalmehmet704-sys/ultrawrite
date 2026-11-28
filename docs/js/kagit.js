@@ -42,9 +42,15 @@ function kur() {
       'html.kg-js:not(.kg-azalt) .spec-tek{display:grid}html.kg-js:not(.kg-azalt) .spec-tek>div{grid-area:1/1;margin:0}' +
       'html.kg-js:not(.kg-azalt) .spec-tek .spec-eski{font:400 24px/1.3 Fraunces,serif;color:var(--ink)}' +
       '@media (max-width:760px){html.kg-js:not(.kg-azalt) .spec-tek .spec-eski{font-size:21px}}' +
-      '.kg-aht{position:absolute;left:-14%;width:128%;top:38%;height:110%;overflow:visible;pointer-events:none;z-index:2}' +
-      
-      '@media (max-width:760px){.kg-aht{left:0;width:100%}}' +
+      '.kg-aht{position:absolute;left:0;top:0;width:100%;height:100%;overflow:visible;pointer-events:none;z-index:2}' +
+      '.kg-aht .kg-kat{position:absolute;overflow:visible;pointer-events:none}' +
+      '.kg-aht img{position:absolute;left:0;top:0;max-width:none;height:auto;user-select:none;-webkit-user-drag:none;will-change:transform}' +
+      '.kg-aht .kg-lo img{filter:sepia(.9) hue-rotate(136deg) saturate(1.5) brightness(.74);-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.18),#000 46%);mask-image:linear-gradient(to top,rgba(0,0,0,.18),#000 46%)}' +
+      '.kg-aht .kg-lo img.kg-g{filter:sepia(.9) hue-rotate(136deg) saturate(1.3) brightness(.62) blur(3px);-webkit-mask-image:none;mask-image:none}' +
+      ':root[data-theme=dark] .kg-aht .kg-lo img{filter:sepia(.9) hue-rotate(168deg) saturate(1.5) brightness(.5)}' +
+      ':root[data-theme=dark] .kg-aht .kg-lo img.kg-g{filter:sepia(.9) hue-rotate(168deg) saturate(1.2) brightness(.4) blur(3px)}' +
+      '@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .kg-aht .kg-lo img{filter:sepia(.9) hue-rotate(168deg) saturate(1.5) brightness(.5)}' +
+      ':root:not([data-theme=light]) .kg-aht .kg-lo img.kg-g{filter:sepia(.9) hue-rotate(168deg) saturate(1.2) brightness(.4) blur(3px)}}' +
       '.kg-mur{position:absolute;inset:-14% -4%;pointer-events:none;z-index:3;opacity:0;border-radius:50%;' +
       'background:radial-gradient(closest-side,rgba(16,14,28,.97),rgba(20,18,34,.9) 55%,rgba(24,22,40,0));filter:blur(10px)}';
     d.head.appendChild(st);
@@ -192,84 +198,123 @@ function belir(el, G, p) {
 }
 
 /* ---------- ahtapot ve mürekkep ----------
-   Çizgi film değil: suyun içinden kâğıda uzanan, sivrilen kollar; gövde derinde bulanık bir gölge.
-   Kâğıdın altında kalan kısımlar su rengine boyanır. */
-var KOL = [ /* kanvas oranları (0..1): taban, kontrol1, kontrol2, uç */
-  [[.38, 1.0], [.22, .80], [.10, .55], [.20, .36]],
-  [[.46, 1.0], [.40, .78], [.30, .55], [.36, .34]],
-  [[.56, 1.0], [.64, .78], [.72, .56], [.66, .35]],
-  [[.64, 1.0], [.82, .82], [.92, .56], [.82, .37]]
-];
-function bez(a, b, c, d, t) {
-  var u = 1 - t;
-  return [u*u*u*a[0] + 3*u*u*t*b[0] + 3*u*t*t*c[0] + t*t*t*d[0], u*u*u*a[1] + 3*u*u*t*b[1] + 3*u*t*t*c[1] + t*t*t*d[1]];
+   Gerçek ahtapot kolu kareleri (docs/img/aht2-kol1..6.png, gövde aht2-govde1..3.png). Her kol altı pozu kare kare oynatır:
+   rahat, uzanıyor, tam uzanmış, kavrıyor, çekiyor, bırakıyor. Kollar kâğıdın alt kenarından, suyun içinden yükselir; uç kâğıda aşar.
+   Kenarın altı su rengine boyanır (.kg-lo), üstü canlı kalır (.kg-hi). Gövde derinde, bulanık, su renginde.
+   Yüklenemeyen görsel sessizce atlanır. */
+var AHT_KARE = [[139, 280], [171, 329], [125, 348], [142, 289], [93, 354], [95, 320]]; /* piksel (en, boy) */
+var AHT_GV = [[162, 256], [195, 238], [187, 244]];
+var AHT_X = [.13, .38, .63, .88];     /* kol merkezleri (kâğıt genişliği oranı) */
+var AHT_OL = [.95, 1.05, .98, .9];    /* kol boyu çarpanı */
+var AHT_FAZ = [0, .6, .3, 1];         /* kollar arası gecikme */
+var AHT_DON = [-2, -1, 2, 3];         /* sabit eğim (derece) */
+var AHT_AYNA = [0, 0, 1, 1];          /* sağdaki kollar aynalanır: kıvrım içe bakar */
+var AHT_KALE = {};
+function ahtUrl(ad) {
+  try { return new URL('../img/' + ad, import.meta.url).href; } catch (e) { return 'img/' + ad; }
+}
+function ahtAd(t, n) { return 'aht2-' + t + n + '.png'; }
+function ahtIsit() {
+  var l = [], i;
+  for (i = 1; i <= 6; i++) l.push(ahtAd('kol', i));
+  for (i = 1; i <= 3; i++) l.push(ahtAd('govde', i));
+  l.forEach(function (ad) {
+    if (AHT_KALE[ad]) return;
+    try { var im = new Image(); im.decoding = 'async'; im.src = ahtUrl(ad); AHT_KALE[ad] = im; } catch (e) { }
+  });
+}
+function ahtImg(ad, sin) {
+  var im = document.createElement('img');
+  im.alt = ''; im.setAttribute('aria-hidden', 'true'); im.draggable = false;
+  im.loading = 'eager'; im.decoding = 'async'; im.src = ahtUrl(ad);
+  if (sin) im.className = sin;
+  im.style.visibility = 'hidden';
+  im.addEventListener('error', function () { im.style.display = 'none'; im.setAttribute('data-yok', '1'); });
+  return im;
 }
 function ahtapotKur(kagit) {
-  var cv = document.createElement('canvas');
-  cv.className = 'kg-aht'; cv.setAttribute('aria-hidden', 'true');
-  kagit.appendChild(cv);
+  ahtIsit();
+  if (getComputedStyle(kagit).position === 'static') kagit.style.position = 'relative';
+  var kok = document.createElement('div');
+  kok.className = 'kg-aht'; kok.setAttribute('aria-hidden', 'true'); kok.style.display = 'none';
+  var lo = document.createElement('div'), hi = document.createElement('div');
+  lo.className = 'kg-kat kg-lo'; hi.className = 'kg-kat kg-hi';
+  var gv = [], kl = [];
+  for (var v = 0; v < 3; v++) { var gi = ahtImg(ahtAd('govde', v + 1), 'kg-g'); lo.appendChild(gi); gv.push(gi); }
+  [lo, hi].forEach(function (k) {
+    for (var i = 0; i < 4; i++) for (var f = 0; f < 6; f++) { var im = ahtImg(ahtAd('kol', f + 1)); k.appendChild(im); kl.push({ el: im, i: i, f: f, on: false }); }
+  });
+  kok.appendChild(lo); kok.appendChild(hi);
+  kagit.appendChild(kok);
   var m = document.createElement('div'); m.className = 'kg-mur'; m.setAttribute('aria-hidden', 'true');
   kagit.appendChild(m);
-  return { cv: cv, ctx: cv.getContext('2d'), mur: m, w: 0, h: 0, on: false };
+  return { kok: kok, lo: lo, hi: hi, gv: gv, kl: kl, mur: m, kagit: kagit, w: 0, h: 0, on: false, hA: 0, ox: 0, oy: 0, gk: 1 };
 }
-/* g: gövde görünürlüğü, u: kolların uzanması (0..1), m: mürekkep, zaman: ms */
-function ahtapotCiz(A, g, u, m, zaman) {
+function ahtOlc(A) {
+  var W = A.kagit.offsetWidth, H = A.kagit.offsetHeight;
+  if (W === A.w && H === A.h) return;
+  A.w = W; A.h = H;
+  var hA = Math.max(170, Math.min(330, W * .62, H * 1.1));
+  var ox = Math.round(W * .2), oy = Math.round(hA * 1.1), alt = Math.round(hA * 1.2);
+  A.hA = hA; A.ox = ox; A.oy = oy;
+  var gw = Math.max(110, Math.min(250, W * .4)); A.gk = gw / 190;
+  A.lo.style.cssText = 'left:' + (-ox) + 'px;top:' + (-oy) + 'px;width:' + (W + 2 * ox) + 'px;height:' + (oy + H + alt + gw * 1.4) + 'px';
+  A.hi.style.cssText = 'left:' + (-ox) + 'px;top:' + (-oy) + 'px;width:' + (W + 2 * ox) + 'px;height:' + (oy + H + 10) + 'px;' +
+    '-webkit-mask-image:linear-gradient(#000 ' + (oy + H - 14) + 'px,transparent ' + (oy + H + 8) + 'px);' +
+    'mask-image:linear-gradient(#000 ' + (oy + H - 14) + 'px,transparent ' + (oy + H + 8) + 'px)';
+  A.kl.forEach(function (k) {
+    var n = AHT_KARE[k.f], sc = hA / 330 * AHT_OL[k.i];
+    k.w = n[0] * sc; k.h = n[1] * sc;
+    k.el.style.width = k.w.toFixed(1) + 'px'; k.el.style.height = k.h.toFixed(1) + 'px';
+    k.el.style.transformOrigin = '50% 100%';
+  });
+  A.gv.forEach(function (im, v) {
+    im.style.width = (AHT_GV[v][0] * A.gk).toFixed(1) + 'px'; im.style.height = (AHT_GV[v][1] * A.gk).toFixed(1) + 'px';
+  });
+}
+/* kol pozu: 0..5 sürekli. u: uzanma, s: kâğıdın batışı, faz: kol gecikmesi */
+function ahtPoz(u, s, faz) {
+  var ui = clamp(u * 1.3 - .3 * faz), si = clamp(s * 1.18 - .18 * faz);
+  if (si <= .001) return { f: 2 * eIO(ui), ui: ui };                       /* rahat -> uzanıyor -> tam uzanmış */
+  var f = si < .14 ? 2 + si / .14 : si < .3 ? 3 + (si - .14) / .16 : 4;    /* kavrıyor -> çekiyor */
+  if (si >= .999) f = 4 + clamp((1 - u) * 2);                              /* bırakıyor: u düştükçe 5. kare */
+  return { f: f, ui: ui };
+}
+/* g: gövde görünürlüğü, u: kolların uzanması (0..1), m: mürekkep, zaman: ms, s: kâğıdın batışı (0..1, isteğe bağlı) */
+function ahtapotCiz(A, g, u, m, zaman, s) {
   if (!A) return;
+  s = s || 0;
   A.mur.style.opacity = m.toFixed(3);
-  var cv = A.cv, x = A.ctx;
-  if (g <= 0 && u <= 0) { if (A.on) { x.clearRect(0, 0, cv.width, cv.height); A.on = false; } cv.style.opacity = '0'; return; }
-  A.on = true; cv.style.opacity = '';
-  var r = cv.getBoundingClientRect(), dpr = Math.min(devicePixelRatio || 1, 1.5);
-  var W = Math.round(r.width * dpr), H = Math.round(r.height * dpr);
-  if (cv.width !== W || cv.height !== H) { cv.width = W; cv.height = H; }
-  x.setTransform(1, 0, 0, 1, 0, 0); x.clearRect(0, 0, W, H);
-  if (!W || !H) return;
-  var zt = (zaman || 0) / 1000;
-  /* kâğıdın alt kenarı kanvasta: top %38, yükseklik %110 → kâğıt altı = (1-.38)/1.1 */
-  var kenar = (1 - .38) / 1.1 * H;
-  /* gövde: derinde, bulanık, gözsüz */
-  if (g > 0) {
-    x.save(); x.globalAlpha = .55 * g; x.filter = 'blur(' + (6 * dpr).toFixed(1) + 'px)';
-    var gr = x.createRadialGradient(W * .5, H * 1.02, 0, W * .5, H * 1.02, W * .24);
-    gr.addColorStop(0, 'rgb(48,30,34)'); gr.addColorStop(1, 'rgba(48,30,34,0)');
-    x.fillStyle = gr; x.fillRect(0, 0, W, H); x.restore();
-  }
-  if (u > 0) {
-    KOL.forEach(function (k, i) {
-      var sal = Math.sin(zt * 1.7 + i * 1.3) * .015;
-      var yk = (1 - eIO(u)) * .6 * H; /* kol bütün olarak derinden yükselir, uç önde */
-      var P0 = [k[0][0] * W, k[0][1] * H + yk], P1 = [(k[1][0] + sal) * W, k[1][1] * H + yk],
-          P2 = [(k[2][0] - sal) * W, k[2][1] * H + yk], P3 = [(k[3][0] + sal * 1.5) * W, k[3][1] * H + yk];
-      var N = 34, L = [], R = [], pts = [];
-      for (var j = 0; j <= N; j++) {
-        var s = j / N, p = bez(P0, P1, P2, P3, s), q = bez(P0, P1, P2, P3, Math.min(s + .01, 1));
-        var dx = q[0] - p[0], dy = q[1] - p[1], dl = Math.hypot(dx, dy) || 1;
-        var wv = (9 * Math.pow(1 - s, 1.1) + .8) * dpr * (W / (420 * dpr));
-        L.push([p[0] - dy / dl * wv, p[1] + dx / dl * wv]); R.push([p[0] + dy / dl * wv * .7, p[1] - dx / dl * wv * .7]);
-        pts.push([p, wv, dx / dl, dy / dl, s]);
-      }
-      x.beginPath(); x.moveTo(L[0][0], L[0][1]);
-      L.forEach(function (a) { x.lineTo(a[0], a[1]); });
-      for (var b = R.length - 1; b >= 0; b--) x.lineTo(R[b][0], R[b][1]);
-      x.closePath();
-      var lg = x.createLinearGradient(0, H, 0, 0);
-      lg.addColorStop(0, 'rgb(96,58,50)'); lg.addColorStop(1, 'rgb(150,92,74)');
-      x.globalAlpha = Math.min(1, u * 1.6); x.fillStyle = lg; x.fill();
-      /* vantuzlar: iç kenarda küçük soluk halkalar */
-      x.fillStyle = 'rgba(226,192,172,.6)';
-      pts.forEach(function (o, n) {
-        if (n % 2 || o[4] > .9 || n === 0) return;
-        var rr = o[1] * .32;
-        x.beginPath(); x.ellipse(o[0][0] + o[3] * o[1] * .45, o[0][1] - o[2] * o[1] * .45, rr, rr * .8, 0, 0, Math.PI * 2); x.fill();
-      });
-    });
-    x.globalAlpha = 1;
-  }
-  /* kâğıdın altında kalan her şey su rengine boyanır */
-  x.save(); x.globalCompositeOperation = 'source-atop';
-  var su = x.createLinearGradient(0, kenar, 0, H);
-  su.addColorStop(0, 'rgba(38,120,122,.35)'); su.addColorStop(1, 'rgba(24,82,90,.7)');
-  x.fillStyle = su; x.fillRect(0, kenar, W, H - kenar); x.restore();
+  if (g <= 0 && u <= 0) { if (A.on) { A.kok.style.display = 'none'; A.on = false; } return; }
+  if (!A.on) { A.kok.style.display = ''; A.on = true; }
+  ahtOlc(A);
+  var zt = (zaman || 0) / 1000, W = A.w, H = A.h, hA = A.hA, ox = A.ox, oy = A.oy;
+  var po = [];
+  for (var i = 0; i < 4; i++) po.push(ahtPoz(u, s, AHT_FAZ[i]));
+  A.kl.forEach(function (k) {
+    var i = k.i, P = po[i], f = P.f, f0 = Math.min(5, Math.floor(f)), fr = f - f0;
+    var w = clamp((fr - .4) / .2);                          /* kareler arası çapraz solma: karenin son %20'si */
+    var op = k.f === f0 ? 1 - w : (k.f === f0 + 1 ? w : 0); /* f0 = 5 iken k.f = 5 için op = 1 */
+    var goster = op > 0 && P.ui > 0;
+    if (!goster) { if (k.on) { k.el.style.visibility = 'hidden'; k.on = false; } return; }
+    var sal = 2 * Math.sin(zt * (.85 + .17 * i) + i * 1.9);
+    var yuk = (1 - eIO(P.ui)) * (hA * 1.05 + 30);
+    var cek = eIO(clamp((s - .1) / .5)) * hA * .06;
+    var x = ox + W * AHT_X[i] - k.w / 2;
+    var y = oy + H + hA * .5 - k.h + yuk + cek + 2.5 * Math.sin(zt * (.7 + .1 * i) + i * 2.3);
+    k.el.style.transform = 'translate(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px) rotate(' + (AHT_DON[i] + sal).toFixed(2) + 'deg)' + (AHT_AYNA[i] ? ' scaleX(-1)' : '');
+    k.el.style.opacity = (op * Math.min(1, P.ui * 4)).toFixed(3);
+    if (!k.on) { k.el.style.visibility = ''; k.on = true; }
+  });
+  var gp = clamp(g), v = Math.sin(zt * .33);
+  var gw = [1 - Math.max(clamp(-v * 2.5), clamp(v * 2.5)), clamp(-v * 2.5), clamp(v * 2.5)];
+  var gx = ox + W * .5 + 6 * Math.sin(zt * .6), gy = oy + H + hA * .62 + (1 - gp) * 40 + 4 * Math.sin(zt * .8);
+  A.gv.forEach(function (im, j) {
+    var wd = AHT_GV[j][0] * A.gk, ht = AHT_GV[j][1] * A.gk;
+    im.style.transform = 'translate(' + (gx - wd / 2).toFixed(1) + 'px,' + (gy - ht * .1).toFixed(1) + 'px) rotate(' + (3 * Math.sin(zt * .5)).toFixed(2) + 'deg)';
+    im.style.opacity = (.55 * gp * gw[j]).toFixed(3);
+    im.style.visibility = gw[j] > 0 && gp > 0 ? '' : 'hidden';
+  });
 }
 
 /* ---------- ana ---------- */
@@ -544,7 +589,7 @@ export function initKagit(opts) {
     var gv = t < 900 ? 0 : a < 1500 ? seg(t, 900, 1500) : 1 - seg(a, 1500, 2100);
     var kl = a < 0 ? seg(t, 1500, D) : a < 1400 ? 1 : 1 - seg(a, 1400, 1800);
     var mr = a < 500 ? 0 : a < 1100 ? .95 * seg(a, 500, 800) : .95 * (1 - seg(a, 1100, 1900));
-    ahtapotCiz(Aht, gv, kl, mr, vt);
+    ahtapotCiz(Aht, gv, kl, mr, vt, s);
     if (C.sw) {
       var bp = a >= 850 ? 1 : 0;
       if (yeni) belir(yeni, C.gy, bp);
