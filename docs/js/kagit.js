@@ -2,11 +2,20 @@
    initKagit({su, reduced}) -> { seek, destroy }.  su yoksa (null) yalnız DOM efektleri. */
 
 var P = [
-  ["Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.", "Babasının öldüğü haberi gelince ev sustu.", "Ad zinciri değil fiil. Türkçe olayı fiille anlatır."],
+  ["Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.", "Babasının öldüğünü duyunca televizyonu kapattılar.", "Ad zinciri değil fiil. Türkçe olayı fiille anlatır."],
   ["O, onun annesinin ona verdiği yüzüğü parmağından çıkardı.", "Annesinden kalan yüzüğü çıkardı.", "Türkçe zamiri ekte taşır; o, onun, ona İngilizceden gelir."],
   ["Derin bir üzüntü hissetti ve gözleri doldu.", "Çayını soğuyana kadar karıştırdı.", "Duyguya ad koyma, duyguyu taşıyan hareketi yaz."],
   ["Konuşamayacak kadar yorgundu.", "Ağzını açacak hâli yoktu.", "\"-amayacak kadar\" İngilizce \"too ... to\" kalıbının çevirisi."],
-  ["Saatine baktı; buluşmaya on dakika vardı. (Mainz, 1455)", "Akşam çanı çaldı; şehrin kapıları birazdan kapanacaktı.", "1455'te kol saati yoktu, zamanı çan söylerdi."]
+  ["Saatine baktı; buluşmaya on dakika vardı. (Mainz, 1455)", "Akşam çanı çaldı; şehrin kapıları birazdan kapanacaktı.", "1455'te kol saati yoktu, zamanı çan söylerdi."],
+  ["Gördü ki adam, kapıda bekleyen, ona bakıyordu.", "Kapıda bekleyen adamın kendisine baktığını gördü.", "İngilizce \"who\" yan cümlesi Türkçede ortaçla kurulur."],
+  ["Biliyordu ki o gelecekti.", "Geleceğini biliyordu.", "\"Biliyordu ki\" İngilizce \"that\" cümlesidir; Türkçe ad-fiil kullanır."],
+  ["Ben eve geldim ve ben çok yorgundum.", "Eve geldim, çok yorgundum.", "Kişi eki yeterken \"ben, sen, o\" yazılmaz."],
+  ["Bir kadın bir odaya girdi ve bir pencere açtı.", "Kadın odaya girdi, pencereyi açtı.", "Türkçede her adın önüne \"bir\" gelmez."],
+  ["Kapı, Ali tarafından açıldı.", "Ali kapıyı açtı.", "\"Tarafından\" çeviri edilgenidir; faili adıyla yaz."],
+  ["Kadının görmesi için fazla yavaş yaptı.", "Kadın görsün diye yavaş yaptı.", "\"İçin fazla\" İngilizce \"too ... for\" kalıbının çevirisi."],
+  ["Bu bir veda değildi, bir başlangıçtı.", "Kapıyı arkasından çekip merdivenleri indi.", "\"X değil, Y\" süsü yerine olan şeyi yaz."],
+  ["Müze, bölgenin zengin tarihine ışık tutan eşsiz bir mekân olarak hizmet vermektedir.", "Müze eski bir hanın avlusunda; kapıdaki zil çalışmıyor.", "Övgü sıfatı ve süs yerine somut ayrıntı."],
+  ["O zaman, görmesinin mümkün olmayacağını anladı.", "Göremeyeceğini anladı.", "Uzun ad zinciri yerine tek çekimli fiil."]
 ];
 
 var KIREMIT = 'var(--acc, #b3402b)';
@@ -29,7 +38,15 @@ function kur() {
     st.textContent =
       '.kg-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}' +
       '.kg-yazi{display:block}.kg-h{display:inline-block}' +
-      '#hero-baslik.kg-ust{display:grid}#hero-baslik.kg-ust>span{grid-area:1/1}';
+      '#hero-baslik.kg-ust{display:grid}#hero-baslik.kg-ust>span{grid-area:1/1}' +
+      'html.kg-js:not(.kg-azalt) .spec-tek{display:grid}html.kg-js:not(.kg-azalt) .spec-tek>div{grid-area:1/1;margin:0}' +
+      'html.kg-js:not(.kg-azalt) .spec-tek .spec-eski{font:400 24px/1.3 Fraunces,serif;color:var(--ink)}' +
+      '@media (max-width:760px){html.kg-js:not(.kg-azalt) .spec-tek .spec-eski{font-size:21px}}' +
+      '.kg-aht{position:absolute;left:-14%;width:128%;top:38%;height:110%;overflow:visible;pointer-events:none;z-index:2}' +
+      
+      '@media (max-width:760px){.kg-aht{left:0;width:100%}}' +
+      '.kg-mur{position:absolute;inset:-14% -4%;pointer-events:none;z-index:3;opacity:0;border-radius:50%;' +
+      'background:radial-gradient(closest-side,rgba(16,14,28,.97),rgba(20,18,34,.9) 55%,rgba(24,22,40,0));filter:blur(10px)}';
     d.head.appendChild(st);
   }
   if (!d.getElementById('kg-svg')) {
@@ -174,6 +191,87 @@ function belir(el, G, p) {
   el.style.opacity = (.5 + .5 * p).toFixed(3);
 }
 
+/* ---------- ahtapot ve mürekkep ----------
+   Çizgi film değil: suyun içinden kâğıda uzanan, sivrilen kollar; gövde derinde bulanık bir gölge.
+   Kâğıdın altında kalan kısımlar su rengine boyanır. */
+var KOL = [ /* kanvas oranları (0..1): taban, kontrol1, kontrol2, uç */
+  [[.38, 1.0], [.22, .80], [.10, .55], [.20, .36]],
+  [[.46, 1.0], [.40, .78], [.30, .55], [.36, .34]],
+  [[.56, 1.0], [.64, .78], [.72, .56], [.66, .35]],
+  [[.64, 1.0], [.82, .82], [.92, .56], [.82, .37]]
+];
+function bez(a, b, c, d, t) {
+  var u = 1 - t;
+  return [u*u*u*a[0] + 3*u*u*t*b[0] + 3*u*t*t*c[0] + t*t*t*d[0], u*u*u*a[1] + 3*u*u*t*b[1] + 3*u*t*t*c[1] + t*t*t*d[1]];
+}
+function ahtapotKur(kagit) {
+  var cv = document.createElement('canvas');
+  cv.className = 'kg-aht'; cv.setAttribute('aria-hidden', 'true');
+  kagit.appendChild(cv);
+  var m = document.createElement('div'); m.className = 'kg-mur'; m.setAttribute('aria-hidden', 'true');
+  kagit.appendChild(m);
+  return { cv: cv, ctx: cv.getContext('2d'), mur: m, w: 0, h: 0, on: false };
+}
+/* g: gövde görünürlüğü, u: kolların uzanması (0..1), m: mürekkep, zaman: ms */
+function ahtapotCiz(A, g, u, m, zaman) {
+  if (!A) return;
+  A.mur.style.opacity = m.toFixed(3);
+  var cv = A.cv, x = A.ctx;
+  if (g <= 0 && u <= 0) { if (A.on) { x.clearRect(0, 0, cv.width, cv.height); A.on = false; } cv.style.opacity = '0'; return; }
+  A.on = true; cv.style.opacity = '';
+  var r = cv.getBoundingClientRect(), dpr = Math.min(devicePixelRatio || 1, 1.5);
+  var W = Math.round(r.width * dpr), H = Math.round(r.height * dpr);
+  if (cv.width !== W || cv.height !== H) { cv.width = W; cv.height = H; }
+  x.setTransform(1, 0, 0, 1, 0, 0); x.clearRect(0, 0, W, H);
+  if (!W || !H) return;
+  var zt = (zaman || 0) / 1000;
+  /* kâğıdın alt kenarı kanvasta: top %38, yükseklik %110 → kâğıt altı = (1-.38)/1.1 */
+  var kenar = (1 - .38) / 1.1 * H;
+  /* gövde: derinde, bulanık, gözsüz */
+  if (g > 0) {
+    x.save(); x.globalAlpha = .55 * g; x.filter = 'blur(' + (6 * dpr).toFixed(1) + 'px)';
+    var gr = x.createRadialGradient(W * .5, H * 1.02, 0, W * .5, H * 1.02, W * .24);
+    gr.addColorStop(0, 'rgb(48,30,34)'); gr.addColorStop(1, 'rgba(48,30,34,0)');
+    x.fillStyle = gr; x.fillRect(0, 0, W, H); x.restore();
+  }
+  if (u > 0) {
+    KOL.forEach(function (k, i) {
+      var sal = Math.sin(zt * 1.7 + i * 1.3) * .015;
+      var yk = (1 - eIO(u)) * .6 * H; /* kol bütün olarak derinden yükselir, uç önde */
+      var P0 = [k[0][0] * W, k[0][1] * H + yk], P1 = [(k[1][0] + sal) * W, k[1][1] * H + yk],
+          P2 = [(k[2][0] - sal) * W, k[2][1] * H + yk], P3 = [(k[3][0] + sal * 1.5) * W, k[3][1] * H + yk];
+      var N = 34, L = [], R = [], pts = [];
+      for (var j = 0; j <= N; j++) {
+        var s = j / N, p = bez(P0, P1, P2, P3, s), q = bez(P0, P1, P2, P3, Math.min(s + .01, 1));
+        var dx = q[0] - p[0], dy = q[1] - p[1], dl = Math.hypot(dx, dy) || 1;
+        var wv = (9 * Math.pow(1 - s, 1.1) + .8) * dpr * (W / (420 * dpr));
+        L.push([p[0] - dy / dl * wv, p[1] + dx / dl * wv]); R.push([p[0] + dy / dl * wv * .7, p[1] - dx / dl * wv * .7]);
+        pts.push([p, wv, dx / dl, dy / dl, s]);
+      }
+      x.beginPath(); x.moveTo(L[0][0], L[0][1]);
+      L.forEach(function (a) { x.lineTo(a[0], a[1]); });
+      for (var b = R.length - 1; b >= 0; b--) x.lineTo(R[b][0], R[b][1]);
+      x.closePath();
+      var lg = x.createLinearGradient(0, H, 0, 0);
+      lg.addColorStop(0, 'rgb(96,58,50)'); lg.addColorStop(1, 'rgb(150,92,74)');
+      x.globalAlpha = Math.min(1, u * 1.6); x.fillStyle = lg; x.fill();
+      /* vantuzlar: iç kenarda küçük soluk halkalar */
+      x.fillStyle = 'rgba(226,192,172,.6)';
+      pts.forEach(function (o, n) {
+        if (n % 2 || o[4] > .9 || n === 0) return;
+        var rr = o[1] * .32;
+        x.beginPath(); x.ellipse(o[0][0] + o[3] * o[1] * .45, o[0][1] - o[2] * o[1] * .45, rr, rr * .8, 0, 0, Math.PI * 2); x.fill();
+      });
+    });
+    x.globalAlpha = 1;
+  }
+  /* kâğıdın altında kalan her şey su rengine boyanır */
+  x.save(); x.globalCompositeOperation = 'source-atop';
+  var su = x.createLinearGradient(0, kenar, 0, H);
+  su.addColorStop(0, 'rgba(38,120,122,.35)'); su.addColorStop(1, 'rgba(24,82,90,.7)');
+  x.fillStyle = su; x.fillRect(0, kenar, W, H - kenar); x.restore();
+}
+
 /* ---------- ana ---------- */
 export function initKagit(opts) {
   opts = opts || {};
@@ -182,7 +280,8 @@ export function initKagit(opts) {
   var $ = function (s, r) { return (r || d).querySelector(s); };
 
   var heroBaslik = $('#hero-baslik');
-  var heroEski = heroBaslik && $('.eski', heroBaslik);
+  /* başlık sabit kalır: üstü çizili eski satır ve altında "Düştü." (değişim gösterilmez) */
+  var heroEski = null;
   var heroYeni = heroBaslik && $('.yeni', heroBaslik);
   var spec = $('.spec');
   var eski = spec && $('.spec-eski', spec), yeni = spec && $('.spec-yeni', spec), not = spec && $('.spec-not', spec);
@@ -192,6 +291,18 @@ export function initKagit(opts) {
   /* ticks bir kez kurulur */
   if (ticks) ticks.innerHTML = P.map(function (_, j) { return '<i' + (j === 0 ? ' class="on"' : '') + '></i>'; }).join('');
   var tk = ticks ? Array.from(ticks.querySelectorAll('i')) : [];
+  function tuslar(fn) {
+    if (!spec) return;
+    [].forEach.call(spec.querySelectorAll('[data-yon]'), function (b) {
+      b.addEventListener('click', function () {
+        var r = fn(b.getAttribute('data-yon'));
+        if (b.getAttribute('data-yon') === 'kal') {
+          b.setAttribute('aria-pressed', r ? 'true' : 'false');
+          b.setAttribute('aria-label', r ? 'Akışı sürdür' : 'Bu örnekte kal');
+        }
+      });
+    });
+  }
   function sayacYaz(k) {
     if (sayac) sayac.textContent = pad(k + 1) + ' / ' + pad(P.length);
     tk.forEach(function (x, j) { x.classList.toggle('on', j <= k); });
@@ -218,6 +329,16 @@ export function initKagit(opts) {
       if (not) { not.textContent = p0[2]; not.style.opacity = ''; }
       sayacYaz(0);
       liveYaz(0, true);
+      var rk = 0;
+      tuslar(function (y) {
+        if (y === 'kal') return false;
+        rk = (rk + (y === 'sonraki' ? 1 : -1) + P.length) % P.length;
+        var q = P[rk];
+        if (eski) eski.textContent = q[0];
+        if (yeni) yeni.textContent = q[1];
+        if (not) not.textContent = q[2];
+        sayacYaz(rk); liveYaz(rk, true);
+      });
     }
     return { seek: function () {}, destroy: function () {} };
   }
@@ -269,6 +390,8 @@ export function initKagit(opts) {
     if (y && y.classList.contains('yaprak')) { y.style.perspective = '1200px'; y.style.transformStyle = 'flat'; }
     if (sh.g) sh.g.style.transform = 'none';
   });
+  var Aht = (spec && !reduced) ? ahtapotKur(spec) : null;
+  if (!reduced) { if (yeni) yeni.style.opacity = '0'; if (not) not.style.opacity = '0'; }
   var specSh = sheets.filter(function (x) { return x.el === spec; })[0] || null;
 
   function golge(sh, s) {
@@ -341,6 +464,7 @@ export function initKagit(opts) {
   if (heroEski && heroYeni) {
     He = harfle(heroEski, heroEski.textContent.trim());
     He.box = heroEski; /* mask/filtre CSS ::after çizgisini de kapsasın */
+    if (!reduced) { heroBaslik.style.position = 'relative'; H.mur = document.createElement('div'); H.mur.className = 'kg-mur'; H.mur.setAttribute('aria-hidden', 'true'); H.mur.style.inset = '-30% -8%'; heroBaslik.appendChild(H.mur); }
     heroYeni.style.opacity = '0';
     H.ready = false;
     var an = [];
@@ -351,14 +475,16 @@ export function initKagit(opts) {
   function renderHero(t) {
     if (!He) return;
     if (t >= 1300 && !H.g) { geoY(He); H.gy = geoEl(heroYeni); H.g = 1; }
-    coz(He, seg(t, 1300, 2000));
-    belir(heroYeni, H.gy, seg(t, 1800, 2500));
+    if (t >= 1300 && !H.k) { H.k = 1; if (su) { var r = heroBaslik.getBoundingClientRect(); su.ripple(r.left + r.width * .3, r.top + r.height / 2, 1); su.foam(r); su.bubbles(r.left + r.width * .3, r.top + r.height / 2, { count: 10, radius: 70 }); } }
+    if (H.mur) H.mur.style.opacity = (t < 1300 ? 0 : t < 1550 ? .85 * seg(t, 1300, 1480) : .85 * (1 - seg(t, 1550, 1950))).toFixed(3);
+    coz(He, t >= 1500 ? 1 : 0);
+    belir(heroYeni, H.gy, t >= 1500 ? 1 : 0);
   }
   renderHero(0);
 
   var T0 = 1500, DS = 800, D = T0 + DS;
   var C = {
-    k: 0, t: 0, dur: D + 3000 + 4300, round: 0, first: true, started: false, manual: false,
+    k: 0, t: 0, dur: D + 3000 + 4300, hold: false, round: 0, first: true, started: false, manual: false,
     sw: false, g: 0, gy: null, seen: true, ev: []
   };
   var Ce = null, curRect = null;
@@ -376,7 +502,7 @@ export function initKagit(opts) {
           [r.right, r.top + r.height * .6], [r.left + r.width * .3, r.bottom], [r.left + r.width * .7, r.bottom], [r.left + r.width * .5, r.top], [r.right, r.bottom - 6]];
         pts.forEach(function (q, i) { su.bubbles(q[0] + (q[0] <= r.left ? -14 : q[0] >= r.right ? 14 : 0), q[1] + (q[1] >= r.bottom ? 14 : q[1] <= r.top ? -14 : 0), { count: i % 2 ? 1 : 2, radius: 16 }); });
       } } },
-      { t: D + 700, f: function () { liveYaz(C.k, true); } },
+      { t: D + 850, f: function () { liveYaz(C.k, true); } },
       { t: D + 1900, f: function () { var m = merkez(); if (su) su.ripple(m.x, m.y, .45); } },
       { t: D + 2800, f: function () { var m = merkez(); if (su) su.ripple(m.x, m.y, .3); } }
     ];
@@ -409,14 +535,18 @@ export function initKagit(opts) {
         if (not) { not.textContent = p[2]; not.style.opacity = '0'; }
       }
     }
-    yaz(Ce, C.first ? 1 : seg(t, 0, 700));
+    yaz(Ce, C.first ? 1 : seg(t, 400, 1100));
     if (t >= T0 && !C.g) { geoY(Ce); C.gy = yeni ? geoEl(yeni) : null; C.g = 1; }
     cizgi(Ce, seg(t, T0, D));
     var s = a < 0 ? 0 : a < 1400 ? eIO(a / 1400) : a < 1800 ? 1 : a < 3000 ? 1 - eOut((a - 1800) / 1200) : 0;
     batir(specSh, s, vt);
-    coz(Ce, seg(a, 150, 900));
+    coz(Ce, a >= 850 ? 1 : 0);
+    var gv = t < 900 ? 0 : a < 1500 ? seg(t, 900, 1500) : 1 - seg(a, 1500, 2100);
+    var kl = a < 0 ? seg(t, 1500, D) : a < 1400 ? 1 : 1 - seg(a, 1400, 1800);
+    var mr = a < 500 ? 0 : a < 1100 ? .95 * seg(a, 500, 800) : .95 * (1 - seg(a, 1100, 1900));
+    ahtapotCiz(Aht, gv, kl, mr, vt);
     if (C.sw) {
-      var bp = seg(a, 650, 1250);
+      var bp = a >= 850 ? 1 : 0;
       if (yeni) belir(yeni, C.gy, bp);
       if (not) not.style.opacity = bp <= 0 ? '0' : bp >= 1 ? '' : eIO(bp).toFixed(3);
     }
@@ -442,7 +572,7 @@ export function initKagit(opts) {
       C.t = Math.min(C.t + dt, C.dur);
       olaylar(C, C.t);
       renderKart(C.t, vt);
-      if (C.t >= C.dur) {
+      if (C.t >= C.dur && !C.hold) {
         batir(specSh, 0, vt);
         var nk = (C.k + 1) % P.length;
         if (nk === 0) C.round++;
@@ -481,6 +611,18 @@ export function initKagit(opts) {
     sheets.forEach(function (sh) { if (sh.el !== spec) io.observe(sh.el); });
   }
 
+  function git(k) {
+    if (!spec) return;
+    H.done = true; if (He) renderHero(H.dur);
+    batir(specSh, 0, vt); ahtapotCiz(Aht, 0, 0, 0);
+    C.round = Math.max(C.round, 1); C.manual = false;
+    begin((k + P.length) % P.length);
+    renderKart(0, vt); basla();
+  }
+  tuslar(function (y) {
+    if (y === 'kal') { C.hold = !C.hold; return C.hold; }
+    git(C.k + (y === 'sonraki' ? 1 : -1));
+  });
   basla();
 
   return {

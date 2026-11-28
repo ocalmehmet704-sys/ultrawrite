@@ -33,6 +33,7 @@
 </script>
 <script>document.documentElement.classList.add('js');try{var _t=localStorage.getItem('uw-theme');if(_t==='light'||_t==='dark')document.documentElement.setAttribute('data-theme',_t)}catch(e){}</script>
 <style>
+html{overflow-x:clip}
 /* Kâğıt ve su: tepeden bakılan sığ havuz, yüzeyde krem kâğıtlar. Cam, blur, hap, iç içe kart yok. */
 :root{
   --ink:#1b1a17;--mute:#46423a;--faint:#57524a;--acc:#9a3b26;--acc-soft:rgba(154,59,38,.09);
@@ -111,8 +112,10 @@ html[data-theme=dark] .theme .i-sun{display:block}html[data-theme=dark] .theme .
 .spec-blok .eyebrow{display:block;margin-bottom:8px}
 .spec-eski{font:300 italic 20px/1.35 Fraunces,serif;color:var(--mute);text-decoration:line-through;text-decoration-color:var(--acc);text-decoration-thickness:1.5px}
 .spec-yeni{font:400 24px/1.3 Fraunces,serif;color:var(--ink)}
+.spec-tek .spec-eski{margin-bottom:10px}
 .spec-not{font-size:14px;color:var(--mute);margin:14px 0 0}
-.ticks{display:flex;gap:6px;margin-top:12px}
+.spec-tus{display:flex;align-items:center;gap:2px}.spec-tus button{all:unset;cursor:pointer;width:32px;height:32px;display:grid;place-items:center;color:var(--mute);border-radius:2px}.spec-tus button:hover{color:var(--ink);background:rgba(70,58,36,.07)}.spec-tus button:focus-visible{outline:2px solid var(--acc);outline-offset:1px}.spec-tus button[aria-pressed=true]{color:var(--acc)}.spec-tus svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.spec-tus .spec-sayac{margin-left:8px}
+.ticks{display:flex;gap:4px;margin-top:12px}
 .ticks i{flex:1;height:2px;background:var(--rule)}
 .ticks i.on{background:var(--acc)}
 
@@ -239,9 +242,8 @@ footer{padding:24px 0 56px}
     <figure class="kart yaprak" aria-label="Skill'in düzelttiği cümle örnekleri" style="margin-bottom:0">
       <i class="golge" aria-hidden="true"></i>
       <div class="kagit spec" id="spec">
-        <div class="spec-ust"><span class="eyebrow">Taslak / düzeltme</span><span class="eyebrow mono spec-sayac">01 / 05</span></div>
-        <div class="spec-blok"><span class="eyebrow">Yapay zekâ yazdı</span><div class="spec-eski">Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.</div></div>
-        <div class="spec-blok"><span class="eyebrow">Türkçesi</span><div class="spec-yeni">Babasının öldüğü haberi gelince ev sustu.</div></div>
+        <div class="spec-ust"><span class="eyebrow">Taslak / düzeltme</span><span class="spec-tus"><button type="button" data-yon="onceki" aria-label="Önceki örnek"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button><button type="button" data-yon="kal" aria-pressed="false" aria-label="Bu örnekte kal"><svg viewBox="0 0 16 16" aria-hidden="true"><path class="d1" d="M6 3.5v9M10 3.5v9"/></svg></button><button type="button" data-yon="sonraki" aria-label="Sonraki örnek"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button><span class="eyebrow mono spec-sayac">01 / 14</span></span></div>
+        <div class="spec-blok spec-tek"><div class="spec-eski">Babasının ölümünün haberinin gelişiyle birlikte evde derin bir sessizlik oluştu.</div><div class="spec-yeni">Babasının öldüğünü duyunca televizyonu kapattılar.</div></div>
         <p class="spec-not">Ad zinciri değil fiil. Türkçe olayı fiille anlatır.</p>
         <div class="ticks" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i><i></i></div>
       </div>

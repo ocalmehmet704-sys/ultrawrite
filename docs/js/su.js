@@ -236,6 +236,20 @@ void main() {
     col = mix(col, mix(vec3(1.0), vec3(0.78, 0.86, 1.0), uNight), fo * 0.78);
   }
 
+  // Gunes / ay yansimasi: yuzeyde kucuk, dalgayla kirilan parilti
+  {
+    vec2 sp = gl_FragCoord.xy / uDpr;
+    sp.y = uCss.y - sp.y;
+    vec2 gc = vec2(uCss.x * 0.80, uCss.y * 0.20);
+    float wob = vnoise(sp * 0.035 + vec2(t * 0.6, t * 0.4)) - 0.5;
+    vec2 dd = (sp - gc) / vec2(1.0, 1.35);
+    float rr = mix(70.0, 46.0, uNight);
+    float dist = length(dd) + wob * 26.0;
+    float core = exp(-pow(dist / rr, 2.0));
+    float gl = core * mix(0.30, 0.22, uNight);
+    col += gl * mix(vec3(1.0, 0.97, 0.85), vec3(0.78, 0.86, 1.0) * 0.75, uNight);
+  }
+
   gl_FragColor = vec4(clamp(col, 0.0, 1.0), 1.0);
 }`;
 

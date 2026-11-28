@@ -105,6 +105,11 @@ async function basla() {
     kagitApi = await k.initKagit({ su: api || null, reduced });
   } catch (e) { /* sayfa kagitsiz da okunur */ }
 
+  try {
+    const mm = await import('./marti.js');
+    mm.initMarti({ reduced });
+  } catch (e) { /* martisiz da olur */ }
+
   imlec();
 
   doc.addEventListener('themechange', (e) => {
